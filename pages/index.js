@@ -13,7 +13,7 @@ export default function Home() {
         <div className={styles.description}>{' '}<code className={styles.code}>👏 Welcome to RunAsh &rarr;</code></div>
         <div className={styles.centre}>
           <Link href="/">
-        <div className={styles.description}><card className={styles.card}>🆕 <strong>Latest:</strong> updates &rarr;</card></div>
+        <div className={styles.description}><card className={styles.card}>🆕 Latest updates &rarr;</card></div>
           </Link>
         </div>
         <h1 className={styles.title}>
@@ -79,7 +79,7 @@ export default function Home() {
           >
             <h2>📱RunAsh mobile &rarr;</h2>
             <p>
-              Available for IOS and Android 
+              Available for iOS and Android 
             </p>
           </a>
 
@@ -166,7 +166,7 @@ export default function Home() {
         >
          © 2022 RunAsh. All rights reserved. {' '}
           <span className={styles.logo}>
-            <Image src="/" alt=" vercel Logo" width={72} height={16} />
+            <Image src="/" alt=" " width={72} height={16} />
           </span>
         </a>
      </footer>
