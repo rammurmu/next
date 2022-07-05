@@ -25,6 +25,8 @@ export default function Home() {
         <h1 className={styles.title}>
           Schedule <a href="https://runash.live/buyer">Buy</a> & <a href="https://runash.live/buyer"> Sell</a>
         </h1> 
+         <p className={styles.description}>
+            Build engaging interactive<br /> real life experience</p>
         <p className={styles.description}>
           Get started by {' '}
           <code className={styles.code}>Live stream</code>
@@ -45,7 +47,7 @@ export default function Home() {
             href="https://runash.live/remote"
             className={styles.card}
           >
-            <h2>Live Chat &rarr;</h2>
+            <h2>🙋Real Chat &rarr;</h2>
             <p>Follow and get started live video chatting</p>
           </a>
 
@@ -53,9 +55,9 @@ export default function Home() {
             href="https://runash.live/influencer"
             className={styles.card}
           >
-            <h2>🧑‍🤝‍🧑Influencer &rarr;</h2>
+            <h2>🧑‍🤝‍🧑Influencers &rarr;</h2>
             <p>
-              Live influencer community here you can support businesses 
+              Live influencers community here you can support businesses 
             </p>
           </a>
 
@@ -63,7 +65,7 @@ export default function Home() {
             href="https://runash.live/about"
             className={styles.card}
           >
-            <h2>🎓About Us &rarr;</h2>
+            <h2>🎓About  &rarr;</h2>
             <p>
               A live retail streaming hybrid marketplace  for retailing
             </p>
@@ -83,7 +85,7 @@ export default function Home() {
             href="https://runash.live/video"
             className={styles.card}
           >
-            <h2>Remote Jobs &rarr;</h2>
+            <h2>👩‍💻Remote Jobs &rarr;</h2>
             <p>
               Find the best startup jobs curated by runash remote team </p>
           </a>
@@ -112,9 +114,9 @@ export default function Home() {
             href="https://runash.live/experience"
             className={styles.card}
           >
-            <h2>🥳Own experience &rarr;</h2>
+            <h2>👩‍🎤Real-time Q & A &rarr;</h2>
             <p>
-              Traditional own-made real experience   
+              Ask questions via a live chat   
             </p>
           </a>
 
@@ -122,9 +124,9 @@ export default function Home() {
             href="https://runash.live/diffserve"
             className={styles.card}
           >
-            <h2>🌈Diffserve &rarr;</h2>
+            <h2>📊Votes and Polls &rarr;</h2>
             <p>
-              The promise of high quality live streaming 
+              Give instant feedback opinion & polling
             </p>
           </a>
 
@@ -132,9 +134,9 @@ export default function Home() {
             href="https://runash.live/works"
             className={styles.card}
           >
-            <h2>📝How it work &rarr;</h2>
+            <h2>🎙️Audio Stream &rarr;</h2>
             <p>
-              When you go live to schedule a live stream
+              Schedule a live audio stream free
             </p>
           </a>
         </div>
