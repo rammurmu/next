@@ -65,7 +65,7 @@ export default function Home() {
             href="https://runash.live/about"
             className={styles.card}
           >
-            <h2>🎓About  &rarr;</h2>
+            <h2>🎓About us  &rarr;</h2>
             <p>
               A live retail streaming hybrid marketplace  for retailing
             </p>
@@ -114,7 +114,7 @@ export default function Home() {
             href="https://runash.live/experience"
             className={styles.card}
           >
-            <h2>👩‍🎤Real-time Q & A &rarr;</h2>
+            <h2>👩‍🎤Real-time Q&A &rarr;</h2>
             <p>
               Ask questions via a live chat   
             </p>
