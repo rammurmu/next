@@ -19,14 +19,13 @@ export default function Home() {
           Where the retailers build own <br />made live streaming store</p>
        
         <div className={styles.description}>{' '}<code className={styles.code}><a href="https://runash.live/schedule">📺Go live</a></code></div>
-           
+          <p className={styles.description}>
+            Build engaging interactive<br /> real life experience</p> 
     </Head>
         <main className={styles.main}>
         <h1 className={styles.title}>
           Schedule <a href="https://runash.live/buyer">Buy</a> & <a href="https://runash.live/buyer"> Sell</a>
         </h1> 
-         <p className={styles.description}>
-            Build engaging interactive<br /> real life experience</p>
         <p className={styles.description}>
           Get started by {' '}
           <code className={styles.code}>Live stream</code>
