@@ -19,7 +19,10 @@ export default function Home() {
           Where the retailers build own <br />made live streaming store</p>
        
         <div className={styles.description}>{' '}<code className={styles.code}><a href="https://runash.live/schedule">📺Go live</a></code></div>
-          <p className={styles.description}>
+        <h1 class name={style title}> 
+          Next gen & future of eCommerce
+        </h1>
+        <p className={styles.description}>
             Build engaging interactive<br /> real life experience</p> 
     </Head>
         <main className={styles.main}>
