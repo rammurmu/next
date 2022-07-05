@@ -2,13 +2,14 @@
   padding: 0 2rem;
 }
 
-.h1 {
+.title h1 {
  margin: 0 0 1rem 0;
   font-size: 1.5rem;
 }
 
-.p {
- margin: 0 0 1rem 0;
+. description p {
+  margin: 4rem 0;
+  line-height: 1.5;
   font-size: 1.5rem;
 }
 
@@ -67,7 +68,7 @@
 }
 
 .code {
-  background: #fafafa;
+  background: #DD6B20;
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
