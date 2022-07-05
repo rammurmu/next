@@ -11,13 +11,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-      <div className={styles.description}>{' '}<card className={styles.card}>👏 Welcome to RunAsh &rarr;</card></div>
+      <h1 className={styles.description}>{' '}<card className={styles.card}>👏 Welcome to RunAsh &rarr;</card></h1>
 
-      <div className={styles.centre}>
+      <h1 className={styles.centre}>
        <Link href="/">
-      <div className={styles.description}><card className={styles.card}>🆕<strong>Latest:</strong> updates &rarr;</card></div>
+      <h1 className={styles.description}><card className={styles.card}>🆕<strong>Latest:</strong> updates &rarr;</card></h1>
        </Link>
-      </div>
+      </h1>
         <h1 className={styles.title}>
           Schedule <a href="https://runash.live/buyer">Buy</a> & <a href="https://runash.live/buyer"> Sell</a>
         </h1> 
@@ -25,7 +25,7 @@ export default function Home() {
           Get started by {' '}
           <code className={styles.code}>Live stream</code>
         </p>
-      <div className={styles.card}><code className={styles.code}>Real life experience</code></div>
+      <h1 className={styles.card}><code className={styles.code}>Real life experience</code></h1>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
