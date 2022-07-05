@@ -116,7 +116,7 @@ export default function Home() {
           >
             <h2>👩‍🎤Real Q & A &rarr;</h2>
             <p>
-              Ask questions via a live chat   
+              Ask questions real-time via a live real chat   
             </p>
           </a>
 
@@ -124,7 +124,7 @@ export default function Home() {
             href="https://runash.live/diffserve"
             className={styles.card}
           >
-            <h2>📊Votes and Polls &rarr;</h2>
+            <h2>📊Votes & Polls &rarr;</h2>
             <p>
               Give instant feedback opinion & polling
             </p>
@@ -162,7 +162,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-         © 2022 RunAsh. All rights reserved. {' '}
+         © 2022 RunAsh. A R R. {' '}
           <span className={styles.logo}>
             <Image src="" alt=" " width={72} height={16} />
           </span>
