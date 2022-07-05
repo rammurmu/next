@@ -116,7 +116,7 @@ export default function Home() {
           >
             <h2>👩‍🎤Real Q & A &rarr;</h2>
             <p>
-              Ask questions real-time via a live real chat   
+              Ask questions real-time via a live stream chat   
             </p>
           </a>
 
@@ -162,7 +162,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-         © 2022 RunAsh. A R R. {' '}
+         © 2022 RunAsh. {' '}
           <span className={styles.logo}>
             <Image src="" alt=" " width={72} height={16} />
           </span>
