@@ -29,7 +29,7 @@ export default function Home() {
           Get started by {' '}
           <code className={styles.code}>Live stream</code>
         </p>
-        <div className={styles.card}><code className={styles.code}>Real life experience</code></div>
+        <div className={styles.card}><code className={styles.code}>🗓️Schedule Now</code></div>
         <div className={styles.grid}>
           <a href="https://runash.live/seller" className={styles.card}>
             <h2>🛒Real Selling &rarr;</h2>
@@ -37,7 +37,7 @@ export default function Home() {
           </a>
 
           <a href="https://runash.live/buyer" className={styles.card}>
-            <h2>🛍️Real Shopping &rarr;</h2>
+            <h2>🛍️Real Buying &rarr;</h2>
             <p>Where buyers can meet to sellers & shopping organic products  </p>
           </a>
 
@@ -45,8 +45,8 @@ export default function Home() {
             href="https://runash.live/remote"
             className={styles.card}
           >
-            <h2>🧑‍💻Remote job &rarr;</h2>
-            <p>Find the best startup jobs,curated by runash remote team</p>
+            <h2>Live Chat &rarr;</h2>
+            <p>Follow and get started live video chatting</p>
           </a>
 
           <a
@@ -63,7 +63,7 @@ export default function Home() {
             href="https://runash.live/about"
             className={styles.card}
           >
-            <h2>🎓About RunAsh &rarr;</h2>
+            <h2>🎓About Us &rarr;</h2>
             <p>
               A live retail streaming hybrid marketplace  for retailing
             </p>
@@ -73,7 +73,7 @@ export default function Home() {
             href="https://runash.live/mobile"
             className={styles.card}
           >
-            <h2>📱RunAsh mobile &rarr;</h2>
+            <h2>📱Mobile App &rarr;</h2>
             <p>
               Available for iOS and Android 
             </p>
@@ -83,9 +83,9 @@ export default function Home() {
             href="https://runash.live/video"
             className={styles.card}
           >
-            <h2>🙋Live video chat &rarr;</h2>
+            <h2>Remote Jobs &rarr;</h2>
             <p>
-              Follow and get started live real chatting </p>
+              Find the best startup jobs curated by runash remote team </p>
           </a>
 
           <a
@@ -102,7 +102,7 @@ export default function Home() {
             href="https://runash.live/watched"
             className={styles.card}
           >
-            <h2>📺Live watch  &rarr;</h2>
+            <h2>📺Live watch &rarr;</h2>
             <p>
               Watched live on demand  streaming  free
             </p>
@@ -112,7 +112,7 @@ export default function Home() {
             href="https://runash.live/experience"
             className={styles.card}
           >
-            <h2>🥳Own experience  &rarr;</h2>
+            <h2>🥳Own experience &rarr;</h2>
             <p>
               Traditional own-made real experience   
             </p>
@@ -149,7 +149,7 @@ export default function Home() {
     
        <a
          href="https://Google.form.com">
-         <p className={styles.card}>Get your valuable feedback✨ &rarr;</p>
+         <p className={styles.card}>Give your feedback ✨ &rarr;</p>
        </a>
       </div>
       </main>
