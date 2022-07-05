@@ -37,7 +37,7 @@ export default function Home() {
           </a>
 
           <a href="https://runash.live/buyer" className={styles.card}>
-            <h2>🛍️ Real Shopping &rarr;</h2>
+            <h2>🛍️Real Shopping &rarr;</h2>
             <p>Where buyers can meet to sellers & shopping organic products  </p>
           </a>
 
@@ -45,7 +45,7 @@ export default function Home() {
             href="https://runash.live/remote"
             className={styles.card}
           >
-            <h2>🧑‍💻 Remote job &rarr;</h2>
+            <h2>🧑‍💻Remote job &rarr;</h2>
             <p>Find the best startup jobs,curated by runash remote team</p>
           </a>
 
@@ -53,7 +53,7 @@ export default function Home() {
             href="https://runash.live/influencer"
             className={styles.card}
           >
-            <h2>🧑‍🤝‍🧑 Influencer &rarr;</h2>
+            <h2>🧑‍🤝‍🧑Influencer &rarr;</h2>
             <p>
               Live influencer community here you can support businesses 
             </p>
@@ -63,7 +63,7 @@ export default function Home() {
             href="https://runash.live/about"
             className={styles.card}
           >
-            <h2>🎓 About RunAsh &rarr;</h2>
+            <h2>🎓About RunAsh &rarr;</h2>
             <p>
               A live retail streaming hybrid marketplace  for retailing
             </p>
@@ -83,7 +83,7 @@ export default function Home() {
             href="https://runash.live/video"
             className={styles.card}
           >
-            <h2>🙋 Live video chat &rarr;</h2>
+            <h2>🙋Live video chat &rarr;</h2>
             <p>
               Follow and get started live real chatting </p>
           </a>
@@ -92,7 +92,7 @@ export default function Home() {
             href="https://runash.live/streaming"
             className={styles.card}
           >
-            <h2>📽️ Live stream &rarr;</h2>
+            <h2>📽️Live stream &rarr;</h2>
             <p>
               Schedule a live streaming free 
             </p>
@@ -102,7 +102,7 @@ export default function Home() {
             href="https://runash.live/watched"
             className={styles.card}
           >
-            <h2>📺 Live watch  &rarr;</h2>
+            <h2>📺Live watch  &rarr;</h2>
             <p>
               Watched live on demand  streaming  free
             </p>
@@ -112,7 +112,7 @@ export default function Home() {
             href="https://runash.live/experience"
             className={styles.card}
           >
-            <h2>🥳 Own experience  &rarr;</h2>
+            <h2>🥳Own experience  &rarr;</h2>
             <p>
               Traditional own-made real experience   
             </p>
@@ -122,7 +122,7 @@ export default function Home() {
             href="https://runash.live/diffserve"
             className={styles.card}
           >
-            <h2>🌈 Diffserve &rarr;</h2>
+            <h2>🌈Diffserve &rarr;</h2>
             <p>
               The promise of high quality live streaming 
             </p>
@@ -132,7 +132,7 @@ export default function Home() {
             href="https://runash.live/works"
             className={styles.card}
           >
-            <h2>📝 How it work &rarr;</h2>
+            <h2>📝How it work &rarr;</h2>
             <p>
               When you go live to schedule a live stream
             </p>
@@ -149,7 +149,7 @@ export default function Home() {
     
        <a
          href="https://Google.form.com">
-         <p className={styles.card}>Get your valuable feedback ✨ &rarr;</p>
+         <p className={styles.card}>Get your valuable feedback✨ &rarr;</p>
        </a>
       </div>
       </main>
@@ -162,7 +162,7 @@ export default function Home() {
         >
          © 2022 RunAsh. All rights reserved. {' '}
           <span className={styles.logo}>
-            <Image src="/" alt=" " width={72} height={16} />
+            <Image src="" alt=" " width={72} height={16} />
           </span>
         </a>
      </footer>
