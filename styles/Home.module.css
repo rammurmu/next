@@ -2,16 +2,6 @@
   padding: 0 2rem;
 }
 
-.h1 {
- margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-}
-
-.p  {
-  margin: 00 1rem 0;
-  font-size: 1.5rem;
-}
-
 .main {
   min-height: 100vh;
   padding: 4rem 0;
@@ -67,7 +57,7 @@
 }
 
 .code {
-  background: #DD6B20;
+  background: #fafafa;
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
