@@ -25,7 +25,7 @@ export default function Home() {
         />
         <div className={styles.description}>{' '}<code className={styles.code}><a href="https://runash.live/schedule">📺Go live</a></code></div>
         <h1 className={styles.title}> 
-          Next gen<br />& future of <a href="https://">e-com</a>
+          Next gen<a href="https://">Future of e-com</a>
         </h1>
         <p className={styles.description}>
             Build engaging interactive<br /> real life experience</p> 
