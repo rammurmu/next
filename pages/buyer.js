@@ -5,7 +5,7 @@ export default function Buyer() {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
-        <code className={styles.code}>👏 Welcome to RunAsh</code>
+        <div className={styles.description}><code className={styles.code}>👏 Welcome to RunAsh</code></div>
         <div className={styles.title}>Watch live <br /><a href="https://">streaming</a></div>
          <p>Watch previous live recording</p>
         <div className={styles.description}>{' '}<code className={styles.code}><a href="https://">📺Watch Now</a></code></div>
@@ -19,6 +19,7 @@ export default function Buyer() {
           <p className={styles.code}>All Categories</p>
           <code className={styles.code}>Short by</code>
           <div className={styles.description}><code className={styles.code}>🍎Fruit</code>{' '}<code className={styles.code}>🥦Vegetable</code><br />
+          {' '}
           <code className={styles.code}>💐Flower</code>{' '}<code className={styles.code}>🥫Grocery</code></div>
           <div className={styles.grid}>
           <card className={styles.card}>
