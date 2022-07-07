@@ -25,7 +25,7 @@ export default function Home() {
         />
         <div className={styles.description}>{' '}<code className={styles.code}><a href="https://runash.live/schedule">📺Go live</a></code></div>
         <h1 className={styles.title}> 
-          Hybrid<br />organic<br ><a href="https://">retailing</a>
+          Hybrid<br />organic<br /><a href="https://">retailing</a>
         </h1>
         <p className={styles.description}>
             Build engaging interactive<br /> real life experience</p> 
