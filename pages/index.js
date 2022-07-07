@@ -36,7 +36,7 @@ export default function Home() {
         </h1> 
         <p className={styles.description}>
           Get started by {' '}
-          <code className={styles.code}><a href="https://">Live stream</code></a>
+          <code className={styles.code}><a href="https://runash.libe/schedule">Live stream</a></code>
         </p>
         <div className={styles.card}><code className={styles.code}>🗓️Schedule Now</code></div>
         <div className={styles.grid}>
@@ -152,7 +152,7 @@ export default function Home() {
         <div>
         <p className={styles.description}>
           Backed by{' '}
-          <code className={styles.code}><a href="https://">Open Source</code></a>
+          <code className={styles.code}><a href="https://runash.live/oss">Open Source</a></code>
         </p>
         
     
