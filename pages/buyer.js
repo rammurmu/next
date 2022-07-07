@@ -12,23 +12,23 @@ export default function Buyer() {
         <code className={styles.code}>📺Watch Now</code></div>
 
         <div className={styles.title}><a href="https://">Live on demand</a></div>
-          <p>Real life experience</p>
-        <div className={styles.title}>🌎Joining<br /><a href="https://">conversation</a></div>
+          <p>Real life shopping experience</p>
+        <div className={styles.title}>🌎Live<br /><a href="https://">demonstrate</a></div>
           <p>Connect with retailer around the world</p>
 
           <p className={styles.code}>All Categories</p>
           <code className={styles.code}>Short by</code>
-          <code className={styles.code}>🍎Fruit</code>{' '}<code className={styles.code}>🥦Vegetable</code>{' '}<code className={styles.code}>💐Flower</code>{' '}<code className={styles.code}>🥫Grocery</code>
+          <div className={styles.description}><code className={styles.code}>🍎Fruit</code>{' '}<code className={styles.code}>🥦Vegetable</code>{' '}<code className={styles.code}>💐Flower</code>{' '}<code className={styles.code}>🥫Grocery</code></div>
           <div className={styles.grid}>
           <a href="https://" className={styles.card}>
-            <h2>📺Stream Store &rarr;</h2>
+            <h2>🏪 Stream Store</h2>
             <p><code className={styles.code}>Watch Now</code></p>
           </a>
 
           <a 
             href="https://" className={styles.card}>
-            <h2>📺Stream Store &rarr;</h2>
-            <p>Watch Now </p>
+            <h2>🏪 Stream store</h2>
+            <p><code className={styles.code}>Watch Now</code></p>
           </a>
           </div>
 
