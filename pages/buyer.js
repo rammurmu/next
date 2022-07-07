@@ -20,16 +20,16 @@ export default function Buyer() {
           <code className={styles.code}>Short by</code>
           <div className={styles.description}><code className={styles.code}>🍎Fruit</code>{' '}<code className={styles.code}>🥦Vegetable</code><br /><code className={styles.code}>💐Flower</code>{' '}<code className={styles.code}>🥫Grocery</code></div>
           <div className={styles.grid}>
-          <a href="https://" className={styles.card}>
+          <card className={styles.card}>
             <h2>🏪 Stream Store</h2>
             <p><code className={styles.code}>Watch Now</code></p>
-          </a>
+          </card>
 
           
             <card className={styles.card}>
             <h2>🏪 Stream store</h2>
             <p><code className={styles.code}>Watch Now</code></p>
-          </a>
+          </card>
           </div>
 
 
