@@ -1,7 +1,6 @@
 import styles from '../styles/About.module.css'
 import Link from 'next/link'
 
-
 export default function About() {
   return (
     <div className={styles.container}>
