@@ -33,14 +33,12 @@ export default function Home() {
         <main className={styles.main}>
         <h1 className={styles.title}>
           Schedule <a href="https://runash.live/buyer">Buy</a> & <a href="https://runash.live/buyer"> Sell</a>
-        </h1> 
-        <a 
-          href="https://runash.live/schedule">
+        </h1>   
         <p className={styles.description}>
           Get started by {' '}
           <code className={styles.code}>Live stream</code>
         </p>
-        </a>
+        
         <div className={styles.card}><code className={styles.code}>🗓️Schedule Now</code></div>
         <div className={styles.grid}>
           <a href="https://runash.live/seller" className={styles.card}>
@@ -153,13 +151,10 @@ export default function Home() {
 
 
         <div>
-        <a
-          href="https://runash.live/oss">
         <p className={styles.description}>
           Backed by{' '}
           <code className={styles.code}>Open Source</code>
         </p>
-        </a>
     
        <a
          href="https://Google.form.com">
