@@ -36,7 +36,7 @@ export default function Home() {
         </h1>   
         <p className={styles.description}>
           Get started by {' '}
-          <code className={styles.code}>Live stream</code>
+          <code className={styles.code}><a href="https://runash.live/schedule">Live stream</a></code>
         </p>
         
         <div className={styles.card}><code className={styles.code}>🗓️Schedule Now</code></div>
