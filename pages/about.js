@@ -1,4 +1,4 @@
-import styles from '../styles/Home.module.cimport styles from '../styles/About.module.css'
+import styles from '../styles/About.module.css'
 import Link from 'next/link'
 
 
