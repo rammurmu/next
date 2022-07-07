@@ -18,7 +18,7 @@ export default function Buyer() {
 
           <p className={styles.code}>All Categories</p>
           <code className={styles.code}>Short by</code>
-          <code className={styles.code}>🍎🍋 Fruit</code> {' }
+          <code className={styles.code}>🍎🍋 Fruit</code>{' '}
           <code className={styles.code}>🥦🥔 Vegetable </code>{' '}
           <code className={styles.code}>💐🌺 Flower </code>{' '}
           <code className={styles.code}>🥫🍶 Grocery </code>{' '}
