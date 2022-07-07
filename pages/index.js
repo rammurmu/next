@@ -18,14 +18,14 @@ export default function Home() {
         <p className={styles.description}>
           Where the retailers build own <br />made live streaming store</p>
         <Image
-        alt="Next.js logo"
-        src="https://assets.vercel.com/image/upload/v1538361091/repositories/next-js/next-js-bg.png"
+        alt="live"
+        src="https://"
         width={1200}
         height={400}
         />
         <div className={styles.description}>{' '}<code className={styles.code}><a href="https://runash.live/schedule">📺Go live</a></code></div>
         <h1 className={styles.title}> 
-          Worlds hybrid<br /><a href="https://">marketplace</a>
+          Hybrid<br /><a href="https://">marketplace</a>
         </h1>
         <p className={styles.description}>
             Build engaging interactive<br /> real life experience</p> 
