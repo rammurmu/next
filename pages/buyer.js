@@ -13,25 +13,22 @@ export default function Buyer() {
 
         <div className={styles.title}><a href="https://">Live on demand</a></div>
           <p>Real life experience</p>
-        <div className={styles.description}>🌎Joining<br />conversation</div>
+        <div className={styles.title}>🌎Joining<br /><a href="https://">conversation</a></div>
           <p>Connect with retailer around the world</p>
 
           <p className={styles.code}>All Categories</p>
           <code className={styles.code}>Short by</code>
-          <code className={styles.code}>🍎🍋 Fruit</code>{' '}
-          <code className={styles.code}>🥦🥔 Vegetable </code>{' '}
-          <code className={styles.code}>💐🌺 Flower </code>{' '}
-          <code className={styles.code}>🥫🍶 Grocery </code>{' '}
+          <code className={styles.code}>🍎Fruit</code><br /><code className={styles.code}>🥦Vegetable</code>{' '}<code className={styles.code}>💐Flower</code>{' '}<code className={styles.code}>🥫Grocery</code>{' '}
           <div className={styles.grid}>
           <a href="https://" className={styles.card}>
-            <h2>Fruit Stream &rarr;</h2>
-            <p>Watched </p>
+            <h2>📺Stream Store &rarr;</h2>
+            <p>Watch Now</p>
           </a>
 
           <a 
             href="https://" className={styles.card}>
-            <h2>Vegetable Strem &rarr;</h2>
-            <p>Watched </p>
+            <h2>📺Strem Store &rarr;</h2>
+            <p>Watch Now </p>
           </a>
           </div>
 
