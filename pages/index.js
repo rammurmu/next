@@ -153,7 +153,7 @@ export default function Home() {
         <div>
         <p className={styles.description}>
           Backed by{' '}
-          <code className={styles.code}>Open Source</code>
+          <code className={styles.code}><a href="https://runash.live/oss">Open Source</a></code>
         </p>
     
        <a
