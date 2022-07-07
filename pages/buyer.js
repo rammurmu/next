@@ -13,12 +13,15 @@ export default function Buyer() {
 
         <div className={styles.title}><a href="https://">Live on demand</a></div>
           <p>Real life shopping experience</p>
+        <code className={styles.code}>🎬Started</code>
         <div className={styles.title}>Live<br /><a href="https://">broadcast</a></div>
           <p>Connect with retailer around the world</p>
-
+        <code className={styles.code}>🌀Connect</code>
           <p className={styles.code}>All Categories</p>
           <code className={styles.code}>Short by</code>
-          <div className={styles.description}><code className={styles.code}>🍎Fruit</code>{' '}<code className={styles.code}>🥦Vegetable</code><br /><code className={styles.code}>💐Flower</code>{' '}<code className={styles.code}>🥫Grocery</code></div>
+          <div className={styles.description}><code className={styles.code}>🍎Fruit</code>{' '}<code className={styles.code}>🥦Vegetable</code>
+          <br />
+          <code className={styles.code}>💐Flower</code>{' '}<code className={styles.code}>🥫Grocery</code></div>
           <div className={styles.grid}>
           <card className={styles.card}>
             <h2>🏪 Stream Store</h2>
