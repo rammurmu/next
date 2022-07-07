@@ -11,14 +11,14 @@ export default function Buyer() {
         <div className={styles.description}>{' '}
         <code className={styles.code}>📺Watch Now</code></div>
 
-        <div className={styles.title}>Watch live <a href="https://">on demand</a></div>
+        <div className={styles.title}><a href="https://">Live on demand</a></div>
           <p>Real life experience</p>
         <div className={styles.description}>🌎Joining<br />conversation</div>
           <p>Connect with retailer around the world</p>
 
           <p className={styles.code}>All Categories</p>
           <code className={styles.code}>Short by</code>
-
+          <code className={styles.code}>🍎🍋 Organic fruit</code>. <code>🥦🥔Organic vegetable</code>
           <div className={styles.grid}>
           <a href="https://" className={styles.card}>
             <h2>Fruit Stream &rarr;</h2>
