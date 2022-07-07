@@ -9,7 +9,7 @@ export default function Seller() {
         <div className={styles.description}><code className={styles.code}>👏 Welcome to runash</code></div>
         <div className={styles.title}>Next generation<br />and future of <br /><a href="https://">eCommerce</a></div>
         <p>Build own made real selling <br />experience with hybrid live <br />streaming technology</p>
-        <div className={styles.title}>Easy to made <br />own business<br />a href="https://">experience</a></div>
+        <div className={styles.title}>Easy to made <br />own business<br /><a href="https://">experience</a></div>
         <p>Give your store a real <br />experience on a complete digitization</p>
         <div className={styles.title}>Go live to<br /><a href="https://">worlds of customers</a></div>
         <p>Schedule sell and go live <br /> on real experience in minutes</p>
