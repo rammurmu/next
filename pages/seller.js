@@ -8,12 +8,14 @@ export default function Seller() {
         <h1>Seller</h1>   
         <div className={styles.description}><code className={styles.code}>👏 Welcome to runash</code></div>
         <div className={styles.title}>NextGen and future<br /><a href="https://">of retail</a></div>
-        <p>Build own made real selling experience with hybrid live streaming technology</p>
+        <p>Build own made real selling experience with hybrid live retail streaming technology</p>
+        <div className={styles.description}><code className={styles.code}>✨ Started</code></div>
         <div className={styles.title}>Makeing<br />business<br /><a href="https://">experience</a></div>
-        <p>Give your store a real experience on a complete digitization</p>
-        <div className={styles.title}>One 2 One<a href="https://">selling</a></div>
-        <p>Schedule real selling and go live on real experience in minutes</p>
-
+        <p>Give your store a real experience on a complete real digitization</p>
+        <div className={styles.description}><code className={styles.code}>👩‍💻Make</code></div>
+        <div className={styles.title}>1-on-1<br /><a href="https://">selling</a></div>
+        <p>Schedule real selling and go live streaming on real experience in minutes</p>
+        <div className={styles.description}><code className={styles.code}>🎉Now</code></div>
         <p className={styles.paragraph}>
           <Link href="/">
             <a>&larr; Go Back</a>
