@@ -18,7 +18,10 @@ export default function Buyer() {
 
           <p className={styles.code}>All Categories</p>
           <code className={styles.code}>Short by</code>
-          <code className={styles.code}>🍎🍋 Organic fruit</code>. <code>🥦🥔Organic vegetable</code>
+          <code className={styles.code}>🍎🍋 Organic fruit 🍓🍑</code> 
+          <code className={styles.code}>🥦🥔 Organic vegetable 🍆🍅</code>
+          <code className={styles.code}>💐🌺 Organic flower 🌴🌷</code>
+          <code className={styles.code}>🥫🍶 Organic grocery 🍟🍞</code>
           <div className={styles.grid}>
           <a href="https://" className={styles.card}>
             <h2>Fruit Stream &rarr;</h2>
