@@ -13,7 +13,7 @@ export default function Buyer() {
 
         <div className={styles.title}><a href="https://">Live on demand</a></div>
           <p>Real life shopping experience</p>
-        <div className={styles.title}>🌎Live<br /><a href="https://">broadcast</a></div>
+        <div className={styles.title}>Live<br /><a href="https://">broadcast</a></div>
           <p>Connect with retailer around the world</p>
 
           <p className={styles.code}>All Categories</p>
@@ -25,10 +25,10 @@ export default function Buyer() {
             <p><code className={styles.code}>Watch Now</code></p>
           </a>
 
-          <a 
-            href="https://" className={styles.card}>
+          
+            <card className={styles.card}>
             <h2>🏪 Stream store</h2>
-            <p className={styles.code}>Watch Now</p>
+            <p><code className={styles.code}>Watch Now</code></p>
           </a>
           </div>
 
