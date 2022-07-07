@@ -15,8 +15,7 @@ export default function Buyer() {
 
           <h2 className={styles.description}>LIVE ON DEAMAND</h2>
 
-          <p className={styles.paragraph}>Whatching some previous live streaming,you can watch some live stream to receive notifications for new live streaming and updats.when the buyer updates the live streaming their organic products on daily basis, you'll see the changes in your personal dashboard.
-          Click watch at the top of a video to watch it.</p>
+          <p className={styles.paragraph}>Whatching some previous live streaming,you can watch some live stream to receive notifications for new live streaming and updats.when the buyer updates the live streaming their organic products on daily basis,</p>
 
           <p className={styles.card}>All Categories</p>
           <div className={styles.grid}>
@@ -25,18 +24,15 @@ export default function Buyer() {
             <p>Watched </p>
           </a>
 
-          <a href="https://" className={styles.card}>
+          <a 
+            href="https://" className={styles.card}>
             <h2>Vegetable Strem &rarr;</h2>
             <p>Watched </p>
           </a>
 
-          <a
-            href="https://"
-            className={styles.card}
-          >
-         
-          </a>
           </div>
+
+
         <p className={styles.description}>
           <Link href="/">
             <a>&larr; Go Back</a>
