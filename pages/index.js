@@ -25,7 +25,7 @@ export default function Home() {
         />
         <div className={styles.description}>{' '}<code className={styles.code}><a href="https://runash.live/schedule">📺Go live</a></code></div>
         <h1 className={styles.title}> 
-          Future<br /><a href="https://">of retailing</a>
+          World's hybrid<br /><a href="https://">marketplace</a>
         </h1>
         <p className={styles.description}>
             Build engaging interactive<br /> real life experience</p> 
@@ -36,7 +36,7 @@ export default function Home() {
         </h1> 
         <p className={styles.description}>
           Get started by {' '}
-          <code className={styles.code}>Live stream</code>
+          <code className={styles.code}><a href="https://">Live stream</a></code>
         </p>
         <div className={styles.card}><code className={styles.code}>🗓️Schedule Now</code></div>
         <div className={styles.grid}>
@@ -152,7 +152,7 @@ export default function Home() {
         <div>
         <p className={styles.description}>
           Backed by{' '}
-          <code className={styles.code}>Open Source</code>
+          <code className={styles.code}><a href="https://">Open Source</a></code>
         </p>
         
     
