@@ -17,7 +17,8 @@ export default function Buyer() {
           <p>Whatching some previous live streaming</p>
 
           <p className={styles.card}>All Categories</p>
-          <div className={styles.code}>🍋🍎Fruits</code>{' '}<code>🥦🍅Vegetable</code>{' '}<code>🥫🍶Grocery</code>{' '}<code>🌺💐</code>{' '}<code>🥩🍗Non Veg</<code></div>
+          <code className={styles.code}>Short by</code>
+
           <div className={styles.grid}>
           <a href="https://" className={styles.card}>
             <h2>Fruit Stream &rarr;</h2>
