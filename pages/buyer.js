@@ -13,12 +13,12 @@ export default function Buyer() {
 
         <div className={styles.title}><a href="https://">Live on demand</a></div>
           <p>Real life shopping experience</p>
-        <div className={styles.description}>{' '}>
-        <code className={styles.code}>🎬Started</code>
+        <div className={styles.description}>{' '}
+        <code className={styles.code}>🎬Started</code></div>
         <div className={styles.title}>Live<br /><a href="https://">broadcast</a></div>
           <p>Connect with retailer around the world</p>
         <div className={styles.description}>{' '}
-        <code className={styles.code}>🌀Connect</code>
+        <code className={styles.code}>🌀Connect</code></div>
           <p className={styles.code}>All Categories</p>
           <code className={styles.code}>Short by</code>
           <div className={styles.description}><code className={styles.code}>🍎Fruit</code>{' '}<code className={styles.code}>🥦Vegetable</code></div>
