@@ -19,7 +19,7 @@ export default function Buyer() {
           <p className={styles.code}>All Categories</p>
           <code className={styles.code}>Short by</code>
           <div className={styles.description}><code className={styles.code}>🍎Fruit</code>{' '}<code className={styles.code}>🥦Vegetable</code><br />
-          <code className={styles.code}><code className={styles.code}>💐Flower</code>{' '}<code className={styles.code}>🥫Grocery</code></div>
+          <code className={styles.code}>💐Flower</code>{' '}<code className={styles.code}>🥫Grocery</code></div>
           <div className={styles.grid}>
           <card className={styles.card}>
             <h2>🏪 Stream Store</h2>
