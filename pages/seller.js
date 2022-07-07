@@ -10,7 +10,7 @@ export default function Seller() {
         <div className={styles.title}>RunAsh live<br />streaming<br />for retailers</div>
         <p>Give you the best real selling experience with all the features you need for building hybrid live streaming store, support,smart building,and more .no money needed</p>
         <div className={styles.title}>
-        Give your store a<br /> real experience <br />on a complete digitization</h2>
+        Give your store a<br /> real experience <br />on a complete digitization</div>
         <p>Schedule sell on real experience</p>
 
         <p className={styles.description}>
