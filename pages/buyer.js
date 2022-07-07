@@ -6,15 +6,15 @@ export default function Buyer() {
     <div className={styles.container}>
       <main className={styles.main}>
         <code className={styles.code}>👏 Welcome to RunAsh</code>
-        <h1 className={styles.description}>Watching live <br />streaming</h1>
-         <p>Watching some previous live recording</p>
+        <div className={styles.title}>Watching live <br />streaming</div>
+         <p>Watch previous live recording</p>
         <div className={styles.description}>{' '}
         <code className={styles.code}>📺Watch Now</code></div>
 
-        <h2 className={styles.title}>Watched <a href="https://">Live stream</a></h2>
+        <div className={styles.title}>Watched live <a href="https://">on demand</a></div>
           <p>Real life experience</p>
-        <h2 className={styles.description}>Live on demand</h2>
-          <p>Whatching some previous live streaming</p>
+        <div className={styles.description}>🌎Joining the <br />conversation</div>
+          <p>Connect with retailer around the world</p>
 
           <p className={styles.card}>All Categories</p>
           <code className={styles.code}>Short by</code>
