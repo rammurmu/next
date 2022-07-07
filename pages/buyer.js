@@ -5,6 +5,7 @@ export default function Buyer() {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
+        <h1>Buyer</h1>
         <div className={styles.description}><code className={styles.code}>👏 Welcome to RunAsh</code></div>
         <div className={styles.title}>Watch live <br /><a href="https://">streaming</a></div>
          <p>Watch previous live recording</p>
@@ -24,7 +25,7 @@ export default function Buyer() {
           <div className={styles.grid}>
           <card className={styles.card}>
             <h2>🏪 Stream Store</h2>
-            <p><code className={styles.code}>Watch Now</code></p>
+            <p><code className={styles.code}><a href="https://">Watch Now</a></code></p>
           </card>
 
           
