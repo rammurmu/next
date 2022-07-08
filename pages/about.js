@@ -37,7 +37,7 @@ export default function About() {
        <h2>Executive Profiles</h2>
        <p>Management team responsible for making the live retail streaming platform. immediate market-specific knowledge,& experience in implementing the business plans. & changing the nature of retailing & redefine the business mode</p>
        </div>
-
+       </div>
        
 
        <p className={styles.description}>Backed by{' '}<code className={styles.code}>Open Source </code>Supporters</p>
@@ -49,13 +49,14 @@ export default function About() {
       
 
 
-        <p className={styles.description}>
+      
+         <p className={styles.description}>
           <Link href="/">
             <a>&larr; Go Back</a>
           </Link>
         </p>
     </main>
     </div>
-    </div>
+    
   )
 }
