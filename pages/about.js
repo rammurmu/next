@@ -54,9 +54,7 @@ export default function About() {
             <a>&larr; Go Back</a>
           </Link>
         </p>
-      </main>
-    </div>
-    <div>
+     
     <footer className={styles.footer}>
         <a
           href="https://runash.in"
@@ -69,6 +67,7 @@ export default function About() {
           </span>
         </a>
      </footer>
+    </main>
     </div>
   )
 }
