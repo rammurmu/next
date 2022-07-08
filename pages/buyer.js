@@ -70,7 +70,7 @@ export default function Buyer() {
           </span>
         </a>
      </footer>
- 
+     </div>
       </main>
     </div>
   )
