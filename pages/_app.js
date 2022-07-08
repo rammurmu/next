@@ -10,7 +10,7 @@ export default function MyApp({ Component, pageProps }) {
   ) 
 }
 
-// export default MyApp
+ export default MyApp
 
 
 // import Layout from '../components/layout'
