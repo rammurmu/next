@@ -68,5 +68,6 @@ export default function About() {
           </span>
         </a>
      </footer>
+    </div>
   )
 }
