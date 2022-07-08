@@ -56,6 +56,7 @@ export default function About() {
         </p>
       </main>
     </div>
+    </div>
     <footer className={styles.footer}>
         <a
           href="https://runash.in"
