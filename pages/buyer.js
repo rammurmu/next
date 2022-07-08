@@ -58,6 +58,7 @@ export default function Buyer() {
             <a>&larr; Go Back</a>
           </Link>
         </p>
+       <div>
         <footer className={styles.footer}>
         <a
           href="https://runash.in"
