@@ -13,33 +13,33 @@ export default function About() {
         <h1 className={styles.title}>
            <a href="https://"> Mission</a>
         </h1>
-         <p className={styles.description}>We enabling and accessing<br /> face to face,self made <br />and real experience to access <br />physical reality</p>
+         <p className={styles.description}>We enabling and accessing<br /> face to face,self made <br />and real experience to<br /> access physical reality</p>
         <div className={styles.description}>
-          Backed By {' '}<code className={styles.code}><b>YC</b></code></div>
+          Backed by {' '}<code className={styles.code}><b>YC</b></code></div>
         <div className={styles.description}>
           <h2>Oneliner</h2>
-            <p>A live streaming hybrid marketplace for retailing,where retailer face to face demonstrate, presentation their products with buyers </p>
+            <p>A live streaming hybrid<br /> marketplace for retailing<br />where retailer face to face<br /> demonstrate, presentation<br /> their products with buyers </p>
         </div>
 
         <div className={styles.description}>
          <h2>Discipline</h2>
-         <p>Discipline & learning is the backbone of the development of runash startup journey</p>
+         <p>Discipline & learning is the<br /> backbone of the development<br /> of runash startup journey</p>
         </div>
 
         <div className={styles.description}>
          <h2>What we do</h2>
-         <p>We created new model of marketplace where retailers face to face demonstrate & presentation their products with buyers</p>
+         <p>We created new model of<br /> marketplace where retailers<br /> face to face demonstrate &<br /> presentation their products<br> with buyers</p>
         </div>
 
         <div className={styles.description}>
          <h2>What we going to make</h2>
-         <p>We are commite to building live streaming platform & new ways to use physical reality experience</p>
+         <p>We are commite to building<br /> live streaming platform<br /> & new ways to use physical<br /> reality experience</p>
         </div>
 
        
        <div className={styles.description}>
        <h2>Executive Profiles</h2>
-       <p><b>Board of Directors</b><br />Management team responsible for making the live retail streaming platform.</p>
+       <p><b>Board of Directors</b><br />Management team<br /> responsible for making<br /> the live retail streaming<br /> platform.</p>
        </div>
       
        </Head>
