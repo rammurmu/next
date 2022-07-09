@@ -20,7 +20,7 @@ export default function Buyer() {
           <p>Connect with retailer around the world</p>
         <div className={styles.description}>{' '}<code className={styles.code}><a href="https://">🌀Connect Now</a></code></div>
         </Head>
-        
+        </div>
         <main className={styles.main}>
           <p className={styles.code}>All Categories</p>
           <code className={styles.code}>Short by</code>
@@ -66,6 +66,5 @@ export default function Buyer() {
        
         
       </main>
-      </div>
   )
 }
