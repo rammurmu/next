@@ -10,11 +10,12 @@ export default function About() {
       <main className={styles.main}>
         <h1>About</h1>
         <div className={styles.description}>{' '}<code className={styles.code}>👏 Welcome to runash</code></div>
-        <div className={styles.title}>Mission</div>
+        <div className={styles.title}><a href="https://">Mission</a></div>
          <p className={styles.paragraph}>Enabling and accessing face to face,self made and real experience to access physical reality</p>
         <div className={styles.grid}>
-         <div className={styles.title}>Oneliner</div>
-         <p className={styles.paragraph}>RunAsh is a live streaming hybrid marketplace for retailing,where retailer face to face demonstrate, presentation their products with buyers </p>
+        <div className={styles.description}>
+          <h5>Oneliner</h5>
+            <p>RunAsh is a live streaming hybrid marketplace for retailing,where retailer face to face demonstrate, presentation their products with buyers </p>
         
 
         <div className={styles.description}>
@@ -61,7 +62,7 @@ export default function About() {
           target="_blank"
           rel="noopener noreferrer"
         >
-         © 2022 RunAsh. {' '}
+         © 2022 All rights reserved. {' '}
           <span className={styles.logo}>
             <Image src="" alt=" " width={72} height={16} />
           </span>
