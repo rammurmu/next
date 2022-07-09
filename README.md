@@ -1,1 +1,1 @@
-## A live retail streaming software
+## A live retail streaming platform
