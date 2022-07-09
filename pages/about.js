@@ -19,23 +19,23 @@ export default function About() {
         </div>
 
         <div className={styles.description}>
-         <h2>Discipline</h2>
+         <h5>Discipline</h5>
          <p>Discipline and learning is the backbone of the development of runash startup journey</p>
         </div>
 
         <div className={styles.description}>
-         <h2>What we do</h2>
+         <h5>What we do</h5>
          <p>We created new model of marketplace where retailers face to face demonstrate & presentation their products with buyers</p>
         </div>
 
         <div className={styles.description}>
-         <h2>What we going to make</h2>
+         <h5>What we going to make</h5>
          <p>We are commite to building live streaming platform and new ways to use physical reality experience</p>
         </div>
 
        
        <div className={styles.description}>
-       <h2>Executive Profiles</h2>
+       <h5>Executive Profiles</h5>
        <p>Management team responsible for making the live retail streaming platform. immediate market-specific knowledge,& experience in implementing the business plans. & changing the nature of retailing & redefine the business mode</p>
        </div>
        </div>
