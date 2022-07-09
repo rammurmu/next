@@ -8,10 +8,12 @@ export default function About() {
   return (
     <div className={styles.container}>
       <Head>
-        <h1>About</h1>
+        
         <div className={styles.description}>{' '}<code className={styles.code}>👏 Welcome to RunAsh</code></div>
-        <div className={styles.title}><a href="https://">Mission</a></div>
-         <p><b>Enabling and accessing face to face,self made and real experience to access physical reality</b></p>
+        <h1 className={styles.title}>
+           OUR<a href="https://"> MISSION</a>
+        </h1>
+         <p className={styles.description}>We enabling and accessing face to face,self made <br />and real experience to access physical reality</p>
         <div className={styles.grid}>
         <div className={styles.description}>
           <h1>Oneliner</h1>
