@@ -11,11 +11,11 @@ export default function About() {
         
         <div className={styles.description}>{' '}<code className={styles.code}>👏 Welcome to RunAsh</code></div>
         <h1 className={styles.title}>
-           Our<a href="https://"> mission</a>
+           RunAsh<a href="https://"> mission</a>
         </h1>
-         <p className={styles.description}>We enabling and accessing face to face,<br />self made and real experience to access physical reality</p>
+         <p className={styles.description}>We enabling and accessing<br /> face to face,self made and real experience to access physical reality</p>
         <div className={styles.description}>
-          Backed By {' '}<code className={styles.code}>YC</code></div>
+          Backed By {' '}<code className={styles.code}>[YC]</code></div>
         <div className={styles.description}>
           <h1>Oneliner</h1>
             <p>A live streaming hybrid marketplace for retailing,where retailer face to face demonstrate, presentation their products with buyers </p>
