@@ -16,7 +16,7 @@ export default function About() {
         <div className={styles.description}>
           <h5>Oneliner</h5>
             <p>RunAsh is a live streaming hybrid marketplace for retailing,where retailer face to face demonstrate, presentation their products with buyers </p>
-        
+        </div>
 
         <div className={styles.description}>
          <h2>Discipline</h2>
@@ -38,7 +38,7 @@ export default function About() {
        <h2>Executive Profiles</h2>
        <p>Management team responsible for making the live retail streaming platform. immediate market-specific knowledge,& experience in implementing the business plans. & changing the nature of retailing & redefine the business mode</p>
        </div>
-       
+       </div>
        
 
        <p className={styles.description}>Backed by{' '}<code className={styles.code}>Open Source </code>Supporters</p>
@@ -62,7 +62,7 @@ export default function About() {
           target="_blank"
           rel="noopener noreferrer"
         >
-         © 2022 RunAsh  {' '}
+         © 2022 RunAsh. {' '}
           <span className={styles.logo}>
             <Image src="" alt=" " width={72} height={16} />
           </span>
