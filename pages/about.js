@@ -16,31 +16,36 @@ export default function About() {
          <p className={styles.description}>We enabling and accessing<br /> face to face,self made <br />real life experience </p>
         <div className={styles.description}>
           Backed by {' '}<code className={styles.code}><b>YC</b></code></div>
-        <div className={styles.description}>
-          <h2>Oneliner</h2>
-            <p>A live streaming hybrid<br /> marketplace for retailing</p>
-        </div>
+        <h1 className={styles.title}>
+          <a href="https://">Oneliner</a>
+        </h1>
+           <p>A live streaming hybrid<br /> marketplace for retailing</p>
+        
 
-        <div className={styles.description}>
-         <h2>Discipline</h2>
+        <h1 className={styles.title}>
+         <a href="https://">Discipline</a>
+        </h1>
          <p>Discipline & learning is the<br /> backbone of the development<br /> of our startup journey</p>
-        </div>
+       
 
-        <div className={styles.description}>
-         <h2>What we do</h2>
+        <h1 className={styles.title}>
+         <a href="https://">What we do</a>
+        </h1>
          <p>We created new model of<br /> marketplace where retailers<br /> face to face demonstrate &<br /> presentation their products<br /> with buyers</p>
-        </div>
+        
 
-        <div className={styles.description}>
-         <h2>What we going to make</h2>
-         <p>We are commite to building<br /> live streaming platform<br />for unorganised retailers & new ways to use physical<br /> reality experience</p>
-        </div>
+        <h1 className={styles.title}>
+         <a href="https://">What we going to make</a>
+        </h1>
+         <p>We are commite to building<br /> live streaming platform<br />for unorganised retailers <br />& new ways to use physical<br /> reality experience</p>
+        
 
        
-       <div className={styles.description}>
-       <h2>Executive Profiles</h2>
+       <h1 className={styles.title}>
+       <a href="https://">Executive Profiles</a>
+       </h1>
        <p><b>Board of Directors</b><br />Management team<br /> responsible for making<br /> the live retail streaming<br /> platform.</p>
-       </div>
+       
       
        </Head>
        <main className={styles.main}>
