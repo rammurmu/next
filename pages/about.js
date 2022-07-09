@@ -8,9 +8,9 @@ export default function About() {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
-        <h1>🎓About</h1>
-        <div className={styles.description}>{' '}<code className={styles.code}>👏 Welcome to RunAsh</code></div>
-        <p className={styles.description}>Mission:Enabling and accessing face to face,self made and real experience to access physical reality</p>
+        <h1>About</h1>
+        <div className={styles.description}>{' '}<code className={styles.code}>👏 Welcome to runash</code></div>
+        <p className={styles.title}>Mission:Enabling and accessing face to face,self made and real experience to access physical reality</p>
         <div className={styles.grid}>
          <div className={styles.description}>
          <h2>Oneliner</h2>
