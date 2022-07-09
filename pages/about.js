@@ -13,10 +13,9 @@ export default function About() {
         <div className={styles.title}>Mission</div>
          <p className={styles.paragraph}>Enabling and accessing face to face,self made and real experience to access physical reality</p>
         <div className={styles.grid}>
-         <div className={styles.description}>
-         <h2>Oneliner</h2>
+         <div className={styles.description}>Oneliner</div>
          <p>RunAsh is a live streaming hybrid marketplace for retailing,where retailer face to face demonstrate, presentation their products with buyers </p>
-        </div>
+        
 
         <div className={styles.description}>
          <h2>Discipline</h2>
