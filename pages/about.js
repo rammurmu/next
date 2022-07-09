@@ -15,7 +15,7 @@ export default function About() {
         </h1>
          <p className={styles.description}>We enabling and accessing<br /> face to face,self made <br />and real experience to access <br />physical reality</p>
         <div className={styles.description}>
-          Backed By {' '}<code className={styles.code}><b>YC<b/></code></div>
+          Backed By {' '}<code className={styles.code}><b>YC</b></code></div>
         <div className={styles.description}>
           <h2>Oneliner</h2>
             <p>A live streaming hybrid marketplace for retailing,where retailer face to face demonstrate, presentation their products with buyers </p>
