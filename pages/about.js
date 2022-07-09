@@ -9,18 +9,18 @@ export default function About() {
     <div className={styles.container}>
       <main className={styles.main}>
         <h1>About</h1>
-        <div className={styles.description}>{' '}<code className={styles.code}>👏 Welcome to runash</code></div>
+        <div className={styles.description}>{' '}<code className={styles.code}>👏 Welcome to RunAsh</code></div>
         <div className={styles.title}><a href="https://">Mission</a></div>
-         <p>Enabling and accessing face to face,self made and real experience to access physical reality</p>
+         <p><b>Enabling and accessing face to face,self made and real experience to access physical reality<b></p>
         <div className={styles.grid}>
         <div className={styles.description}>
           <h1>Oneliner</h1>
-            <p>RunAsh is a live streaming hybrid marketplace for retailing,where retailer face to face demonstrate, presentation their products with buyers </p>
+            <p>A live streaming hybrid marketplace for retailing,where retailer face to face demonstrate, presentation their products with buyers </p>
         </div>
 
         <div className={styles.description}>
          <h1>Discipline</h1>
-         <p>Discipline and learning is the backbone of the development of runash startup journey</p>
+         <p>Discipline & learning is the backbone of the development of runash startup journey</p>
         </div>
 
         <div className={styles.description}>
@@ -30,13 +30,13 @@ export default function About() {
 
         <div className={styles.description}>
          <h1>What we going to make</h1>
-         <p>We are commite to building live streaming platform and new ways to use physical reality experience</p>
+         <p>We are commite to building live streaming platform & new ways to use physical reality experience</p>
         </div>
 
        
        <div className={styles.description}>
        <h1>Executive Profiles</h1>
-       <p>Management team responsible for making the live retail streaming platform. immediate market-specific knowledge,& experience in implementing the business plans. & changing the nature of retailing & redefine the business mode</p>
+       <p><b>Board of Directors<b><br />Management team responsible for making the live retail streaming platform.</p>
        </div>
        </div>
        
