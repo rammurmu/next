@@ -1,4 +1,4 @@
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Seller.module.css'
 import Link from 'next/link'
 
 export default function Seller() {
