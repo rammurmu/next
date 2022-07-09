@@ -68,8 +68,6 @@ export default function About() {
           </span>
         </a>
      </footer>
-  
-
     </main>
     </div>   
   )
