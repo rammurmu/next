@@ -25,26 +25,26 @@ export default function About() {
         <h1 className={styles.title}>
          <a href="https://">Discipline</a>
         </h1>
-         <p>Discipline & learning is the<br /> backbone of the development<br /> of our startup journey</p>
+         <p className={styles.description}>Discipline & learning is the<br /> backbone of the development<br /> of our startup journey</p>
        
 
         <h1 className={styles.title}>
          <a href="https://">What we do</a>
         </h1>
-         <p>We created new model of<br /> marketplace where retailers<br /> face to face demonstrate &<br /> presentation their products<br /> with buyers</p>
+         <p className={styles.description}>We created new model of<br /> marketplace where retailers<br /> face to face demonstrate &<br /> presentation their products<br /> with buyers</p>
         
 
         <h1 className={styles.title}>
          <a href="https://">What we going to make</a>
         </h1>
-         <p>We are commite to building<br /> live streaming platform<br />for unorganised retailers <br />& new ways to use physical<br /> reality experience</p>
+         <p className={styles.description}>We are commite to building<br /> live streaming platform<br />for unorganised retailers <br />& new ways to use physical<br /> reality experience</p>
         
 
        
        <h1 className={styles.title}>
        <a href="https://">Executive Profiles</a>
        </h1>
-       <p><b>Board of Directors</b><br />Management team<br /> responsible for making<br /> the live retail streaming<br /> platform.</p>
+       <p className={styles.description}><b>Board of Directors</b><br />Management team<br /> responsible for making<br /> the live retail streaming<br /> platform.</p>
        
       
        </Head>
