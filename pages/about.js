@@ -62,7 +62,7 @@ export default function About() {
           target="_blank"
           rel="noopener noreferrer"
         >
-         © 2022 All rights reserved. {' '}
+         © 2022 RunAsh.All rights reserved {' '}
           <span className={styles.logo}>
             <Image src="" alt=" " width={72} height={16} />
           </span>
