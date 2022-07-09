@@ -19,7 +19,7 @@ export default function About() {
         <h1 className={styles.title}>
           <a href="https://">Oneliner</a>
         </h1>
-           <p>A live streaming hybrid<br /> marketplace for retailing</p>
+           <p className={styles.description}>A live streaming hybrid<br /> marketplace for retailing</p>
         
 
         <h1 className={styles.title}>
@@ -44,7 +44,7 @@ export default function About() {
        <h1 className={styles.title}>
        <a href="https://">Executive Profiles</a>
        </h1>
-       <p className={styles.description}><b>Board of Directors</b><br />Management team<br /> responsible for making<br /> the live retail streaming<br /> platform.</p>
+       <p className={styles.description}><b>Board of Directors</b><br />Management team responsible for making<br /> the live retail streaming<br /> platform.</p>
        
       
        </Head>
