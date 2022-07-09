@@ -7,6 +7,7 @@ export default function Buyer() {
   return (
     <div className={styles.container}>    
        <main className={style.main}> 
+        <h1>Buyer</h1>
         <div className={styles.description}><code className={styles.code}>👏 Welcome to RunAsh</code></div>
         <div className={styles.title}>Watch live <br /><a href="https://">streaming</a></div>
          <p>Watch previous live recording</p>
