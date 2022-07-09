@@ -28,7 +28,7 @@ export default function About() {
 
         <div className={styles.description}>
          <h2>What we do</h2>
-         <p>We created new model of<br /> marketplace where retailers<br /> face to face demonstrate &<br /> presentation their products<br> with buyers</p>
+         <p>We created new model of<br /> marketplace where retailers<br /> face to face demonstrate &<br /> presentation their products<br /> with buyers</p>
         </div>
 
         <div className={styles.description}>
