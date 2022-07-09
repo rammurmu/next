@@ -51,11 +51,11 @@ export default function Buyer() {
             <h2>🏪 Stream store</h2>
               <p><code className={styles.code}><a href="https://">Watch Now</a></code></p>
           </card>
+          </div>
           <p className={styles.paragraph}>
             <Link href="/">
               <a>&larr; Go Back</a>
             </Link>
          </p>   
-     </div>
   )
 }
