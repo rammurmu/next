@@ -6,7 +6,7 @@ import Link from 'next/link'
 export default function Buyer() {
   return (
     <div className={styles.container}>    
-        
+       <main className={style.main}> 
         <div className={styles.description}><code className={styles.code}>👏 Welcome to RunAsh</code></div>
         <div className={styles.title}>Watch live <br /><a href="https://">streaming</a></div>
          <p>Watch previous live recording</p>
@@ -51,11 +51,13 @@ export default function Buyer() {
             <h2>🏪 Stream store</h2>
               <p><code className={styles.code}><a href="https://">Watch Now</a></code></p>
           </card>
-          </div>
+          
           <p className={styles.paragraph}>
             <Link href="/">
               <a>&larr; Go Back</a>
             </Link>
-         </p>   
+         </p>  
+      </main>
+     </div> 
   )
 }
