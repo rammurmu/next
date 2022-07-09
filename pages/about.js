@@ -11,7 +11,7 @@ export default function About() {
         <h1>About</h1>
         <div className={styles.description}>{' '}<code className={styles.code}>👏 Welcome to runash</code></div>
         <div className={styles.title}>Mission</div>
-         <p class name={styles.paragraph}>Enabling and accessing face to face,self made and real experience to access physical reality</p>
+         <p className={styles.paragraph}>Enabling and accessing face to face,self made and real experience to access physical reality</p>
         <div className={styles.grid}>
          <div className={styles.description}>
          <h2>Oneliner</h2>
