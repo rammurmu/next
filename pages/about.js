@@ -10,14 +10,14 @@ export default function About() {
       <main className={styles.main}>
         <h1>🎓About</h1>
         <div className={styles.description}>{' '}<code className={styles.code}>👏 Welcome to RunAsh</code></div>
-        <h2 className={styles.description}>Mission:Enabling and accessing face to face,self made and real experience to access physical reality</h2>
+        <p className={styles.description}>Mission:Enabling and accessing face to face,self made and real experience to access physical reality</p>
         <div className={styles.grid}>
          <div className={styles.description}>
          <h2>Oneliner</h2>
          <p>RunAsh is a live streaming hybrid marketplace for retailing,where retailer face to face demonstrate, presentation their products with buyers </p>
         </div>
 
-        <div className={styles.title}>
+        <div className={styles.description}>
          <h2>Discipline</h2>
          <p>Discipline and learning is the backbone of the development of runash startup journey</p>
         </div>
