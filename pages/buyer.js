@@ -5,8 +5,7 @@ import Link from 'next/link'
 
 export default function Buyer() {
   return (
-    <div className={styles.container}>   
-    <main className={styles.main}>   
+    <div className={styles.container}>    
         <Head>
         <div className={styles.description}><code className={styles.code}>👏 Welcome to RunAsh</code></div>
         <div className={styles.title}>Watch live <br /><a href="https://">streaming</a></div>
@@ -20,16 +19,18 @@ export default function Buyer() {
           <p>Connect with retailer around the world</p>
         <div className={styles.description}>{' '}<code className={styles.code}><a href="https://">🌀Connect Now</a></code></div>
         </Head>
-        
+        <main className={styles.main}>
           <p className={styles.code}>All Categories</p>
+
           <code className={styles.code}>Short by</code>
+
           <div className={styles.description}><code className={styles.code}>🍎Fruit</code>{' '}<code className={styles.code}>🥦Vegetable</code><br />
           <code className={styles.code}>💐Flower</code>{' '}<code className={styles.code}>🥫Grocery</code></div>
           <div className={styles.grid}>
           <card className={styles.card}>
-            <h2>🏪 Stream Store</h2>
-              <p><code className={styles.code}><a href="https://">Watch Now</a></code></p>
-          </card>
+          <h2>🏪 Stream Store</h2>
+          <p><code className={styles.code}><a href="https://">Watch Now</a></code></p>
+           </card>
 
           
           <card className={styles.card}>
