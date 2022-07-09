@@ -7,7 +7,7 @@ import Link from 'next/link'
 export default function About() {
   return (
     <div className={styles.container}>
-      <main className={styles.main}>
+      <Head>
         <h1>About</h1>
         <div className={styles.description}>{' '}<code className={styles.code}>👏 Welcome to RunAsh</code></div>
         <div className={styles.title}><a href="https://">Mission</a></div>
@@ -39,8 +39,8 @@ export default function About() {
        <p><b>Board of Directors</b><br />Management team responsible for making the live retail streaming platform.</p>
        </div>
        </div>
-       
-
+       </Head>
+       <main className={styles.main}>
        <p className={styles.description}>Backed by{' '}<code className={styles.code}>Open Source </code>Supporters</p>
        <>
        <p><a href="https://" title="title">Licence: MIT GitHub</a></p>
