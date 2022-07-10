@@ -25,16 +25,12 @@ export default function Seller() {
               </Link>
            </li>
         </ul>
-        <p className={styles.paragraph}>
-        <Link href="/">
-        <a>&larr; Go Back</a>
-        </Link>
-        </p>
+        
         <h1 className={styles.title}>
          NextGen and future<br /><a href="https://"> of retail</a>
         </h1>
         <p className={styles.description}>
-          Build own made real life selling  <br />experience with hybrid technology </p>
+          Build own made real life <br />selling experience with <br />hybrid technology </p>
         <Image
         alt="live"
         src="https://"
@@ -43,17 +39,17 @@ export default function Seller() {
         />
         <div className={styles.description}>{' '}<code className={styles.code}><a href="https://runash.live/schedule">Get started</a></code></div>
         <h1 className={styles.title}> 
-          The future of<br /><a href="https://">e-commerce<br />is live streaming</a>
+          Reach<br /><a href="https://">worlds of <br />buyers</a>
         </h1>
         <p className={styles.description}>
-            Face to face<br /> real life interactive without going to real place</p> 
+            Face to face real<br /> life interactive <br />selling experience </p> 
     </Head>
         <main className={styles.main}>
         <h1 className={styles.title}>
-          Making <a href="https://runash.live/buyer">business</a> & <a href="https://runash.live/buyer">experience</a>
+          Making <a href="https://runash.live/buyer">business</a><a href="https://runash.live/buyer">experience</a>
         </h1>   
         <p className={styles.description}>
-          Give yourstore a real experience on a complete real digitization {' '}
+          Give your store a real experience on a complete real digitization <br />
           <code className={styles.code}><a href="https://runash.live/schedule">Make own</a></code>
         </p>
         
