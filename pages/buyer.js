@@ -6,7 +6,7 @@ import Image from 'next/image'
 export default function Buyer() {
   return (
     <div className={styles.container}>
-      <main className={styles.main}>
+      <Head>
         <h1>Buyer</h1>
         <div className={styles.description}><code className={styles.code}>👏 Welcome to RunAsh</code></div>
         <div className={styles.title}>Watch live <br /><a href="https://">streaming</a></div>
@@ -16,6 +16,9 @@ export default function Buyer() {
         <div className={styles.title}><a href="https://">Live on demand</a></div>
           <p>Real life shopping experience</p>
         <div className={styles.description}>{' '}<code className={styles.code}><a href="https://">🎬Start Now</a></code></div>
+        </Head>
+        <div className={styles.container}>
+        <main className={styles.main}>
         <div className={styles.description}>Live<br /><a href="https://">broadcast</a></div>
           <p>Connect with retailer around the world</p>
         <div className={styles.description}>{' '}<code className={styles.code}><a href="https://">🌀Connect Now</a></code></div>
