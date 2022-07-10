@@ -10,6 +10,11 @@ export default function Buyer() {
         <div className={styles.description}>{' '}<code className={styles.code}><a href="https://">👏 Welcome to RunAsh &rarr;</a></code></div>
         <ul>
            <li>
+              <Link href="/home">
+               <a>Home</a>
+              </Link>
+           </li>
+           <li>
               <Link href="/about">
                <a>About</a>
               </Link>
@@ -19,30 +24,25 @@ export default function Buyer() {
                <a>Seller</a>
               </Link>
            </li>
-           <li>
-              <Link href="/buyer">
-               <a>Buyer</a>
-              </Link>
-           </li>
         </ul>
 
         <h1 className={styles.title}>
-         Live retail streaming<br /><a href="https://"> platform</a>
+         Watch live<br /><a href="https://">streaming</a>
         </h1>
         <p className={styles.description}>
-          Where the retailers build own <br />made live streaming store</p>
+          Watch previous live<br />streamed recording</p>
         <Image
         alt="live"
         src="https://"
         width={1200}
         height={400}
         />
-        <div className={styles.description}>{' '}<code className={styles.code}><a href="https://runash.live/schedule">📺Go live</a></code></div>
+        <div className={styles.description}>{' '}<code className={styles.code}><a href="https://runash.live/schedule">📺Watch Now</a></code></div>
         <h1 className={styles.title}> 
-          Hybrid<br /><a href="https://">retailing</a>
+          Live stream<br /><a href="https://">on demand</a>
         </h1>
         <p className={styles.description}>
-            Build engaging interactive<br /> real life experience</p> 
+            Watch on demand real life<br />shopping experience </p> 
     </Head>
         <main className={styles.main}>
         <h1 className={styles.title}>
