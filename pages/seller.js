@@ -46,7 +46,7 @@ export default function Seller() {
     </Head>
         <main className={styles.main}>
         <h1 className={styles.title}>
-          Making <a href="https://runash.live/buyer">business</a><a href="https://runash.live/buyer">experience</a>
+          Making <a href="https://runash.live/buyer">business</a><br /><a href="https://runash.live/buyer">experience</a>
         </h1>   
         <p className={styles.description}>
           Give your store a real experience on a complete real digitization <br />
