@@ -39,14 +39,14 @@ export default function Seller() {
         />
         <div className={styles.description}>{' '}<code className={styles.code}><a href="https://runash.live/schedule">Get started</a></code></div>
         <h1 className={styles.title}> 
-          Reach<br /><a href="https://">worlds of <br />buyers</a>
+          Reach<a href="https://">worlds<br />of buyers</a>
         </h1>
         <p className={styles.description}>
-            Face to face real<br /> life interactive <br />selling experience </p> 
+            Face to face<br />real life interactive <br />selling experience </p> 
     </Head>
         <main className={styles.main}>
         <h1 className={styles.title}>
-          Making <a href="https://runash.live/buyer">business</a><br /><a href="https://runash.live/buyer">experience</a>
+          Making own made<a href="https://runash.live/buyer">business</a><br /><a href="https://runash.live/buyer">experience</a>
         </h1>   
         <p className={styles.description}>
           Give your store a real experience on a complete real digitization <br />
