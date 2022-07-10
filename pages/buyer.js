@@ -1,5 +1,7 @@
 import styles from '../styles/Buyer.module.css'
 import Link from 'next/link'
+import Head from 'next/head'
+import Image from 'next/image'
 
 export default function Buyer() {
   return (
@@ -76,6 +78,6 @@ export default function Buyer() {
         </a>
      </footer>
     </main>
-     </div>
+   </div>
   )
 }
