@@ -10,13 +10,13 @@ export default function Seller() {
         <div className={styles.description}>{' '}<code className={styles.code}><a href="https://">👏 Welcome to RunAsh &rarr;</a></code></div>
         <ul>
            <li>
-              <Link href="/about">
-               <a>About</a>
+              <Link href="/home">
+               <a>Home</a>
               </Link>
            </li>
            <li>
-              <Link href="/seller">
-               <a>Seller</a>
+              <Link href="/about">
+               <a>About</a>
               </Link>
            </li>
            <li>
@@ -25,35 +25,39 @@ export default function Seller() {
               </Link>
            </li>
         </ul>
-
+        <p className={styles.paragraph}>
+        <Link href="/">
+        <a>&larr; Go Back</a>
+        </Link>
+        </p>
         <h1 className={styles.title}>
-         Live retail streaming<br /><a href="https://"> platform</a>
+         NextGen and future<br /><a href="https://"> of retail</a>
         </h1>
         <p className={styles.description}>
-          Where the retailers build own <br />made live streaming store</p>
+          Build own made real life selling  <br />experience with hybrid technology </p>
         <Image
         alt="live"
         src="https://"
         width={1200}
         height={400}
         />
-        <div className={styles.description}>{' '}<code className={styles.code}><a href="https://runash.live/schedule">📺Go live</a></code></div>
+        <div className={styles.description}>{' '}<code className={styles.code}><a href="https://runash.live/schedule">Get started</a></code></div>
         <h1 className={styles.title}> 
-          Hybrid<br /><a href="https://">retailing</a>
+          The future of<br /><a href="https://">e-commerce<br />is live streaming</a>
         </h1>
         <p className={styles.description}>
-            Build engaging interactive<br /> real life experience</p> 
+            Face to face<br /> real life interactive without going to real place</p> 
     </Head>
         <main className={styles.main}>
         <h1 className={styles.title}>
-          Schedule <a href="https://runash.live/buyer">Buy</a> & <a href="https://runash.live/buyer"> Sell</a>
+          Making <a href="https://runash.live/buyer">business</a> & <a href="https://runash.live/buyer">experience</a>
         </h1>   
         <p className={styles.description}>
-          Get started by {' '}
-          <code className={styles.code}><a href="https://runash.live/schedule">Live stream</a></code>
+          Give yourstore a real experience on a complete real digitization {' '}
+          <code className={styles.code}><a href="https://runash.live/schedule">Make own</a></code>
         </p>
         
-        <div className={styles.card}><code className={styles.code}>🗓️Schedule Now</code></div>
+        <div className={styles.card}><code className={styles.code}>Face2Face</code></div>
         <div className={styles.grid}>
           <a href="https://runash.live/seller" className={styles.card}>
             <h2>🛒Real Selling &rarr;</h2>
