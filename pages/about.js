@@ -63,7 +63,7 @@ export default function About() {
         <p className={styles.description}>
           <b>Board of Directors</b> <br />Management team<br />responsible for making<br />the live streaming<br />
         </p>
-        </div>
+       
 
 
         <div>
