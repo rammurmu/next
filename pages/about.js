@@ -30,7 +30,7 @@ export default function About() {
          Our<br /><a href="https://">mission</a>
         </h1>
         <p className={styles.description}>
-          We enabling & accessing<br />face to face,self made<br />real life experience</p>
+          We enabling & accessing face to face,self made real life experience</p>
         <Image
         alt="live"
         src="https://"
@@ -39,29 +39,29 @@ export default function About() {
         />
         <div className={styles.description}>{' '}<code className={styles.code}><a href="https://runash.live/schedule">📺Go live</a></code></div>
         <h1 className={styles.title}> 
-          One<br /><a href="https://">liner</a>
+          <a href="https://">One-liner</a>
         </h1>
         <p className={styles.description}>
-          A live streaming hybrid<br />marketplace for retailing</p> 
+          A live streaming hybrid marketplace for retailing</p> 
     </Head>
         <main className={styles.main}>
         <h1 className={styles.title}>
-          Discipline<br /><a href="https://runash.live/buyer">& learning</a>
+          Discipline<br /><a href="https://runash.live/buyer">learning & <br/>culture</a>
         </h1>   
         <p className={styles.description}>
-          Discipline & learning is the backbone of the development<br />of our startup journey
+          Discipline & learning is the backbone of the development of our startup journey and culture is behavior
         </p>
         <h1 className={styles.title}>
-          What<br /><a href="https://runash.live/buyer">we do</a>
+          <a href="https://runash.live/buyer">What we do</a>
         </h1>   
         <p className={styles.description}>
-          We created new model of<br />marketplace where retailers<br />face to face demonstrate & presentation their products<br />with buyers
+          We created new model of marketplace where retailers face to face demonstrate & presentation their products with buyers
         </p>
          <h1 className={styles.title}>
-          What we<br /><a href="https://runash.live/buyer">going to make</a>
+          What we going<a href="https://runash.live/buyer">to makeing</a>
         </h1>   
         <p className={styles.description}>
-         We are committed to building<br />live streaming platform<br />for unorganised retailers<br />& new ways to use physical reality experience
+         We are committed to building live streaming platform for unorganised retailers & new ways to use physical reality experience
         </p>
         <h1 className={styles.title}>
           Executive<br /><a href="https://runash.live/buyer">profile</a>
@@ -99,38 +99,18 @@ export default function About() {
               Live influencers community here you can support businesses 
             </p>
           </a>
-
-          <a
-            href="https://runash.live/about"
-            className={styles.card}
-          >
-            <h2>🎓About Us  &rarr;</h2>
-            <p>
-              A live retail streaming hybrid marketplace  for retailing
-            </p>
-          </a>
-
-          <a
-            href="https://runash.live/mobile"
-            className={styles.card}
-          >
-            <h2>📱Mobile App &rarr;</h2>
-            <p>
-              Available for iOS and Android 
-            </p>
-          </a>
         </div>
 
 
         <div>
         <p className={styles.description}>
           Backed by{' '}
-          <code className={styles.code}><a href="https://runash.live/oss">Open Source</a></code><br />Supporters
+          <code className={styles.code}><a href="https://runash.live/oss">Open Source</a></code>
         </p>
     
        <a
          href="https://Google.form.com">
-         <p className={styles.card}>Licence:MIT | GitHub ✨</p>
+         <p className={styles.card}>Licence:MIT|GitHub✨</p>
        </a>
       </div>
       </main>
