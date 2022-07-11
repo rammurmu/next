@@ -27,7 +27,7 @@ export default function About() {
         </ul>
 
         <h1 className={styles.title}>
-         Our<a href="https://">mission</a>
+         Our <br /><a href="https://">mission</a>
         </h1>
         <p className={styles.description}>
           We enabling & accessing face to face,self made real life experience</p>
@@ -35,7 +35,7 @@ export default function About() {
         <h1 className={styles.description}> 
           One-liner
         </h1>
-        <p>
+        <p className={styles.description}>
           A live streaming hybrid marketplace for retailing</p> 
     </Head>
         <main className={styles.main}>
@@ -61,7 +61,7 @@ export default function About() {
           Executive profile
         </h1>   
         <p className={styles.description}>
-          <b>Board of Directors</b>Management team responsible for making the live streaming
+          <b>Board of Directors</b><br />Management team responsible for making the live streaming
         </p>
        
 
