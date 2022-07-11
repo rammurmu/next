@@ -31,13 +31,7 @@ export default function About() {
         </h1>
         <p className={styles.description}>
           We enabling & accessing face to face,self made real life experience</p>
-        <Image
-        alt="live"
-        src="https://"
-        width={1200}
-        height={400}
-        />
-        <div className={styles.description}>{' '}<code className={styles.code}><a href="https://runash.live/schedule">📺Go live</a></code></div>
+        
         <h1 className={styles.title}> 
           <a href="https://">One-liner</a>
         </h1>
@@ -46,7 +40,7 @@ export default function About() {
     </Head>
         <main className={styles.main}>
         <h1 className={styles.title}>
-          Discipline<br /><a href="https://runash.live/buyer">learning & <br/>culture</a>
+          Discipline<br /><a href="https://runash.live/buyer">learning<br/>culture</a>
         </h1>   
         <p className={styles.description}>
           Discipline & learning is the backbone of the development of our startup journey and culture is behavior
@@ -58,7 +52,7 @@ export default function About() {
           We created new model of marketplace where retailers face to face demonstrate & presentation their products with buyers
         </p>
          <h1 className={styles.title}>
-          What we going<a href="https://runash.live/buyer">to makeing</a>
+          What we going<br /><a href="https://runash.live/buyer">to makeing</a>
         </h1>   
         <p className={styles.description}>
          We are committed to building live streaming platform for unorganised retailers & new ways to use physical reality experience
@@ -69,36 +63,6 @@ export default function About() {
         <p className={styles.description}>
           <b>Board of Directors</b> <br />Management team<br />responsible for making<br />the live streaming<br />
         </p>
-        
-        
-        <div className={styles.grid}>
-          <a href="https://runash.live/seller" className={styles.card}>
-            <h2>🛒Real Selling &rarr;</h2>
-            <p>Where retailers can meet to buyers & demonstrate their products </p>
-          </a>
-
-          <a href="https://runash.live/buyer" className={styles.card}>
-            <h2>🛍️Real Buying &rarr;</h2>
-            <p>Where buyers can meet to sellers & shopping organic products  </p>
-          </a>
-
-          <a
-            href="https://runash.live/remote"
-            className={styles.card}
-          >
-            <h2>🙋Real Chat &rarr;</h2>
-            <p>Follow and get started live video chatting</p>
-          </a>
-
-          <a
-            href="https://runash.live/influencer"
-            className={styles.card}
-          >
-            <h2>🧑‍🤝‍🧑Influencers &rarr;</h2>
-            <p>
-              Live influencers community here you can support businesses 
-            </p>
-          </a>
         </div>
 
 
@@ -110,7 +74,7 @@ export default function About() {
     
        <a
          href="https://Google.form.com">
-         <p className={styles.card}>Licence:MIT|GitHub✨</p>
+         <p className={styles.card}>Licence:MIT | GitHub✨</p>
        </a>
       </div>
       </main>
