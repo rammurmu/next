@@ -7,7 +7,7 @@ export default function About() {
   return (
     <div className={styles.container}>
       <Head> 
-        <div className={styles.description}>{' '}<code className={styles.code}><a href="https://">👏 Welcome to RunAsh &rarr;</a></code></div>
+        <div className={styles.description}>{' '}<code className={styles.code}><a href="https://">👏 Welcome to runash</a></code></div>
         <ul>
            <li>
               <Link href="/home">
@@ -32,36 +32,36 @@ export default function About() {
         <p className={styles.description}>
           We enabling & accessing face to face,self made real life experience</p>
         
-        <h1 className={styles.title}> 
-          <a href="https://">One-liner</a>
+        <h1 className={styles.description}> 
+          One-liner
         </h1>
         <p className={styles.description}>
           A live streaming hybrid marketplace for retailing</p> 
     </Head>
         <main className={styles.main}>
-        <h1 className={styles.title}>
-          Discipline<br /><a href="https://runash.live/buyer">learning<br/>culture</a>
+        <h1 className={styles.description}>
+          Discipline learning culture
         </h1>   
         <p className={styles.description}>
           Discipline & learning is the backbone of the development of our startup journey and culture is behavior
         </p>
-        <h1 className={styles.title}>
-          <a href="https://runash.live/buyer">What we do</a>
+        <h1 className={styles.description}>
+          What we do
         </h1>   
         <p className={styles.description}>
           We created new model of marketplace where retailers face to face demonstrate & presentation their products with buyers
         </p>
-         <h1 className={styles.title}>
-          What we going<br /><a href="https://runash.live/buyer">to makeing</a>
+         <h1 className={styles.description}>
+          What we going to makeing
         </h1>   
         <p className={styles.description}>
          We are committed to building live streaming platform for unorganised retailers & new ways to use physical reality experience
         </p>
-        <h1 className={styles.title}>
-          Executive<br /><a href="https://runash.live/buyer">profile</a>
+        <h1 className={styles.description}>
+          Executive profile
         </h1>   
         <p className={styles.description}>
-          <b>Board of Directors</b> <br />Management team<br />responsible for making<br />the live streaming<br />
+          <b>Board of Directors</b> <br />Management team responsible for making the live streaming
         </p>
        
 
