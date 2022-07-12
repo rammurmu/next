@@ -40,21 +40,7 @@ export default function About() {
          href="https://Google.form.com">
          <p className={styles.card}>Licence:MIT | GitHub✨</p>
        </a>
-      </div>
       </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://runash.in"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-         © 2022 RunAsh. {' '}
-          <span className={styles.logo}>
-            <Image src="" alt=" " width={72} height={16} />
-          </span>
-        </a>
-     </footer>
-  </div>
+      </div>
   )
 }
