@@ -19,12 +19,15 @@ export default function Buyer() {
          You can meet to sellers with face to face real life experience
         </p>
       <div className={styles.grid}>
-      <code className={styles.code}>🍎🍋 Fruit</code>
-      <code className={styles.code}>🥦🍅 Vegetable</code>
-      <code className={styles.code}>🥫🍶 Grocery</code>
-      <code className={styles.code}>🌴🌺 Flower</code>
-      <code className={styles.code}>🍗🥩 Non veg</code>
-      <code className={styles.code}>🍚🥛 Dairy food</code>
+      <code className={styles.code}>🍎🍋 Fruit</code><br />
+      <code className={styles.code}>🥦🍅 Vegetable</code><br />
+      <code className={styles.code}>🥫🍶 Grocery</code><br />
+      <code className={styles.code}>🌴🌺 Flower</code><br />
+      <code className={styles.code}>🍗🥩 Non veg</code><br />
+      <code className={styles.code}>🍚🥛 Dairy food</code><br>
+      <code className={styles.code}>🍞🥞Bakeri food</code><br />
+      <code className={styles.code}>🥜🥖Dry food</code><br />
+      <code className={styles.code}>🧥🥻 Fashion</code><br />
       </div>
      </main> 
     </div> 
