@@ -22,7 +22,8 @@ export default function Home() {
         <div className={styles.title}>
         <h1>
           Schedule<a href="https://">{' '}Buy</a> & <a href="https://"> Sell</a>
-        </h1>   
+        </h1> 
+        </div>  
         <p className={styles.paragraph}>
          🗓️ Schedule Now &rarr;
         </p>
