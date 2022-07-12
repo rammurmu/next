@@ -20,12 +20,8 @@ export default function Seller() {
         </p>
         
       
-       <div className={styles.card}>
-       <a
-         href="https://Google.form.com">
-         <p className={styles.card}>Give your feedback ✨ &rarr;</p>
-       </a>
-      </div>
+      
+      <p className={styles.card}>Give your feedback ✨ &rarr;</p>
       </div>
       </main>
   )
