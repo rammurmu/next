@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import '../components/Navbar.css'
 
 function Navbar() {
   return (
