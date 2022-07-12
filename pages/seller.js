@@ -7,43 +7,10 @@ export default function Seller() {
   return (
     <div className={styles.container}>
       <Head>
-        <div className={styles.description}>{' '}<code className={styles.code}><a href="https://">👏 Welcome to RunAsh &rarr;</a></code></div>
-        <ul>
-           <li>
-              <Link href="/home">
-               <a>Home</a>
-              </Link>
-           </li>
-           <li>
-              <Link href="/about">
-               <a>About</a>
-              </Link>
-           </li>
-           <li>
-              <Link href="/buyer">
-               <a>Buyer</a>
-              </Link>
-           </li>
-        </ul>
-        
-        <h1 className={styles.title}>
-         NextGen and future<br /><a href="https://"> of retail</a>
-        </h1>
-        <p className={styles.description}>
-          Build own made real life <br />selling experience with <br />hybrid technology </p>
-        <Image
-        alt="live"
-        src="https://"
-        width={1200}
-        height={400}
-        />
-        <div className={styles.description}>{' '}<code className={styles.code}><a href="https://runash.live/schedule">Get started</a></code></div>
-        <h1 className={styles.title}> 
-          Physical<br /><a href="https://">reality<br />selling</a>
-        </h1>
-        <p className={styles.description}>
-            Face to face<br />real life interactive selling <br />experience </p> 
-    </Head>
+        <title>Buyer</title>
+        <meta name="description"A live retail streaming platform " />
+        <link rel="icon" href="/favicon.icon" />  
+      </Head>
         <main className={styles.main}>
         <h1 className={styles.title}>
           Makeing<br /><a href="https://runash.live/buyer">business</a><br /><a href="https://runash.live/buyer">experience</a>
