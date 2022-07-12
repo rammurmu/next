@@ -20,6 +20,10 @@ export default function Buyer() {
         </p>
       <code className={styles.code}>🍎🍋 Fruit</code>
       <code className={styles.code}>🥦🍅 Vegetable</code>
+      <code className={styles.code}>🥫🍶 Grocery</code>
+      <code className={styles.code}>🌴🌺 Flower</code>
+      <code className={styles.code}>🍗🥩 Non veg</code>
+      <code className={styles.code}>🍚🥛 Dairy food</code>
      </main> 
     </div> 
   )
