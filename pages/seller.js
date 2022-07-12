@@ -13,18 +13,19 @@ export default function Seller() {
       </Head>
         <main className={styles.main}>
         <h1 className={styles.title}>
-          Make your own business<br /><a href="https://runash.live/buyer">experience</a>
+          Make your own business<br /><a href="https://">experience</a>
         </h1>   
         <p className={styles.description}>
           Give your store a real experience on a complete real digitization 
         </p>
         
       
-    
+       <div className={styles.card}>
        <a
          href="https://Google.form.com">
          <p className={styles.card}>Give your feedback ✨ &rarr;</p>
        </a>
+      </div>
       </div>
       </main>
   )
