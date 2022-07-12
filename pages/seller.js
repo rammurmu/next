@@ -18,10 +18,6 @@ export default function Seller() {
         <p className={styles.description}>
           Give your store a real experience on a complete real digitization 
         </p>
-        
-      
-      
-      <p className={styles.card}>Give your feedback ✨ &rarr;</p>
       </div>
       </main>
   )
