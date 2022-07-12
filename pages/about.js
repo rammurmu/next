@@ -30,7 +30,7 @@ export default function About() {
        
 
 
-        <div>
+       
         <p className={styles.description}>
           Backed by{' '}
           <code className={styles.code}><a href="https://runash.live/oss">Open Source</a></code>
