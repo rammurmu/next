@@ -141,11 +141,6 @@ export default function Home() {
           Backed by{' '}
           <code className={styles.code}><a href="https://runash.live/oss">Open Source</a></code>
         </p>
-    
-       <a
-         href="https://Google.form.com">
-         <p className={styles.card}>Give your feedback ✨ &rarr;</p>
-       </a>
       </div>
       </main>
 
