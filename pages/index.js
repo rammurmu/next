@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
         <main className={styles.main}>
         <h1 className={styles.title}>
-         Live retail streaming platform
+         Live retail streaming <br /><a href="/">platform</a>
          </h1>
          <p className={styles.description}>
           Where the retailers build own made the live streaming store
