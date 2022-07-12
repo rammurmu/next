@@ -8,8 +8,8 @@ export default function About() {
     <div className={styles.container}>
       <Head> 
         <title>About</title>
-        <meta name="description" content=A live retail streaming platform" />
-        <link rel="icon" href="favicon.icon" />
+        <meta name="description" content="A live retail streaming platform"/>
+        <link rel="icon" href="favicon.icon"/>
       </Head>
         <main className={styles.main}> 
         <p className={styles.description}>
