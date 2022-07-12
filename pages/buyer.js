@@ -11,16 +11,12 @@ export default function Buyer() {
         <meta name="description" content="Become a seller" />
         <link rel="icon" href="/favicon.icon" />  
      </Head>
-        <main className={styles.main}>
         <h1 className={styles.title}>
-          Schedule <a href="https://runash.live/buyer">Buy</a> & <a href="https://runash.live/buyer"> Sell</a>
-        </h1>   
+         NextGen real shopping experience
+        </h1>
         <p className={styles.description}>
-          Get started by {' '}
-          <code className={styles.code}><a href="https://runash.live/schedule">Live stream</a></code>
-        </p>
-        
-        <div className={styles.card}><code className={styles.code}>🗓️Schedule Now</code></div>
+         You can meet to sellers with face to face real life experience
+         </p>
         <div className={styles.grid}>
           <a href="https://runash.live/seller" className={styles.card}>
             <h2>🛒Real Selling &rarr;</h2>
@@ -129,18 +125,6 @@ export default function Buyer() {
             </p>
           </a>
         </div>
-
-
-        <div>
-        <p className={styles.description}>
-          Backed by{' '}
-          <code className={styles.code}><a href="https://runash.live/oss">Open Source</a></code>
-        </p>
-    
-       <a
-         href="https://Google.form.com">
-         <p className={styles.card}>Give your feedback ✨ &rarr;</p>
-       </a>
       </div>
       </main>
 
