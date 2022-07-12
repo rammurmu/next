@@ -24,7 +24,7 @@ export default function Buyer() {
       <code className={styles.code}>🥫🍶 Grocery</code><br />
       <code className={styles.code}>🌴🌺 Flower</code><br />
       <code className={styles.code}>🍗🥩 Non veg</code><br />
-      <code className={styles.code}>🍚🥛 Dairy food</code><br>
+      <code className={styles.code}>🍚🥛 Dairy food</code><br />
       <code className={styles.code}>🍞🥞Bakeri food</code><br />
       <code className={styles.code}>🥜🥖Dry food</code><br />
       <code className={styles.code}>🧥🥻 Fashion</code><br />
