@@ -23,11 +23,11 @@ export default function Home() {
         <h1>
           Schedule<a href="https://">{' '}Buy</a> & <a href="https://"> Sell</a>
         </h1> 
-        </div>  
+         
         <p className={styles.paragraph}>
          🗓️ Schedule Now &rarr;
         </p>
-        
+        </div>
         
         <div className={styles.grid}>
           <a href="https://runash.live/seller" className={styles.card}>
