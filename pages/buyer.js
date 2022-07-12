@@ -13,11 +13,13 @@ export default function Buyer() {
       </Head>
         <main className={styles.main}>
         <h1 className={styles.title}>
-         NextGen shopping <a href="https://">experience</a>
+         NextGen shopping <br /><a href="https://">experience</a>
         </h1>
         <p className={styles.description}>
          You can meet to sellers with face to face real life experience
         </p>
+      <code className={styles.code}>🍎🍋 Fruit
+      <code className={styles.code}>🥦🍅 Vegetable
      </main> 
     </div> 
   )
