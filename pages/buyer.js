@@ -13,7 +13,7 @@ export default function Buyer() {
       </Head>
         <main className={styles.main}>
         <h1 className={styles.title}>
-         NextGen real shopping experience
+         NextGen shopping <a href="https://">experience
         </h1>
         <p className={styles.description}>
          You can meet to sellers with face to face real life experience
