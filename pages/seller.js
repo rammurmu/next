@@ -13,7 +13,7 @@ export default function Seller() {
       </Head>
         <main className={styles.main}>
         <h1 className={styles.title}>
-          Make your own business<br /><a href="https://">experience</a>
+          Make your own made<br /><a href="https://">business</a>
         </h1>   
         <p className={styles.description}>
           Give your store a real experience on a complete real digitization 
