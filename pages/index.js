@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Navbar from '../components/Navbar'
-import '../components/Navbar.css'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
