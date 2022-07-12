@@ -12,28 +12,28 @@ export default function About() {
         <link rel="icon" href="favicon.icon"/>
       </Head>
         <main className={styles.main}> 
-        <h1 className={styles.description}>
+        <h1 className={styles.title}>
           Discipline & culture
         </h1>
-        <p classname={styles.description}>
+        <p classname={styles.title}>
            Discipline & learning is the backbone of the development of our startup journey and culture is behavior
         </p>
         
-        <h1 className={styles.description}>
+        <h1 className={styles.title}>
           What we do
         </h1>
         <p className={styles.description}>
           We created new model of marketplace where retailers face to face demonstrate & presentation their products with buyers
         </p>
         
-        <h1 className={styles.description}>
+        <h1 className={styles.title}>
          What we going to make
         </h1>
         <p className={styles.description}>
          We are committed to building live streaming platform for unorganised retailers & new ways to use physical reality experience
         </p>
          
-        <h1 className={styles.description}>
+        <h1 className={styles.title}>
           Executive profile
         </h1>
         <p className={styles.description}>
