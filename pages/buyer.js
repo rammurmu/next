@@ -127,7 +127,6 @@ export default function Buyer() {
           </a>
         </div>
         </div>
-      </div>
       </main>
 
       <footer className={styles.footer}>
