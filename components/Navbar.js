@@ -2,8 +2,8 @@ import Link from 'next/link'
 
 function Navbar() {
   return (
-      <nav className={styles.header}>
-        <h1 className={styles.logo}>
+      <nav className='header'>
+        <h1 className='logo'>
           <a href='/home'>RunAsh</a>
         </h1>
       <ul className={'main-nav'}>
