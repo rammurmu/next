@@ -8,7 +8,7 @@ export default function Seller() {
     <div className={styles.container}>
       <Head>
         <title>Buyer</title>
-        <meta name="description"A live retail streaming platform " />
+        <meta name="description" content="A live retail streaming platform " />
         <link rel="icon" href="/favicon.icon" />  
       </Head>
         <main className={styles.main}>
