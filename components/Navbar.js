@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-function Navbar(){
+function Navbar() {
   return (
       <nav className='header'>
         <h1 className='logo'>
@@ -8,22 +8,22 @@ function Navbar(){
         </h1>
       <ul className={'main-nav'}>
        <li>
-         <Link href="/home">
+         <Link href='/home'>
            <a>Home</a>
          </Link>
        </li>
        <li>
-         <Link href="/about">
+         <Link href='/about'>
             <a>About</a>
          </Link>
        </li>
        <li>
-         <Link href="/seller">
+         <Link href='/seller'>
            <a>Seller</a>
          </Link>
        </li>
        <li>
-          <Link href="/buyer">
+          <Link href='/buyer'>
             <a>Buyer</a>
           </Link>
        </li>
