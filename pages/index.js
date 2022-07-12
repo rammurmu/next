@@ -13,6 +13,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.icon" />  
       </Head>
         <main className={styles.main}>
+        <h1 className={styles.description}>
+          The live retail<br />streaming<br />platform
+         </h1>
+         <p>Where the retailers build own<br />made live streaming store</p>
         <h1 className={styles.title}>
           Schedule <a href="https://runash.live/buyer">Buy</a> & <a href="https://runash.live/buyer"> Sell</a>
         </h1>   
