@@ -7,43 +7,10 @@ export default function Buyer() {
   return (
     <div className={styles.container}>
       <Head>
-        <div className={styles.description}>{' '}<code className={styles.code}><a href="https://">👏 Welcome to RunAsh &rarr;</a></code></div>
-        <ul>
-           <li>
-              <Link href="/home">
-               <a>Home</a>
-              </Link>
-           </li>
-           <li>
-              <Link href="/about">
-               <a>About</a>
-              </Link>
-           </li>
-           <li>
-              <Link href="/seller">
-               <a>Seller</a>
-              </Link>
-           </li>
-        </ul>
-
-        <h1 className={styles.title}>
-         Watch live<br /><a href="https://">streaming</a>
-        </h1>
-        <p className={styles.description}>
-          Watch previous live<br />streamed recording</p>
-        <Image
-        alt="live"
-        src="https://"
-        width={1200}
-        height={400}
-        />
-        <div className={styles.description}>{' '}<code className={styles.code}><a href="https://runash.live/schedule">📺Watch Now</a></code></div>
-        <h1 className={styles.title}> 
-          Live stream<br /><a href="https://">on demand</a>
-        </h1>
-        <p className={styles.description}>
-            Watch on demand real life<br />shopping experience </p> 
-    </Head>
+      <title>Seller</title>
+        <meta name="description" content="Become a seller" />
+        <link rel="icon" href="/favicon.icon" />  
+     </Head>
         <main className={styles.main}>
         <h1 className={styles.title}>
           Schedule <a href="https://runash.live/buyer">Buy</a> & <a href="https://runash.live/buyer"> Sell</a>
