@@ -16,13 +16,13 @@ export default function Home() {
         <h1 className={styles.title}>
           Live retail streaming platform
          </h1>
-         <p className={styles.description}>
+         <p>
           Where the retailers build own made live streaming store</p>
         <h1 className={styles.title}>
           Schedule<a href="https://runash.live/buyer">Buy</a> & <a href="https://runash.live/buyer"> Sell</a>
         </h1>   
-        <p className={styles.description}>
-          <code className={styles.code}>📽️Go live</code>
+        <p>
+         🗓️ Schedule Now &rarr;
         </p>
         
         
