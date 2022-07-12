@@ -7,37 +7,10 @@ export default function About() {
   return (
     <div className={styles.container}>
       <Head> 
-        <div className={styles.description}>{' '}<code className={styles.code}><a href="https://">👏 Welcome to runash</a></code></div>
-        <ul>
-           <li>
-              <Link href="/home">
-               <a>Home</a>
-              </Link>
-           </li>
-           <li>
-              <Link href="/seller">
-               <a>Seller</a>
-              </Link>
-           </li>
-           <li>
-              <Link href="/buyer">
-               <a>Buyer</a>
-              </Link>
-           </li>
-        </ul>
-
-        <h1 className={styles.title}>
-         Our <br /><a href="https://">mission</a>
-        </h1>
-        <p className={styles.description}>
-          We enabling & accessing face to face,self made real life experience</p>
-        
-        <h1 className={styles.description}> 
-          One-liner
-        </h1>
-        <p className={styles.description}>
-          A live streaming hybrid marketplace for retailing</p> 
-    </Head>
+        <title>About</title>
+        <meta name="description" content=A live retail streaming platform" />
+        <link rel="icon" href="favicon.icon" />
+      </Head>
         <main className={styles.main}> 
         <p className={styles.description}>
           <b>Discipline & culture</b><br />Discipline & learning is the backbone of the development of our startup journey and culture is behavior
