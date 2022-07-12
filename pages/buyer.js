@@ -11,6 +11,7 @@ export default function Buyer() {
         <meta name="description" content="Become a seller" />
         <link rel="icon" href="/favicon.icon" />  
      </Head>
+        <main className={styles.main}>
         <h1 className={styles.title}>
          NextGen real shopping experience
         </h1>
@@ -124,6 +125,7 @@ export default function Buyer() {
               Schedule a live audio stream free
             </p>
           </a>
+        </div>
         </div>
       </div>
       </main>
