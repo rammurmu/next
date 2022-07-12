@@ -12,20 +12,32 @@ export default function About() {
         <link rel="icon" href="favicon.icon"/>
       </Head>
         <main className={styles.main}> 
-        <p className={styles.description}>
-          <b>Discipline & culture</b><br />Discipline & learning is the backbone of the development of our startup journey and culture is behavior
+        <h1 className={styles.description}>
+          Discipline & culture
+        </h1>
+        <p classname={styles.description}>
+           Discipline & learning is the backbone of the development of our startup journey and culture is behavior
         </p>
         
+        <h1 className={styles.description}>
+          What we do
+        </h1>
         <p className={styles.description}>
-          <b>What we do </b><br />We created new model of marketplace where retailers face to face demonstrate & presentation their products with buyers
+          We created new model of marketplace where retailers face to face demonstrate & presentation their products with buyers
         </p>
         
+        <h1 className={styles.description}>
+         What we going to make
+        </h1>
         <p className={styles.description}>
-         <b>What we going to make</b><br />We are committed to building live streaming platform for unorganised retailers & new ways to use physical reality experience
+         We are committed to building live streaming platform for unorganised retailers & new ways to use physical reality experience
         </p>
          
+        <h1 className={styles.description}>
+          Executive profile
+        </h1>
         <p className={styles.description}>
-          <b>Executive profile<br />Board of Directors</b><br />Management team responsible for making the live streaming
+          <b>Board of Directors</b><br />Management team responsible for making the live streaming
         </p>
        
 
@@ -35,11 +47,6 @@ export default function About() {
           Backed by{' '}
           <code className={styles.code}><a href="https://runash.live/oss">Open Source</a></code>
         </p>
-    
-       <a
-         href="https://Google.form.com">
-         <p className={styles.card}>Licence:MIT | GitHub✨</p>
-       </a>
       </main>
       </div>
   )
