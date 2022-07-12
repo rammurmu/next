@@ -18,7 +18,7 @@ export default function Seller() {
         <p className={styles.description}>
           Give your store a real experience on a complete real digitization 
         </p>
-      </div>
       </main>
+      </div>
   )
 }
