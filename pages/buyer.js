@@ -18,8 +18,8 @@ export default function Buyer() {
         <p className={styles.description}>
          You can meet to sellers with face to face real life experience
         </p>
-      <code className={styles.code}>🍎🍋 Fruit
-      <code className={styles.code}>🥦🍅 Vegetable
+      <code className={styles.code}>🍎🍋 Fruit</code>
+      <code className={styles.code}>🥦🍅 Vegetable</code>
      </main> 
     </div> 
   )
