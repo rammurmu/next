@@ -3,30 +3,32 @@ import Link from 'next/link'
 function Navbar(){
   return (
       <nav className='header'>
-      <h1 className='logo'>
-      <a href='#'>RunAsh</a>
-      </h1>
+        <h1 className='logo'>
+          <a href='/home'>RunAsh</a>
+        </h1>
       <ul className={'main-nav'}>
-      <li>
-      <Link href="/home">
-      <a>Home</a>
-      </Link>
-      </li>
-      <li>
-      <Link href="/about">
-      <a>About</a>
-      </Link>
-      </li>
-      <li>
-      <Link href="/seller">
-      <a>Seller</a>
-      </Link>
-      </li>
-      <li>
-      <Link href="/buyer">
-      <a>Buyer</a>
-      </Link>
-      </li>
+       <li>
+         <Link href="/home">
+           <a>Home</a>
+         </Link>
+       </li>
+       <li>
+         <Link href="/about">
+            <a>About</a>
+         </Link>
+       </li>
+       <li>
+         <Link href="/seller">
+           <a>Seller</a>
+         </Link>
+       </li>
+       <li>
+          <Link href="/buyer">
+            <a>Buyer</a>
+          </Link>
+       </li>
+     </ul>
  )
 }
+
 export default Navbar
