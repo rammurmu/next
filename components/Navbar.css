@@ -7,7 +7,7 @@ ul {
 h2,
 h3,
 a {
-  color: #34495e;
+  color: #000;
 }
 
 a {
@@ -46,7 +46,7 @@ a {
   justify-content: space-between;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
-  background-color: #f4f4f4;
+  background-color: #FFF;
   -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
