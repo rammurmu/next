@@ -42,11 +42,13 @@ function Navbar() {
        <a>Doc</a>
        </Link>
        </li>
-     <Link href='/'>
+       <li>
+       <Link href='/'>
        <a>Login</a>
        </Link>
        </li>
-     <Link href='/'>
+       <li>
+       <Link href='/'>
        <a>Sign Up</a>
        </Link>
        </li>
