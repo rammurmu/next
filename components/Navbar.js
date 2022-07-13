@@ -39,11 +39,6 @@ function Navbar() {
        </li>
        <li>
        <Link href='/'>
-       <a>Doc</a>
-       </Link>
-       </li>
-       <li>
-       <Link href='/'>
        <a>Login</a>
        </Link>
        </li>
