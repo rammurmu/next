@@ -44,12 +44,12 @@ a {
 .header {
   display: flex;
   justify-content: space-between;
-  padding-top: 0.3em;
-  padding-bottom: 0.3em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
   background-color: #FFF;
-  -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.70);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.70);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.70);
 }
 
 .loading {
