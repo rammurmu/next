@@ -40,7 +40,7 @@ export default function About() {
           Executive profile
         </h1>   
         <p className={styles.description}>
-           Board of Directors<be />management team responsible for making the live streaming platform
+           Board of Directors<br />management team responsible for making the live streaming platform
         </p>
       </main>
       </div>
