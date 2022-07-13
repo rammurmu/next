@@ -11,14 +11,14 @@ export default function About() {
         <meta name="description" content="A live retail streaming platform"/>
         <link rel="icon" href="favicon.icon"/>
       </Head>
-        <main className={styles.main}> 
+        <main className={styles.main}>
         <h1 className={styles.title}>
-          Discipline & culture
-        </h1>
-        <p classname={styles.description}>
-           Discipline & learning is the backbone of the development of our startup journey and culture is behavior
+          Make your own made<br /><a href="https://">business</a>
+        </h1>   
+        <p className={styles.description}>
+          Give your store a real experience on a complete real digitization 
         </p>
-      </div>
       </main>
+      </div>
   )
 }
