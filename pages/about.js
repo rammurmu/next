@@ -15,7 +15,7 @@ export default function About() {
         <h1 className={styles.title}>
           Discipline & culture
         </h1>
-        <p classname={styles.title}>
+        <p classname={styles.description}>
            Discipline & learning is the backbone of the development of our startup journey and culture is behavior
         </p>
         
