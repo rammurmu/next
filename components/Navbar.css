@@ -21,7 +21,7 @@ a {
 
 .main-nav {
   display: flex;
-  margin-top: 4px;
+  margin-top: 5px;
 }
 
 .logo a,
@@ -44,8 +44,8 @@ a {
 .header {
   display: flex;
   justify-content: space-between;
-  padding-top: 0.5em;
-  padding-bottom: 0.1em;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
   background-color: #FFF;
   -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
