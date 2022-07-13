@@ -38,13 +38,11 @@ function Navbar() {
        </Link>
        </li>
        <li>
-       <li>
        <Link href='/blog'>
        <a>Blog</a>
        </Link>
        </li>
        <li>
-        <li>
        <Link href='/doc'>
        <a>Doc</a>
        </Link>
