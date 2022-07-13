@@ -33,12 +33,12 @@ a {
 }
 
 .main-nav a {
-  color: #FAFAFA;
+  color: #000;
   font-size: 0.99em;
 }
 
 .main-nav a:hover {
-  color: #718daa;
+  color: #FAFAFA;
 }
 
 .header {
