@@ -13,19 +13,19 @@ export default function About() {
       </Head>
         <main className={styles.main}>
         <h1 className={styles.title}>
-          Our<br /><a href="https://">mission</a>
+          <a href="https://">Our mission</a>
         </h1>   
         <p className={styles.description}>
            We enabling and accessing face to face,own made real life experience
         </p>
         <h1 className={styles.title}>
-          One<br /><a href="https://">liner</a>
+          <a href="https://">One-liner</a>
         </h1>   
         <p className={styles.description}>
            A live streaming hybrid marketplace for retailing
         </p>
         <h1 className={styles.title}>
-          What we<br /><a href="https://">do</a>
+          <a href="https://">What we do</a>
         </h1>   
         <p className={styles.description}>
            We create new model of marketplace where retailers face to face demonstrate and presentation their products with buyers
