@@ -18,14 +18,6 @@ export default function About() {
         <p classname={styles.description}>
            Discipline & learning is the backbone of the development of our startup journey and culture is behavior
         </p>
-       
-
-
-       
-        <p className={styles.description}>
-          Backed by{' '}
-          <code className={styles.code}><a href="https://runash.live/oss">Open Source</a></code>
-        </p>
       </main>
       </div>
   )
