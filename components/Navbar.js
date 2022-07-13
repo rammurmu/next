@@ -9,12 +9,12 @@ function Navbar() {
       <ul className={'main-nav'}>
        <li>
          <Link href='/home'>
-           <a>Home</a>
+           <a>Solution</a>
          </Link>
        </li>
        <li>
          <Link href='/about'>
-            <a>About</a>
+            <a>Startup</a>
          </Link>
        </li>
        <li>
@@ -26,6 +26,21 @@ function Navbar() {
           <Link href='/buyer'>
             <a>Buyer</a>
           </Link>
+       </li>
+       <li>
+       <Link href='/'>
+       <a>Legal</a>
+       </Link>
+       </li>
+       <li>
+       <Link href='/'>
+       <a>Support</a>
+       </Link>
+       </li>
+       <li>
+       <Link href='/'>
+       <a>Doc</a>
+       </Link>
        </li>
      </ul>
      </nav>
