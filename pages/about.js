@@ -13,10 +13,22 @@ export default function About() {
       </Head>
         <main className={styles.main}>
         <h1 className={styles.title}>
-          Make your own made<br /><a href="https://">business</a>
+          Our<br /><a href="https://">mission</a>
         </h1>   
         <p className={styles.description}>
-          Give your store a real experience on a complete real digitization 
+           We enabling and accessing face to face,own made real life experience
+        </p>
+        <h1 className={styles.title}>
+          One<br /><a href="https://">liner</a>
+        </h1>   
+        <p className={styles.description}>
+           A live streaming hybrid marketplace for retailing
+        </p>
+        <h1 className={styles.title}>
+          What we<br /><a href="https://">do</a>
+        </h1>   
+        <p className={styles.description}>
+           We create new model of marketplace where retailers face to face demonstrate and presentation their products with buyers
         </p>
       </main>
       </div>
