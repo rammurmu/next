@@ -18,7 +18,7 @@ export default function About() {
         <p classname={styles.description}>
            Discipline & learning is the backbone of the development of our startup journey and culture is behavior
         </p>
-      </main>
       </div>
+      </main>
   )
 }
