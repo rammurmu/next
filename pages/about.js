@@ -18,27 +18,6 @@ export default function About() {
         <p classname={styles.description}>
            Discipline & learning is the backbone of the development of our startup journey and culture is behavior
         </p>
-        
-        <h1 className={styles.title}>
-          What we do
-        </h1>
-        <p className={styles.description}>
-          We created new model of marketplace where retailers face to face demonstrate & presentation their products with buyers
-        </p>
-        
-        <h1 className={styles.title}>
-         What we going to make
-        </h1>
-        <p className={styles.description}>
-         We are committed to building live streaming platform for unorganised retailers & new ways to use physical reality experience
-        </p>
-         
-        <h1 className={styles.title}>
-          Executive profile
-        </h1>
-        <p className={styles.description}>
-          <b>Board of Directors</b> Management team responsible for making the live streaming
-        </p>
        
 
 
