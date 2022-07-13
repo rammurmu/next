@@ -7,7 +7,7 @@ ul {
 h2,
 h3,
 a {
-  color: #34495e;
+  color: #000;
 }
 
 a {
@@ -26,7 +26,7 @@ a {
 
 .logo a,
 .main-nav a {
-  padding: 15px 25px;
+  padding: 10px 15px;
   text-transform: uppercase-loercase;
   text-align: center;
   display: flex;
