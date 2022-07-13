@@ -27,18 +27,18 @@ a {
 .logo a,
 .main-nav a {
   padding: 10px 15px;
-  text-transform: uppercase;
+  text-transform: uppercase-loercase;
   text-align: center;
-  display: block;
+  display: flex;
 }
 
 .main-nav a {
-  color: #34495e;
+  color: #FFF;
   font-size: 0.99em;
 }
 
 .main-nav a:hover {
-  color: #718daa;
+  color: #FFF;
 }
 
 .header {
@@ -46,5 +46,5 @@ a {
   justify-content: space-between;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
-  background-color: #f4f4f4;
+  background-color: #FAFAFA;
 }
