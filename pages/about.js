@@ -13,7 +13,7 @@ export default function About() {
       </Head>
         <main className={styles.main}>
         <h1 className={styles.title}>
-          <a href="https://">📝Our mission</a>
+          Our mission
         </h1>   
         <p className={styles.description}>
            We enabling and accessing face to face,own made real life experience
