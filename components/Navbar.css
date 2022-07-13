@@ -27,7 +27,7 @@ a {
 .logo a,
 .main-nav a {
   padding: 10px 15px;
-  text-transform: uppercase;
+  text-transform: upercase-loercase;
   text-align: center;
   display: block;
 }
@@ -38,7 +38,7 @@ a {
 }
 
 .main-nav a:hover {
-  color: #FAFAFA;
+  color: #FFF;
 }
 
 .header {
