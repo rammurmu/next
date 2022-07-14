@@ -28,12 +28,12 @@ function Navbar() {
           </Link>
        </li>
        <li>
-       <Link href='/'>
+       <Link href='/legal'>
        <a>Legal</a>
        </Link>
        </li>
        <li>
-       <Link href='/'>
+       <Link href='/support'>
        <a>Support</a>
        </Link>
        </li>
@@ -43,8 +43,8 @@ function Navbar() {
        </Link>
        </li>
        <li>
-       <Link href='/doc'>
-       <a>Doc</a>
+       <Link href='/docs'>
+       <a>Docs</a>
        </Link>
        </li>
        <li>
