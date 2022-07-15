@@ -16,7 +16,7 @@ export default function Blog() {
           <a>this page!</a>
           </Link>
        </h1>
-       </main>
        </div>
+       </main>
  )
 }
