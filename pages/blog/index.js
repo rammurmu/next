@@ -1,24 +1,32 @@
-import Link from 'next/link'
 import Head from 'next/head'
 
-function Blog() {
+function Blog({ title, description }) {
   return (
-       <div className={styles.container}>
-       <Head> 
-        <title>Blog</title>
-        <meta name="description" content="A live retail streaming platform"/>
-        <link rel="icon" href="favicon.icon"/>
-       </Head>
-        <main className={styles.main}>
-        <h1 className="title">
-         Read{' '}
-          <Link href="/posts/first-post">
-          <a>this page!</a>
-          </Link>
-        </h1>
-       </main>
-       </div>
- )
+    <>
+      <Head>
+        <title>{title}</title>
+        <meta name='description' content={description} />
+      </Head>
+      <h1 className='content'>
+        Env User {process.env.DB_USER} Password {process.env.DB_PASSWORD}{' '}
+        Analytics {process.env.NEXT_PUBLIC_ANALYTICS_ID}
+      </h1>
+    </>
+  )
 }
 
 export default Blog
+
+export async function getServerSideProps() {
+  const user = process.env.DB_USER
+  const password = process.env.DB_PASSWORD
+  console.log(
+    `Connecting to database with username ${user} and password ${password}`
+  )
+  return {
+    props: {
+      title: 'Article Title',
+      description: 'Article description'
+    }
+  }
+}
