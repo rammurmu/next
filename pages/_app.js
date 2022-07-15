@@ -2,7 +2,7 @@ import '../styles/globals.css'
 import Navbar from '../components/Navbar'
 import '../components/Navbar.css'
 import Layout from '../components/layout'
-import '../styles/Layout.module.css'
+import '../components.Layout.css'
 
 function MyApp({ Component, pageProps }) {
   return (
