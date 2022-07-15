@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import styles from '../styles/blog.module.css'
 
 function Blog({ title, description }) {
   return (
@@ -12,7 +13,7 @@ function Blog({ title, description }) {
         Env User {process.env.DB_USER} Password {process.env.DB_PASSWORD}{' '}
         Analytics {process.env.NEXT_PUBLIC_ANALYTICS_ID}
       </h1>
-      <h1 className="title">
+      <h1 className={styles.title}>
       Read{' '}
        <Link href="/posts/first-post">
        <a>this page!</a>
