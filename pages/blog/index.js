@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Head from 'next/head'
 
-export default function Blog() {
+function Blog() {
   return (
        <div className={styles.container}>
        <Head> 
@@ -20,3 +20,5 @@ export default function Blog() {
        </main>
  )
 }
+
+export default Blog
