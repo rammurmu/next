@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import styles from '../styles/Blog.module.css'
 
 export default function FirstPost() {
   return (
