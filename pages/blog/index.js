@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 
 function Blog({ title, description }) {
   return (
@@ -10,6 +11,12 @@ function Blog({ title, description }) {
       <h1 className='content'>
         Env User {process.env.DB_USER} Password {process.env.DB_PASSWORD}{' '}
         Analytics {process.env.NEXT_PUBLIC_ANALYTICS_ID}
+      </h1>
+      <h1 className="title">
+      Read{' '}
+       <Link href="/posts/first-post">
+       <a>this page!</a>
+       </Link>
       </h1>
     </>
   )
