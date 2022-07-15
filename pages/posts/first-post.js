@@ -4,7 +4,7 @@ import styles from '../styles/Blog.module.css'
 export default function FirstPost() {
   return (
     <>
-      <h1 className={styles.title}>Introduction</h1>
+      <h1>Introduction</h1>
       <p>I would like to introduce runash,runash is a live streaming hybrid marketplace and platform for retailing</p>
       <hr />
 
