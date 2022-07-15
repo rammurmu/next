@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import styles from '../styles/blog.module.css'
+import styles from '../styles/Blog.module.css'
 
 function Blog({ title, description }) {
   return (
