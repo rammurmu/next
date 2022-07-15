@@ -15,9 +15,9 @@ function Blog() {
           <Link href="/posts/first-post">
           <a>this page!</a>
           </Link>
-       </h1>
-       </div>
+        </h1>
        </main>
+       </div>
  )
 }
 
