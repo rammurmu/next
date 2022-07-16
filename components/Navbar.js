@@ -32,11 +32,6 @@ function Navbar() {
             <a>Login</a>
           </Link>
        </li>
-       <li>
-          <Link href='/no-js-form'>
-             <a>Signup</a>
-          </Link>
-      </li>
      </ul>
    </nav>
  )
