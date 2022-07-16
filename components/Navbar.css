@@ -1,6 +1,6 @@
 ul {
-  margin: 0;
-  padding: 0;
+  margin: 5;
+  padding: 5;
   list-style: none;
 }
 
@@ -45,7 +45,7 @@ a {
 .header {
   display: flex;
   justify-content: space-between;
-  padding-top: 0.1em;
-  padding-bottom: 0.1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
   background-color: #FAFAFA;
 }
