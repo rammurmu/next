@@ -46,6 +46,6 @@ a {
   justify-content: space-between;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
-  background-color: #000;
-  border-down: 1px solid #eaeaea;
+  background-color: #FFF;
+  border-down: 5px solid #eaeaea;
 }
