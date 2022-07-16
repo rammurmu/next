@@ -3,7 +3,9 @@ import Navbar from '../components/Navbar'
 import '../components/Navbar.css'
 
 function MyApp({ Component, pageProps }) {
-  return (
+  const getLayout=Component.getLayout || ((page) => page)
+
+  return getLayout (<Component {...pageProps} />)
     <>  
       <Navbar />
       <Component {...pageProps} />  
