@@ -17,6 +17,7 @@ a {
 .logo {
   margin: 0;
   font-size: 1.45em;
+  color: #DD6B20;
 }
 
 .main-nav {
@@ -46,6 +47,5 @@ a {
   justify-content: space-between;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
-  background-color: #FFF;
-  border-down: 5px solid #eaeaea;
+  background-color: #FAFAFA;
 }
