@@ -19,7 +19,7 @@ export default function Home() {
          <p className={styles.description}>
           Where the retailers build own made the live streaming store
          </p>
-         <button type="submit">Submit</button>
+         <button type="Sigin">Sigin</button>
         
         <div className={styles.grid}>
           <a href="https://runash.live/seller" className={styles.card}>
