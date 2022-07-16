@@ -17,7 +17,6 @@ a {
 .logo {
   margin: 0;
   font-size: 1.45em;
-  color: #DD6B20;
 }
 
 .main-nav {
@@ -31,6 +30,7 @@ a {
   text-transform: uppercase-loercase;
   text-align: center;
   display: flex;
+  color: #DD6B20;
 }
 
 .main-nav a {
