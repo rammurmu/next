@@ -36,16 +36,15 @@ export default function PageWithJSbasedForm() {
   return (
     <div className="container">
       <h1 className={styles.title}>
-        RunAsh{' '}
+        {' '}
         <Link href="/">
-          <a>.live</a>
+          <a>RunAsh.live</a>
         </Link>{' '}
-        Create your account
+     
       </h1>
 
       <p className={styles.description}>
-        Have an account? Sign-in &rare;{' '}
-        <code className={styles.code}>©2022 RunAsh</code>
+        Create your account
       </p>
 
       <form onSubmit={handleSubmit}>
@@ -60,6 +59,9 @@ export default function PageWithJSbasedForm() {
 
         <button type="sign up">Sign Up</button>
       </form>
+      <p className={styles.description}>
+        Have an account? Sign in &rarr;
+      </p>
     </div>
   )
 }
