@@ -28,37 +28,22 @@ function Navbar() {
           </Link>
        </li>
        <li>
-       <Link href='/legal'>
-       <a>Legal</a>
-       </Link>
+          <Link href='/support'>
+             <a>Support</a>
+          </Link>
        </li>
        <li>
-       <Link href='/support'>
-       <a>Support</a>
-       </Link>
+          <Link href='/login'>
+            <a>Login</a>
+          </Link>
        </li>
        <li>
-       <Link href='/blog'>
-       <a>Blog</a>
-       </Link>
-       </li>
-       <li>
-       <Link href='/docs'>
-       <a>Docs</a>
-       </Link>
-       </li>
-       <li>
-       <Link href='/'>
-       <a>Login</a>
-       </Link>
-       </li>
-       <li>
-       <Link href='/'>
-       <a>Sign Up</a>
-       </Link>
-       </li>
+          <Link href='/'>
+             <a>Sign Up</a>
+          </Link>
+      </li>
      </ul>
-     </nav>
+   </nav>
  )
 }
 
