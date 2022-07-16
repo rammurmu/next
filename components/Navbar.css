@@ -21,12 +21,12 @@ a {
 
 .main-nav {
   display: flex;
-  margin-top: 9px;
+  margin-top: 15px;
 }
 
 .logo a,
 .main-nav a {
-  padding: 10px 15px;
+  padding: 5px 15px;
   text-transform: uppercase-loercase;
   text-align: center;
   display: flex;
