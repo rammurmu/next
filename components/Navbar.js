@@ -28,11 +28,6 @@ function Navbar() {
           </Link>
        </li>
        <li>
-          <Link href='/support'>
-             <a>Support</a>
-          </Link>
-       </li>
-       <li>
           <Link href='/login'>
             <a>Login</a>
           </Link>
