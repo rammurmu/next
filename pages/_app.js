@@ -2,10 +2,9 @@ import '../styles/globals.css'
 import Navbar from '../components/Navbar'
 import '../components/Navbar.css'
 
-function MyApp({ Component, pageProps }) {
-  const getLayout=Component.getLayout || ((page) => page)
+function MyApp({ Component, pageProps }){
 
-  return getLayout (<Component {...pageProps} />)
+  return (
     <>  
       <Navbar />
       <Component {...pageProps} />  
