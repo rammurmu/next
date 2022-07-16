@@ -28,12 +28,12 @@ function Navbar() {
           </Link>
        </li>
        <li>
-          <Link href='/login'>
+          <Link href='/js-form'>
             <a>Login</a>
           </Link>
        </li>
        <li>
-          <Link href='/'>
+          <Link href='/no-js-form'>
              <a>Sign Up</a>
           </Link>
       </li>
