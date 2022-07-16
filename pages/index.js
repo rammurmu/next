@@ -20,7 +20,7 @@ export default function Home() {
           Where the retailers build own made the live streaming store
          </p>
          <button type="Go live">Go live</button>
-         <button type="Lear more">Learn more</button>
+         
 
         <div className={styles.grid}>
           <a href="https://runash.live/seller" className={styles.card}>
