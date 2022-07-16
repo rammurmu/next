@@ -53,6 +53,8 @@ export default function PageWithJSbasedForm() {
         <input type="text" id="first" name="first" required />
         <label htmlFor="last">Last Name</label>
         <input type="text" id="last" name="last" required />
+        <label htmlFor="Phone number">Optional</label>
+        <input type="text" id="Phone number" name="Optional" required />
 
         <button type="submit">Submit</button>
       </form>
