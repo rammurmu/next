@@ -36,9 +36,8 @@ export default function PageWithJSbasedForm() {
   return (
     <div className="container">
       <h1 className={styles.title}>
-        {' '}
         <Link href="/">
-          <a>RunAsh.live</a>
+          <a>RunAsh</a>
         </Link>{' '}
      
       </h1>
