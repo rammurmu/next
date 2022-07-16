@@ -33,8 +33,8 @@ function Navbar() {
           </Link>
        </li>
        <li>
-          <Link href='/form'>
-             <a>Sign Up</a>
+          <Link href='/no-js-form'>
+             <a>Signup</a>
           </Link>
       </li>
      </ul>
