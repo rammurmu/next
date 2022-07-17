@@ -20,7 +20,7 @@ export default function About() {
            We enabling and accessing face to face,own made real life experience
         </p>
         
-        <p className={styles a.card}>
+        <p className={styles.card}>
          Runash is a live streaming hybrid marketplace and platform for retailing{' '}
          <Link href="/posts/second-post">
          <a>Read more &rarr;</a>
