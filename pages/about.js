@@ -12,9 +12,9 @@ export default function About() {
         <link rel="icon" href="favicon.icon"/>
       </Head>
         <main className={styles.main}>
-        <h5 className={styles.description}>
+        <h2 className={styles.description}>
           Our mission
-        </h5>   
+        </h2>   
         <p className={styles.description}>
            We enabling and accessing face to face,own made real life experience
         </p>
