@@ -18,7 +18,7 @@ export default function About() {
         </h1>
         <p className={styles.description}>
            We enabling and accessing face to face,own made real life experience
-        <button type="Learn more">Learn more</button>
+        
          
        
       </main>
