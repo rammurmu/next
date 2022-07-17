@@ -18,11 +18,11 @@ export default function Seller() {
         <p className={styles.description}>
           Give your store a real experience on a complete real digitization 
         </p>
-        <div>
-        <lable for="site-search">Search:</lable>
-        <input type="Search" Id="site-search" name="q">
-
-        <button>Search</button>
+        <Select>
+          <div class="select-wrapper"><select I'd="select" name="select">
+           <option>one</option>
+           <option>two</option>
+        </Select>
         </div>
       </main>
       </div>
