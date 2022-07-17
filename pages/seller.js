@@ -7,7 +7,7 @@ export default function Seller() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Buyer</title>
+        <title>Seller</title>
         <meta name="description" content="A live retail streaming platform " />
         <link rel="icon" href="/favicon.icon" />  
       </Head>
@@ -18,6 +18,12 @@ export default function Seller() {
         <p className={styles.description}>
           Give your store a real experience on a complete real digitization 
         </p>
+        <div>
+        <lable for=site-search">Search:</lable>
+        <input type="search" I'd="site-search" name="q">
+
+        <button>Search</button>
+        </div>
       </main>
       </div>
   )
