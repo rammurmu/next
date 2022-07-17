@@ -22,13 +22,14 @@ export default function About() {
            We enabling and accessing face to face,own made real life experience
         </p>
         <div className={styles.code}>
-        📝About</code>
-        <p className={styles.description}>Runash is a live streaming hybrid marketplace and platform for retailing
+        📝About</code></div>
+        <p className={styles.description}>
+         Runash is a live streaming hybrid marketplace and platform for retailing
          <Link href="/posts/second-post">
          <a>Read more &rare;</a>
          </Link>
          </p>
-       </div>
+       
       </main>
       </div>
   )
