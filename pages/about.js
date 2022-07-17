@@ -25,7 +25,7 @@ export default function About() {
          <Link href="/posts/second-post">
          <a>Read more &rarr;</a>
          </Link>
-        
+         </p>
           <p className={styles.description}>
            <b>What we do</b><br />
            We created new model of marketplace where retailers face to face demonstrate & presentation their products with buyers
