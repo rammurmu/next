@@ -14,7 +14,7 @@ export default function About() {
         <main className={styles.main}> 
         
         <h1 className={styles.title}>
-         Mission
+        <a href="/">The live streaming mission</a>
         </h1>
         <p className={styles.description}>
            We enabling and accessing face to face,own made real life experience
