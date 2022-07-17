@@ -21,8 +21,7 @@ export default function About() {
         <p className={styles.description}>
            We enabling and accessing face to face,own made real life experience
         </p>
-        <div className={styles.code}>
-        📝About</code></div>
+        
         <p className={styles.description}>
          Runash is a live streaming hybrid marketplace and platform for retailing{' '}
          <Link href="/posts/second-post">
