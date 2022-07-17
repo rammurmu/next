@@ -21,7 +21,7 @@ export default function About() {
         </p>
         
         <p className={styles.grid}>
-         <b>About RunAsh</b><br />A live streaming hybrid marketplace and platform for retailing<br />
+         <b>About</b><br />A live streaming hybrid marketplace and platform for retailing<br />
          <Link href="/posts/second-post">
          <a>Read more &rarr;</a>
          </Link>
