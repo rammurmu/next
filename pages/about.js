@@ -14,12 +14,14 @@ export default function About() {
         <main className={styles.main}> 
         
         <h1 className={styles.title}>
-         RunAsh Mission
+         Mission
         </h1>
         <p className={styles.description}>
            We enabling and accessing face to face,own made real life experience
-        <br />A live streaming hybrid marketplace and platform for retailiing
-        <br /> We created new model of marketplace where retailers face to face demonstrate & presentation their products with buyers
+        <br />
+        <br /><b>About</b><br />A live streaming hybrid marketplace & platform for retailiing
+        <br />
+        <br /><b>What we do</b><br /> We created new model of marketplace where retailers face to face demonstrate & presentation their products with buyers
         </p>
        
       </main>
