@@ -12,7 +12,7 @@ export default function About() {
         <link rel="icon" href="favicon.icon"/>
       </Head>
         <main className={styles.main}>
-        <h5 className={styles.title}>
+        <h5 className={styles.description}>
           Our mission
         </h5>   
         <p className={styles.description}>
