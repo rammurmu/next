@@ -11,12 +11,9 @@ export default function About() {
         <meta name="description" content="A live retail streaming platform"/>
         <link rel="icon" href="favicon.icon"/>
       </Head>
-        <main className={styles.main}>
-        <h2 className={styles.description}>
-          Our mission
-        </h2>   
+        <main className={styles.main}>  
         <p className={styles.description}>
-           We enabling and accessing face to face,own made real life experience
+           <b>Our mission</b>We enabling and accessing face to face,own made real life experience
         </p>
         <h1 className={styles.title}>
          Oneliner
