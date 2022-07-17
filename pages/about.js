@@ -21,10 +21,16 @@ export default function About() {
         </p>
         
         <p className={styles.card}>
-         Runash is a live streaming hybrid marketplace and platform for retailing{' '}
+         Runash is a live streaming hybrid marketplace and platform for retailing<br />
          <Link href="/posts/second-post">
          <a>Read more &rarr;</a>
          </Link>
+          <br />
+           G
+         <br />
+           G
+          <br />
+            G
          </p>
        
       </main>
