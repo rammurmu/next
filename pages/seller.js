@@ -18,12 +18,7 @@ export default function Seller() {
         <p className={styles.description}>
           Give your store a real experience on a complete real digitization 
         </p>
-        <Select>
-          <div class="select-wrapper"><select I'd="select" name="select">
-           <option>one</option>
-           <option>two</option>
-        </Select>
-        </div>
+        
       </main>
       </div>
   )
