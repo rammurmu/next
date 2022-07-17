@@ -23,10 +23,10 @@ export default function About() {
         </p>
         <div className={styles.code}>
         📝About</code></div>
-        <p className={styles.description}>
-         Runash is a live streaming hybrid marketplace and platform for retailing
+        <p className="description">
+         Runash is a live streaming hybrid marketplace and platform for retailing{' '}
          <Link href="/posts/second-post">
-         <a>Read more &rare;</a>
+         <a>Read more </a>
          </Link>
          </p>
        
