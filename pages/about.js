@@ -21,12 +21,12 @@ export default function About() {
         </p>
         
         <p className={styles.card}>
-         <code className={styles.code}>📝About</code><br /Runash is a live streaming hybrid marketplace and platform for retailing<br />
+         <code className={styles.code}>📝About</code><br />Runash is a live streaming hybrid marketplace and platform for retailing<br />
          <Link href="/posts/second-post">
          <a>Read more &rarr;</a>
          </Link>
          <hr />
-          <br />
+          
            G
          <br />
            G
