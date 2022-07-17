@@ -18,22 +18,9 @@ export default function About() {
         </h1>
         <p className={styles.description}>
            We enabling and accessing face to face,own made real life experience
+        <br />A live streaming hybrid marketplace and platform for retailiing
+        <br /> We created new model of marketplace where retailers face to face demonstrate & presentation their products with buyers
         </p>
-        
-        <p className={styles.description}>
-         <b>About</b><br />A live streaming hybrid marketplace and platform for retailing<br />
-         <Link href="/posts/second-post">
-         <a>Read more &rarr;</a>
-         </Link>
-         </p>
-          <p className={styles.description}>
-           <b>What we do</b><br />
-           We created new model of marketplace where retailers face to face demonstrate & presentation their products with buyers
-          <br />
-           <Link href="/">
-           <a>Read more &rarr;</a> 
-           </Link> 
-         </p>
        
       </main>
       </div>
