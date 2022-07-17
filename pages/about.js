@@ -11,7 +11,10 @@ export default function About() {
         <meta name="description" content="A live retail streaming platform"/>
         <link rel="icon" href="favicon.icon"/>
       </Head>
-        <main className={styles.main}>  
+        <main className={styles.main}> 
+        <div className={styles.card}>
+          <code className={styles.code}>👏 Welcome to runash family</code>
+        </div> 
         <h1 className={styles.title}>
          The runash mission
         </h1>
