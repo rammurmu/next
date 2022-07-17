@@ -14,15 +14,12 @@ export default function About() {
         <main className={styles.main}> 
         
         <h1 className={styles.title}>
-        Live retail streaming<a href="https://"><br />mission</a>
+        Its our startup<a href="https://"><br />mission</a>
         </h1>
         <p className={styles.description}>
            We enabling and accessing face to face,own made real life experience
-        <br />
-        <br /><b>About</b><br />A live streaming hybrid marketplace & platform for retailiing
-        <br />
-        <br /><b>What we do</b><br /> We created new model of marketplace where retailers face to face demonstrate & presentation their products with buyers
-        </p>
+        <button type="Learn more">Learn more</button>
+         
        
       </main>
       </div>
