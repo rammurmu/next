@@ -61,13 +61,7 @@ export default function PageWithJSbasedForm() {
       <p className={styles.description}>
         Have an account? Sign in &rarr;
       </p>
-     <div>
-      <Container>
-        <FeedbackInput />
-
-       <Spacer y={8} />
-     </Container>
-    </div>
+     
     </div>
   )
 }
