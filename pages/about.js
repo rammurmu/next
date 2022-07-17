@@ -14,13 +14,13 @@ export default function About() {
         <main className={styles.main}> 
         
         <h1 className={styles.title}>
-         The runash mission
+         RunAsh Mission
         </h1>
         <p className={styles.description}>
            We enabling and accessing face to face,own made real life experience
         </p>
         
-        <p className={styles.card}>
+        <p className={styles.grid}>
          <b>About RunAsh</b><br />A live streaming hybrid marketplace and platform for retailing<br />
          <Link href="/posts/second-post">
          <a>Read more &rarr;</a>
