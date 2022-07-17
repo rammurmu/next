@@ -27,13 +27,12 @@ export default function About() {
          </Link>
         
           <p className={styles.description}>
-           <b>What we do</b>< br />
+           <b>What we do</b><br />
            We created new model of marketplace where retailers face to face demonstrate & presentation their products with buyers
           <br />
            <Link href="/">
            <a>Read more &rarr;</a> 
-           </Link>
-          
+           </Link> 
          </p>
        
       </main>
