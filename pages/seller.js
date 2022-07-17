@@ -19,7 +19,7 @@ export default function Seller() {
           Give your store a real experience on a complete real digitization 
         </p>
         <div>
-        <lable for=site-search">Search:</lable>
+        <lable for="site-search">Search:</lable>
         <input type="search" Id="site-search" name="q">
 
         <button>Search</button>
