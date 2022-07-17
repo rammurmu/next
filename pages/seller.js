@@ -20,7 +20,7 @@ export default function Seller() {
         </p>
         <div>
         <lable for=site-search">Search:</lable>
-        <input type="search" I'd="site-search" name="q">
+        <input type="search" Id="site-search" name="q">
 
         <button>Search</button>
         </div>
