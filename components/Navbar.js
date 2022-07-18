@@ -4,14 +4,9 @@ function Navbar() {
   return (
       <nav className='header'>
         <h1 className='logo'>
-          <a href='/home'>RunAsh</a>
+          <a href='/index'>RunAsh.live</a>
         </h1>
       <ul className={'main-nav'}>
-       <li>
-         <Link href='/home'>
-           <a>Solution</a>
-         </Link>
-       </li>
        <li>
          <Link href='/about'>
             <a>Startup</a>
@@ -19,12 +14,12 @@ function Navbar() {
        </li>
        <li>
          <Link href='/seller'>
-           <a>Seller</a>
+           <a>Become a seller</a>
          </Link>
        </li>
        <li>
           <Link href='/buyer'>
-            <a>Buyer</a>
+            <a>Become a buyer</a>
           </Link>
        </li>
        <li>
