@@ -14,12 +14,12 @@ function Navbar() {
        </li>
        <li>
          <Link href='/seller'>
-           <a>Become a seller</a>
+           <a>Seller</a>
          </Link>
        </li>
        <li>
           <Link href='/buyer'>
-            <a>Become a buyer</a>
+            <a>Buyer</a>
           </Link>
        </li>
        <li>
