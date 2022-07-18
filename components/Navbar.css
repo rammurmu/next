@@ -19,13 +19,13 @@ a {
 
 .main-nav {
   display: flex;
-  margin-top: 3px;
+  margin-top: 5px;
  
 }
 
 .logo a,
 .main-nav a {
-  padding: 7px 12px;
+  padding: 10px 15px;
   text-transform: uppercase-loercase;
   text-align: center;
   display: flex;
@@ -34,7 +34,7 @@ a {
 
 .main-nav a {
   color: #000;
-  font-size: 0.99em;
+  font-size: 1.45em;
 }
 
 .main-nav a:hover {
@@ -44,6 +44,6 @@ a {
 .header {
   display: flex;
   justify-content: space-between;
-  background-color: #fff;
+  background-color: #fafafa;
 
 }
