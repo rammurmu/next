@@ -35,14 +35,14 @@
 
 .title a:hover,
 .title a:focus,
-.title a:active {
+.title a:deactive {
   text-decoration: none;
 }
 
 .title {
   margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
+  line-height: 1.10;
+  font-size: 2rem;
 }
 
 .title,
@@ -52,7 +52,7 @@
 
 .description {
   margin: 5rem 0;
-  line-height: 1.5;
+  line-height: 1.2;
   font-size: 1.5rem;
 
 }
