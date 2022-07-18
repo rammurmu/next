@@ -1,6 +1,6 @@
 ul {
-  margin: 0;
-  padding: 0;
+  margin: 10;
+  padding: 10;
   list-style: none;
 }
 
@@ -43,7 +43,7 @@ a {
 
 .header {
   display: flex;
-  justify-content: none;
+  justify-content: space-between;
   background-color: #FAFAFA;
   
 
