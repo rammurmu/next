@@ -4,8 +4,6 @@ ul {
   list-style: none;
 }
 
-h2,
-h3,
 a {
   color: #000;
 }
@@ -22,6 +20,7 @@ a {
 .main-nav {
   display: flex;
   margin-top: 5px;
+  justify-content: space-between;
 }
 
 .logo a,
