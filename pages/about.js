@@ -14,7 +14,7 @@ export default function About() {
         <main className={styles.main}> 
         
         <h1 className={styles.title}>
-        Runash<a href="https://"><br />mission</a>
+        <a href="https://"><br />Our mission</a>
         </h1>
         <p className={styles.description}>
            We enabling and accessing face to face,own made real life experience
