@@ -1,6 +1,6 @@
 ul {
-  margin: 10;
-  padding: 10;
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -19,13 +19,13 @@ a {
 
 .main-nav {
   display: flex;
-  margin-top: 5px;
+  margin-top: 3px;
  
 }
 
 .logo a,
 .main-nav a {
-  padding: 10px 15px;
+  padding: 7px 12px;
   text-transform: uppercase-loercase;
   text-align: center;
   display: flex;
@@ -45,6 +45,5 @@ a {
   display: flex;
   justify-content: space-between;
   background-color: #FAFAFA;
-  text-align: center;
 
 }
