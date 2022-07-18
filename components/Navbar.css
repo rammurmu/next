@@ -43,9 +43,8 @@ a {
 
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: none;
   background-color: #FAFAFA;
-  padding: 4rem 0;
-  flex: 1;
+  
 
 }
