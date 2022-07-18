@@ -21,12 +21,7 @@ function Navbar() {
           <Link href='/buyer'>
             <a>Buyer</a>
           </Link>
-       </li>
-       <li>
-          <Link href='/js-form'>
-            <a>Login</a>
-          </Link>
-       </li>
+       </li>     
      </ul>
    </nav>
  )
