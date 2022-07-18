@@ -44,6 +44,6 @@ a {
 .header {
   display: flex;
   justify-content: space-between;
-  background-color: #FAFAFA;
+  background-color: #fff;
 
 }
