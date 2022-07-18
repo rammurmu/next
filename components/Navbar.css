@@ -1,7 +1,7 @@
 ul {
   margin: 0;
   padding: 0;
-  list-style: none;
+  list-style: flex;
 }
 
 a {
@@ -20,7 +20,7 @@ a {
 .main-nav {
   display: flex;
   margin-top: 5px;
-  justify-content: space-between;
+ 
 }
 
 .logo a,
@@ -45,4 +45,10 @@ a {
   display: flex;
   justify-content: space-between;
   background-color: #FAFAFA;
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
