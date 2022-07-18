@@ -17,7 +17,7 @@ export default function About() {
         <a href="https://"><br />Our mission</a>
         </h1>
         <p className={styles.description}>
-           We enabling and accessing face to face,own made real life experience
+          We create real-life experiences to enable and access face-to-face
         </p>
          
        
