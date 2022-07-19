@@ -69,8 +69,10 @@ export default function Buyer() {
       <code className={styles.code}>🧥🥻 Fashion</code><br />
       </div>
       <div className={styles.description}>
-      <p> Schedule live shopping</p>
+      <p> Schedule a live shopping</p>
+      </div>
       <button type="Live shopping schedule">Live shopping schedule</button>
+      <div>
       <a href="https://runash.live/seller" className={styles.card}>
             <h2>🥜🥖Dry food</h2>
             <p>Organic </p>
