@@ -18,6 +18,8 @@ export default function Buyer() {
         <p className={styles.description}>
          You can meet to sellers with face to face real life experience
         </p>
+        <button type="Go live">Go live</button>
+
       <div className={styles.grid}>
       <code className={styles.code}>🍎🍋 Fruit</code><br />
       <code className={styles.code}>🥦🍅 Vegetable</code><br />
