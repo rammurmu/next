@@ -68,7 +68,7 @@ export default function Buyer() {
       <code className={styles.code}>🥜🥖Dry food</code><br />
       <code className={styles.code}>🧥🥻 Fashion</code><br />
       </div>
-      <p>Live shopping schedule</p>
+      <button type="Live shopping schedule">Live shopping schedule</button>
      </main> 
     </div> 
   )
