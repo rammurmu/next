@@ -73,7 +73,35 @@ export default function Buyer() {
       </div>
       <button type="Live shopping schedule">Live shopping schedule</button>
       <div className={styles.grid}>
-      <a href="https://" className={styles.card}>
+      <a href="https://runash.live/seller" className={styles.card}>
+            <h2>🍎🍋Fruit</h2>
+            <p>Organic fresh fruit </p>
+          </a>
+          <a href="https://runash.live/seller" className={styles.card}>
+            <h2>🥦🍅Vegetable</h2>
+            <p>Organic fresh veg </p>
+          </a>
+          <a href="https://runash.live/seller" className={styles.card}>
+            <h2>🥫🍶Grocery</h2>
+            <p>Organic groceries</p>
+          </a>
+          <a href="https://runash.live/seller" className={styles.card}>
+            <h2>🌴🌺Flower</h2>
+            <p>Organic fresh flower</p>
+          </a>
+          <a href="https://runash.live/seller" className={styles.card}>
+            <h2>🍗🥩Non veg</h2>
+            <p>Organic and fresh</p>
+          </a>
+          <a href="https://runash.live/seller" className={styles.card}>
+            <h2>🍚🥛Dairy</h2>
+            <p>Organic and  fresh</p>
+          </a>
+          <a href="https://runash.live/seller" className={styles.card}>
+            <h2>🍞🥞Bakeri </h2>
+            <p>Organic and  fresh</p>
+          </a>
+          <a href="https://runash.live/seller" className={styles.card}>
             <h2>🥜🥖Dry food</h2>
             <p>Organic </p>
           </a>
