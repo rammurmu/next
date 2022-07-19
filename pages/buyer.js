@@ -27,7 +27,7 @@ export default function Buyer() {
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
             <h2>🥦🍅 Vegetable</h2>
-            <p>Organic fresh vegetables </p>
+            <p>Organic fresh veg </p>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
             <h2>🥫🍶 Grocery</h2>
@@ -37,6 +37,23 @@ export default function Buyer() {
             <h2>🌴🌺 Flower</h2>
             <p>Organic fresh flower </p>
           </a>
+          <a href="https://runash.live/seller" className={styles.card}>
+            <h2>🍗🥩 Non veg</h2>
+            <p>Organic and fresh  </p>
+          </a>
+          <a href="https://runash.live/seller" className={styles.card}>
+            <h2>🍚🥛 Dairy</h2>
+            <p>Organic and  fresh </p>
+          </a>
+          <a href="https://runash.live/seller" className={styles.card}>
+            <h2>🍞🥞Bakeri </h2>
+            <p>Organic and  fresh </p>
+          </a>
+          <a href="https://runash.live/seller" className={styles.card}>
+            <h2>🥜🥖Dry food<</h2>
+            <p>Organic </p>
+          </a>
+
       </div>
 
 
