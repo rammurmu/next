@@ -14,7 +14,7 @@ a {
 
 .logo {
   margin: 0;
-  font-size: 0.35em;
+  font-size: 0.1em;
 }
 
 .main-nav {
@@ -34,7 +34,7 @@ a {
 
 .main-nav a {
   color: #000;
-  font-size: 0.50em;
+  font-size: 0.1em;
 }
 
 .main-nav a:hover {
