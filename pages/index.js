@@ -19,7 +19,7 @@ export default function Home() {
          <p className={styles.description}>
           Where the retailers build own made the live streaming store
          </p>
-         <button type="Go live"><Link href="https://js-form">Go live</a></button>
+         <button type="primery">Go live</button>
          
 
         <div className={styles.grid}>
