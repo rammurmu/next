@@ -72,36 +72,36 @@ export default function Buyer() {
       <p> Schedule a live shopping</p>
       </div>
       <button type="Live shopping schedule">Live shopping schedule</button>
-      <div className={styles.content}>
-      <a href="https://runash.live/seller" className={styles.card}>
+      <div className={styles.input}>
+      <a href="https://runash.live/seller" className={styles.input}>
             <h2>🍎🍋Fruit</h2>
             <p>Organic fresh fruit </p>
           </a>
-          <a href="https://runash.live/seller" className={styles.card}>
+          <a href="https://runash.live/seller" className={styles.input}>
             <h2>🥦🍅Vegetable</h2>
             <p>Organic fresh veg </p>
           </a>
-          <a href="https://runash.live/seller" className={styles.card}>
+          <a href="https://runash.live/seller" className={styles.input}>
             <h2>🥫🍶Grocery</h2>
             <p>Organic groceries</p>
           </a>
-          <a href="https://runash.live/seller" className={styles.card}>
+          <a href="https://runash.live/seller" className={styles.input}>
             <h2>🌴🌺Flower</h2>
             <p>Organic fresh flower</p>
           </a>
-          <a href="https://runash.live/seller" className={styles.card}>
+          <a href="https://runash.live/seller" className={styles.input}>
             <h2>🍗🥩Non veg</h2>
             <p>Organic and fresh</p>
           </a>
-          <a href="https://runash.live/seller" className={styles.card}>
+          <a href="https://runash.live/seller" className={styles.input}>
             <h2>🍚🥛Dairy</h2>
             <p>Organic and  fresh</p>
           </a>
-          <a href="https://runash.live/seller" className={styles.card}>
+          <a href="https://runash.live/seller" className={styles.input}>
             <h2>🍞🥞Bakeri </h2>
             <p>Organic and  fresh</p>
           </a>
-          <a href="https://runash.live/seller" className={styles.card}>
+          <a href="https://runash.live/seller" className={styles.input}>
             <h2>🥜🥖Dry food</h2>
             <p>Organic </p>
           </a>
