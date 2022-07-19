@@ -72,7 +72,7 @@ export default function Buyer() {
       <p> Schedule a live shopping</p>
       </div>
       <button type="Live shopping schedule">Live shopping schedule</button>
-      <div className={styles.container}>
+      <div className={styles.grid}>
       <a href="https://" className={styles.card}>
             <h2>🥜🥖Dry food</h2>
             <p>Organic </p>
