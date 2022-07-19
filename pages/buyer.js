@@ -72,38 +72,38 @@ export default function Buyer() {
       <p> Schedule a live shopping</p>
       </div>
       <button type="Live shopping schedule">Live shopping schedule</button>
-      <div className={styles.input}>
-      <a href="https://runash.live/seller" className={styles.input}>
-            <h2>🍎🍋Fruit</h2>
-            <p>Organic fresh fruit </p>
+      <div className={styles.media}>
+      <a href="https://runash.live/seller" className={styles.media}>
+            <h2>🍎🍋Fruit &rarr;</h2>
+            
           </a>
-          <a href="https://runash.live/seller" className={styles.input}>
-            <h2>🥦🍅Vegetable</h2>
-            <p>Organic fresh veg </p>
+          <a href="https://runash.live/seller" className={styles.media}>
+            <h2>🥦🍅Vegetable &rarr;</h2>
+            
           </a>
-          <a href="https://runash.live/seller" className={styles.input}>
-            <h2>🥫🍶Grocery</h2>
-            <p>Organic groceries</p>
+          <a href="https://runash.live/seller" className={styles.media}>
+            <h2>🥫🍶Grocery &rarr;</h2>
+            
           </a>
-          <a href="https://runash.live/seller" className={styles.input}>
-            <h2>🌴🌺Flower</h2>
-            <p>Organic fresh flower</p>
+          <a href="https://runash.live/seller" className={styles.media}>
+            <h2>🌴🌺Flower &rarr;</h2>
+            
           </a>
-          <a href="https://runash.live/seller" className={styles.input}>
-            <h2>🍗🥩Non veg</h2>
-            <p>Organic and fresh</p>
+          <a href="https://runash.live/seller" className={styles.media}>
+            <h2>🍗🥩Non veg &rarr;</h2>
+            
           </a>
-          <a href="https://runash.live/seller" className={styles.input}>
-            <h2>🍚🥛Dairy</h2>
-            <p>Organic and  fresh</p>
+          <a href="https://runash.live/seller" className={styles.media}>
+            <h2>🍚🥛Dairy &rarr;</h2>
+            
           </a>
-          <a href="https://runash.live/seller" className={styles.input}>
-            <h2>🍞🥞Bakeri </h2>
-            <p>Organic and  fresh</p>
+          <a href="https://runash.live/seller" className={styles.media}>
+            <h2>🍞🥞Bakeri &rarr; </h2>
+            
           </a>
-          <a href="https://runash.live/seller" className={styles.input}>
-            <h2>🥜🥖Dry food</h2>
-            <p>Organic </p>
+          <a href="https://runash.live/seller" className={styles.media}>
+            <h2>🥜🥖Dry food &rarr;</h2>
+            
           </a>
       </div>
      </main> 
