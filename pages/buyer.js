@@ -21,6 +21,16 @@ export default function Buyer() {
         <button type="Go live">Go live</button>
 
       <div className={styles.grid}>
+          <a href="https://runash.live/seller" className={styles.card}>
+            <h2>🍎🍋 Fruit</h2>
+            <p>Organic fresh fruit </p>
+            <button type="Watch">Watch</button>
+
+          </a>
+      </div>
+
+
+      <div className={styles.grid}>
       <code className={styles.code}>🍎🍋 Fruit</code><br />
       <code className={styles.code}>🥦🍅 Vegetable</code><br />
       <code className={styles.code}>🥫🍶 Grocery</code><br />
