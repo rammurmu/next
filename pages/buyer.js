@@ -68,44 +68,8 @@ export default function Buyer() {
       <code className={styles.code}>🥜🥖Dry food</code><br />
       <code className={styles.code}>🧥🥻 Fashion</code><br />
       </div>
-      <div className={styles.description}>
-      <p> Schedule a live shopping</p>
-      </div>
-      <button type="Live shopping schedule">Live shopping schedule</button>
-      <div className={styles.media}>
-      <a href="https://runash.live/seller" className={styles.media}>
-            <h2>🍎🍋Fruit &rarr;</h2>
-            
-          </a>
-          <a href="https://runash.live/seller" className={styles.media}>
-            <h2>🥦🍅Vegetable &rarr;</h2>
-            
-          </a>
-          <a href="https://runash.live/seller" className={styles.media}>
-            <h2>🥫🍶Grocery &rarr;</h2>
-            
-          </a>
-          <a href="https://runash.live/seller" className={styles.media}>
-            <h2>🌴🌺Flower &rarr;</h2>
-            
-          </a>
-          <a href="https://runash.live/seller" className={styles.media}>
-            <h2>🍗🥩Non veg &rarr;</h2>
-            
-          </a>
-          <a href="https://runash.live/seller" className={styles.media}>
-            <h2>🍚🥛Dairy &rarr;</h2>
-            
-          </a>
-          <a href="https://runash.live/seller" className={styles.media}>
-            <h2>🍞🥞Bakeri &rarr; </h2>
-            
-          </a>
-          <a href="https://runash.live/seller" className={styles.media}>
-            <h2>🥜🥖Dry food &rarr;</h2>
-            
-          </a>
-      </div>
+     
+  
      </main> 
     </div> 
   )
