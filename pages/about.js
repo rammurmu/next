@@ -19,7 +19,7 @@ export default function About() {
         <p className={styles.description}>
           We create real-life experiences to enable and access face-to-face
         </p>
-        <h2>One-liner &rarr;</h2>
+        <h2>Oneliner &rarr;</h2>
         <p>A live retail streaming hybrid marketplace for retailing<br />Learn more &rarr;</p>
         <h2>What we do &rarr;</h2>
         <p>We created new model of Marketplace where retailers face to face demonstrate and presented their products with buyers<br />Learn more</p>
