@@ -20,13 +20,13 @@ export default function About() {
           We create real-life experiences to enable and access face-to-face
         </p>
         <h2>One-liner</h2>
-        <p>A live retail streaming hybrid marketplace for retailing<br /><br />Learn more &rarr;</p>
+        <p>A live retail streaming hybrid marketplace for retailing<br />Learn more &rarr;</p>
         <h2>What we do</h2>
-        <p>We created new model of Marketplace where retailers face to face demonstrate and presented their products with buyers<br />
+        <p>We created new model of Marketplace where retailers face to face demonstrate and presented their products with buyers
         <br />Learn more &rarr; 
         </p>
         <h1>What we going to make<h1>
-        <p>We are committed to building a live retail streaming hybrid platform for unorganised retailers and new ways to use physical reality experience<br />
+        <p>We are committed to building a live retail streaming hybrid platform for unorganised retailers and new ways to use physical reality experience
         <br />Learn more &rarr; 
         </p>
         
