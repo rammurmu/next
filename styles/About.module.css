@@ -86,7 +86,7 @@
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 900px;
-  border-top: 1px solid #eaeaea;
+  border-down: 1px solid #eaeaea;
 }
 
 .card:hover,
@@ -120,6 +120,6 @@
 
 .main {
   text-align: left;
-  border-top: 1px solid #eaeaea;
+  border-down: 1px solid #eaeaea;
  }
 }
