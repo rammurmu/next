@@ -70,11 +70,11 @@ export default function Buyer() {
             <p>Desi fashion </p>
           </a>    
       </div>
-     <Select>
+     
       <div className={styles.select-wrapper}>
       <option>New</option>
       </div>
-    </Select>
+    
    
   
      </main> 
