@@ -69,13 +69,13 @@ export default function Buyer() {
             <h2>🥼🥻Fashion</h2>
             <p>Desi fashion </p>
           </a>
-        <Form>
+        <form>
         <Select>
          <div class="select-wrapper"><select Id="select" name="select">
            <option>One</option>
            <option>one</option>
          </select>
-         </Form>
+         </form>
          </div>
       </div>
 
