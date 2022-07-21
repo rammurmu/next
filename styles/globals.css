@@ -76,7 +76,7 @@ button:hover {
 }
 
 button-secondary {
-  display: table;
+  display: block;
   width: 30%;
   padding: 0.9rem;
   border: none;
