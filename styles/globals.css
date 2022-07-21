@@ -127,16 +127,6 @@ button:hover {
   height: 100vh;
 }
 
-.select-wrapper {
-  position: relative;
-}
 
-.select-wrapper: after {
-  content: "+";
-  font-size: 1rem;
-  top: 6 px;
-  right: 10px;
-  position: absolute;
-}
 
 
