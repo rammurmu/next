@@ -23,31 +23,31 @@ export default function Buyer() {
       <div className={styles.grid}>
           <a href="https://runash.live/seller" className={styles.card}>
             <h2>🍎🍋Fruit</h2>
-            <p>Organic fresh fruit </p>
+            <p>Organic & fresh </p>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
             <h2>🥦🍅Vegetable</h2>
-            <p>Organic fresh veg </p>
+            <p>Organic & fresh  </p>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
             <h2>🥫🍶Grocery</h2>
-            <p>Organic groceries</p>
+            <p>Organic </p>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
             <h2>🌴🌺Flower</h2>
-            <p>Organic fresh flower</p>
+            <p>Organic & fresh </p>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
             <h2>🍗🥩Non veg</h2>
-            <p>Organic and fresh</p>
+            <p>Organic & fresh</p>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
             <h2>🍚🥛Dairy</h2>
-            <p>Organic and  fresh</p>
+            <p>Organic & fresh</p>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
             <h2>🍞🥞Bakeri </h2>
-            <p>Organic and  fresh</p>
+            <p>Organic & fresh</p>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
             <h2>🥜🥖Dry food</h2>
@@ -63,13 +63,18 @@ export default function Buyer() {
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
             <h2>🐟🦐C food</h2>
-            <p>Organic c food </p>
+            <p>Organic fresh</p>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
-            <h2>🥼🥻Desi fashion</h2>
+            <h2>🥼🥻Fashion</h2>
             <p>Desi fashion </p>
           </a>
-
+        <Select>
+         <div class="select-wrapper"><select Id="select" name="select">
+           <option>One</option>
+           <option></option>
+         </select>
+         </div>
       </div>
 
 
