@@ -68,11 +68,9 @@ export default function Buyer() {
           <a href="https://runash.live/seller" className={styles.card}>
             <h2>🥼🥻Fashion</h2>
             <p>Desi fashion </p>
-          </a>
-         <h1>Show more</h1>
-         
+          </a>    
       </div>
-
+      <h1>Show more</h1>
 
       
   
