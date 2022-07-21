@@ -6,8 +6,8 @@ export default function Live() {
     <div className={styles.container}>
       <main className={styles.main}>
        <div className={styles.card}>
-        <h1>Live shopping streaming</h1>
-        <p>Schedule a live shopping</p>
+        <h1>Live streaming</h1>
+        <p>Schedule </p>
         </div>
          <p className={styles.description}>
           <Link href="/">
