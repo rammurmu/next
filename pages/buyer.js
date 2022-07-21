@@ -53,22 +53,27 @@ export default function Buyer() {
             <h2>🥜🥖Dry food</h2>
             <p>Organic </p>
           </a>
+          <a href="https://runash.live/seller" className={styles.card}>
+            <h2>🐕‍🦺🐅Animal</h2>
+            <p>Organic animal </p>
+          </a>
+          <a href="https://runash.live/seller" className={styles.card}>
+            <h2>🐓🦜Bird</h2>
+            <p>Organic bird</p>
+          </a>
+          <a href="https://runash.live/seller" className={styles.card}>
+            <h2>🐟🦐C food</h2>
+            <p>Organic c food </p>
+          </a>
+          <a href="https://runash.live/seller" className={styles.card}>
+            <h2>🥼🥻Desi fashion</h2>
+            <p>Desi fashion </p>
+          </a>
 
       </div>
 
 
-      <div className={styles.grid}>
-      <code className={styles.code}>🍎🍋 Fruit</code><br />
-      <code className={styles.code}>🥦🍅 Vegetable</code><br />
-      <code className={styles.code}>🥫🍶 Grocery</code><br />
-      <code className={styles.code}>🌴🌺 Flower</code><br />
-      <code className={styles.code}>🍗🥩 Non veg</code><br />
-      <code className={styles.code}>🍚🥛 Dairy food</code><br />
-      <code className={styles.code}>🍞🥞Bakeri food</code><br />
-      <code className={styles.code}>🥜🥖Dry food</code><br />
-      <code className={styles.code}>🧥🥻 Fashion</code><br />
-      </div>
-     
+      
   
      </main> 
     </div> 
