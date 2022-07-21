@@ -58,7 +58,7 @@ input:focus {
   border-color: #0070f3;
 }
 
-button {
+button-primary {
   display: table;
   width: 30%;
   padding: 0.9rem;
@@ -75,6 +75,41 @@ button:hover {
   background-color: #0060e9;
 }
 
+button-secondary {
+  display: table;
+  width: 30%;
+  padding: 0.9rem;
+  border: none;
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+  margin-bottom: 2.5rem;
+  background-color: #fff;
+  color: #DD6B20;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0060e9;
+}
+
+button {
+  display: table;
+  width: 30%;
+  padding: 0.9rem;
+  border: none;
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+  margin-bottom: 2.5rem;
+  background-color: #EAEAEA;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0060e9;
+}
+
+
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
@@ -84,3 +119,17 @@ button:hover {
   align-items: center;
   height: 100vh;
 }
+
+.select-wrapper {
+  position: relative;
+}
+
+.select-wrapper:: after {
+  content: "=";
+  font-size: 1rem;
+  top: 6 px;
+  right: 10px;
+  position: absolute;
+}
+
+
