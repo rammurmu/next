@@ -13,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.icon" />  
       </Head>
         <main className={styles.main}>
-        <p className={styles.description}><code className={styles.code}><b>🆕Latest update</b> Learn more &rarr;</code></p>
+        <p className={styles.description}><code className={styles.code}><b>🆕Latest update</b>Learn more &rarr;</code></p>
         <h1 className={styles.title}>
          Live retail streaming <br /><a href="https://">platform</a>
          </h1>
@@ -132,7 +132,7 @@ export default function Home() {
             </p>
           </a>
         </div>
-  
+        <p>Being your journey with live</p>
         <div>
       </div>
       </main>
