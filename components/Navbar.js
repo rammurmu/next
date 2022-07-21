@@ -33,8 +33,8 @@ function Navbar() {
           </Link>
        </li>     
        <li>
-          <Link href='/form'>
-            <a>Form</a>
+          <Link href='/live'>
+            <a>Live</a>
           </Link>
        </li>     
        <li>
