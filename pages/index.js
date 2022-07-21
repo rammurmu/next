@@ -13,13 +13,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.icon" />  
       </Head>
         <main className={styles.main}>
+        
         <h1 className={styles.title}>
          Live retail streaming <br /><a href="https://">platform</a>
          </h1>
          <p className={styles.description}>
           Where the retailers build own made the live streaming store
          </p>
-         <button type="button-parimary">Go live</button>
+         
          <button type="button-secondary">Signin</button>
          
 
