@@ -18,8 +18,8 @@ export default function Buyer() {
         <p className={styles.description}>
          You can meet to sellers with face to face real life experience
         </p>
-        <button type="Watch live on demand">Watch live on demand</button>
-
+        <button type="Watch live ">Watch live</button>
+       <h2>Categories</h2>
       <div className={styles.grid}>
           <a href="https://runash.live/seller" className={styles.card}>
             <h2>🍎🍋Fruit</h2>
