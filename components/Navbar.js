@@ -9,9 +9,6 @@ const Navbar = () => (
         <li><NavLink activeClassName="selected" className="nav-link" to="/men">Men</NavLink></li>
       </ul>
     </div>
-    <div className="shopping-cart">
-      <NavLink to="/cart"><Icon medium>shopping_cart</Icon></NavLink>
-    </div>
   </nav>
 );
 
