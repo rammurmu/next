@@ -22,7 +22,7 @@ export default function Home() {
          </p>
          
          <button type="button-secondary">Go Live</button>
-         <p>Get started free 🎉 &rarr;</p>
+         <p>Get started free &rarr;</p>
 
         <div className={styles.grid}>
           <a href="https://runash.live/seller" className={styles.card}>
