@@ -69,14 +69,7 @@ export default function Buyer() {
             <h2>🥼🥻Fashion</h2>
             <p>Desi fashion </p>
           </a>
-        <form>
-        <Select>
-         <div className={select-wrapper}><select Id="select" name="select">
-           <option>One</option>
-           <option>one</option>
-          </div>
-         </select>
-         </form>
+         <h1>Show more</h1>
          
       </div>
 
