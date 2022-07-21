@@ -132,7 +132,11 @@ export default function Home() {
             </p>
           </a>
         </div>
-
+        <form onSubmit={handleSubmit}>
+        <label htmlFor="email">email</label>
+        <input type="email" id="email" name="Optional" required />
+        <button type="sign up">Sign Up</button>
+      </form>
 
         <div>
       </div>
