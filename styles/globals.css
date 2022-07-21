@@ -22,7 +22,7 @@ h1 {
 
 p {
   margin: 0 0 1rem 0;
-  font-size: 8rem;
+  font-size: 1.8rem;
 }
 
 h2
@@ -100,7 +100,7 @@ button:hover {
 }
 
 button {
-  display: table;
+  display: block;
   width: 30%;
   padding: 0.9rem;
   border: none;
