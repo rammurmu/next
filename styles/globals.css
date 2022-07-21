@@ -22,11 +22,18 @@ h1 {
 
 p {
   margin: 0 0 1rem 0;
-  font-size: 1.8rem;
+  font-size: 1.9rem;
 }
 
-h2 {
+h2
+h3
+h4
+h5
+h6
+ {
    color: #black;
+   margin: 0 0 1rem 0;
+   font-size: 1.5rem;
 }
 
 form {
