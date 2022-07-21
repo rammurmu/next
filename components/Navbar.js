@@ -32,6 +32,16 @@ function Navbar() {
             <a>Signin</a>
           </Link>
        </li>     
+       <li>
+          <Link href='/form'>
+            <a>Login</a>
+          </Link>
+       </li>     
+       <li>
+          <Link href='/forms'>
+            <a>support</a>
+          </Link>
+       </li>     
         
      </ul>
    </nav>
