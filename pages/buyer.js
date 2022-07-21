@@ -71,7 +71,7 @@ export default function Buyer() {
           </a>    
       </div>
      <Select>
-      <div className={select-wrapper}>
+      <div className={styles.select-wrapper}>
       <option>New</option>
       </div>
     </Select>
