@@ -19,8 +19,8 @@ export default function Home() {
          <p className={styles.description}>
           Where the retailers build own made the live streaming store
          </p>
-         <button type="button">Go live</button>
-         <button type="button">Learn more</button>
+         <button type="button-parimary">Go live</button>
+         <button type="button-secondary">Signin</button>
          
 
         <div className={styles.grid}>
