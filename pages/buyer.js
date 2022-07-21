@@ -70,11 +70,6 @@ export default function Buyer() {
             <p>Desi fashion </p>
           </a>    
       </div>
-     
-      <div className={styles.select-wrapper}>Select</div>
-    
-   
-  
      </main> 
     </div> 
   )
