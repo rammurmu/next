@@ -4,8 +4,10 @@ ul {
   list-style: none;
 }
 
+h2,
+h3,
 a {
-  color: #000;
+  color: #34495e;
 }
 
 a {
@@ -14,52 +16,48 @@ a {
 
 .logo {
   margin: 0;
-  font-size: 0.1em;
+  font-size: 1.45em;
 }
 
 .main-nav {
   display: flex;
   margin-top: 5px;
- 
 }
 
 .logo a,
 .main-nav a {
   padding: 10px 15px;
-  text-transform: uppercase-loercase;
+  text-transform: uppercase-lowercase;
   text-align: center;
+  display: block;
+}
+
+.main-nav a {
+  color: #34495e;
+  font-size: 0.99em;
+}
+
+.main-nav a:hover {
+  color: #718daa;
+}
+
+.header {
   display: flex;
-  color: #DD6B20;
+  justify-content: space-between;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  background-color: #f4f4f4;
+  -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
 }
 
-.navbar {
-  display: flex;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
-  height: 3em;
-  justify-content: center;
-  align-items: center;
-  box-shadow: none;
+.loading {
+  opacity: 0;
+  transition: all 0.2s ease-in;
 }
 
-.navbar ul {
-  display: flex;
-  list-style: none;
-  width: 90vw;
-  margin: 0;
-  height: 3em;
-  align-items: center;
-  font-family: 'Quicksand', sans-serif;
-}
-
-.navbar li a {
-  text-decoration: none;
-  margin: 0 1em;
-  color: white;
-  transition: 0.5s;
-}
-
-.navbar li a:hover {
-  background: transparent;
-  color: black;
-  transition: 0.5s;
+.loaded {
+  opacity: 1;
+  transition: all 0.2s ease-in;
 }
