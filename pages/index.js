@@ -13,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.icon" />  
       </Head>
         <main className={styles.main}>
-        <p className={styles.description}><code className={styles.code}><b>🆕Latest update</b>Learn more &rarr;</code></p>
+        <h2 className={styles.description}><code className={styles.code}><b>Latest update</b> Learn more &rarr;</code></h2>
         <h1 className={styles.title}>
          Live retail streaming <br /><a href="https://">platform</a>
          </h1>
@@ -21,7 +21,7 @@ export default function Home() {
           Where the retailers build own made the live streaming store
          </p>
          
-         <button type="button-secondary">Signin</button>
+         <button type="button-secondary">Go Live</button>
          <p>Get started free &rarr;</p>
 
         <div className={styles.grid}>
@@ -132,7 +132,8 @@ export default function Home() {
             </p>
           </a>
         </div>
-        <p>Being your journey with live</p>
+        <br />
+        <p>Begin your live journey</p>
         <div>
       </div>
       </main>
