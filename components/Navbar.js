@@ -34,7 +34,7 @@ function Navbar() {
        </li>     
        <li>
           <Link href='/form'>
-            <a>Login</a>
+            <a>Form</a>
           </Link>
        </li>     
        <li>
