@@ -13,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.icon" />  
       </Head>
         <main className={styles.main}>
-        <h2 className={styles.description}><code className={styles.code}><b>Latest update</b> Learn more &rarr;</code></h2>
+        <h2 className={styles.description}><code className={styles.code}>👏 Welcome to RunAsh</code></h2>
         <h1 className={styles.title}>
          Live retail streaming <br /><a href="https://">platform</a>
          </h1>
@@ -22,7 +22,7 @@ export default function Home() {
          </p>
          
          <button type="button-secondary">Go Live</button>
-         <p>Get started free &rarr;</p>
+         <p>Get started free 🎉 &rarr;</p>
 
         <div className={styles.grid}>
           <a href="https://runash.live/seller" className={styles.card}>
@@ -133,7 +133,7 @@ export default function Home() {
           </a>
         </div>
         <br />
-        <p>Begin your live journey</p>
+        <p>Begin your live journey✨</p>
         <div>
       </div>
       </main>
