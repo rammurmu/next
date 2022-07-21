@@ -74,9 +74,10 @@ export default function Buyer() {
          <div class="select-wrapper"><select Id="select" name="select">
            <option>One</option>
            <option>one</option>
+          </div>
          </select>
          </form>
-         </div>
+         
       </div>
 
 
