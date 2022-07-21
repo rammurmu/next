@@ -1,30 +1,18 @@
 import Link from 'next/link'
 
-function Navbar() {
-  return (
-      <nav className='header'>
-        <h1 className='logo'>
-          <a href='/home'>RunAsh</a>
-        </h1>
-      <ul className={'main-nav'}>
-       <li>
-         <Link href='/about'>
-            <a>Startup</a>
-         </Link>
-       </li>
-       <li>
-         <Link href='/seller'>
-           <a>Seller</a>
-         </Link>
-       </li>
-       <li>
-          <Link href='/buyer'>
-            <a>Buyer</a>
-          </Link>
-       </li>     
-     </ul>
-   </nav>
- )
-}
+const Navbar = () => (
+  <nav className="navbar">
+    <div className="nav-links">
+      <ul>
+        <li><NavLink activeClassName="selected" className="nav-link" exact to="/">Home</NavLink></li>
+        <li><NavLink activeClassName="selected" className="nav-link" to="/women">Women</NavLink></li>
+        <li><NavLink activeClassName="selected" className="nav-link" to="/men">Men</NavLink></li>
+      </ul>
+    </div>
+    <div className="shopping-cart">
+      <NavLink to="/cart"><Icon medium>shopping_cart</Icon></NavLink>
+    </div>
+  </nav>
+);
 
 export default Navbar
