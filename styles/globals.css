@@ -124,8 +124,8 @@ button:hover {
   position: relative;
 }
 
-.select-wrapper:: after {
-  content: "=";
+.select-wrapper: after {
+  content: "+";
   font-size: 1rem;
   top: 6 px;
   right: 10px;
