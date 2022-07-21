@@ -135,7 +135,6 @@ export default function Home() {
       <div>
         <form onSubmit={handleSubmit}>
         <label htmlFor="email">email</label>
-        <input type="email" id="email" pattern="@global\.com" size="30" required>
         <button type="sign up">Sign Up</button>
       </form>
       </div>
