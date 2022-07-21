@@ -85,8 +85,8 @@
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 900px;
-  border-down: 1px solid #eaeaea;
+  max-width: 1000px;
+  border-divider: 1px solid #eaeaea;
 }
 
 .card:hover,
