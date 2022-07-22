@@ -7,7 +7,7 @@ ul {
 h2,
 h3,
 a {
-  color: #000;
+  color: #FAFAFA;
 }
 
 a {
@@ -33,7 +33,7 @@ a {
 }
 
 .main-nav a {
-  color: #FAFAFA;
+  color: #000;
   font-size: 0.99em;
 }
 
