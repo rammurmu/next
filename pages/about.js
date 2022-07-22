@@ -21,7 +21,7 @@ export default function About() {
         </p>
         <button type="button">Learn more</button>
          <p>RunAsh startup journey ✨  &rarr;</p>
-
+        </div>
         <div className={styles.card}>
         <h2>☝️<br />Oneliner </h2>
         <p>A live retail streaming hybrid marketplace for retailing<br />Learn more &rarr;</p>
@@ -38,6 +38,6 @@ export default function About() {
         </div>
 
       </main>
-      </div>
+      
   )
 }
