@@ -12,14 +12,14 @@ export default function About() {
         <link rel="icon" href="favicon.icon"/>
       </Head>
         <main className={styles.main}> 
-        <p>👏Welcome to RunAsh</p>
+        
         <h1 className={styles.title}>
         <a href="https://"><br />Our mission</a>
         </h1>
         <p className={styles.description}>
           We create real-life experiences to enable and access face-to-face
         </p>
-        <div>
+       
         <button type="button-secondary">Learn more</button>
          <p>RunAsh startup journey ✨  &rarr;</p>
 
@@ -35,6 +35,7 @@ export default function About() {
         <h1>🎥<br />What we going to make</h1>
         <p>We are committed to building a live retail streaming hybrid platform for unorganised retailers and new ways to use physical reality experience<br />Learn more &rarr;</p>
         </div>
+       </div>
       </main>
       </div>
   )
