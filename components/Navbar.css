@@ -33,7 +33,7 @@ a {
 }
 
 .main-nav a {
-  color: #000;
+  color: #FAFAFA;
   font-size: 0.99em;
 }
 
@@ -46,7 +46,7 @@ a {
   justify-content: space-between;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
-  background-color: #FFF;
+  background-color: #FAFAFA;
   -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
