@@ -12,9 +12,8 @@ export default function About() {
         <link rel="icon" href="favicon.icon"/>
       </Head>
         <main className={styles.main}> 
-        
+        <p>👏Welcome to RunAsh</p>
         <h1 className={styles.title}>
-         <p>👏Welcome to RunAsh</p>
         <a href="https://"><br />Our mission</a>
         </h1>
         <p className={styles.description}>
@@ -24,15 +23,15 @@ export default function About() {
          <p>RunAsh startup journey ✨  &rarr;</p>
 
         <div className={styles.card}>
-        <h2>☝️Oneliner </h2>
+        <h2>☝️<br />Oneliner </h2>
         <p>A live retail streaming hybrid marketplace for retailing<br />Learn more &rarr;</p>
          </div>
         <div className={styles.card}>
-        <h2>👥What we do </h2>
+        <h2>👥<br />What we do </h2>
         <p>We created new model of Marketplace where retailers face to face demonstrate and presented their products with buyers<br />Learn more &rarr;</p>
         </div>
         <div className={styles.card}>
-        <h1>🎥What we going to make</h1>
+        <h1>🎥<br />What we going to make</h1>
         <p>We are committed to building a live retail streaming hybrid platform for unorganised retailers and new ways to use physical reality experience<br />Learn more &rarr;</p>
         </div>
         </div>
