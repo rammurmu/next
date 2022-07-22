@@ -26,7 +26,7 @@ export default function About() {
         <h2>☝️<br />Oneliner </h2>
         <p>A live retail streaming hybrid marketplace for retailing<br />Learn more &rarr;</p>
          </div>
-         
+         <p className={styles.description}>Discipline and learning</p>
         <div className={styles.card}>
         <h2>👥<br />What we do </h2>
         <p>We created new model of Marketplace where retailers face to face demonstrate and presented their products with buyers<br />Learn more &rarr;</p>
