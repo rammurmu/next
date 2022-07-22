@@ -20,7 +20,7 @@ export default function About() {
           We create real-life experiences to enable and access face-to-face
         </p>
         
-        <button type="button-primary">Learn more</button><p className={styles.description}>RunAsh startup journey ✨  &rarr;</p>
+        <button type="button-primary">Join Us</button><p className={styles.description}>RunAsh startup journey ✨  &rarr;</p>
         
         <div className={styles.card}>
         <h2>☝️<br />Oneliner </h2>
@@ -31,12 +31,13 @@ export default function About() {
         <h2>👥<br />What we do </h2>
         <p>We created new model of Marketplace where retailers face to face demonstrate and presented their products with buyers<br />Learn more &rarr;</p>
         </div>
-
+        <p className={ styles.description}>Founders story</p>
         <div className={styles.card}>
         <h1>🎥<br />What we going to make</h1>
         <p>We are committed to building a live retail streaming hybrid platform for unorganised retailers and new ways to use physical reality experience<br />Learn more &rarr;</p>
         </div>
-
+         <h1 className={styles.description}>Executive profile</h1>
+          <p className={styles.description}>Board of Directorsand Management team</p>
         <p className={styles.description}>
           <Link href="/">
             <a>&larr; Go Back</a>
