@@ -19,6 +19,7 @@ export default function About() {
         <p className={styles.description}>
           We create real-life experiences to enable and access face-to-face
         </p>
+        <div>
         <button type="button-secondary">Learn more</button>
          <p>RunAsh startup journey ✨  &rarr;</p>
 
@@ -33,7 +34,6 @@ export default function About() {
         <div className={styles.card}>
         <h1>🎥<br />What we going to make</h1>
         <p>We are committed to building a live retail streaming hybrid platform for unorganised retailers and new ways to use physical reality experience<br />Learn more &rarr;</p>
-        </div>
         </div>
       </main>
       </div>
