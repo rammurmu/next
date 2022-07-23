@@ -26,9 +26,11 @@ export default function About() {
         </p>
         
         <div className={styles.card}>
-        <p>☝️<br /><b>Oneliner</b></p>
+        <ul>
+         <li>Oneliner</li>
         <p>A live retail streaming hybrid marketplace for retailing<br />Learn more &rarr;</p>
-         </div>
+        </ul>
+        </div>
          <p className={styles.description}><b>🎓Discipline and learning</b>
           <br />
           Discipline and learning is the bacbone of the development of our startup journy and culture is behavior
