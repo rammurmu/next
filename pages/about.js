@@ -20,7 +20,7 @@ export default function About() {
           We create real-life experiences to enable and access face-to-face
         </p>
         
-        <button type="button-primary">Join Us</button><p className={styles.description}>RunAsh startup journey ✨  &rarr;</p>
+        <button type="button">Join Us</button><p className={styles.description}><b>RunAsh startup journey</b> ✨  &rarr;</p>
         
         <div className={styles.card}>
         <p>☝️<br /><b>Oneliner</b></p>
