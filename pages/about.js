@@ -42,9 +42,9 @@ export default function About() {
         <br />
          Learn more &rarr;</p>
         </div>
-         <p className={styles.description}><b>👨‍💻Executive profile</b>
+         <p className={styles.description}><b>👨‍💻Executive profile</b></p>
          <br />
-          Board of Directors & Management team</p>
+          <p>Board of Directors & Management team</p>
         <p className={styles.description}>
           <Link href="/">
             <a>&larr; Go Back</a>
