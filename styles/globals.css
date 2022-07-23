@@ -65,7 +65,7 @@ input:focus {
   border-color: #0070f3;
 }
 
-button-primary {
+button-p {
   display: table;
   width: 30%;
   padding: 0.9rem;
@@ -82,8 +82,8 @@ button:hover {
   background-color: #0060e9;
 }
 
-button-secondary {
-  display: block;
+button-s {
+  display: table;
   width: 30%;
   padding: 0.9rem;
   border: none;
@@ -100,7 +100,7 @@ button:hover {
 }
 
 button {
-  display: block;
+  display: table;
   width: 30%;
   padding: 0.9rem;
   border: none;
