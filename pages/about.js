@@ -26,7 +26,7 @@ export default function About() {
         <p>☝️<br /><b>Oneliner</b></p>
         <p>A live retail streaming hybrid marketplace for retailing<br />Learn more &rarr;</p>
          </div>
-         <p className={styles.description}>Discipline and learning</p>
+         <p className={styles.description}><b>🎓Discipline and learning</b></p>
         <div className={styles.card}>
         <p>👥<br /><b>What we do</b></p>
         <br />
@@ -34,7 +34,7 @@ export default function About() {
        <br />
        Learn more &rarr;</p>
         </div>
-        <p className={ styles.description}>Founders story</p>
+        <p className={ styles.description}><b>🎤Founders story</b></p>
         <div className={styles.card}>
         <p>🎥<br /><b>What we going to make</b></p>
         <br />
@@ -42,8 +42,7 @@ export default function About() {
         <br />
          Learn more &rarr;</p>
         </div>
-         <p className={styles.description}>Executive profile</p>
-          <p className={styles.description}>Board of Directors & Management team</p>
+         <p className={styles.description}><b>👨‍💻Executive profile</b></p><br />Board of Directors & Management team</p>
         <p className={styles.description}>
           <Link href="/">
             <a>&larr; Go Back</a>
