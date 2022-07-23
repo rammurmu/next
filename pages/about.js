@@ -25,12 +25,12 @@ export default function About() {
          Journey from a small village in India to Sillicone Valley Y Combinator startup school community member
         </p>
         
-        <div className={styles.card}>
+      
         <ul>
          <li>Oneliner</li>
         <p>A live retail streaming hybrid marketplace for retailing<br />Learn more &rarr;</p>
         </ul>
-        </div>
+        
          <p className={styles.description}><b>🎓Discipline and learning</b>
           <br />
           Discipline and learning is the bacbone of the development of our startup journy and culture is behavior
