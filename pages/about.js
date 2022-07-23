@@ -20,13 +20,19 @@ export default function About() {
           We create real-life experiences to enable and access face-to-face
         </p>
 
-        <p className={styles.description}><b>RunAsh startup journey</b> ✨  &rarr;</p>
+        <p className={styles.description}><b>RunAsh startup journey</b> ✨
+        <br />
+         Journey from a small village in India to Sillicone Valley Y Combinator startup school community member
+        </p>
         
         <div className={styles.card}>
         <p>☝️<br /><b>Oneliner</b></p>
         <p>A live retail streaming hybrid marketplace for retailing<br />Learn more &rarr;</p>
          </div>
-         <p className={styles.description}><b>🎓Discipline and learning</b></p>
+         <p className={styles.description}><b>🎓Discipline and learning</b>
+          <br />
+          Discipline and learning is the bacbone of the development of our startup journy and culture is behavior
+          </p>
         <div className={styles.card}>
         <p>👥<br /><b>What we do</b></p>
         <br />
