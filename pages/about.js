@@ -23,17 +23,19 @@ export default function About() {
         <button type="button-primary">Join Us</button><p className={styles.description}>RunAsh startup journey ✨  &rarr;</p>
         
         <div className={styles.card}>
-        <h2>☝️<br />Oneliner </h2>
+        <h2>☝️<br /><b>Oneliner</b></h2>
         <p>A live retail streaming hybrid marketplace for retailing<br />Learn more &rarr;</p>
          </div>
          <p className={styles.description}>Discipline and learning</p>
         <div className={styles.card}>
         <p>👥<br /><b>What we do</b></p>
+        <br />
         <p>We created new model of live streaming marketplace and environment where retailers face to face demonstrate and presented their products with buyers<br />Learn more &rarr;</p>
         </div>
         <p className={ styles.description}>Founders story</p>
         <div className={styles.card}>
         <p>🎥<br /><b>What we going to make</b></p>
+        <br />
         <p>We are committed to building a live retail streaming hybrid platform for unorganised retailers and new ways to use physical reality experience<br />Learn more &rarr;</p>
         </div>
          <p className={styles.description}>Executive profile</p>
