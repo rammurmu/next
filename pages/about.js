@@ -19,8 +19,6 @@ export default function About() {
         <p className={styles.description}>
           We create real-life experiences to enable and access face-to-face
         </p>
-        
-        <button type="button">Join Us</button>
 
         <p className={styles.description}><b>RunAsh startup journey</b> ✨  &rarr;</p>
         
