@@ -6,39 +6,63 @@ import Link from 'next/link'
 
 export default function Dashboard() {
   return (
-       <div className={styles.fullWidth}>
-      <header>
-        <div className={styles.logoRow}>   
+          <div class name={styles.fullwidth}> 
+          <div className={styles.nav}>
+           <li>
+            <Link href="/">
+            <a>My profile</a>
+            </Link>
+           </li>
+           <li>
+            <Link href="/">
+            <a>Dashboard</a>
+            </Link>
+           </li>
+           <li>
+            <Link href="/">
+            <a>Overview</a>
+            </Link>
+           </li>
+           <li>
+            <Link href="/">
+            <a>Live Stream</a>
+            </Link>
+           </li>
+           <li>
+            <Link href="/">
+            <a>Live on demand</a>
+            </Link>
+           </li>
+           <li>
+            <Link href="/">
+            <a>Live chat</a>
+            </Link>
+           </li>
+           <li>
+            <Link href="/">
+            <a>Insight</a>
+            </Link>
+           </li>
+        </ul>
         </div>
-        <nav className={styles.nav}>
-          <ul>
-          <li>
-          <Link href="/">
-          <a>Dashboard</a>
-          </Link>
-          </li>
-         </ul>
-        </nav>
-      </header>
+        <main className={styles.main}>
 
-      <main className={styles.main}>
-        <span className={styles.heading}>Home</span>
-        <span className={styles.subHeading}>Welcome to your application</span>
-       <div className={styles.grid}>
-        <h1> KPI</h1>
-       </div>
-       <div className={styles.box}/>
-         <h1>Viewer</h1>
-       </div>
-        <div className={styles.box}/>
-        <h1>Update<h1>
-        </div>
-        <div className={styles.box}/>
-         <h1>Insights</h1>
-        </div>
+
+
+
+
+
+
+
+
+        <p className={styles.description}>
+          <Link href="/">
+            <a>&larr; Go Back</a>
+          </Link>
+        </p>
       </main>
     </div>
-  );
+  )
 }
-       
+ 
     
