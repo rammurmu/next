@@ -17,7 +17,13 @@ export default function Dashboard() {
           
         </div>
         <nav className={styles.nav}>
-          <div className={styles.navButton}>Home</div>
+          <ul>
+          <li>
+          <Link href="/">
+          <a>Dashboard</a>
+          </Link>
+          </li>
+         </ul>
         </nav>
       </header>
       <main className={styles.main}>
