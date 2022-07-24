@@ -34,7 +34,7 @@ export default function Dashboard() {
            </li>
            <li>
             <Link href="/">
-            <a>Live on demand</a>
+            <a>On demand</a>
             </Link>
            </li>
            <li>
@@ -53,9 +53,9 @@ export default function Dashboard() {
         <main className={styles.main}>
         <span className={styles.heading}>Dashboard</span>
         <span className={styles.SubHeading}>👏Welcome back Ram!</span>
-
-        <div className={styles.box}>Learn</div>
-
+        <div className={styles.grid}>
+        <div className={styles.box}>A live streaming hybrid platform</div>
+        </div>
 
 
 
