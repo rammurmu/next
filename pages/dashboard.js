@@ -50,10 +50,7 @@ export default function Dashboard() {
         <span className={styles.heading}>Dashboard</span>
 
         <span className={styles.SubHeading}>👏Welcome back Ram!</span>
-        <div className={styles.box}>
-        <h1>KPI<h1>
-        <p>Get you business performance</p>
-        </div>
+        <div className={styles.box}>Learn</div>
 
 
 
