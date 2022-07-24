@@ -47,9 +47,9 @@ export default function Dashboard() {
         </ul>
         </div>
         <main className={styles.main}>
-        <span className={styles.heading}>Dashboard</span>
-
+        <span className={styles.heading}>Dashboard</span><br />
         <span className={styles.SubHeading}>👏Welcome back Ram!</span>
+
         <div className={styles.box}>Learn</div>
 
 
