@@ -40,7 +40,7 @@ function Navbar() {
           </Link>
        </li>     
        <li>
-          <Link href='/no-js-form'>
+          <Link href='/form'>
             <a>Login</a>
           </Link>
        </li>     
