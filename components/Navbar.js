@@ -40,7 +40,7 @@ function Navbar() {
           </Link>
        </li>     
        <li>
-          <Link href='/form'>
+          <Link href='/productlist'>
             <a>Login</a>
           </Link>
        </li>     
