@@ -47,11 +47,13 @@ export default function Dashboard() {
         </ul>
         </div>
         <main className={styles.main}>
-        <span className={styles.heading}>Home</span>
-        <span className={styles.SubHeading}>Welcome to RunAsh</span>
+        <span className={styles.heading}>Dashboard</span>
 
-
-
+        <span className={styles.SubHeading}>👏Welcome back Ram!</span>
+        <div className={styles.box}>
+        <h1>KPI<h1>
+        <p>Get you business performance</p>
+        </div>
 
 
 
