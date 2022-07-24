@@ -4,7 +4,9 @@ function Navbar() {
   return (
       <nav className='header'>
         <h1 className='logo'>
-          <Link href='/home'><a>RunAsh</a>
+          <Link href='/home'>
+          <a>RunAsh</a>
+          </Link>
         </h1>
       <ul className={'main-nav'}>
        <li>
