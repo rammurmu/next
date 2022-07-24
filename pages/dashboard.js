@@ -10,7 +10,7 @@ export default function Dashboard() {
       <header>
         <div className={styles.logoRow}>
           <Logo />
-          <UserButton afterSignOutUrl="/sign-in" />
+          
         </div>
         <nav className={styles.nav}>
           <button className={styles.navButton}>Home</button>
