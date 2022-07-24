@@ -4,7 +4,7 @@ function Navbar() {
   return (
       <nav className='header'>
         <h1 className='logo'>
-          <Link href='/home'>
+          <Link href='/dashboard'>
           <a>RunAsh</a>
           </Link>
         </h1>
