@@ -13,7 +13,15 @@ export default function Dashboard() {
         <h2 className={styles.description}>
         Your live activity</h2>
         <p>See real time live status for your sell & buy</p>
-
+        <div className={styles.nav}>
+         <ul> 
+           <li>
+            <Link href="/">
+            <a>My profile</a>
+            </Link>
+           </li>
+        </ul>
+        </div>
         <p className={styles.description}>
           <Link href="/">
             <a>&larr; Go Back</a>
