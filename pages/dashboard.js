@@ -11,9 +11,7 @@ export default function Dashboard() {
         <div className={styles.logoRow}>
           <Link href='/'>
           <a>RunAsh</a>
-          </Link>
-        </h1>
-          
+          </Link>   
         </div>
         <nav className={styles.nav}>
           <ul>
