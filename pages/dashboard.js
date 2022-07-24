@@ -52,7 +52,7 @@ export default function Dashboard() {
            </li>
         </ul>
         </div>
-       <div className={styles.grid}>
+       <div className={styles.card}>
        <h1>Activity</h1>
        </div>
 
