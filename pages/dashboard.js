@@ -12,12 +12,27 @@ export default function Dashboard() {
         <div className={styles.description}><code className={styles.code}>👏 Welcome back ram!</code></div>
         <h2 className={styles.description}>
         Your live activity</h2>
-        <p>See real time live status for your sell & buy</p>
+        <p className={styles.description}>See real time live status for your sell & buy</p>
         <div className={styles.nav}>
          <ul> 
            <li>
             <Link href="/">
             <a>My profile</a>
+            </Link>
+           </li>
+           <li>
+            <Link href="/">
+            <a>Dashboard</a>
+            </Link>
+           </li>
+           <li>
+            <Link href="/">
+            <a>Overview</a>
+            </Link>
+           </li>
+           <li>
+            <Link href="/">
+            <a>Live</a>
             </Link>
            </li>
         </ul>
