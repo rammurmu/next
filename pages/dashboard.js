@@ -32,11 +32,38 @@ export default function Dashboard() {
            </li>
            <li>
             <Link href="/">
-            <a>Live</a>
+            <a>Live Stream</a>
+            </Link>
+           </li>
+           <li>
+            <Link href="/">
+            <a>Live on demand</a>
+            </Link>
+           </li>
+           <li>
+            <Link href="/">
+            <a>Live chat</a>
+            </Link>
+           </li>
+           <li>
+            <Link href="/">
+            <a>Insight</a>
             </Link>
            </li>
         </ul>
         </div>
+       <div className={styles.grid}>
+       <h1>Activity</h1>
+       </div>
+
+
+
+
+
+
+
+
+
         <p className={styles.description}>
           <Link href="/">
             <a>&larr; Go Back</a>
