@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 export default function Dashboard() {
   return (
-          <div className={styles.fullwidth}> 
+        <div className={styles.fullwidth}> 
           <div className={styles.nav}>
           <ul>
            <li>
@@ -47,7 +47,7 @@ export default function Dashboard() {
         </ul>
         </div>
         <main className={styles.main}>
-        <h1>Welcome</h1>
+        <span className={styles.heading}>Home</span>
 
 
 
