@@ -48,6 +48,7 @@ export default function Dashboard() {
         </div>
         <main className={styles.main}>
         <span className={styles.heading}>Home</span>
+        <span className={styles.SubHeading}>Welcome to RunAsh</span>
 
 
 
