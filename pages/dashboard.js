@@ -8,6 +8,7 @@ export default function Dashboard() {
   return (
           <div class name={styles.fullwidth}> 
           <div className={styles.nav}>
+          <ul>
            <li>
             <Link href="/">
             <a>My profile</a>
@@ -46,7 +47,7 @@ export default function Dashboard() {
         </ul>
         </div>
         <main className={styles.main}>
-
+        <h1>Welcome</h1>
 
 
 
