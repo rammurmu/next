@@ -13,63 +13,27 @@ export default function Dashboard() {
         <h2 className={styles.description}>
         Your live activity</h2>
         <p className={styles.description}>See real time live status for your sell & buy</p>
-        <div className={styles.nav}>
-         <ul> 
-           <li>
-            <Link href="/">
-            <a>My profile</a>
-            </Link>
-           </li>
-           <li>
-            <Link href="/">
-            <a>Dashboard</a>
-            </Link>
-           </li>
-           <li>
-            <Link href="/">
-            <a>Overview</a>
-            </Link>
-           </li>
-           <li>
-            <Link href="/">
-            <a>Live Stream</a>
-            </Link>
-           </li>
-           <li>
-            <Link href="/">
-            <a>Live on demand</a>
-            </Link>
-           </li>
-           <li>
-            <Link href="/">
-            <a>Live chat</a>
-            </Link>
-           </li>
-           <li>
-            <Link href="/">
-            <a>Insight</a>
-            </Link>
-           </li>
-        </ul>
+       <div className={styles.fullWidth}>
+      <header>
+        <div className={styles.logoRow}>
+          <Logo />
+          <UserButton afterSignOutUrl="/sign-in" />
         </div>
-       <div className={styles.card}>
-       <h1>Activity</h1>
-       </div>
-
-
-
-
-
-
-
-
-
-        <p className={styles.description}>
-          <Link href="/">
-            <a>&larr; Go Back</a>
-          </Link>
-        </p>
+        <nav className={styles.nav}>
+          <button className={styles.navButton}>Home</button>
+        </nav>
+      </header>
+      <main className={styles.main}>
+        <span className={styles.heading}>Home</span>
+        <span className={styles.subHeading}>Welcome to your application</span>
+        <div className={styles.grid}>
+          <div className={styles.box}/>
+          <div className={styles.box}/>
+          <div className={styles.box}/>
+        </div>
       </main>
     </div>
-  )
+  );
 }
+       
+    
