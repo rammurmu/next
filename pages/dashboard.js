@@ -7,6 +7,7 @@ import Link from 'next/link'
 export default function Dashboard() {
   return (
         <div className={styles.fullwidth}> 
+         <header>
           <div className={styles.nav}>
           <ul>
            <li>
@@ -45,9 +46,10 @@ export default function Dashboard() {
             </Link>
            </li>
         </ul>
+       </header>
         </div>
         <main className={styles.main}>
-        <span className={styles.heading}>Dashboard</span><br />
+        <span className={styles.heading}>Dashboard</span>
         <span className={styles.SubHeading}>👏Welcome back Ram!</span>
 
         <div className={styles.box}>Learn</div>
