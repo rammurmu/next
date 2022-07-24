@@ -8,10 +8,7 @@ export default function Dashboard() {
   return (
        <div className={styles.fullWidth}>
       <header>
-        <div className={styles.logoRow}>
-          <Link href='/'>
-          <a>RunAsh</a>
-          </Link>   
+        <div className={styles.logoRow}>   
         </div>
         <nav className={styles.nav}>
           <ul>
@@ -23,19 +20,20 @@ export default function Dashboard() {
          </ul>
         </nav>
       </header>
+
       <main className={styles.main}>
         <span className={styles.heading}>Home</span>
         <span className={styles.subHeading}>Welcome to your application</span>
-        <div className={styles.grid}>
+       <div className={styles.grid}>
         <h1> KPI</h1>
-        </div>
-          <div className={styles.box}/>
+       </div>
+       <div className={styles.box}/>
          <h1>Viewer</h1>
        </div>
-          <div className={styles.box}/>
+        <div className={styles.box}/>
         <h1>Update<h1>
         </div>
-          <div className={styles.box}/>
+        <div className={styles.box}/>
          <h1>Insights</h1>
         </div>
       </main>
