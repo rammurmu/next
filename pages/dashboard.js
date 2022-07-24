@@ -9,7 +9,11 @@ export default function Dashboard() {
        <div className={styles.fullWidth}>
       <header>
         <div className={styles.logoRow}>
-          <Logo />
+          <h1 className='logo'>
+          <Link href='/'>
+          <a>RunAsh</a>
+          </Link>
+        </h1>
           
         </div>
         <nav className={styles.nav}>
@@ -20,9 +24,16 @@ export default function Dashboard() {
         <span className={styles.heading}>Home</span>
         <span className={styles.subHeading}>Welcome to your application</span>
         <div className={styles.grid}>
+        <h1> KPI</h1>
+        </div>
           <div className={styles.box}/>
+         <h1>Viewer</h1>
+       </div>
           <div className={styles.box}/>
+        <h1>Update<h1>
+        </div>
           <div className={styles.box}/>
+         <h1>Insights</h1>
         </div>
       </main>
     </div>
