@@ -9,7 +9,6 @@ export default function Dashboard() {
        <div className={styles.fullWidth}>
       <header>
         <div className={styles.logoRow}>
-          <h1 className='logo'>
           <Link href='/'>
           <a>RunAsh</a>
           </Link>
