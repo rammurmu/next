@@ -21,7 +21,7 @@ export default function Buyer() {
         <button type="Watch live ">Watch live</button>
        <h2>Categories</h2>
       <div className={styles.grid}>
-          <a href="https://productslist" className={styles.card}>
+          <Link href="/productslist"></Link> className={styles.card}>
             <h2>🍎🍋Fruit</h2>
             <p>Organic & fresh </p>
           </a>
