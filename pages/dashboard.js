@@ -55,6 +55,9 @@ export default function Dashboard() {
         <span className={styles.SubHeading}>👏Welcome back Ram!</span>
         <div className={styles.grid}>
         <div className={styles.box}>A live streaming hybrid platform</div>
+        <div className={styles.box}>A live streaming hybrid platform</div>
+        <div className={styles.box}>A live streaming hybrid platform</div>
+        <div className={styles.box}>A live streaming hybrid platform</div>
         </div>
 
 
