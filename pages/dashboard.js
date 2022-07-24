@@ -17,7 +17,7 @@ export default function Dashboard() {
           
         </div>
         <nav className={styles.nav}>
-          <button className={styles.navButton}>Home</button>
+          <div className={styles.navButton}>Home</div>
         </nav>
       </header>
       <main className={styles.main}>
