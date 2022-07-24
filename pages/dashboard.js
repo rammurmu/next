@@ -8,6 +8,8 @@ export default function Dashboard() {
   return (
         <div className={styles.fullwidth}> 
          <header>
+         <div className={styles.logoRow}>RunAsh</div>
+         </header>
           <div className={styles.nav}>
           <ul>
            <li>
@@ -46,7 +48,7 @@ export default function Dashboard() {
             </Link>
            </li>
         </ul>
-       </header>
+     
         </div>
         <main className={styles.main}>
         <span className={styles.heading}>Dashboard</span>
