@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Navbar from './navbar'
 import Footer from './footer'
 
