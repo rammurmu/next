@@ -74,15 +74,15 @@ export default function Seller() {
        <ul>
        <li><b>🔐 Secure</b></li> 
        <br />
-        <p>Your live streaming content is secure our server</p>
+        <p className={styles.description}>Your live streaming content is secure our server</p>
        <br />
        <li><b>🛡️ Trusted</b></li>
        <br />
-        <p>Secure verified payment,transaction, packaging and delivery </p>
+        <p className={styles.description}>Secure verified payment,transaction, packaging and delivery </p>
        <br />
        <li><b>✅ First payment</b></li>
        <br />
-        <p>We are paid your account real time of the sell</p>
+        <p className={styles.description}>We are paid your account real time of the sell</p>
        </ul>
       <br />
       <p>Get help & support <b>24 x 7 x 365 </b>days</p>
