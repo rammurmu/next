@@ -75,7 +75,7 @@ export default function Seller() {
        <li><code className={styles.code}>Affordable</code><code className={styles.code}>sustainable</code><code className={styles.code}>efficient</code></li>
       </ul>
       <div>
-      <p>Help & support<b>24</b>x<b>27</b>x<b>365</b>days</p>
+      <p>Help & support<b>24 x 7 x 365 </b>days</p>
       </main>
       </div>
   )
