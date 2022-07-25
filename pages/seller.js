@@ -65,7 +65,7 @@ export default function Seller() {
          <br />
          <p>Shaping the future of retail</p>
          <br />
-         <p className={styles.description}>Create your live business  &rarr;</p>
+         <p className={styles.description}><b>Create your live business  &rarr;</b></p>
 
      
    
@@ -73,10 +73,10 @@ export default function Seller() {
        <br />
        <ul>
        <li><b>🔐 Secure</b></li> 
-        <p className={styles.description}>Your live streaming content is secure our server</p>
+        <p className={styles.description}>Your live streaming content is secured </p>
        <br />
        <li><b>🛡️ Trusted</b></li>
-        <p className={styles.description}>Verified payment,transaction, packaging,& delivery </p>
+        <p className={styles.description}>Payment,transaction, packaging,& delivery </p>
        <br />
        <li><b>✅ First payment</b></li>
         <p className={styles.description}>Direct payment your account</p>
