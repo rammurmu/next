@@ -19,7 +19,7 @@ export default function Seller() {
           Give your store a real experience on a complete real digitization 
         </p>
         <button type="Go live">Go live</button>
-        <p>Unique Experiences the future of e-commerce</p>
+        <p>Unique real experiences </p>
         <div className={styles.grid}>
           <a href="https://" className={styles.card}>
             <h2>Ubiquity</h2>
@@ -61,7 +61,8 @@ export default function Seller() {
             <p>Technology delivered real experience on business characteristics</p>
           </a>
          </div>
-         <p>Build your business,technology and society</p>
+         <br />
+         <p>Shaping the future of retail</p>
       </main>
       </div>
   )
