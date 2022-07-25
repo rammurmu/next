@@ -12,6 +12,7 @@ export default function Buyer() {
         <link rel="icon" href="/favicon.icon" />  
       </Head>
         <main className={styles.main}>
+        <p className={styles.description}><code className={styles.code}>👏 Welcome to RunAsh</code></p>
         <h1 className={styles.title}>
          NextGen shopping <br /><a href="https://">experience</a>
         </h1>
@@ -70,6 +71,9 @@ export default function Buyer() {
             <p>Desi fashion </p>
           </a>    
       </div>
+     <br />
+     <p>The future of organic retail</p>
+    <h1 className={styles.description}>Watched live on demand</h1>
      </main> 
     </div> 
   )
