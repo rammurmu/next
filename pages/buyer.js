@@ -74,6 +74,9 @@ export default function Buyer() {
      <br />
      <p>The future of organic retail</p>
     <h1 className={styles.description}>Watched live on demand</h1>
+    <div className={styles.box}>
+    <p>Schedule a live shopping</p>
+    </div>
      </main> 
     </div> 
   )
