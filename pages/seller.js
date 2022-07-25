@@ -76,7 +76,7 @@ export default function Seller() {
         <p className={styles.description}>Your live streaming content is secured </p>
        <br />
        <li><b>🛡️ Trusted</b></li>
-        <p className={styles.description}>Payment,transaction, packaging,& delivery </p>
+        <p className={styles.description}>Transaction, packaging, delivery </p>
        <br />
        <li><b>✅ First payment</b></li>
         <p className={styles.description}>Direct payment your account</p>
