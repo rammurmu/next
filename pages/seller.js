@@ -70,11 +70,23 @@ export default function Seller() {
    
       <div className={styles.grid}>
        <ul>
-       <li><code className={styles.code}>Secure</code> and <code className={styles.code}>trusted</code></li>
-        <br />
-       <li><code className={styles.code}>Real time selling payment</code></li>
+       <li>Secure</li>
+        <p>your live streaming content is secure our server</p>
        <br />
-       <li><code className={styles.code}>Affordable</code> , <code className={styles.code}>sustainable</code> and <code className={styles.code}>efficient</code></li>
+       <li>Trusted</li>
+       <p>Secure verified payment,transaction, packaging and delivery </p>
+        <br />
+       <li>Real time selling payment</li>
+       <p>We are paid your account real time of the sell</p>
+       <br />
+       <li>Affordable</li>
+       <p>10 x affordable</p>
+        <br />
+       <li>Sustainable </li>
+       <p>10 x sustainable</p>
+       <br />
+       <li>Efficient</li>
+        <p>10 x efficient</p>
        <br />
       </ul>
       </div>
