@@ -70,6 +70,7 @@ export default function Seller() {
      
    
       <h1 className={styles.title}>DiffServe</h1>
+      <p>Learn more &rarr;</p>
        <br />
        <ul>
        <li><b>🔐 Secure</b></li> 
