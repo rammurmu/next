@@ -66,14 +66,14 @@ export default function Seller() {
          <p>Shaping the future of retail</p>
          <p className={styles.container}>Create your business &rarr;</p>
         <h1 className={styles.description}>How does it works ?</h1>
-      <p className={styles.grid}>Simplicity 
+      <div className={styles.grid}>
        <ul>
-       <li>Secure and trusted</li>
-       <li>Real time selling payment</li>
-       <li>Affordable, sustainable and efficient</li>
+       <li><code className={styles.code}>Secure</code><code className={styles.code}>trusted</code></li>
+       <li><code className={styles.code}>Real time selling payment</code></li>
+       <li><code className={styles.code}>Affordable<code><code className={styles.code}>sustainable</code><code className={styles.code}>efficient<code></li>
       </ul>
-      </p>
-      <p>Get helps and support 24 x 7 x 365 days</p>
+      <div>
+      <p>Help & support<b>24</b>x<b>27</b>x<b>365</b>days</p>
       </main>
       </div>
   )
