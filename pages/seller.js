@@ -64,10 +64,8 @@ export default function Seller() {
          </div>
          <br />
          <p>Shaping the future of retail</p>
-         <br />
-         <p className={styles.description}>
-         Create your business with aadhaar ID &rarr;
-         </p>
+         
+         <p className={styles.description}>Create your business with aadhaar ID &rarr;</p>
 
      
    
