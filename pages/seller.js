@@ -68,8 +68,8 @@ export default function Seller() {
 
      
    
-      <h1 className={styles.title}>Promise of diffserve</h1>
-
+      <h1 className={styles.title}>DiffServe</h1>
+       <br />
        <ul>
        <li>🔐 Secure</li> 
        <br />
