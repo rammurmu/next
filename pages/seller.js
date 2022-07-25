@@ -64,13 +64,16 @@ export default function Seller() {
          </div>
          <br />
          <p>Shaping the future of retail</p>
-         <p className={styles.container}>Create your business &rarr;</p>
+         <p className={styles.container}>Create your business with aadhaar ID &rarr;</p>
+
         <h1 className={styles.description}>How does it works ?</h1>
+        <Video src={'https://assets.vercel.com/video/upload/v1542426673/front/design/examples/live-support.mp4'} width={2000 / 3.5} height={1300 / 3.5}/>
+
       <div className={styles.grid}>
        <ul>
        <li><code className={styles.code}>Secure</code><code className={styles.code}>trusted</code></li>
        <li><code className={styles.code}>Real time selling payment</code></li>
-       <li><code className={styles.code}>Affordable<code><code className={styles.code}>sustainable</code><code className={styles.code}>efficient<code></li>
+       <li><code className={styles.code}>Affordable</code><code className={styles.code}>sustainable</code><code className={styles.code}>efficient</code></li>
       </ul>
       <div>
       <p>Help & support<b>24</b>x<b>27</b>x<b>365</b>days</p>
