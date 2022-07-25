@@ -70,8 +70,10 @@ export default function Seller() {
    
       <div className={styles.grid}>
        <ul>
-       <li>Secure</li>
-        <p>your live streaming content is secure our server</p>
+       <li>🔐 Secure 
+       <br />
+        Your live streaming content is secure our server
+       </li>
        <br />
        <li>Trusted</li>
        <p>Secure verified payment,transaction, packaging and delivery </p>
