@@ -23,7 +23,7 @@ export default function Seller() {
         <div className={styles.grid}>
           <a href="https://" className={styles.card}>
             <h2>Ubiquity</h2>
-            <p>Reduce your selling costs</p>
+            <p>Reduce your selling costs and sustain more efficient</p>
           </a>
           
           <a href="https://" className={styles.card}>
