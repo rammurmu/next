@@ -76,23 +76,23 @@ export default function Seller() {
        <br />
        <li>🛡️ Trusted</li>
        <br />
-        <p>Secure verified payment,transaction, packaging and delivery </p>
+        <li>Secure verified payment,transaction, packaging and delivery </li>
        <br />
        <li>🌀 First payment</li>
        <br />
-        <p>We are paid your account real time of the sell</p>
+        <li>We are paid your account real time of the sell</li>
        <br />
-       <li>🥏 Affordable</li>
+       <li>🥏 10 X Affordable</li>
        <br />
-       <p>10 x affordable</p>
+       <li>More affordable</li>
        <br />
-       <li>💫 Sustainable</li>
+       <li>💫 10 X Sustainable</li>
        <br />
-        <p>10 x sustainable</p>
+        <li>More sustainable</li>
        <br />
-       <li>🔖Efficient</li>
+       <li>🔖10 X Efficient</li>
         <br />
-        <p>10 x efficient</p>
+        <li>More efficient</li>
        <br />
       </ul>
       
