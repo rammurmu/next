@@ -65,7 +65,7 @@ export default function Seller() {
          <br />
          <p>Shaping the future of retail</p>
          <br />
-         <p className={styles.description}>Create your business with{' '}<code className={styles.code}> aadhaar ID &rarr;</code></p>
+         <p className={styles.description}>Create your business with{' '}>code className={styles.code}> aadhaar ID &rarr;</code></p>
 
      
    
