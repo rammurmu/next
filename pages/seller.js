@@ -82,18 +82,10 @@ export default function Seller() {
        <br />
         <li>We are paid your account real time of the sell</li>
        <br />
-       <li>🥏 10 X Affordable</li>
+       <li>🥏 10X Affordable, 💫Sustainable, & 🔖Efficient</li>
        <br />
-       <li>More affordable</li>
-       <br />
-       <li>💫 10 X Sustainable</li>
-       <br />
-        <li>More sustainable</li>
-       <br />
-       <li>🔖10 X Efficient</li>
-        <br />
-        <li>More efficient</li>
-       <br />
+       <li>More benefits  </li>
+       
       </ul>
       
       <p>Get help & support <b>24 x 7 x 365 </b>days</p>
