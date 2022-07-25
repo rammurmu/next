@@ -66,9 +66,9 @@ export default function Seller() {
          <p>Shaping the future of retail</p>
          <p className={styles.container}>Create your business with aadhaar ID &rarr;</p>
 
-        <h1 className={styles.description}>How does it works ?</h1>
+        <h1 className={styles.title}>How does it works ?</h1>
    
-      <h1 className={styles.description}>The promise of diffserve</h1>
+      <h1 className={styles.title}>The promise of diffserve</h1>
        <ul>
        <li>🔐 Secure</li> 
        <br />
@@ -82,7 +82,7 @@ export default function Seller() {
        <br />
         <p>We are paid your account real time of the sell</p>
        <br />
-       <li>💫Affordable💫Sustainable💫Efficient</li>
+       <li>💫 Affordable 💫 Sustainable 💫 Efficient</li>
        <br />
        <p>Ten times high quality & better service </p> 
       </ul>
