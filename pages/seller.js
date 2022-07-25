@@ -65,7 +65,7 @@ export default function Seller() {
          <br />
          <p>Shaping the future of retail</p>
          <br />
-         <p className={styles.description}>Create your business with aadhaar ID &rarr;</p>
+         <p className={styles.description}>Create your live business  &rarr;</p>
 
      
    
@@ -73,16 +73,13 @@ export default function Seller() {
        <br />
        <ul>
        <li><b>🔐 Secure</b></li> 
-       <br />
         <p className={styles.description}>Your live streaming content is secure our server</p>
        <br />
        <li><b>🛡️ Trusted</b></li>
-       <br />
-        <p className={styles.description}>Secure verified payment,transaction, packaging and delivery </p>
+        <p className={styles.description}>Verified payment,transaction, packaging,& delivery </p>
        <br />
        <li><b>✅ First payment</b></li>
-       <br />
-        <p className={styles.description}>We are paid your account real time of the sell</p>
+        <p className={styles.description}>Direct payment your account</p>
        </ul>
       <br />
       <p>Get help & support <b>24 x 7 x 365 </b>days</p>
