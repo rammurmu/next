@@ -70,10 +70,9 @@ export default function Seller() {
    
       
        <ul>
-       <li>🔐 Secure 
+       <li>🔐 Secure</li> 
        <br />
-        Your live streaming content is secure our server
-       </li>
+        <p>Your live streaming content is secure our server</p>
        <br />
        <li>🛡️ Trusted
        <br />
