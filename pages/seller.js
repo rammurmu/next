@@ -75,20 +75,30 @@ export default function Seller() {
         Your live streaming content is secure our server
        </li>
        <br />
-       <li>Trusted</li>
-       <p>Secure verified payment,transaction, packaging and delivery </p>
-        <br />
-       <li>Real time selling payment</li>
-       <p>We are paid your account real time of the sell</p>
+       <li>🛡️ Trusted
        <br />
-       <li>Affordable</li>
-       <p>10 x affordable</p>
-        <br />
-       <li>Sustainable </li>
-       <p>10 x sustainable</p>
+        Secure verified payment,transaction, packaging and delivery 
+       </li>
        <br />
-       <li>Efficient</li>
-        <p>10 x efficient</p>
+       <li>🌀 First payment
+       <br />
+        We are paid your account real time of the sell
+       </li>
+       <br />
+       <li>🥏 Affordable
+       <br />
+       10 x affordable
+       </li>
+       <br />
+       <li>💫 Sustainable
+       <br />
+        10 x sustainable
+        </li>
+       <br />
+       <li>🔖Efficient
+        <br />
+        10 x efficient
+        </li>
        <br />
       </ul>
       </div>
