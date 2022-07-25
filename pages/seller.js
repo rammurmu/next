@@ -72,19 +72,19 @@ export default function Seller() {
        <ul>
        <li>🔐 Secure</li> 
        <br />
-        <li>Your live streaming content is secure our server</li>
+        <p>Your live streaming content is secure our server</p>
        <br />
        <li>🛡️ Trusted</li>
        <br />
-        <li>Secure verified payment,transaction, packaging and delivery </li>
+        <p>Secure verified payment,transaction, packaging and delivery </p>
        <br />
-       <li>🌀 First payment</li>
+       <li>✅ First payment</li>
        <br />
-        <li>We are paid your account real time of the sell</li>
+        <p>We are paid your account real time of the sell</p>
        <br />
        <li>🥏Affordable,💫Sustainable,&🔖Efficient</li>
        <br />
-       <li>ten times high quality and better service </li> 
+       <p>ten times high quality and better service </p> 
       </ul>
       <br />
       <p>Get help & support <b>24 x 7 x 365 </b>days</p>
