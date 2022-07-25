@@ -19,6 +19,46 @@ export default function Seller() {
           Give your store a real experience on a complete real digitization 
         </p>
         <button type="Go live">Go live</button>
+        <div className={styles.grid}>
+          <a href="https://" className={styles.card}>
+            <h2>Ubiquity</h2>
+            <p>Reduce your selling costs</p>
+          </a>
+          <div className={styles.grid}>
+          <a href="https://" className={styles.card}>
+            <h2>Global reach</h2>
+            <p>Reaches your customers,around the earth</p>
+          </a>
+          <div className={styles.grid}>
+          <a href="https://" className={styles.card}>
+            <h2>Universal standards</h2>
+            <p>High quality live streaming technology across the globe</p>
+          </a>
+          <div className={styles.grid}>
+          <a href="https://" className={styles.card}>
+            <h2>Richness</h2>
+            <p> Real video selling are possible and cusuming real experience</p>
+          </a>
+          <div className={styles.grid}>
+          <a href="https://" className={styles.card}>
+            <h2>Interactivity</h2>
+            <p>Engaged face to face interaction with customers</p>
+          </a>
+          <div className={styles.grid}>
+          <a href="https://" className={styles.card}>
+            <h2>Information density</h2>
+            <p>Reduces costs and raises high quality business</p>
+          </a>
+          <div className={styles.grid}>
+          <a href="https://" className={styles.card}>
+            <h2>Personalization</h2>
+            <p>Technology allows personalized own made business experience</p>
+          </a>
+          <div className={styles.grid}>
+          <a href="https://" className={styles.card}>
+            <h2>Customisation</h2>
+            <p>Technology delivered real experience on business characteristics</p>
+          </a>
       </main>
       </div>
   )
