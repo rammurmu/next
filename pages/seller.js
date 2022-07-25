@@ -69,13 +69,13 @@ export default function Seller() {
         <h1 className={styles.description}>How does it works ?</h1>
       <div className={styles.media}>
        <Video
-  src={
-    'https://assets.vercel.com/video/upload/v1542426673/front/design/examples/live-support.mp4'
-  }
-  width={2000 / 3.5}
-  height={1300 / 3.5}
-/>
-</div>
+        src={
+             'https://assets.vercel.com/video/upload/v1542426673/front/design/examples/live-support.mp4'
+            }
+            width={200 / 3.5}
+           height={130 / 3.5}
+           />
+        </div>
       <div className={styles.grid}>
        <ul>
        <li><code className={styles.code}>Secure</code><code className={styles.code}>trusted</code></li>
