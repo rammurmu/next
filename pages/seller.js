@@ -68,7 +68,7 @@ export default function Seller() {
 
         <h1 className={styles.description}>How does it works ?</h1>
    
-      
+      <h1 className={styles.description}>The promise of diffserve</h1>
        <ul>
        <li>🔐 Secure</li> 
        <br />
@@ -82,9 +82,9 @@ export default function Seller() {
        <br />
         <p>We are paid your account real time of the sell</p>
        <br />
-       <li>🥏Affordable,💫Sustainable,&🔖Efficient</li>
+       <li>💫Affordable💫Sustainable💫Efficient</li>
        <br />
-       <p>ten times high quality and better service </p> 
+       <p>Ten times high quality & better service </p> 
       </ul>
       <br />
       <p>Get help & support <b>24 x 7 x 365 </b>days</p>
