@@ -83,6 +83,9 @@ export default function Seller() {
        </ul>
       <br />
       <p>Get support <b>24 x 7 x 365 </b>days</p>
+      <br />
+      <div className={styles.title}>How it works ?</div>
+      <p>Learn more & rarr;</p>
       </main>
       </div>
   )
