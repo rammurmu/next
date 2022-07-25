@@ -71,8 +71,11 @@ export default function Seller() {
       <div className={styles.grid}>
        <ul>
        <li><code className={styles.code}>Secure</code><code className={styles.code}>trusted</code></li>
+        <br />
        <li><code className={styles.code}>Real time selling payment</code></li>
+       <br />
        <li><code className={styles.code}>Affordable</code><code className={styles.code}>sustainable</code><code className={styles.code}>efficient</code></li>
+       <br />
       </ul>
       </div>
       <p>Help & support <b>24 x 7 x 365 </b>days</p>
