@@ -64,7 +64,7 @@ export default function Seller() {
          </div>
          <br />
          <p>Shaping the future of retail</p>
-         
+         <br />
          <p className={styles.description}>Create your business with aadhaar ID &rarr;</p>
 
      
@@ -83,6 +83,7 @@ export default function Seller() {
        <li><b>✅ First payment</b></li>
        <br />
         <p>We are paid your account real time of the sell</p>
+       </ul>
       <br />
       <p>Get help & support <b>24 x 7 x 365 </b>days</p>
       </main>
