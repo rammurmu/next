@@ -29,6 +29,11 @@ export default function Dashboard() {
            </li>
            <li>
             <Link href="/">
+            <a>Channel</a>
+            </Link>
+           </li>
+           <li>
+            <Link href="/">
             <a>Live Stream</a>
             </Link>
            </li>
@@ -52,12 +57,13 @@ export default function Dashboard() {
       </header>
         <main className={styles.main}>
         <span className={styles.heading}>Dashboard</span>
+        <br />
         <span className={styles.SubHeading}>👏Welcome back Ram!</span>
         <div className={styles.grid}>
-        <div className={styles.box}>A live streaming hybrid platform</div>
-        <div className={styles.box}>A live streaming hybrid platform</div>
-        <div className={styles.box}>A live streaming hybrid platform</div>
-        <div className={styles.box}>A live streaming hybrid platform</div>
+        <div className={styles.box}>Notification </div>
+        <div className={styles.box}>Live insight </div>
+        <div className={styles.box}>Personalized </div>
+        <div className={styles.box}>Customized </div>
         </div>
 
 
