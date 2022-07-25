@@ -68,40 +68,40 @@ export default function Seller() {
 
         <h1 className={styles.description}>How does it works ?</h1>
    
-      <div className={styles.grid}>
+      
        <ul>
        <li>🔐 Secure 
        <br />
         Your live streaming content is secure our server
        </li>
-      
+       <br />
        <li>🛡️ Trusted
        <br />
         Secure verified payment,transaction, packaging and delivery 
        </li>
-       
+       <br />
        <li>🌀 First payment
        <br />
         We are paid your account real time of the sell
        </li>
-       
+       <br />
        <li>🥏 Affordable
        <br />
        10 x affordable
        </li>
-       
+       <br />
        <li>💫 Sustainable
        <br />
         10 x sustainable
         </li>
-       
+       <br />
        <li>🔖Efficient
         <br />
         10 x efficient
         </li>
-       
+       <br />
       </ul>
-      </div>
+      
       <p>Get help & support <b>24 x 7 x 365 </b>days</p>
       </main>
       </div>
