@@ -67,7 +67,15 @@ export default function Seller() {
          <p className={styles.container}>Create your business with aadhaar ID &rarr;</p>
 
         <h1 className={styles.description}>How does it works ?</h1>
-      
+      <div className={styles.@media}>
+       <Video
+  src={
+    'https://assets.vercel.com/video/upload/v1542426673/front/design/examples/live-support.mp4'
+  }
+  width={2000 / 3.5}
+  height={1300 / 3.5}
+/>
+</div>
       <div className={styles.grid}>
        <ul>
        <li><code className={styles.code}>Secure</code><code className={styles.code}>trusted</code></li>
@@ -75,7 +83,7 @@ export default function Seller() {
        <li><code className={styles.code}>Affordable</code><code className={styles.code}>sustainable</code><code className={styles.code}>efficient</code></li>
       </ul>
       </div>
-      <p>Help & support 24 x 7 x 365 days</p>
+      <p>Help & support <b>24 x 7 x 365 </b>days</p>
       </main>
       </div>
   )
