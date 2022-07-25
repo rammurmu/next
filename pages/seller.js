@@ -64,29 +64,25 @@ export default function Seller() {
          </div>
          <br />
          <p>Shaping the future of retail</p>
-         <p className={styles.container}>Create your business with aadhaar ID &rarr;</p>
+         <br />
+         <p className={styles.description}>Create your business with{' '}<code className={styles.code}> aadhaar ID &rarr;</code></p>
 
      
    
       <h1 className={styles.title}>DiffServe</h1>
        <br />
        <ul>
-       <li>🔐 Secure</li> 
+       <li><b>🔐 Secure</b></li> 
        <br />
         <p>Your live streaming content is secure our server</p>
        <br />
-       <li>🛡️ Trusted</li>
+       <li><b>🛡️ Trusted</b></li>
        <br />
         <p>Secure verified payment,transaction, packaging and delivery </p>
        <br />
-       <li>✅ First payment</li>
+       <li><b>✅ First payment</b></li>
        <br />
         <p>We are paid your account real time of the sell</p>
-       <br />
-       <li>💫 Affordable 💫 Sustainable 💫 Efficient</li>
-       <br />
-       <p>Ten times high quality & better service </p> 
-      </ul>
       <br />
       <p>Get help & support <b>24 x 7 x 365 </b>days</p>
       </main>
