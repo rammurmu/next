@@ -78,7 +78,7 @@ export default function Seller() {
        <br />
       </ul>
       </div>
-      <p>Help & support <b>24 x 7 x 365 </b>days</p>
+      <p>Get help & support <b>24 x 7 x 365 </b>days</p>
       </main>
       </div>
   )
