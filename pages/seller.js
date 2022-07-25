@@ -74,7 +74,7 @@ export default function Seller() {
        <li><code className={styles.code}>Real time selling payment</code></li>
        <li><code className={styles.code}>Affordable</code><code className={styles.code}>sustainable</code><code className={styles.code}>efficient</code></li>
       </ul>
-      <div>
+      </div>
       <p>Help & support 24 x 7 x 365 days</p>
       </main>
       </div>
