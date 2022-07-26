@@ -13,7 +13,7 @@
 
 .logoRow svg {
   fill: #000;
-  border-bottom: 1px solid #EAEAEA;
+  border-bottom: 1px solid #eaeaea;
 }
 
 .card {
@@ -26,6 +26,7 @@
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 300px;
+  height: 372px;
 }
 
 .nav {
@@ -73,9 +74,9 @@
 }
 
 .box {
-  background: #EAEAEA;
-  box-shadow: 0px 12px 24px #FAFAFA;
-  border-radius: 30px;
+  background: #FAFAFA;
+  box-shadow: 0px 12px 24px #eaeaea;
+  border-radius: 25px;
   height: 372px;
   width: 700px;
   border-bottom: 1px solid #eaeaea;
