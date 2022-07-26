@@ -20,7 +20,7 @@ export default function About() {
           We create real-life experiences to enable and access face-to-face
         </p>
 
-        <p className={styles.description}><b>RunAsh startup journey</b> ✨
+        <p className={styles.paragraph}><b>RunAsh startup journey</b> ✨
         <br />
          Journey from a small village in India to Sillicone Valley Y Combinator startup school community member
         </p>
@@ -28,31 +28,31 @@ export default function About() {
       
         <ul>
          <li>Oneliner</li>
-        <p>A live retail streaming hybrid marketplace for retailing<br />Learn more &rarr;</p>
+        <p className={styles.paragraph}>A live retail streaming hybrid marketplace for retailing<br />Learn more &rarr;</p>
         </ul>
         
-         <p className={styles.description}><b>🎓Discipline and learning</b>
+         <p className={styles.paragraph}><b>🎓Discipline and learning</b>
           <br />
           Discipline and learning is the bacbone of the development of our startup journy and culture is behavior
           </p>
         <div className={styles.card}>
         <p>👥<br /><b>What we do</b></p>
         <br />
-        <p>We created new model of live streaming marketplace and environment where retailers face to face demonstrate and presented their products with buyers
+        <p className={styles.paragraph}>We created new model of live streaming marketplace and environment where retailers face to face demonstrate and presented their products with buyers
        <br />
        Learn more &rarr;</p>
         </div>
-        <p className={ styles.description}><b>🎤Founders story</b></p>
+        <p className={ styles.paragraph}><b>🎤Founders story</b></p>
         <div className={styles.card}>
         <p>🎥<br /><b>What we going to make</b></p>
         <br />
-        <p>We are committed to building a live retail streaming hybrid platform for unorganised retailers and new ways to use physical reality experience
+        <p className={styles.paragraph}>We are committed to building a live retail streaming hybrid platform for unorganised retailers and new ways to use physical reality experience
         <br />
          Learn more &rarr;</p>
         </div>
-         <p className={styles.description}><b>👨‍💻Executive profile</b></p>
+         <p className={styles.paragraph}><b>👨‍💻Executive profile</b></p>
          <br />
-          <p>Board of Directors & Management team</p>
+          <p className={styles.paragraph}>Board of Directors & Management team</p>
         <p className={styles.description}>
           <Link href="/">
             <a>&larr; Go Back</a>
