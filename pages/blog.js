@@ -14,7 +14,18 @@ function Blog({ title, description }) {
         Analytics {process.env.NEXT_PUBLIC_ANALYTICS_ID} 
       </h1>
       <h1 className={styles.title}>
-      Introducing the next generation and future of e-commerce{' '}
+      RunAsh Blog
+       </h1>
+       <p className={styles.description}>The latest guides, announcements,articles,and news about live streaming from RunAsh team</p>
+       <hr />
+       <h1>Introduction</h1>
+       <p>Monday,August 28th 2022</p>
+       <br />
+       <p>We are introducing the next generation and the future of e-commerce</p>
+        <ul>
+        <li> Live streaming for buying</li>
+       </ul>
+       <br />
        <Link href="/posts/first-post">
        <a>Read more &rarr;</a>
        </Link>
