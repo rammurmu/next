@@ -9,7 +9,6 @@ function MyApp({ Component, pageProps }){
   return (
     <>  
      <Layout color={variables.primaryColor}>
-      <Navbar />
       <Component {...pageProps} />  
      </Layout>
     </>
