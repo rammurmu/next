@@ -37,7 +37,7 @@ export default function About() {
           Discipline and learning is the bacbone of the development of our startup journy and culture is behavior
           </p>
         <div className={styles.card}>
-        <p>👥<br /><b>What we do</b></p>
+        <p className={styles.p}>👥<br /><b>What we do</b></p>
         <br />
         <p className={styles.p}>We created new model of live streaming marketplace and environment where retailers face to face demonstrate and presented their products with buyers
        <br />
@@ -45,7 +45,7 @@ export default function About() {
         </div>
         <p className={ styles.p}><b>🎤Founders story</b></p>
         <div className={styles.card}>
-        <p>🎥<br /><b>What we going to make</b></p>
+        <p className={styles.p}>🎥<br /><b>What we going to make</b></p>
         <br />
         <p className={styles.p}>We are committed to building a live retail streaming hybrid platform for unorganised retailers and new ways to use physical reality experience
         <br />
