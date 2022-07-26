@@ -54,7 +54,6 @@ export default function Dashboard() {
            </li>
         </ul>
       </div>
-      </div>
       </header>
         <main className={styles.main}>
         <span className={styles.heading}>👏Welcome back Ram !</span>
@@ -67,7 +66,7 @@ export default function Dashboard() {
         <div className={styles.box}>Personalized </div>
         <div className={styles.box}>Customized </div>
         </div>
-
+        </div>
 
 
 
