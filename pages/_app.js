@@ -8,8 +8,8 @@ function MyApp({ Component, pageProps }){
 
   return (
     <>  
-      <Navbar />
      <Layout color={variables.primaryColor}>
+      <Navbar />
       <Component {...pageProps} />  
      </Layout>
     </>
