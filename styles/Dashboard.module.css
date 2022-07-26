@@ -6,15 +6,15 @@
   padding: 28px 64px 36px;
   display: flex;
   justify-content: space-between;
-  color: var(--color-primary);
+  color: #EAEAEA;
 }
 
 .logoRow svg {
-  fill: var(--color-primary);
+  fill: #EAEAEA;
 }
 
 .nav {
-  border-bottom: 1px solid #FAFAFA;
+  border-bottom: 1px solid #EAEAEA;
   padding: 0 36px;
 }
 
@@ -55,8 +55,8 @@
 }
 
 .box {
-  background: #FFF;
-  box-shadow: 0px 12px 24px #FAFAFA;
+  background: #EAEAEA;
+  box-shadow: 0px 12px 24px #EAEAEA;
   border-radius: 16px;
   height: 372px;
   width: 416px;
