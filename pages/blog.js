@@ -22,6 +22,7 @@ function Blog({ title, description }) {
        
        <p><b>Introduction</b><br />Introduceing the next generation and future of eCommerce</p>
         <>
+        <blockquote>
         <ul>
         <li>Live streaming for buyers</li>
         <li>Live streaming for sellers</li>
@@ -30,6 +31,7 @@ function Blog({ title, description }) {
         <li>Live influencers community</li>
         <li>Live Q and A or poll </li>
        </ul>
+       </blockquote>
        </>
        <Link href="/posts/first-post">
        <a><b>Read More &rarr;</b></a>
