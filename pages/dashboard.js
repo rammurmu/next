@@ -61,8 +61,10 @@ export default function Dashboard() {
         <br />
         <span className={styles.SubHeading}>Start streaming on runash</span>
         <br />
-        <div className={styles.card}>
+        <div className={styles.grid}>
         <div className={styles.box}>Notification </div>
+        <h1>To do</h1>
+        <p>Welcome to RunAsh</p>
         <div className={styles.box}>Insight </div>
         <div className={styles.box}>Personalized </div>
         <div className={styles.box}>Customized </div>
