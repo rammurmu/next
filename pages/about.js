@@ -19,8 +19,9 @@ export default function About() {
         <p className={styles.description}>
           We create real-life experiences to enable and access face-to-face
         </p>
-
-        <p className={styles.paragraph}><b>RunAsh startup journey</b> ✨
+        <button type="sign up">Sign Up</button>
+      
+        <p className={styles.p}><b>RunAsh startup journey</b> ✨
         <br />
          Journey from a small village in India to Sillicone Valley Y Combinator startup school community member
         </p>
