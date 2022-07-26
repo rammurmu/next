@@ -57,12 +57,13 @@ export default function Dashboard() {
       </div>
       </header>
         <main className={styles.main}>
-        <span className={styles.heading}>Dashboard</span>
+        <span className={styles.heading}>👏Welcome back Ram !</span>
         <br />
-        <span className={styles.SubHeading}>👏Welcome back Ram!</span>
+        <span className={styles.SubHeading}>Start streaming on runash</span>
+        <br />
         <div className={styles.grid}>
         <div className={styles.box}>Notification </div>
-        <div className={styles.box}>Live insight </div>
+        <div className={styles.box}>Insight </div>
         <div className={styles.box}>Personalized </div>
         <div className={styles.box}>Customized </div>
         </div>
