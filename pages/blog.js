@@ -13,14 +13,15 @@ function Blog({ title, description }) {
         Env User {process.env.DB_USER} Password {process.env.DB_PASSWORD}{' '} 
         Analytics {process.env.NEXT_PUBLIC_ANALYTICS_ID} 
       </h1>
+      <p className={styles.description}><code className={styles.code}>👏 Welcome to RunAsh</code></p>
       <h1 className={styles.title}>
-      RunAsh Live Blog
+      Live Blog
       </h1>
-      <p className={styles.description}>The latest guides, announcement, articles,and new about live streaming from RunAsh team</p>
-      <hr />
+      <p className={styles.description}>The latest guides, announcement, articles,and about live streaming from RunAsh team</p>
+      
        <h2>Introduction</h2>
-       <p>I would like to introduceing the next generation and future of e-commerce</p>
-        <ul>
+       <p>Introduceing the next generation and future of e-commerce</p>
+        <ul className={styles.description}>
         <li>Live streaming for buyers</li>
         <li>Live streaming for sellers</li>
         <li>Watched live-on-demand</li>
@@ -31,7 +32,9 @@ function Blog({ title, description }) {
        <Link href="/posts/first-post">
        <a>Read more &rarr;</a>
        </Link>
-       <hr />
+       
+
+
        <Link href="/blog.js">
        <a>&larr; Back to blog</a>
        </Link>
