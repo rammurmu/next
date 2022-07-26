@@ -134,6 +134,12 @@ export default function Home() {
         </div>
         <br />
         <p>Begin your live journey✨</p>
+       <form onSubmit={handleSubmit}>
+        <label htmlFor="first">First Name</label>
+        <input type="text" id="first" name="first" required />
+     
+       <button type="sign up">Sign Up</button>
+      </form>
         <div>
       </div>
       </main>
