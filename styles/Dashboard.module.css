@@ -14,7 +14,7 @@
 .logoRow svg {
   fill: #000;
   border-bottom: 1px solid #EAEAEA;
-  border-top: 1px solid #EAEAEA;
+  border-bottom: 1px solid #EAEAEA;
 }
 
 .nav {
@@ -52,11 +52,12 @@
   color: #000;
   display: table;
   margin-bottom: 48px;
+  border-bottom: 1px solid #EAEAEA;
 }
 
 .grid {
   display: table;
-  gap: 40px;
+  gap: 45px;
 }
 
 .box {
@@ -64,6 +65,6 @@
   box-shadow: 0px 12px 24px #EAEAEA;
   border-radius: 20px;
   height: 372px;
-  width: 800px;
+  width: 600px;
   border-bottom: 1px solid #EAEAEA;
 }
