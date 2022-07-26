@@ -21,7 +21,7 @@ function Blog({ title, description }) {
       
        <h2>Introduction</h2>
        <p>Introduceing the next generation and future of e-commerce</p>
-        <ul className={styles.description}>
+        <ul>
         <li>Live streaming for buyers</li>
         <li>Live streaming for sellers</li>
         <li>Watched live-on-demand</li>
@@ -32,11 +32,11 @@ function Blog({ title, description }) {
        <Link href="/posts/first-post">
        <a>Read more &rarr;</a>
        </Link>
-       
+       <br />
 
 
        <Link href="/blog.js">
-       <a>&larr; Back to blog</a>
+       <a>&larr; Back to Blog</a>
        </Link>
      
     </>
