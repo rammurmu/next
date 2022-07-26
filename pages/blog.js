@@ -10,8 +10,8 @@ function Blog({ title, description }) {
         <meta name='description' content={description} />
       </Head>
       <h1 className='content'>
-        Env User {process.env.DB_USER} Password {process.env.DB_PASSWORD}{' '} 
-        Analytics {process.env.NEXT_PUBLIC_ANALYTICS_ID} 
+         {process.env.DB_USER} Password {process.env.DB_PASSWORD}{' '} 
+         {process.env.NEXT_PUBLIC_ANALYTICS_ID} 
       </h1>
       <p className={styles.description}><code className={styles.code}>👏 Welcome to RunAsh</code></p>
       <h1 className={styles.title}>
@@ -20,7 +20,7 @@ function Blog({ title, description }) {
       <p className={styles.description}>The latest guides,and  announcement,about live streaming from runash team</p>
       
        
-       <p><b>Introduction</b><br />Introduceing the next generation and future of eCommerce</p>
+       <p className={styles.p}><b>Introduction</b><br />Introduceing the next generation and future of eCommerce</p>
         <>
         <blockquote>
         <ul>
