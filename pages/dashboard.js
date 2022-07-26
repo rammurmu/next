@@ -84,49 +84,10 @@ export default function Dashboard() {
            </li>
            <li>
             <Link href="/">
-            <a>Delivery</a>
-            </Link>
-           </li>
-           <li>
-            <Link href="/">
-            <a>Packaging</a>
-            </Link>
-           </li>
-           <li>
-            <Link href="/">
-            <a>Space</a>
-            </Link>
-           </li>
-           <li>
-            <Link href="/">
-            <a>Tools</a>
-            </Link>
-           </li>
-           <li>
-            <Link href="/">
             <a>Resource</a>
             </Link>
            </li>
-           <li>
-            <Link href="/">
-            <a>Credit</a>
-            </Link>
-           </li>
-           <li>
-            <Link href="/">
-            <a>Help</a>
-            </Link>
-           </li>
-           <li>
-            <Link href="/">
-            <a>Content</a>
-            </Link>
-           </li>
-           <li>
-            <Link href="/">
-            <a>Securety</a>
-            </Link>
-           </li>
+   
         </ul>
       </div>
       </header>
