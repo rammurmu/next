@@ -103,6 +103,14 @@
   line-height: 1.5;
 }
 
+.h {
+ font-size: 30px;
+}
+
+.p {
+ font-size: 20px;
+}
+
 .logo {
   height: 1em;
   margin-left: 0.5rem;
