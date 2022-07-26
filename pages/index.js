@@ -134,7 +134,7 @@ export default function Home() {
         </div>
         <br />
         <p>Begin your live journey✨</p>
-      <div className={styles.container}>
+      <div>
        <form onSubmit={handleSubmit}>
         <label htmlFor="first">First Name</label>
         <input type="text" id="first" name="first" required />
