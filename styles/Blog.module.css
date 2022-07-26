@@ -54,6 +54,7 @@
   margin: 4rem 0;
   line-height: 1.5;
   font-size: 1.1rem;
+  border: 1px solid #eaeaea;
 }
 
 .code {
@@ -105,10 +106,14 @@
 
 .h {
  font-size: 30px;
+ margin: 4rem 0;
+ line-height: 1.5;
 }
 
 .p {
  font-size: 20px;
+ margin: 4rem 0;
+ line-height: 1.5;
 }
 
 .logo {
