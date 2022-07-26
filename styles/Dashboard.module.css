@@ -33,7 +33,6 @@
   border-bottom: 1px solid #eaeaea;
   padding: 0 36px;
   justify-content: space-between;
-  display: flex;
 }
 
 .main {
@@ -42,7 +41,7 @@
 
 .heading {
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 1000;
   color: #000;
   background: #FAFAFA;
   display: flex;
