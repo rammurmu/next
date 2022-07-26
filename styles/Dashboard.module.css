@@ -44,8 +44,8 @@
   font-weight: 2000;
   color: #000;
   background: #FAFAFA;
-  display: centre;
-  justify-content: space-between;
+  display: flex;
+  justify-content: centre;
 }
 
 .subHeading {
