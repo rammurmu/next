@@ -15,19 +15,12 @@ function Blog({ title, description }) {
       </h1>
       <h1 className={styles.title}>
       RunAsh Blog
-       </h1>
-       <p className={styles.description}>The latest guides, announcements,articles,and news about live streaming from RunAsh team
-       <br />
-       Introduction
-       <br />
-       Monday,August 28th 2022
-       <br />
-       We are introducing the next generation and the future of e-commerce</p>{' '}
-  
+      </h1>
+      <p>The latest</p>
        <Link href="/posts/first-post">
        <a>Read more &rarr;</a>
        </Link>
-      </h1>
+     
     </>
   )
 }
