@@ -9,7 +9,7 @@ export default function Dashboard() {
         <div className={styles.fullwidth}> 
          <header>
          <div className={styles.logoRow}>RunAsh</div>
-         <div className={styles.card}>
+        
           <div className={styles.nav}>
           <ul>
            <li>
@@ -39,7 +39,7 @@ export default function Dashboard() {
            </li>
            <li>
             <Link href="/">
-            <a>On demand</a>
+            <a>Live watch</a>
             </Link>
            </li>
            <li>
@@ -52,8 +52,32 @@ export default function Dashboard() {
             <a>Insight</a>
             </Link>
            </li>
+           <li>
+            <Link href="/">
+            <a>Setting</a>
+            </Link>
+           </li>
+           <li>
+            <Link href="/">
+            <a>Analytics</a>
+            </Link>
+           </li>
+           <li>
+            <Link href="/">
+            <a>Users</a>
+            </Link>
+           </li>
+           <li>
+            <Link href="/">
+            <a>Inventory</a>
+            </Link>
+           </li>
+           <li>
+            <Link href="/">
+            <a>Delivery</a>
+            </Link>
+           </li>
         </ul>
-        </div>
       </div>
       </header>
         <main className={styles.main}>
@@ -62,11 +86,14 @@ export default function Dashboard() {
         <span className={styles.SubHeading}>Start streaming on runash</span>
         <br />
         <div className={styles.grid}>
-        <div className={styles.box}>Notification </div>
         <h1>To do</h1>
-        <p>Welcome to RunAsh</p>
+        <div className={styles.box}>Notification </div>
+        <h1>Live view</h1>
+      
         <div className={styles.box}>Insight </div>
+        <h1>Intrest</h1>
         <div className={styles.box}>Personalized </div>
+        <h1>Setting</h1>
         <div className={styles.box}>Customized </div>
         </div>
         
