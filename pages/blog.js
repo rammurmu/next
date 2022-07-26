@@ -17,11 +17,11 @@ function Blog({ title, description }) {
       <h1 className={styles.title}>
       Live Blog
       </h1>
-      <p className={styles.description}>The latest guides, announcement, articles,and about live streaming from RunAsh team</p>
+      <p>The latest guides,and  announcement,about live streaming from RunAsh team</p>
       
-       <h2>Introduction</h2>
-       <p>Introduceing the next generation and future of e-commerce</p>
-        <ul>
+       
+       <p><b>Introduction</b>Introduceing the next generation and future of e-commerce</p>
+        <ul className={styles.list}>
         <li>Live streaming for buyers</li>
         <li>Live streaming for sellers</li>
         <li>Watched live-on-demand</li>
@@ -30,7 +30,7 @@ function Blog({ title, description }) {
         <li>Live Q and A or poll </li>
        </ul>
        <Link href="/posts/first-post">
-       <a>Read more &rarr;</a>
+       <a>Read More &rarr;</a>
        </Link>
        <br />
 
