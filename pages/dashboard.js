@@ -53,6 +53,7 @@ export default function Dashboard() {
             </Link>
            </li>
         </ul>
+        </div>
       </div>
       </header>
         <main className={styles.main}>
@@ -60,13 +61,13 @@ export default function Dashboard() {
         <br />
         <span className={styles.SubHeading}>Start streaming on runash</span>
         <br />
-        <div className={styles.grid}>
+        <div className={styles.card}>
         <div className={styles.box}>Notification </div>
         <div className={styles.box}>Insight </div>
         <div className={styles.box}>Personalized </div>
         <div className={styles.box}>Customized </div>
         </div>
-        </div>
+        
 
 
 
