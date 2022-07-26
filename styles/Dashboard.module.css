@@ -8,18 +8,30 @@
   justify-content: space-between;
   color: #000;
   background: #FAFAFA;
-  border-bottom: 1px solid #EAEAEA;
+  border-bottom: 1px solid #eaeaea;
 }
 
 .logoRow svg {
   fill: #000;
   border-bottom: 1px solid #EAEAEA;
-  border-bottom: 1px solid #EAEAEA;
+}
+
+.card {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 300px;
 }
 
 .nav {
-  border-bottom: 1px solid #EAEAEA;
+  border-bottom: 1px solid #eaeaea;
   padding: 0 36px;
+  justify-content: space-between;
 }
 
 .navButton {
@@ -50,21 +62,21 @@
   font-size: 16px;
   font-weight: 400;
   color: #000;
-  display: table;
+  display: block;
   margin-bottom: 48px;
-  border-bottom: 1px solid #EAEAEA;
+  border-bottom: 1px solid #eaeaea;
 }
 
 .grid {
   display: table;
-  gap: 45px;
+  gap: 50px;
 }
 
 .box {
-  background: #FAFAFA;
-  box-shadow: 0px 12px 24px #EAEAEA;
-  border-radius: 20px;
+  background: #EAEAEA;
+  box-shadow: 0px 12px 24px #FAFAFA;
+  border-radius: 30px;
   height: 372px;
-  width: 600px;
-  border-bottom: 1px solid #EAEAEA;
+  width: 700px;
+  border-bottom: 1px solid #eaeaea;
 }
