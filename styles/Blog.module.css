@@ -54,7 +54,7 @@
   margin: 4rem 0;
   line-height: 1.5;
   font-size: 1.1rem;
-  border: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
 }
 
 .code {
