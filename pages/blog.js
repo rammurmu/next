@@ -17,15 +17,17 @@ function Blog({ title, description }) {
       RunAsh Blog
        </h1>
        <p className={styles.description}>The latest guides, announcements,articles,and news about live streaming from RunAsh team</p>
-       <hr />
-       <h1>Introduction</h1>
-       <p>Monday,August 28th 2022</p>
+       
+       <h2>Introduction</h2>
+       <p>Monday,August 28th 2022
        <br />
-       <p>We are introducing the next generation and the future of e-commerce</p>
-        <ul>
+       We are introducing the next generation and the future of e-commerce
+       </p>
+
+       <ul>
         <li> Live streaming for buying</li>
        </ul>
-       <br />
+       <br />{' '}
        <Link href="/posts/first-post">
        <a>Read more &rarr;</a>
        </Link>
