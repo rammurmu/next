@@ -20,7 +20,7 @@ function Blog({ title, description }) {
       <p className={styles.description}>The latest guides,and  announcement,about live streaming from runash team</p>
       
        
-       <p><b><pre><code className={styles.code}>Introduction</b></code></pre><br />Introduceing the next generation and future of eCommerce</p>
+       <p><b>Introduction</b><br />Introduceing the next generation and future of eCommerce</p>
         <>
         <ul>
         <li>Live streaming for buyers</li>
