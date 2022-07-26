@@ -135,7 +135,7 @@ export default function Home() {
         <br />
         <p>Begin your live journey✨</p>
       
-       <p className={styles.card}>Give your valuable feedback &rarr;</p>
+       <p className={styles.lable}>Give your valuable feedback &rarr;</p>
       
         <div>
       </div>
