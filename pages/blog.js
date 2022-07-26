@@ -17,7 +17,7 @@ function Blog({ title, description }) {
       <h1 className={styles.title}>
       Live Blog
       </h1>
-      <p className={styles.p}>The latest guides,and  announcement,about live streaming from runash team</p>
+      <p className={styles.description}>The latest guides,and  announcement,about live streaming from runash team</p>
       
        
        <p className={styles.p}><b>Introduction</b><br />Introduceing the next generation and future of eCommerce</p>
