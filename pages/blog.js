@@ -10,8 +10,8 @@ function Blog({ title, description }) {
         <meta name='description' content={description} />
       </Head>
       <h1 className='content'>
-       /** Env User {process.env.DB_USER} Password {process.env.DB_PASSWORD}{' '} **/
-       /** Analytics {process.env.NEXT_PUBLIC_ANALYTICS_ID} **/
+        Env User {process.env.DB_USER} Password {process.env.DB_PASSWORD}{' '} 
+        Analytics {process.env.NEXT_PUBLIC_ANALYTICS_ID} 
       </h1>
       <h1 className={styles.title}>
       Introducing the next generation and future of e-commerce{' '}
