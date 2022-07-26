@@ -9,7 +9,7 @@ export default function Dashboard() {
         <div className={styles.fullwidth}> 
          <header>
          <div className={styles.logoRow}>RunAsh</div>
-         
+         <div className={styles.card}>
           <div className={styles.nav}>
           <ul>
            <li>
@@ -53,6 +53,7 @@ export default function Dashboard() {
             </Link>
            </li>
         </ul>
+      </div>
       </div>
       </header>
         <main className={styles.main}>
