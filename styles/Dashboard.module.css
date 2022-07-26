@@ -6,11 +6,14 @@
   padding: 28px 64px 36px;
   display: flex;
   justify-content: space-between;
-  color: #EAEAEA;
+  color: #000;
+  background: #FAFAFA;
+  border-bottom: 1px solid #EAEAEA;
 }
 
 .logoRow svg {
-  fill: #EAEAEA;
+  fill: #000;
+  border-bottom: 1px solid #EAEAEA;
 }
 
 .nav {
@@ -45,19 +48,20 @@
   font-size: 16px;
   font-weight: 400;
   color: #000;
-  display: block;
+  display: table;
   margin-bottom: 48px;
 }
 
 .grid {
-  display: flex;
+  display: table;
   gap: 32px;
 }
 
 .box {
-  background: #EAEAEA;
+  background: #FAFAFA;
   box-shadow: 0px 12px 24px #EAEAEA;
   border-radius: 16px;
   height: 372px;
-  width: 416px;
+  width: 100%;
+  border-bottom: 1px solid #EAEAEA;
 }
