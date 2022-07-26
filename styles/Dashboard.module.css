@@ -77,7 +77,7 @@
   background: #FAFAFA;
   box-shadow: 0px 12px 24px #eaeaea;
   height: 372px;
-  border-bottom: 1px solid #eaeaea;
+  width: 700px;
   margin: 1rem;
   padding: 1.5rem;
   text-align: left;
@@ -86,7 +86,7 @@
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+  
 }
 
 }
