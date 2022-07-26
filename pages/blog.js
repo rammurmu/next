@@ -14,11 +14,26 @@ function Blog({ title, description }) {
         Analytics {process.env.NEXT_PUBLIC_ANALYTICS_ID} 
       </h1>
       <h1 className={styles.title}>
-      RunAsh Blog
+      RunAsh Live Blog
       </h1>
-      <p>The latest</p>
+      <p className={styles.description}>The latest guides, announcement, articles,and new about live streaming from RunAsh team</p>
+      <hr />
+       <h2>Introduction</h2>
+       <p>I would like to introduceing the next generation and future of e-commerce</p>
+        <ul>
+        <li>Live streaming for buyers</li>
+        <li>Live streaming for sellers</li>
+        <li>Watched live-on-demand</li>
+        <li>Live video chat</li>
+        <li>Live influencers community</li>
+        <li>Live Q and A or poll </li>
+       </ul>
        <Link href="/posts/first-post">
        <a>Read more &rarr;</a>
+       </Link>
+       <hr />
+       <Link href="/blog.js">
+       <a>&larr; Back to blog</a>
        </Link>
      
     </>
