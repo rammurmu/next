@@ -12,6 +12,53 @@ export default function Buyer() {
         <link rel="icon" href="/favicon.icon" />  
       </Head>
         <main className={styles.main}>
+        <div>
+        <nav className='header'>
+        <h1 className='logo'>
+          <Link href='/dashboard'>
+          <a>RunAsh</a>
+          </Link>
+        </h1>
+      <ul className={'main-nav'}>
+       <li>
+         <Link href='/about'>
+            <a>Startup</a>
+         </Link>
+       </li>
+       <li>
+         <Link href='/seller'>
+           <a>Seller</a>
+         </Link>
+       </li>
+       <li>
+          <Link href='/buyer'>
+            <a>Buyer</a>
+          </Link>
+       </li>     
+       <li>
+          <Link href='/blog'>
+            <a>Blog</a>
+          </Link>
+       </li>     
+       <li>
+          <Link href='/js-form'>
+            <a>Signin</a>
+          </Link>
+       </li>     
+       <li>
+          <Link href='/live'>
+            <a>Live</a>
+          </Link>
+       </li>     
+       <li>
+          <Link href='/productlist'>
+            <a>Login</a>
+          </Link>
+       </li>     
+        
+     </ul>
+   </nav>
+       </div>
         <p className={styles.description}><code className={styles.code}>👏 Welcome to RunAsh</code></p>
         <h1 className={styles.title}>
          NextGen shopping <br /><a href="https://">experience</a>
