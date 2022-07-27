@@ -145,16 +145,6 @@
     position: relative;
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  background-color: #FFF;
-  border-bottom: 1px solid #eaeaea;
-  scroll: true;
-}
-
 .main-nav {
   display: flex;
   margin-top: 5px;
