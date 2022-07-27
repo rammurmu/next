@@ -24,8 +24,7 @@ export default function Buyer() {
         <button type="Watch live ">Watch live</button>
        <h2>Categories</h2>
       <div>
-       <nav className='header'>
-      <ul className={'main-nav'}>
+       <ul className={'main-nav}>
        <li>
          <Link href='/fruit'>
             <a>Fruit</a>
