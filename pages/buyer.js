@@ -79,8 +79,9 @@ export default function Buyer() {
 
       <form>
         <p>
-          <label for="select">select </label>
-          <select id="simple" name="simple"><option value="">option</option>
+          <label className={styles.lable}>for="select">select </label>
+          <select className={styles.select}>id="simple" name="simple">
+            <option value="">option</option>
             <option value="Banana"</option>
             <option value="Cherry"</option>
             <option value="Lemon"</option>
