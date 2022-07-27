@@ -25,38 +25,38 @@ export default function Buyer() {
        <nav className='header'>
       <ul className={'main-nav'}>
        <li>
-         <Link href='/about'>
-            <a>Startup</a>
+         <Link href='/fruit'>
+            <a>Fruit</a>
          </Link>
        </li>
        <li>
-         <Link href='/seller'>
-           <a>Seller</a>
+         <Link href='/vegetable'>
+           <a>Vegetable</a>
          </Link>
        </li>
        <li>
-          <Link href='/buyer'>
-            <a>Buyer</a>
+          <Link href='/grocery'>
+            <a>Grocery</a>
           </Link>
        </li>     
        <li>
-          <Link href='/blog'>
-            <a>Blog</a>
+          <Link href='/flowe'>
+            <a>Flower</a>
           </Link>
        </li>     
        <li>
-          <Link href='/js-form'>
-            <a>Signin</a>
+          <Link href='/nonveg'>
+            <a>NonVeg</a>
           </Link>
        </li>     
        <li>
-          <Link href='/live'>
-            <a>Live</a>
+          <Link href='/cfood'>
+            <a>cFood</a>
           </Link>
        </li>     
        <li>
-          <Link href='/productlist'>
-            <a>Login</a>
+          <Link href='/dairy'>
+            <a>Dairy</a>
           </Link>
        </li>     
         
