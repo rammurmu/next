@@ -144,11 +144,4 @@
     background: 
     position: relative;
 }
-
-.main-nav {
-  display: flex;
-  margin-top: 5px;
-  scroll: true;
-  background: #FFF;
-}
 }
