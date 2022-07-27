@@ -74,14 +74,14 @@ export default function Seller() {
        <br />
        
        <h1>🔐 Secure</h1> 
-        <p className={styles.description}>Your live streaming content is secured </p>
-       <br />
+        <p>Your live streaming content is secured </p>
+       
        <h1>🛡️ Trusted</h1>
         <p className={styles.description}>Transaction, packaging, delivery </p>
-       <br />
+       
        <h1>✅ First payment</h1>
         <p className={styles.description}>Direct payment your account</p>
-      <br />
+      
       <p>Get support <b>24 x 7 x 365 </b>days &rarr;</p>
       <br />
       <div className={styles.title}>How it works ?</div>
