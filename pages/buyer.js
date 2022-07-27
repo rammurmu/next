@@ -21,12 +21,8 @@ export default function Buyer() {
         </p>
         <button type="Watch live ">Watch live</button>
        <h2>Categories</h2>
-      <>
+      <div>
        <nav className='header'>
-          <Link href='/dashboard'>
-          <a>RunAsh</a>
-          </Link>
-        </h1>
       <ul className={'main-nav'}>
        <li>
          <Link href='/about'>
@@ -66,7 +62,7 @@ export default function Buyer() {
         
      </ul>
    </nav>
-  </>
+  </div>
       <div className={styles.grid}>
           <a href="https://productslist" className={styles.card}>
             <h2>🍎🍋Fruit</h2>
