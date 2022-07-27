@@ -158,5 +158,6 @@
   display: flex;
   margin-top: 5px;
   scroll: true;
+  background: #fff;
 }
 }
