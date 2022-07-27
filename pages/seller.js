@@ -72,16 +72,15 @@ export default function Seller() {
       <h1 className={styles.title}>DiffServe</h1>
       <p>Learn more &rarr;</p>
        <br />
-       <ul>
-       <li><h1>🔐 Secure</b></h1> 
+       
+       <h1>🔐 Secure</b></h1> 
         <p className={styles.description}>Your live streaming content is secured </p>
        <br />
-       <li><h1>🛡️ Trusted</b></h1>
+       <h1>🛡️ Trusted</b></h1>
         <p className={styles.description}>Transaction, packaging, delivery </p>
        <br />
-       <li><h1>✅ First payment</b></h1>
+       <h1>✅ First payment</b></h1>
         <p className={styles.description}>Direct payment your account</p>
-       </ul>
       <br />
       <p>Get support <b>24 x 7 x 365 </b>days &rarr;</p>
       <br />
