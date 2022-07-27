@@ -150,6 +150,7 @@
   justify-content: space-between;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
+  background-color: #FFF;
   border-bottom: 1px solid #eaeaea;
   scroll: true;
 }
@@ -158,6 +159,6 @@
   display: flex;
   margin-top: 5px;
   scroll: true;
-  background: #fff;
+  background: #FFF;
 }
 }
