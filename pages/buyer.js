@@ -76,7 +76,7 @@ export default function Buyer() {
     <h1 className={styles.description}>Watched live on demand</h1>
     <div className={styles.box}>
     <p>Schedule a live shopping</p>
-   <div className={styles.lable}>select</lable>
+   <div className={styles.lable}>select</div>
       
     </div>
      </main> 
