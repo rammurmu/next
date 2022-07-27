@@ -62,7 +62,6 @@ export default function Buyer() {
        </li>     
         
      </ul>
-   </nav>
   </div>
       <div className={styles.grid}>
           <a href="https://productslist" className={styles.card}>
