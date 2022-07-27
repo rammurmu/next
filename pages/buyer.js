@@ -77,19 +77,7 @@ export default function Buyer() {
     <div className={styles.box}>
     <p>Schedule a live shopping</p>
 
-      <form>
-        <p>
-          <label className={styles.lable}>select </label>
-          <select className={styles.select}>
-            <option value="">option</option>
-            <option value="Banana"</option>
-            <option value="Cherry"</option>
-            <option value="Lemon"</option>
-          </select>
-        </p>
-       </form>
-
-
+      
     </div>
      </main> 
     </div> 
