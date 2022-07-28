@@ -68,7 +68,7 @@ export default function Seller() {
       <h1 className={styles.title}>Hybrid benefits</h1>
       <p>Learn more &rarr;</p>
        <div className={styles.grid}>
-       <p>🔐 Secure</p><br />🛡️ Trusted<br />✅ First payment</p>  
+       <p>🔐 Secure<br />🛡️ Trusted<br />✅ First payment</p>  
        </div>
      
       <p className={styles.description}>Get support <b>24 x 7 x 365 </b>days &rarr;</p>
