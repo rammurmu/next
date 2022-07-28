@@ -73,7 +73,7 @@ export default function Seller() {
       <p>Learn more &rarr;</p>
        <br />
        
-       <h1>🔐 Secure</h1> 
+       <h1 className={styles.description}>🔐 Secure</h1> 
         <p>Your live streaming content is secured </p>
        
        <h1>🛡️ Trusted</h1>
