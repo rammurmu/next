@@ -64,13 +64,12 @@ export default function Seller() {
          </div>
          <br />
          <p>Shaping the future of retail</p>
-         <br />
        <p className={styles.description}><b>Get started your live business in menutes &rarr;</b></p>
-      <h1 className={styles.description}>Sustainable, Affordable, Efficient</h1>
+      <h1 className={styles.title}>Sustainable Affordable Efficient Benefits</h1>
       <p>Learn more &rarr;</p>
        <div className={styles.grid}>
-       <p>🔐 Secure</p>    
-       <p>🛡️ Trusted</p>  
+       <p>🔐 Secure</p><br />   
+       <p>🛡️ Trusted</p><br /> 
        <p>✅ First payment</p>  
        </div>
      
