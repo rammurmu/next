@@ -65,21 +65,14 @@ export default function Seller() {
          <br />
          <p>Shaping the future of retail</p>
          <br />
-         <p className={styles.description}><b>Create your live business  &rarr;</b></p>
-
-     
-   
-      <h1 className={styles.description}>The promise DiffServe</h1>
+       <p className={styles.description}><b>Get started your live business in menutes &rarr;</b></p>
+      <h1 className={styles.description}>Sustainable, Affordable, Efficient</h1>
       <p>Learn more &rarr;</p>
-       <br />
        <div className={styles.grid}>
-       <h1>🔐 Secure</h1> 
-         
-       <h1>🛡️ Trusted</h1>
-         
-       <h1>✅ First payment</h1>
-        
-      </div>
+       <p>🔐 Secure</p>    
+       <p>🛡️ Trusted</p>  
+       <p>✅ First payment</p>  
+       </div>
      
       <p className={styles.description}>Get support <b>24 x 7 x 365 </b>days &rarr;</p>
       <br />
