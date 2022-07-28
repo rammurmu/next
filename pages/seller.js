@@ -80,7 +80,7 @@ export default function Seller() {
         <p>Transaction, packaging, delivery </p>
        
        <h1>✅ First payment</h1>
-        <p className={styles.description}>Direct payment your account</p>
+        <p>Direct payment your account</p>
       
       <p>Get support <b>24 x 7 x 365 </b>days &rarr;</p>
       <br />
