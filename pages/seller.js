@@ -72,7 +72,7 @@ export default function Seller() {
        <p className={styles.card}>🔐 Secured data</p>
        <p className={styles.card}>🛡️ Trusted sale </p>
        <p className={styles.card}>✅ First payment</p>
-       
+       </div>
      
       <p className={styles.description}>Get support <b>24 x 7 x 365 </b>days &rarr;</p>
       <br />
