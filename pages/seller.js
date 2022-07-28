@@ -65,9 +65,9 @@ export default function Seller() {
          <br />
          <p>Shaping the future of retail</p>
        <p className={styles.description}><b>Get started your live business in menutes &rarr;</b></p>
-      <div className={styles.title}>The hybrid solution</div>
-      <p>Learn more &rarr;</p>
-       <h1>The live selling benefits</h1>
+      <div className={styles.title}>Advantage of hybrid marketplace</div>
+      <p>10x affordable, sustainable and efficient solution<br /> Learn more &rarr;</p>
+      
        <div className={styles.grid}> 
        <p className={styles.card}>🔐 Secured data</p>
        <p className={styles.card}>🛡️ Trusted sale </p>
