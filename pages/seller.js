@@ -65,7 +65,7 @@ export default function Seller() {
          <br />
          <p>Shaping the future of retail</p>
          <br />
-      <div className={styles.description}>Streaming advantage</div>
+      <div className={styles.description}><b>Live streaming selling advantage</b></div>
       <p>Lear more benefits &rarr;</p>
       
        <div className={styles.grid}> 
