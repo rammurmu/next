@@ -67,11 +67,10 @@ export default function Seller() {
        <p className={styles.description}><b>Get started your live business in menutes &rarr;</b></p>
       <div className={styles.title}>The hybrid solution</div>
       <p>Learn more &rarr;</p>
-       <div className={styles.card}>
        <h1>The live selling benefits</h1>
-       </div>
-       <p className={styles.card}>🔐 Secured datas</p>
-       <p className={styles.card}>🛡️ Trusted sells </p>
+       <div className={styles.grid}> 
+       <p className={styles.card}>🔐 Secured data</p>
+       <p className={styles.card}>🛡️ Trusted sale </p>
        <p className={styles.card}>✅ First payment</p>
        
      
