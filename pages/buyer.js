@@ -116,10 +116,11 @@ export default function Buyer() {
       </div>
      <br />
      <p>The future of organic retail</p>
-    <h1 className={styles.description}>Watched live on demand</h1>
-    <div className={styles.box}>
-    <p>Schedule a live shopping</p>
- 
+    
+    <button type="Schedule">Schedule</button>
+    <div className={styles.grid}>
+    <p class name={styles.card}>Date 📅 and Time ⏱️ Now</p>
+    <div>
     </div>
      </main> 
     </div> 
