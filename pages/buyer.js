@@ -121,8 +121,8 @@ export default function Buyer() {
     <p className={styles.card}>📅 Date & Time⏱️</p>
     </div>
     <button type="Schedule">Schedule</button>
-    <h1>The future of organic retail<h1>
-     <p>one stop solution for organic products<p>
+    <h1>The future of organic retail</h1>
+     <p>one stop solution for organic products</p>
      </main> 
     </div> 
   )
