@@ -20,7 +20,7 @@ function Blog({ title, description  }) {
       <p className={styles.description}>The latest guides,and  announcement</p>
       
        
-       <p className={styles.description}><b>Introduction</b>Introduceing the next generation and future of eCommerce -Live streaming for buyers -Live streaming for sellers -Watched live-on-demand -Live video chat -Live influencers community -Live Q and A or poll</p>
+       <p className={styles.description}><b>Introduction</b>Introduceing the next generation and future of eCommerce Live streaming for buyers Live streaming for sellers Watched live-on-demand -Live video chat Live influencers community Live Q and A or poll</p>
        
        <Link href="/posts/first-post">
        <a>Read More &rarr;</a>
@@ -29,7 +29,7 @@ function Blog({ title, description  }) {
 
 
        <Link href="/blog.js">
-       <a className={style.right}>&larr; Back to Blog</a>
+       <a>&larr; Back to Blog</a>
        </Link>
      
     </>
