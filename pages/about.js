@@ -53,6 +53,10 @@ export default function About() {
          Learn more &rarr;</p>
         </div>
          <p className={styles.p}><b>👨‍💻Executive profile</b></p>
+
+            <button type="button" className={styles.button}>Learn</button>
+
+
          <br />
           <p className={styles.p}>Board of Directors & Management team</p>
         <p className={styles.p}>
