@@ -31,7 +31,7 @@ export default function About() {
         
         
         <p className={styles.p}>🤔<b>Oneliner</b><br />A live retail streaming hybrid marketplace for retailing<br />
-        
+        <br />
           Learn more &rarr;</p>
         <br />
         
@@ -41,22 +41,22 @@ export default function About() {
            Learn more &rarr;</p>
         <br />
         <p className={styles.p}>👥<b>What we do</b>We created new model of live streaming marketplace and environment where retailers face to face demonstrate and presented their products with buyers<br />
-       
+       <br />
        Learn more &rarr;</p>
       <br />
    
         <br />
-        <p className={styles.p}>🎥<br>What we going to make</b>We are committed to building a live retail streaming hybrid platform for unorganised retailers and new ways to use physical reality experience<br />
-        
+        <p className={styles.p}>🎥<b>What we going to make</b><br />We are committed to building a live retail streaming hybrid platform for unorganised retailers and new ways to use physical reality experience<br />
+        <br />
          Learn more &rarr;</p>
          <br />
          <p className={ styles.p}>🎤<b>Founders story & journey</b>
          <br />Journey from a small village in India to Sillicone Valley Y Combinator startup school community member<br />
-         
+         <br />
           Learn more &rarr;</p>
 
          <p className={styles.p}>👨‍💻<b>Executive profile</b><br />Board of Directors & management team responsible for making the live retail streaming platform<br />
-         
+         <br />
           Learn more &rarr;</p>
          <br />
 
