@@ -35,8 +35,7 @@ export default function About() {
           Learn more &rarr;</p>
         <br />
         
-         <p className={styles.p}>🎓<b>Discipline and learning</b>
-          <br />
+         <p className={styles.p}>🎓<b>Discipline and learning</b><br />
           Discipline and learning is the bacbone of the development of our startup journy and culture is behavior<br />
           <br />
            Learn more &rarr;</p>
