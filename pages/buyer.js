@@ -52,12 +52,12 @@ export default function Buyer() {
        </li>     
        <li>
           <Link href='/product 5'>
-            <a>Construction</a>
+            <a>Electronic</a>
           </Link>
        </li>     
        <li>
           <Link href='/product 6'>
-            <a>Electronic</a>
+            <a></a>
           </Link>
        </li>     
       </ul>
@@ -120,7 +120,7 @@ export default function Buyer() {
     </div>
     <button type="Schedule">Schedule</button>
     <h1>The future of organic retail</h1>
-     <p>one stop solution for organic products</p>
+     <p>One stop solution for organic products</p>
      </main> 
     </div> 
   )
