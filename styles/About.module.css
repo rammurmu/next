@@ -69,8 +69,8 @@
 
 .grid {
   display: flex;
-  align-items: left;
-  justify-content: left;
+  align-items: centre;
+  justify-content: centre;
   flex-wrap: wrap;
   max-width: 800px;
   border-top: 1px solid #eaeaea;
@@ -109,6 +109,7 @@
 
 .p {
  font-size: 20px;
+ border: 1px solid #eaeaea;
 }
 
 .h1 {
