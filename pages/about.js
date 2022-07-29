@@ -42,7 +42,7 @@ export default function About() {
         <br />
         <p className={styles.p}>We created new model of live streaming marketplace and environment where retailers face to face demonstrate and presented their products with buyers
        <br />
-       <button type="button" className={styles.button}>Learn more &rarr;</button></p>
+       Learn more &rarr;</p>
         
         <p className={ styles.p}><b>🎤Founders story</b></p>
     
@@ -50,11 +50,11 @@ export default function About() {
         <br />
         <p className={styles.p}>We are committed to building a live retail streaming hybrid platform for unorganised retailers and new ways to use physical reality experience
         <br />
-         <button type="button" className={styles.button}>Learn more &rarr;</button></p>
+         Learn more &rarr;</p>
      
-         <p className={styles.p}><b>👨‍💻Executive profile</b></p>
-
-            <button type="button" className={styles.button}>Learn</button>
+         <p className={styles.p}><b>👨‍💻Executive profile</b>
+         <br />
+          Learn more &rarr;</p>
 
 
          <br />
