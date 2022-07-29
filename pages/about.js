@@ -53,13 +53,13 @@ export default function About() {
         <br />
          Learn more &rarr;</p>
      
-         <p className={ styles.p}><b>🎤<br /><b>Founders story & journey</b>
+         <p className={ styles.p}>🎤<br /><b>Founders story & journey</b>
          <br />Journey from a small village in India to Sillicone Valley Y Combinator startup school community member
          <br />
           Learn more &rarr;</p>
 
-         <p className={styles.p}><b>👨‍💻Executive profile</b>Board of Directors & management team
-         <br />The single most important element of our business model is the management team responsible for making the live retail streaming platform. 
+         <p className={styles.p}>👨‍💻<br /><b>Executive profile</b>Board of Directors & management team
+         <br />The single most important element of our business model is the management team responsible for making the live retail streaming platform
          <br />
           Learn more &rarr;</p>
          <br />
