@@ -116,11 +116,11 @@ export default function Buyer() {
       </div>
      <br />
      <p>The future of organic retail</p>
-    
+     <br />
     <button type="Schedule">Schedule</button>
 
     <div className={styles.grid}>
-    <p className={styles.card}>Date 📅 and Time ⏱️</p>
+    <p className={styles.card}>Date📅Time⏱️ &rarr;</p>
     </div>
     
      </main> 
