@@ -115,9 +115,8 @@ export default function Buyer() {
           </a>    
       </div>
      <br />
-     <p>Get started real life shopping </p>
+     <p>Real life 🛍️ shopping schedule now </p>
      <br />
-    <p>Start schedule now</p>
     <div className={styles.grid}>
     <p className={styles.card}>📅 Date & Time⏱️</p>
     </div>
