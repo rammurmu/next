@@ -117,12 +117,12 @@ export default function Buyer() {
      <br />
      <p>The future of organic retail</p>
      <br />
-    <button type="Schedule">Schedule</button>
-
+   
+   <h1>Get started real life shopping schedule<h1>
     <div className={styles.grid}>
     <p className={styles.card}>📅 Date & Time⏱️</p>
     </div>
-    
+    <button type="Schedule">Schedule</button>
      </main> 
     </div> 
   )
