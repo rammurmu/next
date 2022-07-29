@@ -27,38 +27,38 @@ export default function Buyer() {
        <nav className="header">
        <ul className={'main-nav'}>
        <li>
-         <Link href='/fruit'>
-            <a>Fruit</a>
+         <Link href='/product'>
+            <a>All</a>
          </Link>
        </li>
        <li>
-         <Link href='/vegetable'>
-           <a>Vegetable</a>
+         <Link href='/product1'>
+           <a>Handicraft</a>
          </Link>
        </li>
        <li>
-          <Link href='/grocery'>
-            <a>Grocery</a>
+          <Link href='/product1'>
+            <a>KhadiWear</a>
           </Link>
        </li>     
        <li>
-          <Link href='/flowe'>
-            <a>Flower</a>
+          <Link href='/product3'>
+            <a>BoombooCraft</a>
           </Link>
        </li>     
        <li>
-          <Link href='/nonveg'>
-            <a>NonVeg</a>
+          <Link href='/product4'>
+            <a>Furnishing</a>
           </Link>
        </li>     
        <li>
-          <Link href='/cfood'>
-            <a>cFood</a>
+          <Link href='/product 5'>
+            <a>Construction</a>
           </Link>
        </li>     
        <li>
-          <Link href='/dairy'>
-            <a>Dairy</a>
+          <Link href='/product 6'>
+            <a>Electronic</a>
           </Link>
        </li>     
       </ul>
@@ -120,7 +120,7 @@ export default function Buyer() {
     <button type="Schedule">Schedule</button>
 
     <div className={styles.grid}>
-    <p className={styles.card}>📅 Date & Time⏱️ &rarr;</p>
+    <p className={styles.card}>📅 Date & Time⏱️</p>
     </div>
     
      </main> 
