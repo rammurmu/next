@@ -28,23 +28,22 @@ export default function About() {
         </p>
         
       
-        <ul>
-         <li>Oneliner</li>
-        <p className={styles.p}>A live retail streaming hybrid marketplace for retailing<br />Learn more &rarr;</p>
-        </ul>
+        
+        
+        <p className={styles.p}><b>Oneliner</b>A live retail streaming hybrid marketplace for retailing<br />Learn more &rarr;</p>
+       
         
          <p className={styles.p}><b>🎓Discipline and learning</b>
           <br />
           Discipline and learning is the bacbone of the development of our startup journy and culture is behavior
-          </p>
+          <br />
+           Learn more &rarr;</p>
       
         <p className={styles.p}>👥<br /><b>What we do</b></p>
         <br />
         <p className={styles.p}>We created new model of live streaming marketplace and environment where retailers face to face demonstrate and presented their products with buyers
        <br />
        Learn more &rarr;</p>
-        
-        <p className={ styles.p}><b>🎤Founders story</b></p>
     
         <p className={styles.p}>🎥<br /><b>What we going to make</b></p>
         <br />
@@ -52,8 +51,13 @@ export default function About() {
         <br />
          Learn more &rarr;</p>
      
+         <p className={ styles.p}><b>🎤Founders story & journey</b>
+         <br />Journey from a small village in India to Sillicone Valley Y Combinator startup school community member
+          Learn more &rarr;</p>
+
          <p className={styles.p}><b>👨‍💻Executive profile</b>
-         <br />
+         <br />The single most important element of our business model is the management team responsible for making the live retail streaming platform. 
+
           Learn more &rarr;</p>
 
 
