@@ -74,10 +74,12 @@ export default function Seller() {
        <p className={styles.card}>✅ First payment</p>
        </div>
      
-      <p className={styles.description}>Get support <b>24 x 7 x 365 </b>days &rarr;</p>
-      <br />
+      
       <div className={styles.title}>How it works ?</div>
       <p>Learn more &rarr;</p>
+
+      <p className={styles.description}>Get support <b>24 x 7 x 365 </b>days &rarr;</p>
+      
       </main>
       </div>
   )
