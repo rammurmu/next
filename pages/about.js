@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/About.module.css'
 import Link from 'next/link'
+import Button from '../components/Button'
 
 export default function About() {
   return (
