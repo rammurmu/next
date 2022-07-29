@@ -30,7 +30,9 @@ export default function About() {
       
         
         
-        <p className={styles.p}><b>🤔<br /><b>Oneliner</b><br />A live retail streaming hybrid marketplace for retailing<br />Learn more &rarr;</p>
+        <p className={styles.p}>🤔<br /><b>Oneliner</b><br />A live retail streaming hybrid marketplace for retailing<br />
+         <br />
+          Learn more &rarr;</p>
        
         
          <p className={styles.p}>🎓<br /><b>Discipline and learning</b>
