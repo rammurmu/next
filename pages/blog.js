@@ -2,11 +2,11 @@ import Head from 'next/head'
 import Link from 'next/link'
 import styles from '../styles/Blog.module.css'
 
-function Blog({ Live Blog, The latest guides and announcement,about live streaming from runash team }) {
+function Blog({ title, description  }) {
   return (
     <>
       <Head>
-        <title>{Blog}</title>
+        <title>Blog</title>
         <meta name='description' content={description} />
       </Head>
       <h1 className='content'>
