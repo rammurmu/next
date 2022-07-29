@@ -61,7 +61,7 @@ export default function About() {
           <p className={styles.p}>Board of Directors & Management team</p>
         <p className={styles.p}>
           <Link href="/">
-            <a>&larr; Go Back</a>
+            <a><button type="button" className={styles.button}>&larr; Back to Home</button></a>
           </Link>
          </p>
       </main>
