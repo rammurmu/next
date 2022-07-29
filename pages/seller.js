@@ -76,7 +76,7 @@ export default function Seller() {
      
       
       <div className={styles.title}>How it works ?</div>
-      <p>Learn more &rarr;</p>
+      <p>Live streaming advantage:Learn more &rarr;</p>
 
       <p className={styles.description}>Get support <b>24 x 7 x 365 </b>days &rarr;</p>
       
