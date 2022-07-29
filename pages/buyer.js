@@ -118,8 +118,8 @@ export default function Buyer() {
      <p>The future of organic retail</p>
      <br />
    
-   <h1 className={styles.description}>Get started real life shopping</h1>
-    <p className={styles.description}>Start schedule now</p>
+   <h1><b>Get started real life shopping</b></h1>
+    <p>Start schedule now</p>
     <div className={styles.grid}>
     <p className={styles.card}>📅 Date & Time⏱️</p>
     </div>
