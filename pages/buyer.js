@@ -119,7 +119,7 @@ export default function Buyer() {
     
     <button type="Schedule">Schedule</button>
     <div className={styles.grid}>
-    <p class name={styles.card}>Date 📅 and Time ⏱️ Now</p>
+    <p className={styles.card}>Date 📅 and Time ⏱️ Now</p>
     <div>
     </div>
      </main> 
