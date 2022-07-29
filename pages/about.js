@@ -30,10 +30,10 @@ export default function About() {
       
         
         
-        <p className={styles.p}><b>Oneliner</b>A live retail streaming hybrid marketplace for retailing<br />Learn more &rarr;</p>
+        <p className={styles.p}><b>🤔<br /><b>Oneliner</b><br />A live retail streaming hybrid marketplace for retailing<br />Learn more &rarr;</p>
        
         
-         <p className={styles.p}><b>🎓Discipline and learning</b>
+         <p className={styles.p}>🎓<br /><b>Discipline and learning</b>
           <br />
           Discipline and learning is the bacbone of the development of our startup journy and culture is behavior
           <br />
@@ -51,18 +51,19 @@ export default function About() {
         <br />
          Learn more &rarr;</p>
      
-         <p className={ styles.p}><b>🎤Founders story & journey</b>
+         <p className={ styles.p}><b>🎤<br /><b>Founders story & journey</b>
          <br />Journey from a small village in India to Sillicone Valley Y Combinator startup school community member
-          Learn more &rarr;</p>
-
-         <p className={styles.p}><b>👨‍💻Executive profile</b>
-         <br />The single most important element of our business model is the management team responsible for making the live retail streaming platform. 
-
-          Learn more &rarr;</p>
-
-
          <br />
-          <p className={styles.p}>Board of Directors & Management team</p>
+          Learn more &rarr;</p>
+
+         <p className={styles.p}><b>👨‍💻Executive profile</b>Board of Directors & management team
+         <br />The single most important element of our business model is the management team responsible for making the live retail streaming platform. 
+         <br />
+          Learn more &rarr;</p>
+         <br />
+
+         
+         
         <p className={styles.p}>
           <Link href="/">
             <a><button type="button" className={styles.button}>&larr; Back to Home</button></a>
