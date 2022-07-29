@@ -39,11 +39,13 @@ export default function About() {
           <br />
           Discipline and learning is the bacbone of the development of our startup journy and culture is behavior
           <br />
+         <br />
            Learn more &rarr;</p>
       
      
         <br />
         <p className={styles.p}>👥<b>What we do</b>We created new model of live streaming marketplace and environment where retailers face to face demonstrate and presented their products with buyers
+       <br />
        <br />
        Learn more &rarr;</p>
       <br />
@@ -51,15 +53,18 @@ export default function About() {
         <br />
         <p className={styles.p}>We are committed to building a live retail streaming hybrid platform for unorganised retailers and new ways to use physical reality experience
         <br />
+        <br />
          Learn more &rarr;</p>
          <br />
          <p className={ styles.p}>🎤<b>Founders story & journey</b>
          <br />Journey from a small village in India to Sillicone Valley Y Combinator startup school community member
          <br />
+         <br/>
           Learn more &rarr;</p>
 
-         <p className={styles.p}>👨‍💻<b>Executive profile</b>Board of Directors & management team responsible for making the live retail streaming platform
+         <p className={styles.p}>👨‍💻<b>Executive profile</b><br />Board of Directors & management team responsible for making the live retail streaming platform
          <br />
+         <br >
           Learn more &rarr;</p>
          <br />
 
