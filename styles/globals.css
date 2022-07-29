@@ -72,7 +72,7 @@ input:focus {
 }
 
 button-p {
-  display: table;
+  display: flex;
   width: 30%;
   padding: 0.9rem;
   border: none;
@@ -89,7 +89,7 @@ button:hover {
 }
 
 button-s {
-  display: table;
+  display: flex;
   width: 30%;
   padding: 0.9rem;
   border: none;
@@ -106,7 +106,7 @@ button:hover {
 }
 
 button {
-  display: table;
+  display: flex;
   width: 30%;
   padding: 0.9rem;
   border: none;
