@@ -17,10 +17,10 @@ function Blog({ title, description  }) {
       <h1 className={styles.title}>
       Live Blog
       </h1>
-      <p className={styles.description}>The latest guides,and  announcement,about live streaming from runash team</p>
+      <p className={styles.description}>The latest guides,and  announcement</p>
       
        
-       <p className={styles.description}><b>Introduction</b><br />Introduceing the next generation and future of eCommerce<br />Live streaming for buyers<br />Live streaming for sellers<br />Watched live-on-demand<br />Live video chat<br />Live influencers community<br />Live Q and A or poll</p>
+       <p className={styles.description}><b>Introduction</b>Introduceing the next generation and future of eCommerce -Live streaming for buyers -Live streaming for sellers -Watched live-on-demand -Live video chat -Live influencers community -Live Q and A or poll</p>
        
        <Link href="/posts/first-post">
        <a>Read More &rarr;</a>
@@ -29,7 +29,7 @@ function Blog({ title, description  }) {
 
 
        <Link href="/blog.js">
-       <a>&larr; Back to Blog</a>
+       <a className={style.right}>&larr; Back to Blog</a>
        </Link>
      
     </>
