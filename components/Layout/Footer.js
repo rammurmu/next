@@ -1,5 +1,6 @@
 import Link from 'Next/link'
-import image from 'Next/image'
+import Image from 'Next/image'
+import styles from '..components/Footer.css'
 
 function Footer() {
   return ( 
