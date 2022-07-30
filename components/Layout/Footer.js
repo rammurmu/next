@@ -2,7 +2,7 @@ import Link from 'Next/link'
 
 function Footer() {
   return ( 
-        <div className={styles.footer}>
+        <div className='footer'>
         <footer className={styles.footer}>
         <a
           href="https://runash.in"
