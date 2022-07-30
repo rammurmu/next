@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import styles from '../styles/Blog.module.css'
 
-function Blog() {
+function Blog () {
   return (
       <Head>
         <title>Blog</title>
