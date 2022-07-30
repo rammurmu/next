@@ -1,10 +1,8 @@
-import Head from 'next/head'
 import '../styles/globals.css'
 import Navbar from '../components/Navbar'
 import '../components/Navbar.css'
-import Footer from '..components/Layout/Footer'
-import Header from '..components/Layout/Header'
-import 'styles/Layout.css'
+import Footer from '..components/layout/Footer'
+import 'styles/layout.css'
 
 
 
@@ -14,11 +12,6 @@ function MyApp({ Component, pageProps }){
   }
   return (
     <> 
-     <Head>
-     <title>Runash</title> 
-     <meta name='description' content='Live retail streaming platform ' />
-     </Head>
-     <Header />
      <Navbar />
       <Component {...pageProps} />  
      <Footer />
