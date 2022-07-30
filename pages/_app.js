@@ -10,9 +10,10 @@ function MyApp({ Component, pageProps }){
   Page.getLayout = function getLayout(page) {
   return (
     <> 
+     <Layout />
      <Navbar />
       <Component {...pageProps} />  
-      <Footer />
+      <Layout />
     </>
  )
 }
