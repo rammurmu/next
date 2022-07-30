@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import '../styles/globals.css'
 import Navbar from '../components/Navbar'
 import '../components/Navbar.css'
