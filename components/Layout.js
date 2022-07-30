@@ -5,7 +5,6 @@ import Footer from './footer'
 
 export default function Layout({ children }) {
   return (
-    <>
       <Header />
       <main>{children}</main>
       <footer className={styles.footer}>
@@ -20,6 +19,5 @@ export default function Layout({ children }) {
           </span>
         </a>
      </footer>
-    </>
   )
 }
