@@ -4,7 +4,6 @@ import styles from '../styles/Blog.module.css'
 
 function Blog() {
   return (
-    <>
       <Head>
         <title>Blog</title>
         <meta name='description' content={description} />
@@ -28,7 +27,6 @@ function Blog() {
        <a>&larr; Back to Blog</a>
        </Link>
      
-    </>
   )
 }
 
