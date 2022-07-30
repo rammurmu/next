@@ -8,7 +8,7 @@ function Blog() {
         <title>Blog</title>
         <meta name='description' content={description} />
       </Head>
-     
+     <div className={styles.container}>
       <h1 className={styles.title}>
       Live Blog
       </h1>
@@ -23,7 +23,7 @@ function Blog() {
        <Link href="/blog.js">
        <a>&larr; Back to Blog</a>
        </Link>
-     
+     </div>
   )
 }
 
