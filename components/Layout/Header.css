@@ -1,0 +1,18 @@
+.header {
+  background-color: #264653;
+  color: #f4a261;
+  font-size: 30px;
+  text-align: center;
+  padding: 30px;
+  border-top: 1px solid #eaeaea;
+  display: flex;
+  justify-content: centre;
+  align-item: centre;
+}
+
+.header a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
