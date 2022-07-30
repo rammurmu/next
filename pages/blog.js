@@ -1,31 +1,19 @@
-import Head from 'next/head'
-import Link from 'next/link'
 import styles from '../styles/Blog.module.css'
+import Link from 'next/link'
 
-function Blog() {
+export default function Blog() {
   return (
-      <Head>
-        <title>Blog</title>
-        <meta name='description' content={description} />
-      </Head>
-     <div className={styles.container}>
-      <h1 className={styles.title}>
-      Live Blog
-      </h1>
-      <p className={styles.description}>The latest guides,and  announcement</p>
-       
-       <Link href="/posts/first-post">
-       <a>Read More &rarr;</a>
-       </Link>
-       <br />
-
-
-       <Link href="/blog.js">
-       <a>&larr; Back to Blog</a>
-       </Link>
-       </div>
- )
-}
-
-export default Blog
-
+    <div className={styles.container}>
+      <main className={styles.main}>
+       <div className={styles.card}>
+        <h1>Live Blog</h1>
+        <p>The latest guides and announcement for live streaming</p>
+        </div>
+         <p className={styles.description}>
+          <Link href="/">
+            <a>&larr; Go Back</a>
+          </Link>
+        </p>
+      </main>
+    </div>
+  )
