@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/About.module.css'
 import Link from 'next/link'
 import Button from '../components/Button'
-import Footer from './footer'
+import Footer from 'next/footer'
 
 export default function About() {
   return (
