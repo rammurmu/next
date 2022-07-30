@@ -9,9 +9,17 @@ export default function Blog() {
         <h1>Live Blog</h1>
         <p>The latest guides and announcement for live streaming</p>
         </div>
+        <Link href="/posts/first-post">
+       <a>Read More &rarr;</a>
+       </Link>
+       <br />
+       <Link href="/blog.js">
+       <a>Read more &rarr;</a>
+       </Link>
+     
          <p className={styles.description}>
           <Link href="/">
-            <a>&larr; Go Back</a>
+            <a>&larr; Back to Home</a>
           </Link>
         </p>
       </main>
