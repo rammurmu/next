@@ -1,12 +1,7 @@
 import Link from 'next/link'
-import Header from './header'
-import Footer from './footer'
 
-
-export default function Layout({ children }) {
+export default function Footer({ children }) {
   return (
-      <Header />
-      <main>{children}</main>
       <footer className={styles.footer}>
         <a
           href="https://runash.in"
