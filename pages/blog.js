@@ -8,7 +8,7 @@ function Blog() {
         <title>Blog</title>
         <meta name='description' content={description} />
       </Head>
-      <p className={styles.description}><code className={styles.code}>👏 Welcome to RunAsh</code></p>
+     
       <h1 className={styles.title}>
       Live Blog
       </h1>
