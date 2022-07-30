@@ -1,10 +1,9 @@
 import Link from 'Next/link'
 import Image from 'Next/image'
-import styles from '..components/Footer.css'
+import Footer from '..components/Footer.css'
 
 function Footer() {
   return ( 
-        <div className='footer'>
         <footer className={styles.footer}>
         <a
           href="https://runash.in"
@@ -17,7 +16,6 @@ function Footer() {
           </span>
         </a>
      </footer>
-     </div>
  )
 }
 
