@@ -1,4 +1,5 @@
 import Link from 'Next/link'
+import image from 'Next/image'
 
 function Footer() {
   return ( 
