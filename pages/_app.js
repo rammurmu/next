@@ -2,8 +2,8 @@ import Head from 'next/head'
 import '../styles/globals.css'
 import Navbar from '../components/Navbar'
 import '../components/Navbar.css'
-import Footer from '@/Layout/Footer'
-import Header from '@/Layout/Header'
+import Footer from '..components/Layout/Footer'
+import Header from '..components/Layout/Header'
 import 'styles/Layout.css'
 
 
