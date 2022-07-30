@@ -7,9 +7,7 @@ import Footer from '..components/layout/Footer'
 
 
 function MyApp({ Component, pageProps }){
-  if (Component.getLayout) {
-    return Component.getLayout(<Component {...pageProps} />)
-  }
+  Page.getLayout = function getLayout(page) {
   return (
     <> 
      <Navbar />
