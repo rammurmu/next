@@ -23,8 +23,8 @@ function Blog() {
        <Link href="/blog.js">
        <a>&larr; Back to Blog</a>
        </Link>
-     </div>
-  )
+     
+ )
 }
 
 export default Blog
