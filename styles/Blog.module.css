@@ -54,7 +54,6 @@
   margin: 4rem 0;
   line-height: 1.5;
   font-size: 1.1rem;
-  border-bottom: 1px solid #eaeaea;
 }
 
 .code {
@@ -104,7 +103,7 @@
   line-height: 1.5;
 }
 
-.h {
+.h1 {
  font-size: 30px;
  margin: 4rem 0;
  line-height: 1.5;
