@@ -1,6 +1,6 @@
 import Link from 'Next/link'
 import Image from 'Next/image'
-import Footer from '..components/Footer.css'
+
 
 function Footer() {
   return ( 
