@@ -2,6 +2,7 @@ import Link from 'next/link'
 
 function Footer() {
   return (
+         <div>
          <footer className={styles.footer}>
         <a
           href="https://runash.in"
@@ -14,6 +15,7 @@ function Footer() {
           </span>
         </a>
      </footer>
+     </div>
  )
 }
 
