@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import styles from '../styles/Blog.module.css'
 
-function Blog () {
+function Blog() {
   return (
       <Head>
         <title>Blog</title>
@@ -13,9 +13,6 @@ function Blog () {
       Live Blog
       </h1>
       <p className={styles.description}>The latest guides,and  announcement</p>
-      
-       
-       <p className={styles.p}><b>Introduction</b><br />Introduceing the next generation and future of eCommerce <br />Live streaming for buyers <br />Live streaming for sellers <br />Watched live-on-demand <br />Live video chat<br /> Live influencers community<br /> Live Q and A or poll</p>
        
        <Link href="/posts/first-post">
        <a>Read More &rarr;</a>
