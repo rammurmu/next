@@ -1,12 +1,19 @@
-import Link from 'Next/link'
+import Footer from '../components/Footer.css'
+import Link from 'next/link'
 
-
-function Footer() {
-  return ( 
-         <h1>Footer</h1>
- )
+export default function Footer() {
+  return (
+    <div className={styles.footer}>
+      <main className={styles.main}>
+        <h1>footer</h1>
+        <p className={styles.description}>
+          <Link href="/">
+            <a>Learn</a>
+          </Link>
+        </p>
+      </main>
+    </div>
+  )
 }
-
-export default Footer
 
 
