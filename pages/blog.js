@@ -7,7 +7,7 @@ export default function Blog() {
       <main className={styles.main}>
        <div className={styles.title}>
         <h1>Live Blog</h1>
-        <p className={styles.description}>The latest guides and announcement for live streaming</p>
+        <p className={styles.description}>The latest guides and announcement</p>
         </div>
         <br />
         <h2>Welcome to first live blog</h2>
@@ -23,108 +23,108 @@ export default function Blog() {
        <a>Read more &rarr;</a>
        </Link>
        <br />
-       <h2>Introduction the live retail streaming </h2>
+       <h2>Live streaming for selling </h2>
         <p>Introducing the new live-commerce streaming for retail</p>
        <br />
-       <Link href="/posts/second-post">
+       <Link href="/posts/three-post">
+       <a>Read more &rarr;</a>
+       </Link>
+       <br />
+       <h2>Live streaming for shopping </h2>
+        <p>Introducing the new live-commerce streaming for retail</p>
+       <br />
+       <Link href="/posts/four-post">
+       <a>Read more &rarr;</a>
+       </Link>
+       <br />
+       <h2>Create your RunAsh account </h2>
+        <p>Introducing the new live-commerce streaming for retail</p>
+       <br />
+       <Link href="/posts/five-post">
+       <a>Read more &rarr;</a>
+       </Link>
+       <br />
+       <h2>Build your live store</h2>
+        <p>Introducing the new live-commerce streaming for retail</p>
+       <br />
+       <Link href="/posts/six-post">
+       <a>Read more &rarr;</a>
+       </Link>
+       <br />
+       <h2>How to live streaming your organic products </h2>
+        <p>Introducing the new live-commerce streaming for retail</p>
+       <br />
+       <Link href="/posts/seven-post">
        <a>Read more &rarr;</a>
        </Link>
        <br />
        <h2>Introduction the live retail streaming </h2>
         <p>Introducing the new live-commerce streaming for retail</p>
        <br />
-       <Link href="/posts/second-post">
+       <Link href="/posts/eight-post">
        <a>Read more &rarr;</a>
        </Link>
        <br />
        <h2>Introduction the live retail streaming </h2>
         <p>Introducing the new live-commerce streaming for retail</p>
        <br />
-       <Link href="/posts/second-post">
+       <Link href="/posts/nine-post">
        <a>Read more &rarr;</a>
        </Link>
        <br />
        <h2>Introduction the live retail streaming </h2>
         <p>Introducing the new live-commerce streaming for retail</p>
        <br />
-       <Link href="/posts/second-post">
+       <Link href="/posts/ten-post">
        <a>Read more &rarr;</a>
        </Link>
        <br />
        <h2>Introduction the live retail streaming </h2>
         <p>Introducing the new live-commerce streaming for retail</p>
        <br />
-       <Link href="/posts/second-post">
-       <a>Read more &rarr;</a>
-       </Link>
-       <br />
-       <h2>Introduction the live retail streaming </h2>
-        <p>Introducing the new live-commerce streaming for retail</p>
-       <br />
-       <Link href="/posts/second-post">
-       <a>Read more &rarr;</a>
-       </Link>
-       <br />
-       <h2>Introduction the live retail streaming </h2>
-        <p>Introducing the new live-commerce streaming for retail</p>
-       <br />
-       <Link href="/posts/second-post">
-       <a>Read more &rarr;</a>
-       </Link>
-       <br />
-       <h2>Introduction the live retail streaming </h2>
-        <p>Introducing the new live-commerce streaming for retail</p>
-       <br />
-       <Link href="/posts/second-post">
-       <a>Read more &rarr;</a>
-       </Link>
-       <br />
-       <h2>Introduction the live retail streaming </h2>
-        <p>Introducing the new live-commerce streaming for retail</p>
-       <br />
-       <Link href="/posts/second-post">
+       <Link href="/posts/eleven-post">
        <a>Read more &rarr;</a>
        </Link>
        <br />
       <h2>Introduction the live retail streaming </h2>
         <p>Introducing the new live-commerce streaming for retail</p>
        <br />
-       <Link href="/posts/second-post">
+       <Link href="/posts/twelve-post">
        <a>Read more &rarr;</a>
        </Link>
        <br />
        <h2>Introduction the live retail streaming </h2>
         <p>Introducing the new live-commerce streaming for retail</p>
        <br />
-       <Link href="/posts/second-post">
+       <Link href="/posts/thirteen-post">
        <a>Read more &rarr;</a>
        </Link>
        <br />
        <h2>Introduction the live retail streaming </h2>
         <p>Introducing the new live-commerce streaming for retail</p>
        <br />
-       <Link href="/posts/second-post">
+       <Link href="/posts/fourteen-post">
        <a>Read more &rarr;</a>
        </Link>
        <br />
        <h2>Introduction the live retail streaming </h2>
         <p>Introducing the new live-commerce streaming for retail</p>
        <br />
-       <Link href="/posts/second-post">
+       <Link href="/posts/fifteen-post">
        <a>Read more &rarr;</a>
        </Link>
        <br />
        <h2>Introduction the live retail streaming </h2>
         <p>Introducing the new live-commerce streaming for retail</p>
        <br />
-       <Link href="/posts/second-post">
+       <Link href="/posts/sixteen-post">
        <a>Read more &rarr;</a>
        </Link>
        <br />
        <h2>Introduction the live retail streaming </h2>
         <p>Introducing the new live-commerce streaming for retail</p>
        <br />
-       <Link href="/posts/second-post">
+       <Link href="/posts/seventeen-post">
        <a>Read more &rarr;</a>
        </Link>
        <br />
