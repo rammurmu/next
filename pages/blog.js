@@ -13,7 +13,9 @@ export default function Blog() {
        <a>Read More &rarr;</a>
        </Link>
        <br />
-       <Link href="/blog.js">
+       <h1>Welcome to first live blog</h1>
+        <p>welcome the new live-commerce streaming for retail</p>
+       <Link href="/posts/second-post">
        <a>Read more &rarr;</a>
        </Link>
      
