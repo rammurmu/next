@@ -30,6 +30,7 @@
 }
 
 .nav {
+  display: flex;
   border-bottom: 1px solid #eaeaea;
   padding: 0 36px;
   justify-content: space-between;
