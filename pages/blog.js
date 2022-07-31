@@ -19,7 +19,7 @@ export default function Blog() {
      
          <p className={styles.description}>
           <Link href="/">
-            <a>&larr; Back </a>
+            <a>&larr; Back</a>
           </Link>
         </p>
       </main>
