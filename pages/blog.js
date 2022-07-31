@@ -5,7 +5,7 @@ export default function Blog() {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
-       <div className={styles.card}>
+       <div className={styles.title}>
         <h1>Live Blog</h1>
         <p>The latest guides and announcement for live streaming</p>
         </div>
@@ -19,7 +19,7 @@ export default function Blog() {
      
          <p className={styles.description}>
           <Link href="/">
-            <a>&larr; Back</a>
+            <a>&larr; Back to home</a>
           </Link>
         </p>
       </main>
