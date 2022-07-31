@@ -16,10 +16,8 @@ export default function Blog() {
        <a>Read More &rarr;</a>
        </Link>
         <br />
-       <div className={styles.title}>
        <h1>Introduction the live retail streaming </h1>
         <p>Introducing the new live-commerce streaming for retail</p>
-       </div>
        <br />
        <Link href="/posts/second-post">
        <a>Read more &rarr;</a>
@@ -27,7 +25,7 @@ export default function Blog() {
        <br />
          <p>
           <Link href="/home">
-            <a>&larr; Back to home</a>
+            <a><button type="button" className={styles.button}>&larr; Back to Home</button></a>
           </Link>
         </p>
       </main>
