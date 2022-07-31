@@ -7,9 +7,10 @@ export default function Blog() {
       <main className={styles.main}>
        <div className={styles.title}>
         <h1>Live Blog</h1>
-        <p>The latest guides and announcement for live streaming</p>
+        <p class name={styles.description}>The latest guides and announcement for live streaming</p>
         </div>
         <br />
+        <code className={styles.code}>Company</code>
         <h1>Welcome to first live blog</h1>
          <p>The new live-commerce streaming for real selling and real shopping</p>
         <Link href="/posts/first-post">
