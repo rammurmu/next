@@ -9,20 +9,23 @@ export default function Blog() {
         <h1>Live Blog</h1>
         <p>The latest guides and announcement for live streaming</p>
         </div>
+        <br />
         <h1>Welcome to first live blog</h1>
+         <p>The new live-commerce streaming for real selling and real shopping</p>
         <Link href="/posts/first-post">
        <a>Read More &rarr;</a>
        </Link>
-       
+        <br />
        <div className={styles.title}>
        <h1>Introduction the live retail streaming </h1>
         <p>Introducing the new live-commerce streaming for retail</p>
        </div>
+       <br />
        <Link href="/posts/second-post">
        <a>Read more &rarr;</a>
        </Link>
-       
-         <p className={styles.description}>
+       <br />
+         <p>
           <Link href="/home">
             <a>&larr; Back to home</a>
           </Link>
