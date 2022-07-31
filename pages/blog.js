@@ -7,7 +7,7 @@ export default function Blog() {
       <main className={styles.main}>
        <div className={styles.title}>
         <h1>Live Blog</h1>
-        <p class name={styles.description}>The latest guides and announcement for live streaming</p>
+        <p className={styles.description}>The latest guides and announcement for live streaming</p>
         </div>
         <br />
         <code className={styles.code}>Company</code>
