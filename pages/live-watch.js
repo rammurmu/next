@@ -1,7 +1,7 @@
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 
-export default function Live Watch() {
+export default function LiveWatch() {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
