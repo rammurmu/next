@@ -47,7 +47,7 @@
 
 .title,
 .description {
-  text-align: left;
+  text-align: centre;
 }
 
 .description {
@@ -58,6 +58,8 @@
 }
 
 .code {
+  display: flex;
+  color: DD6B20
   background: #fafafa;
   border-radius: 5px;
   padding: 0.75rem;
