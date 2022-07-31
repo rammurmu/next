@@ -10,14 +10,13 @@ export default function Blog() {
         <p className={styles.description}>The latest guides and announcement for live streaming</p>
         </div>
         <br />
-        <div className={styles.code}>Company</div>
-        <h1>Welcome to first live blog</h1>
+        <h2>Welcome to first live blog</h2>
          <p>The new live-commerce streaming for real selling and real shopping</p>
         <Link href="/posts/first-post">
        <a>Read More &rarr;</a>
        </Link>
         <br />
-       <h1>Introduction the live retail streaming </h1>
+       <h2>Introduction the live retail streaming </h2>
         <p>Introducing the new live-commerce streaming for retail</p>
        <br />
        <Link href="/posts/second-post">
