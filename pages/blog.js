@@ -25,3 +25,4 @@ export default function Blog() {
       </main>
     </div>
   )
+}
