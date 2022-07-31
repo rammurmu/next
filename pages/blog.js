@@ -8,20 +8,22 @@ export default function Blog() {
        <div className={styles.title}>
         <h1>Live Blog</h1>
         <p>The latest guides and announcement for live streaming</p>
-       
+        </div>
+        <h1>Welcome to first live blog</h1>
         <Link href="/posts/first-post">
        <a>Read More &rarr;</a>
        </Link>
-       </div>
+       
        <div className={styles.title}>
-       <h1>Welcome to first live blog</h1>
-        <p>welcome the new live-commerce streaming for retail</p>
+       <h1>Introduction the live retail streaming </h1>
+        <p>Introducing the new live-commerce streaming for retail</p>
+       </div>
        <Link href="/posts/second-post">
        <a>Read more &rarr;</a>
        </Link>
-       </div>
+       
          <p className={styles.description}>
-          <Link href="/">
+          <Link href="/home">
             <a>&larr; Back to home</a>
           </Link>
         </p>
