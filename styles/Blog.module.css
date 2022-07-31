@@ -42,7 +42,7 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 20px;
+  font-size: 4rem;
 }
 
 .title,
@@ -53,7 +53,7 @@
 .description {
   margin: 4rem 0;
   line-height: 1.5;
-  font-size: 20px;
+  font-size: 1.1rem;
   border: bottom solid #eaeaea;
 }
 
@@ -70,7 +70,7 @@
 
 .grid {
   display: flex;
-  align-items: left;
+  align-items: centre;
   justify-content: left;
   flex-wrap: wrap;
   max-width: 800px;
