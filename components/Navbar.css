@@ -1,7 +1,7 @@
 ul {
   margin: 0;
   padding: 0;
-  list-style: none;
+  list-style: point;
 }
 
 h2,
@@ -42,7 +42,7 @@ a {
 }
 
 .header {
-  display: scroll;
+  display: block;
   width: 100%;
   justify-content: space-between;
   padding-top: 0.5em;
