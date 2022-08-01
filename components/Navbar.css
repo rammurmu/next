@@ -31,6 +31,7 @@ a {
   text-transform: uppercase-lowercase;
   text-align: left;
   display: block;
+  border-bottom: 1px solid #eaeaea;
 }
 
 .main-nav a {
@@ -44,7 +45,7 @@ a {
 
 .header {
   display: table;
-  width: 120%;
+  width: 150%;
   justify-content: space-between;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
