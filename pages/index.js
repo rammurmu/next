@@ -136,7 +136,7 @@ export default function Home() {
         <p>Begin your live journey✨</p>
       
        <p className={styles.description}>Give your valuable feedback &rarr;</p>
-      
+      <input className={styles.input} placeholder="Email ID..." />
         <div>
       </div>
       </main>
