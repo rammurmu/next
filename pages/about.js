@@ -22,6 +22,18 @@ export default function About() {
           We create real-life experiences to enable and access face-to-face
         </p>
       <button type="sign up">Join Us</button>
+      <nav className={styles.nav}>
+      <input className={styles.input} placeholder="Search..." />
+      <Link href="/">
+        <a>Home</a>
+      </Link>
+      <Link href="/about">
+        <a>About</a>
+      </Link>
+      <Link href="/contact">
+        <a>Contact</a>
+      </Link>
+    </nav>
       
         <p className={styles.p}><b>RunAsh startup journey</b> ✨
         <br />
