@@ -22,7 +22,7 @@ a {
 .main-nav {
   display: flex;
   margin-top: 5px;
-  width: 60%;
+  width: 100%;
 }
 
 .logo a,
