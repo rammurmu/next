@@ -3,7 +3,8 @@ import Image from 'next/image'
 import styles from '../styles/About.module.css'
 import Link from 'next/link'
 import Button from '../components/Button'
-
+import Layout from '../components/layout'
+import Sidebar from '../components/sidebar'
 
 export default function About() {
   return (
