@@ -28,7 +28,7 @@ a {
 .logo a,
 .main-nav a {
   padding: 10px 15px;
-  width: 100%;
+  width: 50%;
   text-transform: uppercase-lowercase;
   text-align: center;
   display: block;
