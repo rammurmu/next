@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
-import Sidebar from '../components/sidebar'
+import Sidebar from '../components/Sidebar'
 
 export default function Buyer() {
   return (
