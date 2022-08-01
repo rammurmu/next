@@ -23,7 +23,6 @@ export default function About() {
         </p>
       <button type="sign up">Join Us</button>
       <nav className={styles.nav}>
-      <input className={styles.input} placeholder="Search..." />
       <Link href="/">
         <a>Home</a>
       </Link>
