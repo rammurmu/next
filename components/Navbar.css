@@ -44,7 +44,7 @@ a {
 
 .header {
   display: table;
-  width: 100%;
+  width: 120%;
   justify-content: space-between;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
