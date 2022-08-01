@@ -22,7 +22,7 @@ a {
 .main-nav {
   display: flex;
   margin-top: 5px;
-  width: 80%;
+  width: 60%;
 }
 
 .logo a,
@@ -44,7 +44,7 @@ a {
 
 .header {
   display: table;
-  width: 80%;
+  width: 60%;
   justify-content: space-between;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
