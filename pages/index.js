@@ -13,6 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.icon" />  
       </Head>
         <main className={styles.main}>
+        <input className={styles.input} placeholder="🆕 Latest update for live streaming &rarr;" />
         <h2 className={styles.description}><code className={styles.code}>👏 Welcome to RunAsh</code></h2>
         <h1 className={styles.title}>
          Live retail streaming <br /><a href="https://">platform</a>
