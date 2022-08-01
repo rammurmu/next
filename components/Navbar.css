@@ -22,7 +22,7 @@ a {
 .main-nav {
   display: flex;
   margin-top: 5px;
-  width: 100%;
+  width: 80%;
 }
 
 .logo a,
@@ -31,7 +31,6 @@ a {
   text-transform: uppercase-lowercase;
   text-align: left;
   display: block;
-  border-bottom: 1px solid #eaeaea;
 }
 
 .main-nav a {
@@ -45,7 +44,7 @@ a {
 
 .header {
   display: table;
-  width: 150%;
+  width: 80%;
   justify-content: space-between;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
