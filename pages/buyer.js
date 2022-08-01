@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
-
+import Sidebar from '../components/sidebar'
 
 export default function Buyer() {
   return (
@@ -22,6 +22,7 @@ export default function Buyer() {
          You can meet to sellers with face to face real life experience
         </p>
         <button type="Watch live ">Watch live</button>
+      <input className={styles.input} placeholder="Search..." />
        <h2>Categories</h2>
       <div>
        <ul className={'main-nav'}>
