@@ -29,7 +29,7 @@ a {
   padding: 10px 15px;
   text-transform: uppercase-lowercase;
   text-align: left;
-  display: block;
+  display: flex;
 }
 
 .main-nav a {
@@ -42,7 +42,7 @@ a {
 }
 
 .header {
-  display: table;
+  display: flex;
   width: 100%;
   justify-content: space-between;
   padding-top: 0.5em;
