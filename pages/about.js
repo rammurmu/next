@@ -4,7 +4,7 @@ import styles from '../styles/About.module.css'
 import Link from 'next/link'
 import Button from '../components/Button'
 import Sidebar from '../components/Sidebar'
-
+import Footer from '../components/Footer'
 export default function About() {
   return (
     <div className={styles.container}>
