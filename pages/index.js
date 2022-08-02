@@ -14,11 +14,8 @@ export default function Home() {
       </Head>
         <main className={styles.main}>
         
-        <select className={styles.selectWrapper}select id="select" name="select">
-        <option>Select</option>
-        <option>Selling</option>
-        <option>Shopping</option>
-        </select>
+        <div className={styles.box}Latest update for live streaming</div>
+        
         <h1 className={styles.title}>
          Live retail streaming <br /><a href="https://">platform</a>
          </h1>
