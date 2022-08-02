@@ -13,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.icon" />  
       </Head>
         <main className={styles.main}>
-        <input className={styles.input} "placeholder 🆕 Latest update for live reatil streaming &rarr;" />
+        <select className={styles.select}placeholder="🆕 Latest update for live reatil streaming &rarr;" />
       
         <h1 className={styles.title}>
          Live retail streaming <br /><a href="https://">platform</a>
