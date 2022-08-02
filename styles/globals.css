@@ -19,6 +19,7 @@ a {
 
 * {
   box-sizing: border-box;
+  max-width: 300px;
 }
 
 h1 {
