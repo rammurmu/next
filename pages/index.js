@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
         <main className={styles.main}>
         
-        <div className={styles.box}Latest update for live streaming</div>
+        <box className={styles.card}>Latest update for live streaming</box>
         
         <h1 className={styles.title}>
          Live retail streaming <br /><a href="https://">platform</a>
