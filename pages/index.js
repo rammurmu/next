@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
         <main className={styles.main}>
         
-        <select className={styles.selectWrapper}<select id="select" name="select">
+        <select className={styles.selectWrapper}>select id="select" name="select">
         <option>Select</option>
         <option>Selling</option>
         <option>Shopping</option>
