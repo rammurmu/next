@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Sidebar from '../components/Sidebar'
 
 function Navbar() {
   return (
