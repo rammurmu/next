@@ -133,6 +133,60 @@ button:hover {
   height: 100vh;
 }
 
+.preference {
+ display: flex;
+ justify-content: space-between;
+ width: 60%;
+ margin: 5rem;
+}
 
+.input [type='submit'],
+ label {
+   margin-top: 1rem;
+}
 
+.p
+ label {
+ font-size: 1.8rem;
+}
+
+.outputs {
+ font-size: 1.8rem;
+}
+
+.controls {
+ padding-top: 1rem;
+ display: grid;
+ grid-tamplate-raws: repeat(3,1fr);
+ grid-template-colums: 1fr 2fr;
+ gap: 7rem;
+}
+
+.input [type='reset'],
+ input [type='submit'] {
+ width: 5rem;
+ justify-self: end;
+}
+
+.input [type='reset'] {
+  grid-colum: 2;
+  grid-row: 2;
+}
+
+.input [type='submit'] {
+ grid-colum: 2;
+ grid-row: 3;
+}
+
+.select-wrapper {
+ position: relative;
+}
+
+.select-wrapper::after {
+ content: "+";
+ font-size: 1rem;
+ top: 6px;
+ right: 10px;
+ position: absolute;
+}
 
