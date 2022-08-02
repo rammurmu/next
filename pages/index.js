@@ -13,10 +13,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.icon" />  
       </Head>
         <main className={styles.main}>
-        <select>
+        
         <select className={styles.selectWrapper}<select id="select" name="select">
-        <option>one</option>
-        <option>two</option>
+        <option>Select</option>
+        <option>Live selling</option>
+        <option>Live shopping</option>
         </select>
         <h1 className={styles.title}>
          Live retail streaming <br /><a href="https://">platform</a>
