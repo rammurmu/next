@@ -13,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.icon" />  
       </Head>
         <main className={styles.main}>
-        <select className={styles.selectWrapper}><select id="select" name="select">
+        <select className={styles.selectWrapper}<select Id="select" name="select">
         <option>one</option>
         <option>two</option>
         </select>
