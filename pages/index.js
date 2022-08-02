@@ -15,7 +15,7 @@ export default function Home() {
         <main className={styles.main}>
         <select className={styles.select}placeholder="🆕 Latest update for live reatil streaming &rarr;" />
         <option>one</option>
-        </select>
+        
         <h1 className={styles.title}>
          Live retail streaming <br /><a href="https://">platform</a>
          </h1>
