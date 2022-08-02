@@ -13,6 +13,7 @@ export default function Live() {
         <option>Selling</option>
         <option>Shopping</option>
         </select>
+        <button type="button-secondary">Go Live</button>
         </div>
          <p className={styles.description}>
           <Link href="/">
