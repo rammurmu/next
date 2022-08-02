@@ -13,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.icon" />  
       </Head>
         <main className={styles.main}>
-        <select className={styles.select}placeholder="🆕 Latest update for live reatil streaming &rarr;" />
+        <select className={styles.select}wrapper="select" />
         <option>one</option>
         
         <h1 className={styles.title}>
