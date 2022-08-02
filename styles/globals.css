@@ -19,7 +19,6 @@ a {
 
 * {
   box-sizing: border-box;
-  max-width: 300px;
 }
 
 h1 {
@@ -72,7 +71,7 @@ input:focus {
   border-color: #0070f3;
 }
 
-button-p {
+button-small {
   display: table;
   width: 30%;
   padding: 0.9rem;
@@ -89,7 +88,7 @@ button:hover {
   background-color: #0060e9;
 }
 
-button-s {
+button-medium {
   display: table;
   width: 30%;
   padding: 0.9rem;
