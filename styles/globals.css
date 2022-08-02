@@ -19,6 +19,7 @@ a {
 
 * {
   box-sizing: border-box;
+  width: 60%;
 }
 
 h1 {
