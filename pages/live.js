@@ -8,6 +8,11 @@ export default function Live() {
        <div className={styles.card}>
         <h1>Live streaming</h1>
         <p>Schedule </p>
+        <select className={styles.selectWrapper}select id="select" name="select">
+        <option>Select</option>
+        <option>Selling</option>
+        <option>Shopping</option>
+        </select>
         </div>
          <p className={styles.description}>
           <Link href="/">
