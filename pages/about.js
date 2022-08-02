@@ -23,6 +23,7 @@ export default function About() {
           We create real-life experiences to enable and access face-to-face
         </p>
       <button type="sign up">Join Us</button>
+      <box className={styles.card}>🆕 Introducing the next generation and future of retail &rarr;</box>
       <nav className={styles.nav}>
       <Link href="/">
         <a>Home</a>
