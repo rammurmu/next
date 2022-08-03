@@ -51,6 +51,23 @@ a {
   border-bottom: 1px solid #eaeaea;
 }
 
+button {
+  display: table;
+  width: 20%;
+  padding: 0.9rem;
+  border: none;
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+  margin-bottom: 2.5rem;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0060e9;
+}
+
 .loading {
   opacity: 0;
   transition: all 0.2s ease-in;
