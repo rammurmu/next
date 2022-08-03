@@ -3,14 +3,13 @@ import Sidebar from '../components/Sidebar'
 
 function Navbar() {
   return (
-     <menu className='menu'>
       <nav className='header'>
         <h1 className='logo'>
           <Link href='/dashboard'>
           <a>RunAsh</a>
           </Link>
         </h1>
-      <ul className={'menu-li'}>
+      <ul className={'main-nav'}>
        <li>
          <Link href='/about'>
             <a>Startup</a>
@@ -49,7 +48,6 @@ function Navbar() {
         
      </ul>
    </nav>
-  </menu>
  )
 }
 
