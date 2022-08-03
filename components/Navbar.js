@@ -5,7 +5,7 @@ function Navbar() {
   return (
        <div>
       <nav className='header'>
-      <ul className={'main-nav'}>
+      <ul className={'nav'}>
         <h1 className={styles.description}>
           👏 Welcome to RunAsh
         </h1>
