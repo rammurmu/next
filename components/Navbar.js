@@ -26,12 +26,12 @@ function Navbar() {
        </li>     
        <li>
           <Link href='/live' scroll={true}>
-            <a>LiveStream</a>
+            <a>Live</a>
           </Link>
        </li>     
        <li>
           <Link href='/watch' scroll={true}>
-            <a>LiveWatch</a>
+            <a>Watch</a>
           </Link>
        </li> 
        <li>
