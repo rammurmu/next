@@ -10,7 +10,7 @@ function Navbar() {
           <a>RunAsh</a>
           </Link>
         </h1>
-      <ul className={'main-nav'}>
+      <ul className={'main-li'}>
        <li>
          <Link href='/about'>
             <a>Startup</a>
