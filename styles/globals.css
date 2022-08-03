@@ -55,6 +55,28 @@ p {
   font-weight: bold;
 }
 
+aside {
+ width: 4%;
+ padding-left: .5rem;
+ margin-left: .5rem;
+ float: right;
+ box-shadow: inset 5px u 5px -5px #29627e;
+ font-styles: italic;
+ color: #29627e;
+}
+
+aside > p {
+  margin: 5rem;
+}
+
+p {
+ font-family: 'fna sans', sans-serif;
+}
+
+span.ingredient {
+ color: #foo;
+}
+
 .div {
  width: 300px;
  height: 80px;
