@@ -4,9 +4,12 @@ import Sidebar from '../components/Sidebar'
 function Navbar() {
   return (
       <nav className='header'>
-        <h1>
+      <ul className={'main-nav}>
+        <h1 className={styles.description}>
           👏 Welcome to RunAsh
         </h1>
+      </ul>
+       </nav>
       <ul className={'main-nav'}>
       <h1 className='logo'>
           <Link href='/dashboard'>
@@ -59,7 +62,7 @@ function Navbar() {
       </Link>
       </li>       
      </ul>
-     </nav>
+     
  )
 }
 
