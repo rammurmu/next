@@ -3,7 +3,7 @@ import Sidebar from '../components/Sidebar'
 
 function Navbar() {
   return (
-      <div className={styles.header}>welcome to RunAsh</div>
+      <header className={styles.header}>welcome to RunAsh</header>
       <ul className={'main-nav'}>
       <h1 className='logo'>
           <Link href='/dashboard'>
