@@ -76,6 +76,7 @@
 
 .cards {
   margin: 1rem;
+  line-height: 1.5;
   padding: 1.5rem;
   text-align: left;
   color: inherit;
