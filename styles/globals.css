@@ -145,13 +145,13 @@ input:focus {
 }
 
 buttons {
-  display: flex;
-  width: 30%;
+  display: block;
+  width: 40%;
   padding: 0.9rem;
   border: none;
   border-radius: 0.25rem;
   box-sizing: border-box;
-  margin-bottom: 1.5rem;
+  margin-bottom: 4.5rem;
   background-color: #DD6B20;
   color: #fff;
   cursor: pointer;
