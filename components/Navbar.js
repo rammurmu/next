@@ -3,12 +3,12 @@ import Sidebar from '../components/Sidebar'
 
 function Navbar() {
   return (
-        <h1 className='logo'>
+      <ul className={'main-nav'}>
+      <h1 className='logo'>
           <Link href='/dashboard'>
           <a>RunAsh</a>
           </Link>
         </h1>
-      <ul className={'main-nav'}>
        <li>
          <Link href='/about'>
             <a>Startup</a>
@@ -43,8 +43,7 @@ function Navbar() {
           <Link href='/productlist'>
             <a>Login</a>
           </Link>
-       </li>     
-        
+       </li>        
      </ul>
  )
 }
