@@ -51,7 +51,7 @@ function Navbar() {
        </li>     
        <li>
           <Link href='/productlist' scroll={true}>
-            <a><button type="buttons">Login</button></a>
+            <button type="buttons">Login</button>
           </Link>
        </li>      
       <li>
