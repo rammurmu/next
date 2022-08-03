@@ -7,7 +7,7 @@ function Navbar() {
         <h1>
           👏 Welcome to RunAsh
         </h1>
-      
+       </nav>
       <ul className={'main-nav'}>
       <h1 className='logo'>
           <Link href='/dashboard'>
