@@ -5,6 +5,7 @@ function Navbar() {
   return (
       <div className={styles.container}>
       <nav className='header'>
+      </div>
         <h1 className='logo'>
           <Link href='/dashboard'>
           <a>RunAsh</a>
@@ -49,7 +50,6 @@ function Navbar() {
         
      </ul>
    </nav>
-   </div>
  )
 }
 
