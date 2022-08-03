@@ -15,7 +15,7 @@ export default function Home() {
         <main className={styles.main}>
         
         <div className={styles.cards}><b>🆕Updates:</b> Introducing the next generation and future of live-retail streaming &rarr;</div>
-        <br />
+        
         <h1 className={styles.title}>
          Live retail streaming <br /><a href="https://">platform</a>
          </h1>
@@ -138,7 +138,8 @@ export default function Home() {
         <p className={styles.description}>Begin your live journey✨</p>
       
        <p className={styles.description}>Give your valuable feedback &rarr;</p>
-      <input className={styles.input} placeholder="Email ID..." /><button type="Subscribe">Subscribe</button>
+      <label className={styles.label} Sign up for weekly updates from RunAsh</label>
+      <input className={styles.input} placeholder="email address..." pattern="https://runash.in" size="30" required /><button type="Subscribe">Subscribe</button>
        
         <div>
       </div>
