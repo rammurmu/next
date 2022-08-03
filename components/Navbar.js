@@ -3,15 +3,6 @@ import Sidebar from '../components/Sidebar'
 
 function Navbar() {
   return (
-       <div>
-      <nav className='header'>
-      <ul className={'nav'}>
-        <h1 className={styles.description}>
-          👏 Welcome to RunAsh
-        </h1>
-      </ul>
-       </nav>
-     </div>
       <ul className={'main-nav'}>
       <h1 className='logo'>
           <Link href='/dashboard'>
@@ -63,8 +54,7 @@ function Navbar() {
          <a>⚙️</a>
       </Link>
       </li>       
-     </ul>
-     
+     </ul>    
  )
 }
 
