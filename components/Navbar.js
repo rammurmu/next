@@ -33,7 +33,17 @@ function Navbar() {
           <Link href='/live' scroll={true}>
             <a>Live</a>
           </Link>
-       </li>     
+       </li> 
+       <li>
+       <Link href="/Store" scroll={true}>
+         <a>Store</a>
+      </Link>
+      </li>       
+      <li>
+       <Link href="/support" scroll={true}>
+         <a>Support </a>
+      </Link>
+      </li>           
        <li>
           <Link href='/js-form' scroll={true}>
             <a>Sign In</a>
@@ -41,14 +51,9 @@ function Navbar() {
        </li>     
        <li>
           <Link href='/productlist' scroll={true}>
-            <a><button type="submit">Login</button></a>
+            <a><button type="buttons">Login</button></a>
           </Link>
-       </li> 
-       <li>
-       <Link href="/support" scroll={true}>
-         <a>Support </a>
-      </Link>
-      </li>       
+       </li>      
       <li>
        <Link href="/github/runash" scroll={true}>
          <a>⚙️</a>
