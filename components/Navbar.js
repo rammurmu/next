@@ -3,7 +3,6 @@ import Sidebar from '../components/Sidebar'
 
 function Navbar() {
   return (
-      <div className={styles.container}>
       <nav className='header'>
         <h1 className='logo'>
           <Link href='/dashboard'>
@@ -49,7 +48,6 @@ function Navbar() {
         
      </ul>
    </nav>
-  </div>
  )
 }
 
