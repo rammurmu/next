@@ -3,6 +3,7 @@ import Sidebar from '../components/Sidebar'
 
 function Navbar() {
   return (
+      <div className={styles.header}>welcome to RunAsh</div>
       <ul className={'main-nav'}>
       <h1 className='logo'>
           <Link href='/dashboard'>
@@ -43,14 +44,9 @@ function Navbar() {
        <Link href="/support" scroll={true}>
          <a>Support </a>
       </Link>
-      </li>           
+      </li>               
        <li>
           <Link href='/js-form' scroll={true}>
-            <a>SignIn</a>
-          </Link>
-       </li>     
-       <li>
-          <Link href='/productlist' scroll={true}>
             <a>LogIn</a>
           </Link>
        </li>      
