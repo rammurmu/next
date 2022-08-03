@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
         <main className={styles.main}>
         
-        <cards className={styles.cards}>🆕 Introducing the next generation and future of live-retail streaming &rarr;</cards>
+        <div className={styles.cards}><b>🆕Updates:</b> Introducing the next generation and future of live-retail streaming &rarr;</div>
         
         <h1 className={styles.title}>
          Live retail streaming <br /><a href="https://">platform</a>
