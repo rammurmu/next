@@ -64,9 +64,9 @@ a {
 .burger {
   transition: opacity 300ms ease;
   border: 0;
-  background: transparent;
+  background: #000;
   width: 40px;
-  height: 40px;
+  height: 100px;
   position: relative;
 }
 
@@ -103,7 +103,7 @@ a {
     border-color 300ms ease;
   width: 0px;
   color: #000;
-  white-space: nowrap;
+  black-space: nowrap;
 }
 
 .menuRendered {
