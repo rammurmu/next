@@ -41,7 +41,7 @@ function Navbar() {
        </li>     
        <li>
           <Link href='/productlist' scroll={true}>
-            <a>Login</a>
+            <a><button type="submit">Login</button></a>
           </Link>
        </li> 
        <li>
