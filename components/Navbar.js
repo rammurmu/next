@@ -40,10 +40,15 @@ function Navbar() {
           </Link>
        </li>     
        <li>
-          <Link href='/productlist'>
+          <Link href='/productlist' scroll={true}>
             <a>Login</a>
           </Link>
-       </li>        
+       </li> 
+       <li>
+       <Link href="/#support" scroll={true}>
+         <a>Support </a>
+      </Link>
+      </li>       
      </ul>
  )
 }
