@@ -92,6 +92,7 @@ a {
   z-index: 1000;
   opacity: 0;
   left: 0;
+  color: #000;
   transition: opacity 300ms ease, transform 300ms ease;
 }
 
@@ -101,6 +102,7 @@ a {
   transition: opacity 300ms ease, transform 300ms ease, width 300ms ease,
     border-color 300ms ease;
   width: 0px;
+  color: #000;
   white-space: nowrap;
 }
 
