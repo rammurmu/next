@@ -42,6 +42,61 @@ h6
    font-size: 1.5rem;
 }
 
+li {
+ list-styles-type: square;
+}
+
+p.
+li {
+  font: 1rem;
+}
+
+p {
+  font-weight: bold;
+}
+
+.div {
+ width: 300px;
+ height: 80px;
+ background: #FAFAFA;
+}
+.collapse {
+ border-collapse: collapse;
+ border-collapse: separate;
+}
+
+# scroller {
+  overflow: scroll;
+  height: 150px;
+  width: 150px;
+  border: 5px dashed orange;
+}
+
+# output {
+  padding: 1rem 0;
+}
+
+details {
+ border: 1px solid #aaa;
+ border-radius: 4px;
+ padding: 5em .5em 0;
+}
+
+summary {
+ font-weight: bold;
+ margin: -.5em -.5em 0;
+ padding: .5em;
+}
+
+details[open] {
+   padding: .5em;
+}
+
+details[open] summary {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: .5em;
+}
+
 form {
   display: table;
   min-width: 350px;
@@ -58,7 +113,7 @@ label {
 
 input {
   display: table;
-  width: 60%;
+  width: 100%;
   padding: 0.5rem;
   border: 1px solid #ccc;
   border-radius: 0.25rem;
@@ -71,7 +126,7 @@ input:focus {
   border-color: #0070f3;
 }
 
-button-small {
+buttons {
   display: table;
   width: 30%;
   padding: 0.9rem;
@@ -84,11 +139,11 @@ button-small {
   cursor: pointer;
 }
 
-button:hover {
+buttons:hover {
   background-color: #0060e9;
 }
 
-button-medium {
+buttonss {
   display: table;
   width: 30%;
   padding: 0.9rem;
@@ -101,7 +156,7 @@ button-medium {
   cursor: pointer;
 }
 
-button:hover {
+buttonss:hover {
   background-color: #0060e9;
 }
 
