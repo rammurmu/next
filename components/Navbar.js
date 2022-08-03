@@ -4,7 +4,7 @@ import Sidebar from '../components/Sidebar'
 function Navbar() {
   return (
      <div>
-      <header className={styles.header}>
+      <header className={'header'}>
       welcome to RunAsh
       </header>
     </div>
