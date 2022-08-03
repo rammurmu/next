@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Sidebar from '../components/Sidebar'
-
+import Button from '../components/Button'
 function Navbar() {
   return (
       <ul className={'main-nav'}>
@@ -51,7 +51,7 @@ function Navbar() {
        </li>     
        <li>
           <Link href='/productlist' scroll={true}>
-            <button type="buttons">Login</button>
+            <button type="button">Login</button>
           </Link>
        </li>      
       <li>
