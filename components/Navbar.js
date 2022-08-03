@@ -3,6 +3,7 @@ import Sidebar from '../components/Sidebar'
 
 function Navbar() {
   return (
+       <div>
       <nav className='header'>
       <ul className={'main-nav'}>
         <h1 className={styles.description}>
@@ -10,6 +11,7 @@ function Navbar() {
         </h1>
       </ul>
        </nav>
+     </div>
       <ul className={'main-nav'}>
       <h1 className='logo'>
           <Link href='/dashboard'>
