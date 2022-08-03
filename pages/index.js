@@ -24,7 +24,7 @@ export default function Home() {
          </p>
          
          <button type="button-secondary">Go Live</button>
-         <p>Get started free &rarr;</p>
+         <p className={styles.description}>Get started free &rarr;</p>
 
         <div className={styles.grid}>
           <a href="https://runash.live/seller" className={styles.card}>
@@ -135,7 +135,7 @@ export default function Home() {
           </a>
         </div>
         <br />
-        <p>Begin your live journey✨</p>
+        <p className={styles.description}>Begin your live journey✨</p>
       
        <p className={styles.description}>Give your valuable feedback &rarr;</p>
       <input className={styles.input} placeholder="Email ID..." /><button type="Subscribe">Subscribe</button>
