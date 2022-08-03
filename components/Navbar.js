@@ -10,33 +10,33 @@ function Navbar() {
           </Link>
         </h1>
        <li>
-         <Link href='/about'>
+         <Link href='/about' scroll={true}>
             <a>Startup</a>
          </Link>
        </li>
        <li>
-         <Link href='/seller'>
+         <Link href='/seller' scroll={true}>
            <a>Seller</a>
          </Link>
        </li>
        <li>
-          <Link href='/buyer'>
+          <Link href='/buyer' scroll={true}>
             <a>Buyer</a>
           </Link>
        </li>     
        <li>
-          <Link href='/blog'>
+          <Link href='/blog' scroll={true}>
             <a>Blog</a>
           </Link>
        </li>     
        <li>
-          <Link href='/js-form'>
-            <a>Signin</a>
+          <Link href='/live' scroll={true}>
+            <a>Live</a>
           </Link>
        </li>     
        <li>
-          <Link href='/live'>
-            <a>Live</a>
+          <Link href='/js-form' scroll={true}>
+            <a>Sign In</a>
           </Link>
        </li>     
        <li>
@@ -45,8 +45,13 @@ function Navbar() {
           </Link>
        </li> 
        <li>
-       <Link href="/#support" scroll={true}>
+       <Link href="/support" scroll={true}>
          <a>Support </a>
+      </Link>
+      </li>       
+      <li>
+       <Link href="/github/runash" scroll={true}>
+         <a>⚙️</a>
       </Link>
       </li>       
      </ul>
