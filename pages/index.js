@@ -138,9 +138,10 @@ export default function Home() {
         <p className={styles.description}>Begin your live journey✨</p>
       
        <p className={styles.description}>Give your valuable feedback &rarr;</p>
-      <div className={styles.label}>Sign up for weekly updates from RunAsh</div>
+      <div className={styles.card}>
+      <label className={styles.label}>Sign up for weekly updates from RunAsh</label>
       <input className={styles.input} placeholder="email address..." pattern="https://runash.in" size="30" required /><button type="Subscribe">Subscribe</button>
-       
+      </div>
         <div>
       </div>
       </main>
