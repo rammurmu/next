@@ -11,7 +11,7 @@ export default function Faq() {
         </div>
 
         <details>
-          <summary>||</summary>
+          <summary></summary>
           <br />
         <option><a href="https://">Select</a></option>
          <br />
@@ -35,18 +35,17 @@ export default function Faq() {
                      We make something people want
          </details>
       
-        <div className={styles.collapsGroup}>
-         <collapse className={styles.collapse} title="Question A">
+      
+         <collapse className={styles.collapse}> 
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
           </p>
          </collapse>
-       <collapse className={styles.collapse}title="Question B">
+         <collapse className={styles.collapse}>
           <p>
            Duis aute irure dolor in reprehenderit in volupt.
           </p>
         </collapse>
-      </collapseGroup>
      </div>
 
 
