@@ -22,7 +22,7 @@ export default function Faq() {
        
          <details>
             <summary>What is a RunAsh live retail streaming ?+</summary>
-                    - RunAsh is a live retail streaming platform 
+               <p>RunAsh is a live retail streaming platform</p> 
          </details>
 
          <details>
@@ -35,7 +35,9 @@ export default function Faq() {
                      We make something people want
          </details>
 
-
+         <collapse className={styles.collapse}>
+          <p>we make something people want</p>
+         </collapse>
          <p className={styles.description}>
           <Link href="/">
             <a>&larr; Back to home</a>
