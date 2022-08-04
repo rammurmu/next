@@ -31,6 +31,11 @@ p {
   font-size: 1.8rem;
 }
 
+text {
+ margin: 0 0 1rem 0;
+ font-size: 1.8rem;
+}
+
 .&rarr {
  link: active;
  color: inherit;
@@ -84,8 +89,14 @@ span.ingredient {
  height: 80px;
  background: #FAFAFA;
 }
-.collapse {
+
+.collapse-group {
+ border-cooapse: none;
  border-collapse: collapse;
+}
+
+.collapse {
+ border-collapse: none;
  border-collapse: separate;
 }
 
