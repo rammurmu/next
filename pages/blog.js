@@ -16,7 +16,7 @@ export default function Blog() {
        <a>Read More &rarr;</a>
        </Link>
         <br />
-       <h2>Introduction the live retail streaming </h2>
+       <h2><span className="ingredient">Introduction the live retail streaming</span></h2>
         <p>Introducing the new live-commerce streaming for retail</p>
        <br />
        <Link href="/posts/second-post">
