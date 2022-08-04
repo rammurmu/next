@@ -52,8 +52,8 @@ a {
 }
 
 .header {
-  background-color: #264653;
-  color: #f4a261;
+  background-color: #FAFAFA;
+  color: #000;
   font-size: 30px;
   text-align: center;
   padding: 30px;
@@ -67,7 +67,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-grow: 1;
+  flex-grow: 5;
 }
 
 
