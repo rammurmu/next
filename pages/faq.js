@@ -15,7 +15,11 @@ export default function Faq() {
         <option>Selling</option>
         <option>Shopping</option>
         </details>
-
+       
+         <details>
+            <summary>Details</summary>
+            We make something people want
+         </details>
 
          <p className={styles.description}>
           <Link href="/">
