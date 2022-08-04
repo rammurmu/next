@@ -110,7 +110,7 @@ details {
  border: 1px solid #eaeaea;
  border-radius: 10px;
  transition: color 0.15s ease, border-color 0.15s ease;
- max-width: 300px;
+ max-width: 900px;
 }
 
 summary {
@@ -125,6 +125,7 @@ details[open] {
 
 details[open] summary {
   border-bottom: 1px solid #eaeaea;
+  border-top: 1px solid #eaeaea;
   margin-bottom: .1em;
 }
 
@@ -133,7 +134,7 @@ details-menu {
    border: 1px solid;
    display: block;
    padding: 4px;
-   width: 30px;
+   max-width: 900px;
 }
 
 button,
