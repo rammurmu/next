@@ -10,11 +10,11 @@ export default function Faq() {
         <p>Some frequently asked questions are commonly started in runash.in</p>
         </div>
 
-        <datalist className={styles.datalist}select id="select" name="select">
+        <details className={styles.details}select id="select" name="select">
         <option>Select</option>
         <option>Selling</option>
         <option>Shopping</option>
-        </datalist>
+        </details>
 
 
          <p className={styles.description}>
