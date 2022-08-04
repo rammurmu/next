@@ -12,17 +12,7 @@ function Navbar() {
         </h1>
        <li>
          <Link href='/about' scroll={true}>
-            <a>Startup
-         <details>
-          <summary></summary>
-          <br />
-         <option><a href="https://">Select</a></option>
-         <br />
-        <option>Selling</option>
-         <br />
-        <option>Shopping</option>
-        </details>
-           </a>
+            <a>Startup</a>
          </Link>
        </li>
        <li>
@@ -69,7 +59,18 @@ function Navbar() {
        <Link href="/setting" scroll={true}>
          <a>⚙️</a>
       </Link>
-      </li>       
+      </li> 
+      <li>
+      <details>
+          <summary></summary>
+          <br />
+         <option><a href="https://">Select</a></option>
+         <br />
+        <option>Selling</option>
+         <br />
+        <option>Shopping</option>
+        </details>  
+        </li>    
      </ul>  
    </nav>  
  )
