@@ -24,10 +24,10 @@ export default function Faq() {
          <datalist>
             <label className={styles.label} vegetable id="Choose" name="vegetable">
             <input className={styles.inpute} vegetable id="vegetable" name="vegetable">
-         <datalist id="vegetable">
-            <option>Select</option>
-            <option>Selling</option>
-            <option>Shopping</option>
+            <datalist id="vegetable">
+            <option value="Select">
+            <option value="Selling">
+            <option value="fruit">
          </datalist>
 
 
