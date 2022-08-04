@@ -15,6 +15,7 @@ export default function Cart() {
           </Link>
         </p>
       </main>
+      </div>
       <div>
        <ul className={'main-nav'}>
        <li>
@@ -66,6 +67,5 @@ export default function Cart() {
           </span>
         </a>
      </footer>
-    </div>
   )
 }
