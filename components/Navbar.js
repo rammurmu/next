@@ -59,8 +59,7 @@ function Navbar() {
        <Link href="/setting" scroll={true}>
          <a>⚙️</a>
       </Link>
-      </li> 
-      <li>  
+      </li>  
      </ul>  
    </nav>  
  )
