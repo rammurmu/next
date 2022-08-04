@@ -21,6 +21,16 @@ export default function Faq() {
             We make something people want
          </details>
 
+         <datalist>
+            <label className={styles.label} vegetable id="Choose" name="vegetable">
+            <input className={styles.inpute} vegetable id="vegetable" name="vegetable">
+         <datalist id="vegetable">
+            <option>Select</option>
+            <option>Selling</option>
+            <option>Shopping</option>
+         </datalist>
+
+
          <p className={styles.description}>
           <Link href="/">
             <a>&larr; Back to home</a>
