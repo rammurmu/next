@@ -35,13 +35,13 @@ export default function Faq() {
                      We make something people want
          </details>
       
-        <div className={styles.collapsGroul}>
+        <div className={styles.collapsGroup}>
          <collapse className={styles.collapse} title="Question A">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
           </p>
          </collapse>
-       <collapse title="Question B">
+       <collapse className={styles.collapse}title="Question B">
           <p>
            Duis aute irure dolor in reprehenderit in volupt.
           </p>
