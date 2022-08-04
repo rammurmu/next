@@ -36,17 +36,17 @@ export default function Faq() {
          </details>
       
       
-         <collapse className={styles.collapse}> 
+         <div className={styles.collapse}> 
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
           </p>
-         </collapse>
-         <collapse className={styles.collapse}>
+         </div>
+         <div className={styles.collapse}>
           <p>
            Duis aute irure dolor in reprehenderit in volupt.
           </p>
-        </collapse>
-     </div>
+        </div>
+    
 
 
          <p className={styles.description}>
