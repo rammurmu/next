@@ -12,7 +12,17 @@ function Navbar() {
         </h1>
        <li>
          <Link href='/about' scroll={true}>
-            <a>Startup</a>
+            <a>Startup
+         <details>
+          <summary></summary>
+          <br />
+         <option><a href="https://">Select</a></option>
+         <br />
+        <option>Selling</option>
+         <br />
+        <option>Shopping</option>
+        </details>
+           </a>
          </Link>
        </li>
        <li>
