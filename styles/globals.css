@@ -101,19 +101,19 @@ span.ingredient {
 }
 
 details {
- border: 2px solid #aaa;
- border-radius: 1px;
+ border: 1px solid #aaa;
+ border-radius: 2px;
  padding: 5em .5em 0;
 }
 
 summary {
  font-weight: none;
- margin: -.3em -.3em 0;
- padding: .3em;
+ margin: -.5em -.5em 0;
+ padding: .5em;
 }
 
 details[open] {
-   padding: .3em;
+   padding: .5em;
 }
 
 details[open] summary {
@@ -122,11 +122,11 @@ details[open] summary {
 }
 
 details-menu {
-   background: white;
+   background: black;
    border: 1px solid;
    display: block;
-   padding: 2px;
-   width: 100px;
+   padding: 9px;
+   width: 80px;
 }
 
 button,
