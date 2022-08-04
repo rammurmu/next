@@ -8,7 +8,7 @@ export default function Cart() {
        <div className={styles.title}>
         <h1>Shopping Cart</h1>
         <div className={styles.card}>
-        <h2>Personalized your cart<h2>
+        <h2>Personalized your cart</h2>
         <p>Your cart is empty</p>
         </div>
          <p className={styles.description}>
