@@ -60,17 +60,7 @@ function Navbar() {
          <a>⚙️</a>
       </Link>
       </li> 
-      <li>
-      <details>
-          <summary></summary>
-          <br />
-         <option><a href="https://">Select</a></option>
-         <br />
-        <option>Selling</option>
-         <br />
-        <option>Shopping</option>
-        </details>  
-        </li>    
+      <li>  
      </ul>  
    </nav>  
  )
