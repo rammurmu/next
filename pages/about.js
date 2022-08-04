@@ -80,6 +80,11 @@ export default function About() {
          </Link>
        </li>
        <li>
+         <Link href='/blog'>
+            <a>Blog</a>
+         </Link>
+       </li>
+       <li>
          <Link href='/influencers'>
            <a>Influencers</a>
          </Link>
