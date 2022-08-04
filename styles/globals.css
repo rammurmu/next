@@ -64,7 +64,7 @@ aside {
  float: right;
  box-shadow: inset 5px u 5px -5px #29627e;
  font-styles: italic;
- color: #29627e;
+ color: #DD6B20;
 }
 
 aside > p {
@@ -76,7 +76,7 @@ p {
 }
 
 span.ingredient {
- color: #foo;
+ color: #DD6B20;
 }
 
 .div {
@@ -102,7 +102,7 @@ span.ingredient {
 
 details {
  border: 1px solid #aaa;
- border-radius: 4px;
+ border-radius: 2px;
  padding: 5em .5em 0;
 }
 
