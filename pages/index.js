@@ -146,6 +146,55 @@ export default function Home() {
         <div>
       </div>
       </main>
+      <div>
+       <ul className={'main-nav'}>
+       <li>
+         <Link href='/faq'>
+            <a>FAQ</a>
+         </Link>
+       </li>
+       <li>
+         <Link href='/influencers'>
+           <a>Influencers</a>
+         </Link>
+       </li>
+       <li>
+          <Link href='/help'>
+            <a>Help</a>
+          </Link>
+       </li>     
+       <li>
+          <Link href='/remote'>
+            <a>Remote</a>
+          </Link>
+       </li>     
+       <li>
+          <Link href='/schedule'>
+            <a>Schedule</a>
+          </Link>
+       </li>     
+       <li>
+          <Link href='/feedback'>
+            <a>Feedback</a>
+          </Link>
+       </li>     
+       <li>
+          <Link href='/signin'>
+            <a>Signin</a>
+          </Link>
+       </li> 
+       <li>
+          <Link href='/resource'>
+            <a>Resource</a>
+          </Link>
+       </li>     
+       <li>
+          <Link href='/docs'>
+            <a>Docs</a>
+          </Link>
+       </li>         
+      </ul>
+  </div>
 
       <footer className={styles.footer}>
         <a
