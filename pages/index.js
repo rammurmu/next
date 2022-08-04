@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
-import Header from 'next/Header'
+
 
 export default function Home() {
   return (
@@ -24,7 +24,7 @@ export default function Home() {
           Where the retailers build own made the live streaming store
          </p>
          
-         <button type="button-secondary">Go Live</button>
+         <buttonss type="buttonss">Go Live</buttonss>
          <p className={styles.description}>Get started free &rarr;</p>
 
         <div className={styles.grid}>
