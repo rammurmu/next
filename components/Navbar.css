@@ -41,22 +41,22 @@ a {
   color: #FAFAFA;
 }
 
-.headers {
+.header {
   display: flex;
   width: 100%;
   justify-content: space-between;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+  padding-top: 0.9em;
+  padding-bottom: 0.9em;
   background-color: #FAFAFA;
   border-bottom: 1px solid #eaeaea;
 }
 
-.header {
-  background-color: #FAFAFA;
-  color: #000;
+.headers {
+  background-color: #000;
+  color: #FFF;
   font-size: 30px;
   text-align: center;
-  padding: 30px;
+  padding: 60px;
   border-top: 1px solid #eaeaea;
   display: flex;
   justify-content: centre;
