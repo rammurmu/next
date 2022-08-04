@@ -21,31 +21,22 @@ export default function Faq() {
         </details>
        
          <details>
-            <summary>What is a RunAsh live retail streaming ?+</summary>
+            <summary>What is a RunAsh live retail streaming</summary>
                <p>RunAsh is a live retail streaming platform</p> 
          </details>
 
          <details>
-            <summary>We make something people want</summary>
-                     We make something people want
+            <summary>Create a RunAsh account </summary>
+                     <p>We make something people want</p>
          </details>
 
          <details>
             <summary>We make something people want</summary>
-                     We make something people want
+                    <p> We make something people want</p>
          </details>
       
       
-         <div className={styles.collapse}> 
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-          </p>
-         </div>
-         <div className={styles.collapse}>
-          <p>
-           Duis aute irure dolor in reprehenderit in volupt.
-          </p>
-        </div>
+  
     
 
 
