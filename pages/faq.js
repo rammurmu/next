@@ -17,17 +17,11 @@ export default function Faq() {
         </details>
        
          <details>
-            <summary>Details</summary>
-            We make something people want
+            <summary>We make something people want</summary>
+            <p>We make something people want</p>
          </details>
 
-         <datalist>
-            <label className={styles.label} vegetable id="Choose" name="vegetable"</label>
-            <input className={styles.inpute} vegetable id="vegetable" name="vegetable"</inpute>
-            <option>one</option>
-            <option>two</option>
-            <option>three</option>
-         </datalist>
+       
 
 
          <p className={styles.description}>
