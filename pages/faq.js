@@ -6,15 +6,15 @@ export default function Faq() {
     <div className={styles.container}>
       <main className={styles.main}>
        <div className={styles.title}>
-        <h1>Frequently asked questions</h1>
-        <p>Some frequently asked questions are commonly started in runash.in</p>
+        <h1>Frequently Asked Questions</h1>
+        <p>Some questions are commonly started on runash</p>
         </div>
 
-        <details className={styles.details}select id="select" name="select">
-        <option>Select</option>
+        <detailsMenu className={styles.detailsMenu}select id="select" name="select">
+        <option><a href="https://">Select</a></option>
         <option>Selling</option>
         <option>Shopping</option>
-        </details>
+        </detailsMenu>
        
          <details>
             <summary>We make something people want</summary>
