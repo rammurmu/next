@@ -11,7 +11,8 @@ export default function Faq() {
         </div>
 
         <details>
-          <summary>=</summary>
+          <summary>||</summary>
+          <br />
         <option><a href="https://">Select</a></option>
          <br />
         <option>Selling</option>
@@ -20,11 +21,19 @@ export default function Faq() {
         </details>
        
          <details>
-            <summary>We make something people want</summary>
-            We make something people want
+            <summary>What is a RunAsh live retail streaming ?+</summary>
+                    - RunAsh is a live retail streaming platform 
          </details>
 
-       
+         <details>
+            <summary>We make something people want</summary>
+                     We make something people want
+         </details>
+
+         <details>
+            <summary>We make something people want</summary>
+                     We make something people want
+         </details>
 
 
          <p className={styles.description}>
