@@ -54,7 +54,7 @@ export default function Cart() {
           </Link>
        </li>     
       </ul>
-  </div>
+      </div>
       <footer className={styles.footer}>
         <a
           href="https://runash.in"
@@ -67,5 +67,6 @@ export default function Cart() {
           </span>
         </a>
      </footer>
+    </div>
   )
 }
