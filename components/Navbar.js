@@ -49,9 +49,14 @@ function Navbar() {
           <Link href='/js-form' scroll={true}>
             <a>LogIn</a>
           </Link>
-       </li>      
+       </li> 
+       <li>
+       <Link href="/cart" scroll={true}>
+         <a>Cart🛒</a>
+      </Link>
+      </li>            
       <li>
-       <Link href="/github/runash" scroll={true}>
+       <Link href="/setting" scroll={true}>
          <a>⚙️</a>
       </Link>
       </li>       
