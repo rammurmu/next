@@ -209,9 +209,9 @@ button {
   width: 50%;
   padding: 0.9rem;
   border: none;
-  border-radius: 0.20rem;
+  border-radius: 0.25rem;
   box-sizing: border-box;
-  margin-bottom: 2.9rem;
+  margin-bottom: 2.5rem;
   background-color: #000;
   color: #fff;
   cursor: pointer;
