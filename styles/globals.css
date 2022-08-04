@@ -136,8 +136,8 @@ button,
    display: block;
    background: none;
    border: 0;
-   width: 100%;
-   text-align: left;
+   width: 35%;
+   text-align: centre;
    padding: 0;
 }
 
@@ -211,7 +211,7 @@ button {
   border: none;
   border-radius: 0.25rem;
   box-sizing: border-box;
-  margin-bottom: 2.5rem;
+  margin-bottom: 3.5rem;
   background-color: #000;
   color: #fff;
   cursor: pointer;
