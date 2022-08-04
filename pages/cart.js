@@ -7,10 +7,7 @@ export default function Cart() {
       <main className={styles.main}>
        <div className={styles.title}>
         <h1>Shopping Cart</h1>
-        <div className={styles.card}>
-        <h2>Personalized your cart</h2>
-        <p>Your cart is empty</p>
-        </div>
+        <p>Personalized your cart <br />Your cart is empty</p>
          <p className={styles.description}>
           <Link href="/">
             <a>&larr; Back to home</a>
