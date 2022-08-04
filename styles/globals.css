@@ -207,11 +207,11 @@ buttonss:hover {
 button {
   display: table;
   width: 50%;
-  padding: 2.9rem;
+  padding: 1.9rem;
   border: none;
   border-radius: 0.25rem;
   box-sizing: border-box;
-  margin-bottom: 5.5rem;
+  margin-bottom: 2.5rem;
   background-color: #000;
   color: #fff;
   cursor: pointer;
