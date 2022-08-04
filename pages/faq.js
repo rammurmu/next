@@ -35,18 +35,18 @@ export default function Faq() {
                      We make something people want
          </details>
       <>
-        <CollapseGroup>
-         <Collapse title='Question A'>
+        <collapseGroup>
+         <collapse className={styles.collapse}title='Question A'>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
           </p>
-         </Collapse>
-       <Collapse title='Question B'>
+         </collapse>
+       <collapse title='Question B'>
           <p>
            Duis aute irure dolor in reprehenderit in volupt.
           </p>
-        </Collapse>
-      </CollapseGroup>
+        </collapse>
+      </collapseGroup>
      </>
 
 
