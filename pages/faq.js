@@ -10,11 +10,13 @@ export default function Faq() {
         <p>Some questions are commonly started on runash</p>
         </div>
 
-        <Menu className={styles.detailsMenu}select id="select" name="select">
+        <details className={styles.detailsMenu}select id="select" name="select">
         <option><a href="https://">Select</a></option>
+         <br />
         <option>Selling</option>
+         <br />
         <option>Shopping</option>
-        </Menu>
+        </details>
        
          <details>
             <summary>We make something people want</summary>
