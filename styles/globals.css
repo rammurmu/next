@@ -101,32 +101,32 @@ span.ingredient {
 }
 
 details {
- border: 1px solid #aaa;
- border-radius: 2px;
+ border: 2px solid #aaa;
+ border-radius: 1px;
  padding: 5em .5em 0;
 }
 
 summary {
- font-weight: bold;
- margin: -.5em -.5em 0;
- padding: .5em;
+ font-weight: none;
+ margin: -.3em -.3em 0;
+ padding: .3em;
 }
 
 details[open] {
-   padding: .5em;
+   padding: .3em;
 }
 
 details[open] summary {
-  border-bottom: 1px solid #aaa;
-  margin-bottom: .5em;
+  border-bottom: 0px solid #aaa;
+  margin-bottom: .2em;
 }
 
 details-menu {
    background: white;
    border: 1px solid;
    display: block;
-   padding: 4px;
-   width: 200px;
+   padding: 2px;
+   width: 100px;
 }
 
 button,
