@@ -24,7 +24,6 @@ export default function Faq() {
          <datalist>
             <label className={styles.label} vegetable id="Choose" name="vegetable">
             <input className={styles.inpute} vegetable id="vegetable" name="vegetable">
-            <datalist className={styles.datalist}select id="select" name="select">
             <option>one</option>
             <option>two</option>
             <option>three</option>
