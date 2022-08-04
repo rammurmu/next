@@ -15,5 +15,5 @@ export default function Cart() {
         </p>
       </main>
     </div>
-  )
+ )
 }
