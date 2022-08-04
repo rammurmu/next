@@ -34,10 +34,9 @@ export default function Faq() {
             <summary>We make something people want</summary>
                      We make something people want
          </details>
-
-         <collapse className={styles.collapse}>
-          <p>we make something people want</p>
-         </collapse>
+         <div>
+         <collapse className={styles.collapse}>we make something people want</collapse>
+          </div>
          <p className={styles.description}>
           <Link href="/">
             <a>&larr; Back to home</a>
