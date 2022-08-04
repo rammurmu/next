@@ -101,7 +101,6 @@ span.ingredient {
 }
 
 details {
- border-radius: 2px;
  margin: 1rem;
  padding: 1.5rem;
  text-align: left;
@@ -110,7 +109,7 @@ details {
  border: 1px solid #eaeaea;
  border-radius: 20px;
  transition: color 0.15s ease, border-color 0.15s ease;
- max-width: 1200px;
+ max-width: 900px;
 }
 
 summary {
@@ -125,15 +124,14 @@ details[open] {
 
 details[open] summary {
   border-bottom: 1px solid #eaeaea;
-  border-top: 1px solid #eaeaea;
   margin-bottom: .1em;
 }
 
 details-menu {
    background: black;
    border: 1px solid;
-   display: block;
-   padding: 4px;
+   display: flex;
+   padding: 2px;
    max-width: 900px;
 }
 
