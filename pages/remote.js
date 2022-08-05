@@ -11,21 +11,21 @@ export default function Remote() {
         
        <div className={styles.grid}>
        <div className={styles.text}>
-         <h1>
+         <h2>
            Learn more about runash remote jobs and internships 
-         </h1>
+         </h2>
        </div>
        </div>
        <div className={styles.grid}>
        <div className={styles.text}>
-         <h1>
+         <h2>
            Learn more about runash remote jobs and internships 
-         </h1>
+         </h2>
        </div>
        </div>
 
 
-         <p className={styles.description}><b>Where runash can hire</b>We love and believe our remote first culture at runash and we currently have hiring entities in all the following states, and countries</p>
+         <p className={styles.description}><b>Where runash can hire</b><br />We love and believe our remote first culture at runash and we currently have hiring entities in all the following states, and countries</p>
 
        
 
