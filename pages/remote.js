@@ -10,6 +10,8 @@ export default function Remote() {
         </h1>
         <p className={styles.description}>Best startup jobs and internships at runash Connect with remote team founders can reach you via email</p>
         
+         <div className={styles.code}>Open jobs</div>
+
          <h1 className={style.title}>
           Where we can hire
          </h1>
