@@ -9,7 +9,7 @@ export default function Faq() {
         <h1>Frequently Asked Questions</h1>
         <p>Learn to use runash live streaming more easy and simple</p>
         </div>
-
+        <div className={styles.card}>
         <details>
           <summary></summary>
           <br />
@@ -19,20 +19,20 @@ export default function Faq() {
          <br />
         <option>Shopping</option>
         </details>
-
+        </div>
          <div className={styles.card}>
          <details className={styles.details}>
             <summary>What is a RunAsh live retail streaming</summary>
                <p className={styles.description}>RunAsh is a live retail streaming platform</p>
          </details>
          </div>
-         <div>
+         <div className={styles.card}>
          <details>
             <summary>Create a RunAsh account </summary>
                      <p className={styles.description}>We make something people want</p>
          </details>
          </div>
-         <div>
+         <div className={styles.caed}>
          <details>
             <summary>We make something people want</summary>
                     <p className={styles.description}> We make something people want</p>
