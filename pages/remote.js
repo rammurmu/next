@@ -16,5 +16,5 @@ export default function Remote() {
         </p>
       </main>
     </div>
-  )
+ )
 }
