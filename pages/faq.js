@@ -7,7 +7,7 @@ export default function Faq() {
       <main className={styles.main}>
        <div className={styles.title}>
         <h1>Frequently Asked Questions</h1>
-        <p>Learn to use runash live streaming more easy and simple</p>
+        <p>Learn to use runash live streaming</p>
         </div>
         <div className={styles.box}>
         <details>
@@ -22,14 +22,14 @@ export default function Faq() {
         </div>
          <div className={styles.card}>
          <details className={styles.details}>
-            <summary>What is a RunAsh live retail streaming</summary>
-               <p className={styles.p}>Runash is a live retail streaming platform</p>
+            <summary>What is a runash live retail streaming?</summary>
+               <p className={styles.p}>A live retail streaming platform</p>
          </details>
          </div>
          <div className={styles.card}>
          <details>
-            <summary>Create a Runash account </summary>
-                     <p className={styles.p}></p>
+            <summary>How to create runash account? </summary>
+                     <p className={styles.p}>Go to signin page and create account </p>
          </details>
          </div>
          <div className={styles.card}>
