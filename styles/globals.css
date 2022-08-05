@@ -85,22 +85,22 @@ span.ingredient {
 }
 
 .div {
- width: 300px;
- height: 80px;
+ width: 900px;
+ height: 60px;
  background: #FAFAFA;
 }
 
 .collapse-group {
- border-cooapse: none;
+ border-cooapse: collapse;
  border-collapse: collapse;
 }
 
 .collapse {
- border-collapse: none;
+ border-collapse: collapse;
  border-collapse: separate;
 }
 
-# scroller {
+.scroller {
   overflow: scroll;
   height: 150px;
   width: 150px;
@@ -118,13 +118,14 @@ details {
  color: inherit;
  text-decoration: none;
  transition: color 0.15s ease, border-color 0.15s ease;
- max-width: 200px;
+ max-width: 900px;
 }
 
 summary {
  font-weight: none;
  margin: 1rem;
  padding: 1.5em;
+ max-width: 900px;
 }
 
 details[open] {
@@ -140,7 +141,7 @@ details-menu {
    background: #000;
    display: flex;
    padding: 1px;
-   max-width: 200px;
+   max-width: 900px;
 }
 
 button,
