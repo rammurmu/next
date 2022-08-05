@@ -1,4 +1,4 @@
-import styles from '../styles/Faq.module.css'
+import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 
 export default function Help() {
@@ -7,7 +7,8 @@ export default function Help() {
       <main className={styles.main}>
        <div className={styles.title}>
         <h1>Helpful culture</h1>
-        <p className={styles.description}>Help for wherever you are on your runash journey.</p>
+       </div>
+       <p className={styles.description}>Help for wherever you are on your runash journey.</p>
 
        <p className={styles.description}>Choose a topic to help your request quickly</p>
        <div className={styles.card}>
@@ -44,13 +45,7 @@ export default function Help() {
         <p className={styles.description}>⚙️ Other support</p>
        </div>
 
-       <p className={styles.description}>Connect and interaction with CEO on live streaming </p> 
-        </div>
-         <p className={styles.description}>
-          <Link href="/">
-            <a>&larr; Back to home</a>
-          </Link>
-        </p>
+       <p className={styles.description}>Connect & interaction with CEO on live streaming </p> 
       </main>
     </div>
   )
