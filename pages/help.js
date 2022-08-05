@@ -9,7 +9,7 @@ export default function Help() {
         <h1>Helpful culture</h1>
         <p className={styles.description}>Help for wherever you are on your runash journey.</p>
 
-       <h1>Choose a topic to support your request quickly</h1>
+       <h1>Choose a topic to help your request quickly</h1>
        <div className={styles.card}>
        <p className={styles.description}>👤 Account Issues</p>
        </div>
