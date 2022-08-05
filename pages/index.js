@@ -151,13 +151,13 @@ export default function Home() {
       <div>
        <ul className={'main-nav'}>
        <li>
-         <Link href='/faq'>
-            <a>FAQ</a>
+         <Link href='/about'>
+            <a>About</a>
          </Link>
        </li>
        <li>
-         <Link href='/influencers'>
-           <a>Influencers</a>
+         <Link href='/privacy'>
+           <a>Privacy</a>
          </Link>
        </li>
        <li>
@@ -181,8 +181,8 @@ export default function Home() {
           </Link>
        </li>     
        <li>
-          <Link href='/signin'>
-            <a>Signin</a>
+          <Link href='/faq'>
+            <a>FAQ</a>
           </Link>
        </li> 
        <li>
@@ -194,7 +194,12 @@ export default function Home() {
           <Link href='/docs'>
             <a>Docs</a>
           </Link>
-       </li>         
+       </li> 
+       <li>
+          <Link href='/blog'>
+            <a>Blog</a>
+          </Link>
+       </li>                 
       </ul>
   </div>
 
