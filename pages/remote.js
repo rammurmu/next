@@ -1,4 +1,4 @@
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Remote.module.css'
 import Link from 'next/link'
 
 export default function Remote() {
@@ -25,7 +25,7 @@ export default function Remote() {
        </div>
 
 
-         <p className={styles.description}><b>Where runash can hire</b><br />We love and believe our remote first culture at runash and we currently have hiring entities in all the following states, and countries</p>
+         <p className={styles.description}><b>Where runash can hire soon</b><br />We love and believe our remote first culture at runash & we currently have hiring entities in all the following states, and countries</p>
 
        
 
