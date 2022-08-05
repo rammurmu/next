@@ -201,7 +201,7 @@ export default function Home() {
           </Link>
        </li>                 
       </ul>
-  </div>
+    </div>
 
       <footer className={styles.footer}>
         <a
