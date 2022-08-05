@@ -16,7 +16,7 @@ export default function Remote() {
           Where we can hire
          </h1>
          <p className={styles.description}>We love and believe our remote first culture at runash and we currently have hiring entities in all the following states, and countries</p>
-        
+        </div>
       </main>
     </div>
   )
