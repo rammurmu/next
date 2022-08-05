@@ -6,12 +6,11 @@ export default function Remote() {
     <div className={styles.container}>
       <main className={styles.main}>
        <h1 className={styles.title}>
-        Remote jobs and internships</h1>
+        Remote jobs and internships
+       </h1>
         <p className={styles.description}>Best startup jobs at runash Connect with remote team founders can reach you via email</p>
         
-       <div className={styles.text}>
-         Where runash can hire soon We love and believe our remote first culture at runash & we currently have hiring entities in all the following states, and countries
-       </div>
+       
        
 
 
