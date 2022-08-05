@@ -114,11 +114,12 @@ span.ingredient {
 details {
  margin: 1rem;
  padding: 1.0rem;
- text-align: left;
- color: inherit;
+ text-align: centre;
+ color: #DD6B20;
  text-decoration: none;
  transition: color 0.15s ease, border-color 0.15s ease;
  max-width: 900px;
+ background: #FAFAFA;
 }
 
 summary {
@@ -134,7 +135,7 @@ details[open] {
 
 details[open] summary {
   border-bottom: 1px solid #eaeaea;
-  margin-bottom: .1em;
+  margin-bottom: .2em;
 }
 
 details-menu {
