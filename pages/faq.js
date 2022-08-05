@@ -9,7 +9,7 @@ export default function Faq() {
         <h1>Frequently Asked Questions</h1>
         <p>Learn to use runash live streaming more easy and simple</p>
         </div>
-        <div className={styles.card}>
+        <div className={styles.box}>
         <details>
           <summary>Select</summary>
           <br />
@@ -23,67 +23,67 @@ export default function Faq() {
          <div className={styles.card}>
          <details className={styles.details}>
             <summary>What is a RunAsh live retail streaming</summary>
-               <p className={styles.description}>RunAsh is a live retail streaming platform</p>
+               <p className={styles.p}>RunAsh is a live retail streaming platform</p>
          </details>
          </div>
          <div className={styles.card}>
          <details>
             <summary>Create a RunAsh account </summary>
-                     <p className={styles.description}>We make something people want</p>
+                     <p className={styles.p}>We make something people want</p>
          </details>
          </div>
          <div className={styles.card}>
          <details>
             <summary>We make something people want</summary>
-                    <p className={styles.description}> We make something people want</p>
+                    <p className={styles.p}> We make something people want</p>
          </details>
          </div>
          <div className={styles.card}>
          <details className={styles.details}>
             <summary>What is a RunAsh live retail streaming</summary>
-               <p className={styles.description}>RunAsh is a live retail streaming platform</p>
+               <p className={styles.p}>RunAsh is a live retail streaming platform</p>
          </details>
          </div>
          <div className={styles.card}>
          <details className={styles.details}>
             <summary>What is a RunAsh live retail streaming</summary>
-               <p className={styles.description}>RunAsh is a live retail streaming platform</p>
+               <p className={styles.p}>RunAsh is a live retail streaming platform</p>
          </details>
          </div>
          <div className={styles.card}>
          <details className={styles.details}>
             <summary>What is a RunAsh live retail streaming</summary>
-               <p className={styles.description}>RunAsh is a live retail streaming platform</p>
+               <p className={styles.p}>RunAsh is a live retail streaming platform</p>
          </details>
          </div>
          <div className={styles.card}>
          <details className={styles.details}>
             <summary>What is a RunAsh live retail streaming</summary>
-               <p className={styles.description}>RunAsh is a live retail streaming platform</p>
+               <p className={styles.p}>RunAsh is a live retail streaming platform</p>
          </details>
          </div>
          <div className={styles.card}>
          <details className={styles.details}>
             <summary>What is a RunAsh live retail streaming</summary>
-               <p className={styles.description}>RunAsh is a live retail streaming platform</p>
+               <p className={styles.p}>RunAsh is a live retail streaming platform</p>
          </details>
          </div>
          <div className={styles.card}>
          <details className={styles.details}>
             <summary>What is a RunAsh live retail streaming</summary>
-               <p className={styles.description}>RunAsh is a live retail streaming platform</p>
+               <p className={styles.p}>RunAsh is a live retail streaming platform</p>
          </details>
          </div>
          <div className={styles.card}>
          <details className={styles.details}>
             <summary>What is a RunAsh live retail streaming</summary>
-               <p className={styles.description}>RunAsh is a live retail streaming platform</p>
+               <p className={styles.p}>RunAsh is a live retail streaming platform</p>
          </details>
          </div>
          <div className={styles.card}>
          <details className={styles.details}>
             <summary>What is a RunAsh live retail streaming</summary>
-               <p className={styles.description}>RunAsh is a live retail streaming platform</p>
+               <p className={styles.p}>RunAsh is a live retail streaming platform</p>
          </details>
          </div>
   
