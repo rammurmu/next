@@ -7,7 +7,7 @@ export default function Faq() {
       <main className={styles.main}>
        <div className={styles.title}>
         <h1>Frequently Asked Questions</h1>
-        <p>Some questions are commonly started on runash</p>
+        <p>Learn to use runash live streaming more easy and simple</p>
         </div>
 
         <details>
@@ -20,7 +20,7 @@ export default function Faq() {
         <option>Shopping</option>
         </details>
 
-         <div className={styles.box}>
+         <div className={styles.card}>
          <details className={styles.details}>
             <summary>What is a RunAsh live retail streaming</summary>
                RunAsh is a live retail streaming platform
