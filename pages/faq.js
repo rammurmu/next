@@ -11,9 +11,9 @@ export default function Faq() {
         </div>
         <div className={styles.card}>
         <details>
-          <summary></summary>
+          <summary>Select</summary>
           <br />
-        <option><a href="https://">Select</a></option>
+        <option><a href="https://">Influencers</a></option>
          <br />
         <option>Selling</option>
          <br />
@@ -32,7 +32,7 @@ export default function Faq() {
                      <p className={styles.description}>We make something people want</p>
          </details>
          </div>
-         <div className={styles.caed}>
+         <div className={styles.card}>
          <details>
             <summary>We make something people want</summary>
                     <p className={styles.description}> We make something people want</p>
