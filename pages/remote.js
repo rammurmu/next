@@ -10,7 +10,7 @@ export default function Remote() {
         <p className={styles.description}>Best startup jobs at runash Connect with remote team founders can reach you via email</p>
         
        <div className={styles.text}>
-         Where runash can hire soon We love and believe our remote first culture at runash & we currently have hiring entities in all the following states, and countries
+         <text>Where runash can hire soon We love and believe our remote first culture at runash & we currently have hiring entities in all the following states, and countries</text>
        </div>
        
 
