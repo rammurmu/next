@@ -19,12 +19,14 @@ export default function Faq() {
          <br />
         <option>Shopping</option>
         </details>
-         <div className={styles.card}>
-         <details className={styles.description}>
+
+         <div className={styles.box}>
+         <details className={styles.details}>
             <summary>What is a RunAsh live retail streaming</summary>
-               <p>RunAsh is a live retail streaming platform</p> 
+               RunAsh is a live retail streaming platform
          </details>
          </div>
+
          <details>
             <summary>Create a RunAsh account </summary>
                      <p>We make something people want</p>
