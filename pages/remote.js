@@ -14,6 +14,7 @@ export default function Remote() {
        </div>
        
 
+
          <p className={styles.description}>
           <Link href="/">
             <a>&larr; Back to home</a>
