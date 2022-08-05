@@ -14,7 +14,7 @@ export default function Remote() {
          <h2>
            Learn more about runash remote jobs and internships 
          </h2>
-       </div>
+      
        <div className={styles.text}>
          <h2>
            Learn more about runash remote jobs and internships 
