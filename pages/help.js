@@ -16,34 +16,34 @@ export default function Help() {
        <p className={styles.description}>👤 Account Issues</p>
        </div>
        <div className={styles.card}>
-        <p className={styles.description}>🪙 Billing Issues</p>
+        <p className={styles.description}>🪙 Billing Issue</p>
        </div>
        <div className={styles.card}>
-        <p className={styles.description}>🧺 Cart Issues</p>
+        <p className={styles.description}>🧺 Cart Issue</p>
         </div>
        <div className={styles.card}>
-        <p className={styles.description}>🛍️ Shopping Issues</p>
+        <p className={styles.description}>🛍️ Shopping Issue</p>
         </div>
        <div className={styles.card}>
-        <p className={styles.description}>🛒 Selling Issues</p>
+        <p className={styles.description}>🛒 Selling Issue</p>
        </div>
        <div className={styles.card}>
-        <p className={styles.description}>📽️ Live Streaming Issues</p>
+        <p className={styles.description}>📽️ Live Stream Issue</p>
        </div>
        <div className={styles.card}>
-       <p className={styles.description}>📺Watch live streaming Issues</p> 
+       <p className={styles.description}>📺Live watch Issue</p> 
        </div>
        <div className={styles.card}>
-       <p className={styles.description}>📝 Provide Feedback</p>
+       <p className={styles.description}>💻Website issue</p>
        </div>
        <div className={styles.card}>
-       <p className={styles.description}>🤷 Help with runash </p>
+       <p className={styles.description}>🤷 Chate issue</p>
        </div>
        <div className={styles.card}>
-        <p className={styles.description}>👫 Influencer Issues</p> 
+        <p className={styles.description}>👫 Influencer Issue</p> 
        </div>
        <div className={styles.card}>
-        <p className={styles.description}>⚙️ Other support</p>
+        <p className={styles.description}>⚙️ Other issue</p>
        </div>
        </div>
        <p className={styles.description}>Connect & interaction with CEO on live streaming </p> 
