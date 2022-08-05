@@ -1,4 +1,4 @@
-import styles from '../styles/Home.module.css'
+import styles from '../styles/About.module.css'
 import Link from 'next/link'
 
 export default function Faq() {
@@ -20,7 +20,7 @@ export default function Faq() {
         <option>Shopping</option>
         </details>
          <div className={styles.card}>
-         <details className={styles.details}>
+         <details className={styles.description>
             <summary>What is a RunAsh live retail streaming</summary>
                <p>RunAsh is a live retail streaming platform</p> 
          </details>
