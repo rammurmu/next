@@ -14,7 +14,7 @@ export default function Remote() {
             <h2>🛒Real Selling &rarr;</h2>
             <p>Where retailers can meet to buyers & demonstrate their products </p>
           </a>
-          
+          </div>
           <a href="https://runash.live/seller" className={styles.card}>
             <h2>🛒Real Selling &rarr;</h2>
             <p>Where retailers can meet to buyers & demonstrate their products </p>
