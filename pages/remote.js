@@ -9,20 +9,9 @@ export default function Remote() {
         Remote jobs and internships</h1>
         <p className={styles.description}>Best startup jobs at runash Connect with remote team founders can reach you via email</p>
         
-       <div className={styles.grid}>
-          <a href="https://runash.live/seller" className={styles.card}>
-            <h2>🛒Real Selling &rarr;</h2>
-            <p>Where retailers can meet to buyers & demonstrate their products </p>
-          </a>
-          </div>
-          <a href="https://runash.live/seller" className={styles.card}>
-            <h2>🛒Real Selling &rarr;</h2>
-            <p>Where retailers can meet to buyers & demonstrate their products </p>
-          </a>
-         </div>
-         </div>
+       <div className={styles.text}>
          <p className={styles.description}><b>Where runash can hire soon</b><br />We love and believe our remote first culture at runash & we currently have hiring entities in all the following states, and countries</p>
-
+       </div>
        
 
          <p className={styles.description}>
