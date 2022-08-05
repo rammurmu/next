@@ -29,7 +29,7 @@ export default function Faq() {
 
          <details>
             <summary>Create a RunAsh account </summary>
-                     <p>We make something people want</p>
+                     <p className={styles.description}>We make something people want</p>
          </details>
 
          <details>
