@@ -14,13 +14,13 @@ export default function Remote() {
             <h2>🛒Real Selling &rarr;</h2>
             <p>Where retailers can meet to buyers & demonstrate their products </p>
           </a>
-          >
+          
           <a href="https://runash.live/seller" className={styles.card}>
             <h2>🛒Real Selling &rarr;</h2>
             <p>Where retailers can meet to buyers & demonstrate their products </p>
           </a>
          </div>
-         </div>
+        
          <p className={styles.description}><b>Where runash can hire soon</b><br />We love and believe our remote first culture at runash & we currently have hiring entities in all the following states, and countries</p>
 
        
