@@ -30,10 +30,10 @@ export default function Faq() {
                      <p>We make something people want</p>
          </details>
 
-         <select>
+         <details>
             <summary>We make something people want</summary>
                     <p> We make something people want</p>
-         </select>
+         </details>
       
         <select className={styles.selectWrapper}select id="select" name="select">
         <option>Select</option>
@@ -41,8 +41,9 @@ export default function Faq() {
         <option>Shopping</option>
         </select>
   
-    
-
+       <collapse className={styles.collapse}select id="collapse" name="collapse">
+         <p>Learn more</p>
+       </collapse>
 
          <p className={styles.description}>
           <Link href="/">
