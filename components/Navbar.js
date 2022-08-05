@@ -3,7 +3,7 @@ import Sidebar from '../components/Sidebar'
 
 function Navbar() {
   return (
-      <nav className={'header'}>
+      <nav className={'skip-nav'}>
       <ul className={'main-nav'}>
       <h1 className='logo'>
           <Link href='/dashboard'>
