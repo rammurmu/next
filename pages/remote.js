@@ -5,10 +5,10 @@ export default function Remote() {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
-       <div className={styles.title}>
-        <h1>Remote jobs and internships</h1>
-        <p>Best startup jobs at runash Connect with remote team founders can reach you via email</p>
-        </div>
+       <h1 className={styles.title}>
+        Remote jobs and internships</h1>
+        <p className={styles.description}>Best startup jobs at runash Connect with remote team founders can reach you via email</p>
+        
          <p className={styles.description}>
           <Link href="/">
             <a>&larr; Back to home</a>
