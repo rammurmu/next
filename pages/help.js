@@ -13,37 +13,37 @@ export default function Help() {
 
        <div className={styles.grid}>
        <div className={styles.card}>
-       <p className={styles.description}>👤 Account Issues</p>
+       <p className={styles.description}>👤Account issues</p>
        </div>
        <div className={styles.card}>
-        <p className={styles.description}>🪙 Billing Issue</p>
+        <p className={styles.description}>🪙Payment issue</p>
        </div>
        <div className={styles.card}>
-        <p className={styles.description}>🧺 Cart Issue</p>
+        <p className={styles.description}>🧺Cart issue</p>
         </div>
        <div className={styles.card}>
-        <p className={styles.description}>🛍️ Shopping Issue</p>
+        <p className={styles.description}>🛍️Buy issue</p>
         </div>
        <div className={styles.card}>
-        <p className={styles.description}>🛒 Selling Issue</p>
+        <p className={styles.description}>🛒Sell issue</p>
        </div>
        <div className={styles.card}>
-        <p className={styles.description}>📽️ Live Stream Issue</p>
+        <p className={styles.description}>📽️Live issue</p>
        </div>
        <div className={styles.card}>
-       <p className={styles.description}>📺Live watch Issue</p> 
+       <p className={styles.description}>📺Watch issue</p> 
        </div>
        <div className={styles.card}>
-       <p className={styles.description}>💻Website issue</p>
+       <p className={styles.description}>💻App issue</p>
        </div>
        <div className={styles.card}>
-       <p className={styles.description}>🤷 Chate issue</p>
+       <p className={styles.description}>🤷 Chat issue</p>
        </div>
        <div className={styles.card}>
-        <p className={styles.description}>👫 Influencer Issue</p> 
+        <p className={styles.description}>👫Influencer issue</p> 
        </div>
        <div className={styles.card}>
-        <p className={styles.description}>⚙️ Other issue</p>
+        <p className={styles.description}>⚙️Other issue</p>
        </div>
        </div>
        <p className={styles.description}>Connect & interaction with CEO on live streaming </p> 
