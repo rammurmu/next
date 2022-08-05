@@ -15,8 +15,6 @@ export default function Remote() {
            Learn more about runash remote jobs and internships 
          </h2>
        </div>
-       </div>
-       <div className={styles.grid}>
        <div className={styles.text}>
          <h2>
            Learn more about runash remote jobs and internships 
