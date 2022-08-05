@@ -115,11 +115,11 @@ details {
  margin: 1rem;
  padding: 1.0rem;
  text-align: centre;
- color: #DD6B20;
+ color: #000;
  text-decoration: none;
  transition: color 0.15s ease, border-color 0.15s ease;
  max-width: 900px;
- background: #FAFAFA;
+ background: #FFF;
 }
 
 summary {
