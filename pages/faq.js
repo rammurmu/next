@@ -23,9 +23,8 @@ export default function Faq() {
          <div className={styles.card}>
          <details className={styles.details}>
             <summary>What is a RunAsh live retail streaming</summary>
-               RunAsh is a live retail streaming platform
+               <p className={styles.p}>RunAsh is a live retail streaming platform</p>
          </details>
-         </div>
 
          <details>
             <summary>Create a RunAsh account </summary>
@@ -34,9 +33,9 @@ export default function Faq() {
 
          <details>
             <summary>We make something people want</summary>
-                    <p> We make something people want</p>
+                    <p className={styles.p}> We make something people want</p>
          </details>
-      
+         </div>
         <select className={styles.selectWrapper}select id="select" name="select">
         <option>Select</option>
         <option>Selling</option>
