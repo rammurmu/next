@@ -5,14 +5,13 @@ export default function Help() {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
-       <div className={styles.title}>
-        <h1>
+       <h1 className={styles.title}>
           How can we help you?
         </h1>
-       </div>
+       
        <p className={styles.description}>Help for wherever you are on your runash journey.</p>
 
-       
+       <div className={styles.grid}>
        <div className={styles.card}>
        <p className={styles.description}>👤 Account Issues</p>
        </div>
@@ -46,7 +45,7 @@ export default function Help() {
        <div className={styles.card}>
         <p className={styles.description}>⚙️ Other support</p>
        </div>
-
+       </div>
        <p className={styles.description}>Connect & interaction with CEO on live streaming </p> 
       </main>
     </div>
