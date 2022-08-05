@@ -35,7 +35,9 @@ export default function Faq() {
                     <p> We make something people want</p>
          </details>
       
-      
+        <select className={styles.selectWrapper}select id="select" name="select">
+        <p>How it works?</p>
+        </select>
   
     
 
