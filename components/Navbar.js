@@ -36,13 +36,13 @@ function Navbar() {
           </Link>
        </li> 
        <li>
-       <Link href="/store" scroll={true}>
-         <a>Store</a>
+       <Link href="/influencers" scroll={true}>
+         <a>Influencers</a>
       </Link>
       </li>       
       <li>
-       <Link href="/support" scroll={true}>
-         <a>Support </a>
+       <Link href="/store" scroll={true}>
+         <a>Store</a>
       </Link>
       </li>               
        <li>
