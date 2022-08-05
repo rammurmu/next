@@ -6,11 +6,13 @@ export default function Help() {
     <div className={styles.container}>
       <main className={styles.main}>
        <div className={styles.title}>
-        <h1>Helpful culture</h1>
+        <h1>
+          How can we help you?
+        </h1>
        </div>
        <p className={styles.description}>Help for wherever you are on your runash journey.</p>
 
-       <p className={styles.description}>Choose a topic to help your request quickly</p>
+       
        <div className={styles.card}>
        <p className={styles.description}>👤 Account Issues</p>
        </div>
