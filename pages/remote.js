@@ -1,17 +1,33 @@
-import styles from '../styles/Remote.module.css'
+import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 
 export default function Remote() {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
-       <div className={styles.title}>
-        Remote jobs and internships
-       </div>
+       <h1 className={styles.title}>
+        Remote jobs and internships</h1>
         <p className={styles.description}>Best startup jobs at runash Connect with remote team founders can reach you via email</p>
         
+       <div className={styles.grid}>
+       <div className={styles.text}>
+         <h2>
+           Learn more 
+         </h2>
+       </div>
+       </div>
+       <div className={styles.grid}>
+       <div className={styles.text}>
+         <h2>
+           Learn 
+         </h2>
+       </div>
+       </div>
+
+
+         <p className={styles.description}><b>Where runash can hire</b><br />We love and believe our remote first culture at runash and we currently have hiring entities in all the following states, and countries</p>
+
        
-      
 
          <p className={styles.description}>
           <Link href="/">
