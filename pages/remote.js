@@ -5,9 +5,9 @@ export default function Remote() {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
-       <h1 className={styles.title}>
+       <div className={styles.title}>
         Remote jobs and internships
-       </h1>
+       </div>
         <p className={styles.description}>Best startup jobs at runash Connect with remote team founders can reach you via email</p>
         
        
