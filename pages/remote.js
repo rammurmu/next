@@ -14,7 +14,6 @@ export default function Remote() {
          <h2>
            Open position 
          </h2>
-         <p>hair soon</p>
        </div>
     
       
