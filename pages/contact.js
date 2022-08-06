@@ -9,7 +9,7 @@ export default function Contact() {
         <h1>Contact Us</h1>
         <p>Reach anytime and connect with us </p>
         </div>
-       <div className={styles.code}>New</code>
+       <div className={styles.code}>New</div>
          <p className={styles.description}>
           <Link href="/">
             <a>&larr; Back to home</a>
