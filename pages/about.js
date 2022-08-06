@@ -15,18 +15,18 @@ export default function About() {
         <link rel="icon" href="favicon.icon"/>
       </Head>
       <main className={styles.main}> 
-       <box className={styles.card}>🆕 Introducing the next generation and future of retail &rarr;</box> 
+       <div className={styles.code}>👏 Welcome to runash family 🎉</code> 
       <h1 className={styles.title}>
         <a href="https://"><br />Our mission</a>
       </h1>
         <p className={styles.description}>
           We create real-life experiences to enable and access face-to-face
         </p>
-      <button type="sign up">Join Us</button>
+      
     
      
       
-        <p className={styles.p}><b>RunAsh startup journey</b> ✨
+        <p className={styles.p}><b>RunAsh startup journey ✨ </b>
         <br />
          Journey from a small village in India to Sillicone Valley Y Combinator startup school community member
         </p>
@@ -39,7 +39,7 @@ export default function About() {
           Learn more &rarr;</p>
         <br />
         
-         <p className={styles.p}>🎓<b>Discipline and learning</b><br />
+         <p className={styles.p}>🎓<b>Discipline,learning & culture</b><br />
           Discipline and learning is the bacbone of the development of our startup journy and culture is behavior<br />
           <br />
            Learn more &rarr;</p>
@@ -54,8 +54,8 @@ export default function About() {
         <br />
          Learn more &rarr;</p>
          <br />
-         <p className={ styles.p}>🎤<b>Founders story & journey</b>
-         <br />Journey from a small village in India to Sillicone Valley Y Combinator startup school community member<br />
+         <p className={ styles.p}>🎤<b>Founders story </b>
+         <br />🤼 We are both brothers<br />Our business journey started in 2007 from a small offline retail store, The Journey from the School Classroom to the Board Room<br />
          <br />
           Learn more &rarr;</p>
 
@@ -64,7 +64,7 @@ export default function About() {
           Learn more &rarr;</p>
          <br />
 
-         
+         <div className={style.card}>Backed by<code className={styles.code}></code></div>
          
         <p className={styles.p}>
           <Link href="/">
