@@ -22,7 +22,7 @@ export default function Buyer() {
          You can meet to sellers with face to face real life experience
         </p>
         <button type="Watch live ">Watch live</button>
-      <input className={styles.input} placeholder="Search..." />
+      <div className={styles.card}><input className={styles.input} placeholder="Search..." /></div>
        <h2>Categories</h2>
       <div>
        <ul className={'main-nav'}>
