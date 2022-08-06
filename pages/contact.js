@@ -10,6 +10,10 @@ export default function Contact() {
         <p>Reach anytime and connect with us </p>
         </div>
        <div className={styles.code}>New</div>
+       <div className={styles.codes}>New</div>
+       <div className={styles.codess}>New</div>
+
+
          <p className={styles.description}>
           <Link href="/">
             <a>&larr; Back to home</a>
