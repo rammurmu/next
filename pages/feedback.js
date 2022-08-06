@@ -14,7 +14,7 @@ export default function Feedback() {
         <input className={styles.radio} radio id='choice' value='Very satisfied' />
         <input className={styles.checkbox} checkbox id='checkbox' value='Very satisfied' />
         <input className={styles.button} button id='button' vale='very satisfied' />
-        <input className={styles.time} time id='time' value='schedule' />
+        <input className={styles.time} time id='appt' name='appt' min='09:00' max='18:00' required />
          <p className={styles.description}>
           <Link href="/">
             <a>&larr; Back to home</a>
