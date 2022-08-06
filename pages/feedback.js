@@ -18,7 +18,7 @@ export default function Feedback() {
         <input className={style.time} time id='time' value='Schedule' />
           <value>Go live</value>
           <value>Booking</valu>
-         </input>
+         
          <p className={styles.description}>
           <Link href="/">
             <a>&larr; Back to home</a>
