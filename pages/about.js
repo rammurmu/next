@@ -54,8 +54,8 @@ export default function About() {
         <br />
          Learn more &rarr;</p>
          <br />
-         <p className={ styles.p}>🎤<b>Founders story </b>
-         <br /><b>🤼 We are both brothers</b>Our business journey started in 2007 from a small offline retail store, The Journey from the School Classroom to the Board Room
+         <p className={ styles.p}><b>🎤Founders story </b>
+         <br />🤼 We are both brothers,our business journey started in 2007 from a small offline retail store, the Journey from the school classroom to the board room
          <br />
           Learn more &rarr;</p>
 
@@ -64,7 +64,7 @@ export default function About() {
           Learn more &rarr;</p>
          <br />
 
-         <div className={style.card}>Backed by</div>
+         <div className={styles.card}>Backed by<code className={styles.code}></code></div>
          
         <p className={styles.p}>
           <Link href="/">
