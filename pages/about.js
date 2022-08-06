@@ -117,6 +117,7 @@ export default function About() {
        <li>
          <Link href='/contact'>
           <a>Contact</a>
+        </Link>
        </li>   
       </ul>
   </div>
