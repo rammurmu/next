@@ -13,6 +13,8 @@ export default function Contact() {
        <div className={styles.codes}>New</div>
        <div className={styles.codess}>New</div>
 
+       <div className={styles.codesss}>New</div>
+
 
          <p className={styles.description}>
           <Link href="/">
