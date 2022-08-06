@@ -15,7 +15,7 @@ export default function About() {
         <link rel="icon" href="favicon.icon"/>
       </Head>
       <main className={styles.main}> 
-       <div className={styles.code}>👏 Welcome to runash family 🎉</div> 
+       <div className={styles.card}>👏 Welcome to runash family 🎉</div> 
       <h1 className={styles.title}>
         <a href="https://"><br />Our mission</a>
       </h1>
