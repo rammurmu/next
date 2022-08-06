@@ -12,8 +12,9 @@ export default function Feedback() {
 
         <p>Share your runash feedback<br />How satisfied are you with runash live streaming</p>
         <input className={styles.radio} radio id='choice' value='Very satisfied' />
-        <label className={styles.checkbox} contact='Very satisfied' />
-
+        <input className={styles.checkbox} checkbox='Very satisfied' />
+        <input className={styles.button} button='very satisfied' />
+        <input className={styles.time} time='schedule' />
          <p className={styles.description}>
           <Link href="/">
             <a>&larr; Back to home</a>
