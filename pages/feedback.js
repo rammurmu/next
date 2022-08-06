@@ -16,8 +16,8 @@ export default function Feedback() {
         <input className={styles.button} button id='button' vale='very satisfied' />
         <input className={styles.time} time id='appt' name='appt' min='09:00' max='18:00' required />
         <input className={style.time} time id='time' value='Schedule' />
-          <value>Go live</value>
-          <value>Booking</valu>
+          <option>Golive</option>
+          <option>Booking</option>
          
          <p className={styles.description}>
           <Link href="/">
