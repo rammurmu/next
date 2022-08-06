@@ -7,8 +7,11 @@ import '../components/Header.css'
 function MyApp({ Component, pageProps }){
   return (
     <> 
-     <Header />
      <Navbar />
+      <Component {...pageProps} />  
+    </>
+    <> 
+     <Header />
       <Component {...pageProps} />  
     </>
  )
