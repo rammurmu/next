@@ -7,7 +7,7 @@ export default function Privacy() {
       <main className={styles.main}>
        <div className={styles.title}>
         <h1>Privacy policy</h1>
-        <p class name={styles.p}>
+        <p className={styles.p}>
          ⚖️ Legal 
         </p>
         </div>
