@@ -1,9 +1,10 @@
 import Link from 'next/link'
 import Sidebar from '../components/Sidebar'
-import Header from '../components/Header'
+
 
 function Navbar() {
   return (
+      <header className={'header'}>
       <nav className={'skip-nav'}>
       <ul className={'main-nav'}>
       <h1 className='logo'>
