@@ -120,7 +120,7 @@ export default function Home() {
           >
             <h2>📊Votes & Polls &rarr;</h2>
             <p>
-              Give instant feedback opinion & polling
+              Give instant feedback opinion & polling for sell
             </p>
           </a>
 
@@ -138,7 +138,7 @@ export default function Home() {
         <p className={styles.description}>Begin your live journey✨</p>
        
       
-       <div className={styles.cards}><code className={styles.codess}>👍 Give your most valuable feedback &rarr;</code></div>
+       <div className={styles.cards}><code className={styles.codes}>👍 Give your most valuable feedback ⭐ &rarr;</code></div>
       
       <div className={styles.card}>
       <label className={styles.label}>Sign up weekly updates for live streaming</label>
