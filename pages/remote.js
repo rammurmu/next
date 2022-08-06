@@ -11,8 +11,7 @@ export default function Remote() {
         <p className={styles.description}>Best startup jobs at runash Connect with remote team founders can reach you via email</p>
         
        
-       
-
+      
 
          <p className={styles.description}>
           <Link href="/">
