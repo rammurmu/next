@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
         <main className={styles.main}>
         
-       <div className={styles.cards}><code className={styles.code}>New</code><br /><b>Updates:</b> Introducing the next generation  &rarr;</div>
+       <div className={styles.cards}><b>🆕 Updates:</b> Introducing the next generation & future of live retail streaming &rarr;</div>
         
         <h1 className={styles.title}>
          Live retail streaming <br /><a href="https://">platform</a>
@@ -138,11 +138,11 @@ export default function Home() {
         <p className={styles.description}>Begin your live journey✨</p>
        
       
-       <div className={styles.cards}><code className={styles.code}>Give your valuable feedback &rarr;</code></div>
+       <div className={styles.cardss}><code className={styles.code}>Give your valuable feedback &rarr;</code></div>
       
       <div className={styles.cards}>
       <label className={styles.label}>Sign up weekly updates for live streaming</label>
-      <input className={styles.input} placeholder="email address..." pattern="https://runash.in" size="30" required /><buttons type="Subscribe">Subscribe</buttons>
+      <input className={styles.input} placeholder="email address..." pattern="https://runash.in" size="20" required /><buttons type="Subscribe">Subscribe</buttons>
       </div>
       <div>
       </div>
