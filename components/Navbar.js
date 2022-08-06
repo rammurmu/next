@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Sidebar from '../components/Sidebar'
-import styles from 'styles/Home.module.css'
+
 
 function Navbar() {
   return (
@@ -8,7 +8,7 @@ function Navbar() {
       <ul className={'main-nav'}>
       <h1 className='logo'>
           <Link href='/dashboard'>
-          <a><code className={styles.code}>RunAsh</code></a>
+          <code className={styles.code}><a>RunAsh</a></code>
           </Link>
         </h1>
        <li>
@@ -48,7 +48,7 @@ function Navbar() {
       </li>               
        <li>
           <Link href='/js-form' scroll={true}>
-            <a><code className={styles.codess}>LogIn</code></a>
+            <code className={styles.codess}><a>LogIn</a></code>
           </Link>
        </li> 
        <li>
