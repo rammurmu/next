@@ -4,7 +4,6 @@ import Sidebar from '../components/Sidebar'
 
 function Navbar() {
   return (
-      <div className='header'>Header</div>
       <nav className={'skip-nav'}>
       <ul className={'main-nav'}>
       <h1 className='logo'>
