@@ -7,14 +7,14 @@ export default function Feedback() {
       <main className={styles.main}>
        <h1 className={styles.title}>
         Feedback</h1>
-        <p>Give your most valuable feedback and make runash better for you</p>
+        <p className={styles.description}>Give your most valuable feedback and make runash better for you</p>
         
 
         <p>Share your runash feedback<br />How satisfied are you with runash live streaming</p>
         <input className={styles.radio} radio id='choice' value='Very satisfied' />
-        <input className={styles.checkbox} checkbox='Very satisfied' />
-        <input className={styles.button} button='very satisfied' />
-        <input className={styles.time} time='schedule' />
+        <input className={styles.checkbox} checkbox id='checkbox' value='Very satisfied' />
+        <input className={styles.button} button id='button' vale='very satisfied' />
+        <input className={styles.time} time id='time' value='schedule' />
          <p className={styles.description}>
           <Link href="/">
             <a>&larr; Back to home</a>
