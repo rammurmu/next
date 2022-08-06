@@ -89,8 +89,8 @@
   display:flex;
   justify-content: space-between;
   background: #0761D1;
-  color: inherit;
-  text-decoration: #0761D1;
+  color: white;
+  text-decoration: white;
   border: 1px solid #0761D1;
   border-radius: 10px;
   padding: 0.75rem;
@@ -98,6 +98,21 @@
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
+
+.codesss {
+  display:flex;
+  justify-content: space-between;
+  background: orange;
+  color: white;
+  text-decoration: white;
+  border: 1px solid #orange;
+  border-radius: 10px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
 
 .grid {
   display: flex;
