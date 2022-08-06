@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import Sidebar from '../components/Sidebar'
+import Header from '../components/Header'
 
 function Navbar() {
   return (
