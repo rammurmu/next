@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Sidebar from '../components/Sidebar'
-
+import styles from 'styles/Home.module.css'
 
 function Navbar() {
   return (
