@@ -8,7 +8,7 @@ function Navbar() {
       <ul className={'main-nav'}>
       <h1 className='logo'>
           <Link href='/dashboard'>
-          <a>RunAsh</a>
+          <a><code className={styles.code}>RunAsh</code></a>
           </Link>
         </h1>
        <li>
@@ -48,7 +48,7 @@ function Navbar() {
       </li>               
        <li>
           <Link href='/js-form' scroll={true}>
-            <a>LogIn</a>
+            <a><code className={styles.codess}>LogIn</code></a>
           </Link>
        </li> 
        <li>
