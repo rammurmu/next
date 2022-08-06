@@ -1,4 +1,4 @@
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Remote.module.css'
 import Link from 'next/link'
 
 export default function Remote() {
@@ -12,8 +12,9 @@ export default function Remote() {
       
        <div className={styles.text}>
          <h2>
-           Learn more 
+           Open position 
          </h2>
+         <p>hair soon</p>
        </div>
     
       
@@ -21,9 +22,6 @@ export default function Remote() {
 
 
          <p className={styles.description}><b>How runash can hire 🔜</b><br />We are remote first startup and we build our remote culture at runash </p>
-
-       
-
          
       </main>
     </div>
