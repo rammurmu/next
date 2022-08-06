@@ -138,7 +138,7 @@ export default function Home() {
         <p className={styles.description}>Begin your live journey✨</p>
        
       
-       <div className={styles.cards}><code className={styles.codes}>Give your valuable feedback &rarr;</code></div>
+       <div className={styles.cards}><code className={styles.codes}>Give your most valuable feedback &rarr;</code></div>
       
       <div className={styles.card}>
       <label className={styles.label}>Sign up weekly updates for live streaming</label>
@@ -171,7 +171,7 @@ export default function Home() {
        </li>     
        <li>
           <Link href='/schedule'>
-            <a>Schedule</a>
+            <code className={styles.codess}><a>Schedule</a></code>
           </Link>
        </li>     
        <li>
