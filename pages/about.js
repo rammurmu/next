@@ -113,7 +113,11 @@ export default function About() {
           <Link href='/signin'>
             <a>Signin</a>
           </Link>
-       </li>     
+       </li>  
+       <li>
+         <Link href='/contact'>
+          <a>Contact</a>
+       </li>   
       </ul>
   </div>
       <footer className={styles.footer}>
