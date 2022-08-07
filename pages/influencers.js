@@ -6,8 +6,8 @@ export default function Influencers() {
     <div className={styles.container}>
       <main className={styles.main}>
        <div className={styles.title}>
-        <h1 className={styles.title}>Live influencers community</h1>
-        <p className={styles.description}>Influencers program if organic products and services are being bought and sold live streaming,you can automatically (and correctly)assume that such organic products and services are also marketed live</p>
+        <h1 className={styles.title}>Influencers community</h1>
+        <p className={styles.description}>Influencers program if organic products and services are being bought and sold live streaming,you can automatically assume that such organic products and services are also marketed live</p>
         </div>
          <p className={styles.description}>
           <Link href="/">
