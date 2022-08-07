@@ -22,7 +22,7 @@ export default function Buyer() {
          You can meet to sellers with face to face real life experience
         </p>
         <button type="Watch live ">Watch live</button>
-      <div className={styles.cards}><input className={styles.input} placeholder="Search..." /></div>
+      <input className={styles.input} placeholder="Search..." />
        <h2>Categories</h2>
       <div>
        <ul className={'main-nav'}>
@@ -101,11 +101,11 @@ export default function Buyer() {
             <p>Organic animal </p>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
-            <h2>🐓🦜Bird</h2>
+            <h2>🐓🦜 Bird</h2>
             <p>Organic bird</p>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
-            <h2>🐟🦐C food</h2>
+            <h2>🐟🦐 C food</h2>
             <p>Organic fresh</p>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
@@ -119,9 +119,9 @@ export default function Buyer() {
     <div className={styles.grid}>
     <p className={styles.card}>📅 Date & Time⏱️</p>
     </div>
-    <button type="Schedule">Schedule</button>
-    <h1>The future of organic retail</h1>
-     <p>One stop solution for organic products</p>
+    <button type="button">Schedule</button>
+    <h2 className={styles.description}>The future of organic retail</h2>
+     <p className={styles.description}>One stop solution for organic products</p>
      </main> 
      <div>
        <ul className={'main-nav'}>
