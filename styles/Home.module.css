@@ -132,7 +132,7 @@
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 1000px;
+  max-width: 1100px;
 }
 
 .cards:hover,
