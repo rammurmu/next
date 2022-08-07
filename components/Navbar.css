@@ -23,6 +23,7 @@ a {
 .main-nav {
   display: flex;
   margin-top: 15px;
+  position: sticky;
 }
 
 .logo a,
