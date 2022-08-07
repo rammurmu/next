@@ -143,7 +143,7 @@ export default function Home() {
       
       <p className={styles.descriptiom}>Sign up weekly updates for live streaming for real selling & buying</p>
       
-      <input className={styles.input} placeholder="email address..." pattern="https://runash.in" size="49" required />
+      <input className={styles.input} placeholder="email address..." pattern="https://runash.in" size="30" required />
       
       <button type="button">Subscribe</button>
       <div>
