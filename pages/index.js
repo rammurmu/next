@@ -140,8 +140,9 @@ export default function Home() {
       
        <div className={styles.cards}><code className={styles.codes}>👍 Give your most valuable feedback ⭐ &rarr;</code></div>
       
-      <div className={styles.cards}>
+      
       <label className={styles.label}>Sign up weekly updates for live streaming for real selling & buying</label>
+      <div className={styles.cards}>
       <input className={styles.input} placeholder="email address..." pattern="https://runash.in" size="20" required />
       </div>
       <button type="button">Subscribe</button>
