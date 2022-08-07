@@ -120,7 +120,7 @@ export default function Buyer() {
     <p className={styles.card}>📅 Date & Time⏱️</p>
     </div>
     <button type="button">Schedule</button>
-    <h2 className={styles.description}>The future of organic retail</h2>
+    <h2 className={styles.title}>The future of organic retail</h2>
      <p className={styles.description}>One stop solution for organic products</p>
      </main> 
      <div>
