@@ -135,10 +135,10 @@ export default function Home() {
           </a>
         </div>
         <br />
-        <p className={styles.description}>Begin your live journey✨</p>
+        <p className={styles.description}>Begin your live streaming journey✨</p>
        
       
-       <div className={styles.cards}><code className={styles.codes}>👍 Give your most valuable feedback ⭐ &rarr;</code></div>
+       <div className={styles.cards}><code className={styles.codes}>👍 Give your most valuable feedback & rating ⭐ &rarr;</code></div>
       
       
       <p className={styles.description}>Sign up weekly updates for live retail streaming</p>
