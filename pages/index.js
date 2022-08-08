@@ -138,7 +138,7 @@ export default function Home() {
         <p className={styles.description}>Begin your live streaming journey✨</p>
        
       
-       <div className={styles.cards}><code className={styles.codes}>👍 Give your most valuable feedback & rating ⭐ &rarr;</code></div>
+       <div className={styles.cards}><p className={styles.description}>👍 Give your most valuable feedback & rating ⭐ to improve runash &rarr;</p></div>
       
       
       <p className={styles.description}>Sign up weekly updates for live real sell & buy</p>
