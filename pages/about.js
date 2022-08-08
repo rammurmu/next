@@ -23,20 +23,20 @@ export default function About() {
           We create real-life experiences to enable and access face-to-face
         </p>
 
-        <h2 className={styles.title}>Journey ✨</h2>
+        <h2 className={styles.title}>Journey </h2>
          <p className={styles.description}>Journey from a small village in India to Sillicone Valley Y Combinator startup school community member<br />Learn more &rarr;</p>
 
-        <h2 className={styles.title}>🤔 Oneliner</h2>
+        <h2 className={styles.title}>Oneliner</h2>
           <p className={styles.description}>A live streaming hybrid marketplace for retailing<br />Learn more &rarr;</p>
         
         
-         <h1 className={styles.title}>🎓 Discipline</h1>
+         <h1 className={styles.title}>Discipline</h1>
           <p className={styles.description}>Discipline and learning is the bacbone of the development of our startup journy and culture is behavior<br />Learn more &rarr;</p>
         
-        <h1 className={styles.title}>👥 What we do</h1>
+        <h1 className={styles.title}>What we do</h1>
          <p className={styles.description}>We created new model of live streaming marketplace and environment where retailers face to face demonstrate and presented their products with buyers<br />Learn more &rarr;</p>
        
-        <h1 className={styles.title}>🎥 What we going to make</h1>
+        <h2 className={styles.description}>🎥 What we going to make</h2>
           <p className={styles.description}>We are committed to building a live retail streaming hybrid platform for unorganised retailers and new ways to use physical reality experience<br />Learn more &rarr;</p>
          
          <h1 className={styles.title}>🎤Founders story </h1>
