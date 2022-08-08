@@ -135,10 +135,10 @@ export default function Home() {
           </a>
         </div>
         <br />
-        <p className={styles.description}>Begin your live streaming journey✨</p>
+        <p className={styles.description}>Begin your live stream journey✨</p>
        
       
-       <div className={styles.card1}>Give your valuable feedback to improve runash live stream &rarr;</div>
+       <div className={styles.card1}>Give your feedback to improve runash live streaming &rarr;</div>
       
       
       <p className={styles.description}>Sign up weekly updates for real selling & buying</p>
