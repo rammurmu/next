@@ -44,7 +44,7 @@ export default function PageWithJSbasedForm() {
       </h1>
       
       <p className={styles.description}>
-        <b>👏 Welcome to runash</b><br />Lets being the live streaming journey<br />Create your runash ID
+        👏 Welcome to runash<br />Lets being the live streaming journey<br />Create your runash ID
       </p>
       <div className={styles.card1}>
       <p className={styles.description}>Enter your email ID &rarr;</p>
