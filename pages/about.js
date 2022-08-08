@@ -22,6 +22,7 @@ export default function About() {
         <p className={styles.description}>
           We create real-life experiences to enable and access face-to-face
         </p>
+
         <h1 className={styles.title}>Startup journey ✨</h1>
          <p className={styles.description}>Journey from a small village in India to Sillicone Valley Y Combinator startup school community member<br />Learn more &rarr;</p>
 
@@ -42,7 +43,7 @@ export default function About() {
          <p className={styles.description}>🤼 We are both brothers,our business journey started in 2007 from a small offline retail store, the Journey from the school classroom to the board room<br />Learn more &rarr;</p>
 
          <h1 className={styles.title}>👨‍💻 Executive profile</h1>
-          <P className={styles.description}>Board of Directors<br />Ram Murmu and Vaibhav Murmu<br /> Learn more &rarr;</p>
+          <p className={styles.description}>Board of Directors<br />Ram Murmu and Vaibhav Murmu<br /> Learn more &rarr;</p>
          
          
          <h1 className={styles.title}>Backed by</h1>
