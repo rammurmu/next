@@ -36,7 +36,7 @@ export default function PageWithJSbasedFormFeedback() {
   return (
     <div className={styles.container}>
     <main className={styles.main}>
-    <div className={styles.card1}>
+  
       <h1 className={styles.title}>
         <Link href="/">
           <a>Feedback</a>
@@ -44,9 +44,9 @@ export default function PageWithJSbasedFormFeedback() {
       </h1>
       
       <p className={styles.description}>
-        Your feedback make our products better 
+        Your most valuable feedback make runash better for you
       </p>
-
+     <div className={styles.card1}>
       <form onSubmit={handleSubmit}>
         <label htmlFor="first">First Name</label>
         <input type="text" id="first" name="first" required />
@@ -57,26 +57,22 @@ export default function PageWithJSbasedFormFeedback() {
         <label htmlFor="password">Password</label>
         <input type="text" id="password" name="password" required />
 
-        <button type="sign up">Sign Up</button>
+        <button type="submit">Submit</button>
       </form>
-
-     
-       <h1 className={styles.title}>
-        Feedback</h1>
-        <p className={styles.description}>Your most valuable feedback make runash better for you</p>
         
 
-        <p>Share your runash feedback<br />How satisfied are you with runash live streaming</p>
+        <ul>
+          <li>How satisfied are you with runash live streaming</li>
         <input className={styles.radio} radio id='choice' value='Very satisfied' />
         <input className={styles.checkbox} checkbox id='checkbox' value='Very satisfied' />
         <input className={styles.button} button id='button' vale='very satisfied' />
         <input className={styles.time} time id='appt' name='appt' min='09:00' max='18:00' value='required' />
-       
+       </ul>
           
          
          <p className={styles.description}>
           <Link href="/">
-            <a>&larr; Back to home</a>
+            <a>Share your feedback &rarr;</a>
           </Link>
         </p>
       
@@ -85,7 +81,7 @@ export default function PageWithJSbasedFormFeedback() {
 
       
       <p className={styles.description}>
-         &rarr;
+         ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ &rarr;
       </p>
      </div>
      </main>
