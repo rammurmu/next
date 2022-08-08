@@ -41,29 +41,20 @@ export default function Buyer() {
             <a>KhadiWear</a>
           </Link>
        </li>     
-       <li>
-          <Link href='/product3'>
-            <a>BoombooCraft</a>
-          </Link>
-       </li>     
-       <li>
-          <Link href='/product4'>
-            <a>Furnishing</a>
-          </Link>
-       </li>         
+         
       </ul>
   </div>
       <div className={styles.grid}>
           <a href="https://productslist" className={styles.card}>
-            <h2>🍎🍋Fruit</h2>
+            <h2>🍎🍋 Fruit</h2>
             <p>Organic & fresh </p>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
-            <h2>🥦🍅Vegetable</h2>
+            <h2>🍅Vegetable</h2>
             <p>Organic & fresh  </p>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
-            <h2>🥫🍶Grocery</h2>
+            <h2>🥫Grocery</h2>
             <p>Organic </p>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
@@ -83,7 +74,7 @@ export default function Buyer() {
             <p>Organic & fresh</p>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
-            <h2>🥜🥖Dry food</h2>
+            <h2>🥜Dry food</h2>
             <p>Organic </p>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
@@ -91,7 +82,7 @@ export default function Buyer() {
             <p>Organic animal </p>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
-            <h2>🐓🦜 Bird</h2>
+            <h2>🐓 🦜 Bird</h2>
             <p>Organic bird</p>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
@@ -99,7 +90,7 @@ export default function Buyer() {
             <p>Organic fresh</p>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
-            <h2>🥼🥻Fashion</h2>
+            <h2>🥼Fashion</h2>
             <p>Desi fashion </p>
           </a>    
       </div>
