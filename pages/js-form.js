@@ -68,7 +68,6 @@ export default function PageWithJSbasedForm() {
       </p>
      </div>
     </main>
-    </div>
     <p className={styles.description}>By creating an account,you agree to terms of services</p>
      <div>
      <ul className={'main-nav'}>
@@ -88,6 +87,7 @@ export default function PageWithJSbasedForm() {
          </Link>
        </li>
       </ul>
+     </div>
      </div>
   )
 }
