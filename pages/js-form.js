@@ -39,7 +39,7 @@ export default function PageWithJSbasedForm() {
     
       <h1 className={styles.title}>
         <Link href="/">
-          <a>RunAsh.live</a>
+          <a>runash.live</a>
         </Link>{' '}
       </h1>
       
@@ -68,6 +68,7 @@ export default function PageWithJSbasedForm() {
       </p>
      </div>
     </main>
+    </div>
     <p className={styles.description}>By creating an account,you agree to terms of services</p>
      <div>
      <ul className={'main-nav'}>
@@ -88,6 +89,5 @@ export default function PageWithJSbasedForm() {
        </li>
       </ul>
      </div>
-    </div>
   )
 }
