@@ -32,7 +32,7 @@ export default function About() {
           <p className={styles.description}>A live streaming hybrid marketplace for retailing<br />Learn more &rarr;</p>
         
         
-         <h1 className={styles.title}>Discipline</h1>
+         <h2 className={styles.title}>Discipline</h2>
           <p className={styles.description}>Discipline and learning is the bacbone of the development of our startup journy and culture is behavior<br />Learn more &rarr;</p>
         
         <h2 className={styles.description}>What we do</h2>
