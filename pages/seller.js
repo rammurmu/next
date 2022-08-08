@@ -69,15 +69,15 @@ export default function Seller() {
       <p className={styles.description}>Benefits for live sell &rarr;</p>
       
        <div className={styles.grid}> 
-       <p className={styles.card}>🔐 Secured data</p>
+       <p className={styles.card}>🔐 Secure data</p>
        <p className={styles.card}>🛡️ Trusted sell </p>
        <p className={styles.card}>✅ 1st payment</p>
        <p className={styles.card}>☑️ Verified data</p>
        <p className={styles.card}>🆔 Private data</p>
        </div>
      <br />
-      <div className={styles.title}>How it works ?</div>
-      <p>Learn more &rarr;</p>
+      <h2 className={styles.title}>How it works ?</h2>
+      <p className={styles.description}>Learn more &rarr;</p>
 
       <p className={styles.description}>Get support <b>24 x 7 x 365 </b>days &rarr;</p>
       
