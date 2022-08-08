@@ -44,8 +44,8 @@ export default function PageWithJSbasedFormLogin() {
       </h1>
       
       <p className={styles.description}>
-        Create your account
-      </p>
+        Welcome to runash!<br />let's being the live stream<br />Entre your email &rarr;</p>
+      
 
       <form onSubmit={handleSubmit}>
         <label htmlFor="first">First Name</label>
