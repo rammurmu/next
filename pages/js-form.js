@@ -39,17 +39,17 @@ export default function PageWithJSbasedForm() {
     
       <h1 className={styles.title}>
         <Link href="/">
-          <a>RunAsh Live</a>
+          <a>RunAsh.live</a>
         </Link>{' '}
       </h1>
       
       <p className={styles.description}>
-        👏 Welcome to runash<br />Lets being the live streaming journey<br />Create your runash Id
+        <b>👏 Welcome to runash</b><br />Lets being the live streaming journey<br />Create your runash ID
       </p>
       <div className={styles.card1}>
       <p className={styles.description}>Enter your email ID &rarr;</p>
       <form onSubmit={handleSubmit}>
-        <label htmlFor="contineu">continue</label>
+        <label htmlFor="email">email</label>
         <input type="text" id="continue" name="continue" required />
         <label htmlFor="last">Last Name</label>
         <input type="text" id="last" name="last" required />
@@ -64,6 +64,26 @@ export default function PageWithJSbasedForm() {
       <p className={styles.description}>
         Have an account? Sign in &rarr;
       </p>
+     </div>
+     <p className={styles.description}>By creating an account ID you agree to term of services</p>
+     <div>
+     <ul className={'main-nav'}>
+       <li>
+         <Link href='/term'>
+            <a>Terms</a>
+         </Link>
+       </li>
+       <li>
+         <Link href='/privacy'>
+            <a>Privacy</a>
+         </Link>
+       </li>
+       <li>
+         <Link href='/security'>
+           <a>Security</a>
+         </Link>
+       </li>
+      </ul>
      </div>
      </main>
     </div>
