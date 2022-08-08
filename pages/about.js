@@ -25,23 +25,23 @@ export default function About() {
         </p>
         <div className={styles.grid}>
         <div className={styles.card}>
-        <h2 className={styles.title}>Journey </h2>
+        <h3 className={styles.title}>Journey </h3>
          <p className={styles.description}>Journey from a small village in India to Sillicone Valley Y Combinator startup school community member<br />Learn more &rarr;</p>
 
-        <h2 className={styles.title}>Oneliner</h2>
+        <h3 className={styles.title}>Oneliner</h3>
           <p className={styles.description}>A live streaming hybrid marketplace for retailing<br />Learn more &rarr;</p>
         
         
-         <h2 className={styles.title}>Discipline</h2>
+         <h3 className={styles.title}>Discipline</h3>
           <p className={styles.description}>Discipline and learning is the bacbone of the development of our startup journy and culture is behavior<br />Learn more &rarr;</p>
         
-        <h2 className={styles.description}>What we do</h2>
+        <h3 className={styles.description}>What we do</h3>
          <p className={styles.description}>We created new model of live streaming marketplace and environment where retailers face to face demonstrate and presented their products with buyers<br />Learn more &rarr;</p>
        
-        <h2 className={styles.description}>🎥 What we going to make</h2>
+        <h3 className={styles.description}>🎥 What we going to make</h3>
           <p className={styles.description}>We are committed to building a live retail streaming hybrid platform for unorganised retailers and new ways to use physical reality experience<br />Learn more &rarr;</p>
          
-         <h2 className={styles.description}>🎤Founders story </h2>
+         <h3 className={styles.description}>🎤Founders story </h3>
          <p className={styles.description}>🤼 We are both brothers,our business journey started in 2007 from a small offline retail store, the Journey from the school classroom to the board room<br />Learn more &rarr;</p>
 
          <h3 className={styles.description}>👨‍💻 Executive profile</h3>
