@@ -22,30 +22,30 @@ export default function About() {
         <p className={styles.description}>
           We create real-life experiences to enable and access face-to-face
         </p>
-        <h2 className={styles.title}>Startup journey ✨</h2>
+        <h1 className={styles.title}>Startup journey ✨</h1>
          <p className={styles.description}>Journey from a small village in India to Sillicone Valley Y Combinator startup school community member<br />Learn more &rarr;</p>
 
-        <h2 className={styles.title}>🤔 Oneliner</h2>
+        <h1 className={styles.title}>🤔 Oneliner</h1>
           <p className={styles.description}>A live streaming hybrid marketplace for retailing<br />Learn more &rarr;</p>
         
         
-         <h2 className={styles.title}>🎓 Discipline</h2>
+         <h1 className={styles.title}>🎓 Discipline</h1>
           <p className={styles.description}>Discipline and learning is the bacbone of the development of our startup journy and culture is behavior<br />Learn more &rarr;</p>
         
-        <h2 className={styles.title}>👥 What we do</h2>
+        <h1 className={styles.title}>👥 What we do</h1>
          <p className={styles.description}>We created new model of live streaming marketplace and environment where retailers face to face demonstrate and presented their products with buyers<br />Learn more &rarr;</p>
        
-        <h2 className={styles.title}>🎥 What we going to make</h2>
+        <h1 className={styles.title}>🎥 What we going to make</h1>
           <p className={styles.description}>We are committed to building a live retail streaming hybrid platform for unorganised retailers and new ways to use physical reality experience<br />Learn more &rarr;</p>
          
-         <h2 className={styles.title}>🎤Founders story </h2>
+         <h1 className={styles.title}>🎤Founders story </h1>
          <p className={styles.description}>🤼 We are both brothers,our business journey started in 2007 from a small offline retail store, the Journey from the school classroom to the board room<br />Learn more &rarr;</p>
 
-         <h2 className={styles.title}>👨‍💻 Executive profile</h2>
+         <h1 className={styles.title}>👨‍💻 Executive profile</h1>
           <P className={styles.description}>Board of Directors<br />Ram Murmu and Vaibhav Murmu<br /> Learn more &rarr;</p>
          
          
-         <h2 className={styles.title}>Backed by</h2>
+         <h1 className={styles.title}>Backed by</h1>
          <p className={styles.description}>Open Source</p>
          
       </main>
