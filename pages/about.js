@@ -110,15 +110,20 @@ export default function About() {
           </Link>
        </li>     
        <li>
-          <Link href='/signin'>
-            <a>Signin</a>
+          <Link href='/login'>
+            <a>Login</a>
           </Link>
        </li>  
        <li>
          <Link href='/contact'>
           <a>Contact</a>
         </Link>
-       </li>   
+       </li>  
+       <li>
+         <link href='/form'>
+         <a>Form</a>
+       </Link>
+       </li> 
       </ul>
   </div>
       <footer className={styles.footer}>
