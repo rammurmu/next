@@ -24,9 +24,10 @@ export default function About() {
         </p>
         <p className={styles.p}><b>Startup journey ✨ </b>
         <br />
-         Journey from a small village in India to Sillicone Valley Y Combinator startup school community member
-        <br />
+         Journey from a small village in India to Sillicone Valley Y Combinator startup school community member<br />
+         <br />
          Learn more &rarr;</p>
+
         <p className={styles.p}><b>🤔 Oneliner</b><br />A live streaming hybrid marketplace for retailing<br />
         <br />
           Learn more &rarr;</p>
@@ -59,7 +60,7 @@ export default function About() {
           Learn more &rarr;</p>
          <br />
          <div>
-         <h1 className={styles.title}>Backed by<code className={styles.code}>Open Source</code></h1>
+         <h2 className={styles.title}>Backed by<code className={styles.code}>Open Source</code></h2>
          </div>
         <p className={styles.p}>
           <Link href="/">
