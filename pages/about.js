@@ -16,13 +16,15 @@ export default function About() {
       </Head>
       <main className={styles.main}> 
        <div className={styles.card}>👏 Welcome to runash </div> 
+      
       <h1 className={styles.title}>
         <a href="https://">Our mission</a>
       </h1>
         <p className={styles.description}>
           We create real-life experiences to enable and access face-to-face
         </p>
-
+        <div className={styles.grid}>
+        <div className={styles.card}>
         <h2 className={styles.title}>Journey </h2>
          <p className={styles.description}>Journey from a small village in India to Sillicone Valley Y Combinator startup school community member<br />Learn more &rarr;</p>
 
@@ -48,7 +50,8 @@ export default function About() {
          
          <h2 className={styles.description}>Backed by</h2>
          <p className={styles.description}>Open Source</p>
-         
+         </div>
+        </div>
       </main>
      <div>
        <ul className={'main-nav'}>
