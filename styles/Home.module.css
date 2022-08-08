@@ -71,7 +71,7 @@
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
-.codes {
+.code1 {
   display:flex;
   justify-content: space-between;
   background: #FFF;
@@ -85,7 +85,7 @@
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
-.codess {
+.codes2 {
   display:flex;
   justify-content: space-between;
   background: #0761D1;
@@ -99,7 +99,7 @@
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
-.codesss {
+.code3 {
   display:flex;
   justify-content: space-between;
   background: orange;
@@ -124,8 +124,8 @@
 
 .cards {
   margin: 1rem 0;
-  line-height: 1.5;
-  padding: 1.5rem;
+  line-height: 0.5;
+  padding: 0.5rem;
   text-align: left;
   color: inherit;
   text-decoration: none;
