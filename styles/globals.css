@@ -174,11 +174,11 @@ label {
 input {
   display: table;
   width: 90%;
-  padding: .5rem;
+  padding: .1rem;
   border: 1px solid #ccc;
-  border-radius: 1.5rem;
+  border-radius: 0.5rem;
   box-sizing: border-box;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.5rem;
 }
 
 input:focus {
