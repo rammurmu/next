@@ -9,8 +9,9 @@ export default function Dashboard() {
         <div className={styles.fullwidth}> 
          <header>
          <div className={styles.logoRow}>RunAsh</div>
-         <ul className={styles.ul}>
+         
           <div className={styles.nav}>
+           <ul className={styles.ul}>
            <li>
             <Link href="/profile">
             <a>My profile</a>
