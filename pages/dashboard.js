@@ -11,7 +11,7 @@ export default function Dashboard() {
          <div className={styles.logoRow}>RunAsh</div>
         
           <div className={styles.nav}>
-          <ul>
+          <ul className={styles.ul}>
            <li>
             <Link href="/profile">
             <a>My profile</a>
