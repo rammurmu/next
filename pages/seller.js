@@ -66,7 +66,7 @@ export default function Seller() {
          <p>Shaping the future of retail</p>
          <br />
       
-      <p><b>Benefits for live sell &rarr;</p>
+      <p>Benefits for live sell &rarr;</p>
       
        <div className={styles.grid}> 
        <p className={styles.card}>🔐 Secured data</p>
