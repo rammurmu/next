@@ -44,13 +44,15 @@ export default function PageWithJSbasedForm() {
       </h1>
       
       <p className={styles.description}>
-        👏 Welcome to runash<br />Lets being the live streaming journey<br />Create your runash ID
+        👏 Welcome to runash<br />Lets being the live streaming journey<br />
       </p>
       <div className={styles.card1}>
-      <p className={styles.description}>Enter your email ID &rarr;</p>
+      <p className={styles.description}>Create your account &rarr;</p>
       <form onSubmit={handleSubmit}>
         <label htmlFor="email">email</label>
-        <input type="text" id="continue" name="continue" required />
+        <input type="text" id="email" name="email" required />
+        <label htmlFor="fast">Fast Name</label>
+        <input type="text" id="first" name="first" required />
         <label htmlFor="last">Last Name</label>
         <input type="text" id="last" name="last" required />
         <label htmlFor="Phone number">Phone number</label>
