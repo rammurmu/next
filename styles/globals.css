@@ -537,12 +537,13 @@ table {
 body {
   margin: 0;
 }
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 25%;
-  background-color: #f1f1f1;
+  width: 100%;
+  background-color: #FAFAFA;
   position: fixed;
   height: 100%;
   overflow: auto;
@@ -556,6 +557,6 @@ li a {
 }
 
 li a.active {
-  background-color: #04AA6D;
+  background-color: #000;
   color: white;
 }
