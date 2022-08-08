@@ -110,7 +110,7 @@ export default function About() {
           </Link>
        </li>     
        <li>
-          <Link href='/js-formlogin'>
+          <Link href='/login'>
             <a>Login</a>
           </Link>
        </li>  
@@ -120,7 +120,7 @@ export default function About() {
         </Link>
        </li>  
        <li>
-         <Link href='/form'>
+         <Link href='/no-js-form'>
          <a>Form</a>
        </Link>
        </li> 
