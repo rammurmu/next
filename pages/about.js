@@ -120,7 +120,7 @@ export default function About() {
         </Link>
        </li>  
        <li>
-         <link href='/form'>
+         <Link href='/form'>
          <a>Form</a>
        </Link>
        </li> 
