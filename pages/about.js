@@ -15,7 +15,7 @@ export default function About() {
         <link rel="icon" href="favicon.icon"/>
       </Head>
       <main className={styles.main}> 
-       <div className={styles.card}>👏 Welcome to runash family 🎉</div> 
+       <div className={styles.card}>👏 Welcome to runash </div> 
       <h1 className={styles.title}>
         <a href="https://"><br />Our mission</a>
       </h1>
@@ -26,31 +26,26 @@ export default function About() {
     
      
       
-        <p className={styles.p}><b>RunAsh startup journey ✨ </b>
+        <p className={styles.p}><b>Startup journey ✨ </b>
         <br />
          Journey from a small village in India to Sillicone Valley Y Combinator startup school community member
         </p>
         <br />
-      
-        
-        
-        <p className={styles.p}>🤔<b>Oneliner</b><br />A live retail streaming hybrid marketplace for retailing<br />
+        <p className={styles.p}><b>🤔 Oneliner</b><br />A live streaming hybrid marketplace for retailing<br />
         <br />
           Learn more &rarr;</p>
         <br />
         
-         <p className={styles.p}>🎓<b>Discipline,learning & culture</b><br />
+         <p className={styles.p}><b>🎓 Discipline,learning & culture</b><br />
           Discipline and learning is the bacbone of the development of our startup journy and culture is behavior<br />
           <br />
            Learn more &rarr;</p>
         <br />
-        <p className={styles.p}>👥<b>What we do</b>We created new model of live streaming marketplace and environment where retailers face to face demonstrate and presented their products with buyers<br />
+        <p className={styles.p}><b>👥 What we do</b><br />We created new model of live streaming marketplace and environment where retailers face to face demonstrate and presented their products with buyers<br />
        <br />
        Learn more &rarr;</p>
-      <br />
-   
-        <br />
-        <p className={styles.p}>🎥<b>What we going to make</b><br />We are committed to building a live retail streaming hybrid platform for unorganised retailers and new ways to use physical reality experience<br />
+       <br />
+        <p className={styles.p}><b>🎥 What we going to make</b><br />We are committed to building a live retail streaming hybrid platform for unorganised retailers and new ways to use physical reality experience<br />
         <br />
          Learn more &rarr;</p>
          <br />
@@ -68,7 +63,7 @@ export default function About() {
          
         <p className={styles.p}>
           <Link href="/">
-            <a><button type="button" className={styles.button}>&larr; Back to Home</button></a>
+            <a><button type="button" className={styles.button}>&larr; Go back</button></a>
           </Link>
          </p>
       </main>
