@@ -36,7 +36,7 @@ export default function PageWithJSbasedForm() {
   return (
     <div className={styles.container}>
     <main className={styles.main}>
-    <div className={styles.cards}>
+    <div className={styles.card}>
       <h1 className={styles.title}>
         <Link href="/">
           <a>RunAsh</a>
