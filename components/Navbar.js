@@ -53,7 +53,7 @@ function Navbar() {
        </li> 
        <li>
        <Link href="/cart" scroll={true}>
-         <a>Cart🛒</a>
+         <a>🛒</a>
       </Link>
       </li>            
       <li>
