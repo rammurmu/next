@@ -36,20 +36,21 @@ export default function PageWithJSbasedForm() {
   return (
     <div className={styles.container}>
     <main className={styles.main}>
-    <div className={styles.card1}>
+    
       <h1 className={styles.title}>
         <Link href="/">
-          <a>RunAsh</a>
+          <a>RunAsh Live</a>
         </Link>{' '}
       </h1>
       
       <p className={styles.description}>
-        Create your account
+        👏 Welcome to runash<br />Lets being the live streaming journey<br />Create your runash Id
       </p>
-
+      <div className={styles.card1}>
+      <p className={styles.description}>Enter your email ID &rarr;</p>
       <form onSubmit={handleSubmit}>
-        <label htmlFor="first">First Name</label>
-        <input type="text" id="first" name="first" required />
+        <label htmlFor="contineu">continue</label>
+        <input type="text" id="continue" name="continue" required />
         <label htmlFor="last">Last Name</label>
         <input type="text" id="last" name="last" required />
         <label htmlFor="Phone number">Phone number</label>
