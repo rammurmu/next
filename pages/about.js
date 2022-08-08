@@ -15,22 +15,18 @@ export default function About() {
         <link rel="icon" href="favicon.icon"/>
       </Head>
       <main className={styles.main}> 
-       <div className={styles.card}>👏 Welcome to runash </div> 
+       <div className={styles.card1}>👏 Welcome to runash </div> 
       <h1 className={styles.title}>
         <a href="https://"><br />Our mission</a>
       </h1>
         <p className={styles.description}>
           We create real-life experiences to enable and access face-to-face
         </p>
-      
-    
-     
-      
         <p className={styles.p}><b>Startup journey ✨ </b>
         <br />
          Journey from a small village in India to Sillicone Valley Y Combinator startup school community member
-        </p>
         <br />
+         Learn more &rarr;</p>
         <p className={styles.p}><b>🤔 Oneliner</b><br />A live streaming hybrid marketplace for retailing<br />
         <br />
           Learn more &rarr;</p>
@@ -54,16 +50,20 @@ export default function About() {
          <br />
           Learn more &rarr;</p>
 
-         <p className={styles.p}>👨‍💻<b>Executive profile</b><br />Board of Directors & management team responsible for making the live retail streaming platform<br />
-         <br />
+         <p className={styles.p}>👨‍💻<b>Executive profile</b><br />Board of Directors<br />
+         <ul>
+         <li>Ram Murmu</li>
+         <li>Vaibhav Murmu</li>
+         </ul>
+          <br />
           Learn more &rarr;</p>
          <br />
 
-         <div className={styles.card}>Backed by<code className={styles.code}>Open Source</code></div>
+         <h1 className={styles.title}>Backed by<code className={styles.code}>Open Source</code></h1>
          
         <p className={styles.p}>
           <Link href="/">
-            <a><button type="button" className={styles.button}>&larr; Go back</button></a>
+            <a><button type="button" className={styles.button}>&larr; Back</button></a>
           </Link>
          </p>
       </main>
