@@ -41,7 +41,7 @@ export default function About() {
          <h2 className={styles.title}>🎤Founders story </h2>
          <p className={styles.description}>🤼 We are both brothers,our business journey started in 2007 from a small offline retail store, the Journey from the school classroom to the board room<br />Learn more &rarr;</p>
 
-         <h1 className={styles.title}>👨‍💻 Executive profile</h2>
+         <h2 className={styles.title}>👨‍💻 Executive profile</h2>
           <P className={styles.description}>Board of Directors<br />Ram Murmu and Vaibhav Murmu<br /> Learn more &rarr;</p>
          
          
