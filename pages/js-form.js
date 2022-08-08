@@ -65,7 +65,9 @@ export default function PageWithJSbasedForm() {
         Have an account? Sign in &rarr;
       </p>
      </div>
+    <div>
      <p className={styles.description}>By creating an account ID you agree to term of services</p>
+    </div>
      <div>
      <ul className={'main-nav'}>
        <li>
