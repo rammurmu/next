@@ -34,16 +34,15 @@ export default function PageWithJSbasedForm() {
     alert(`Is this your full name: ${result.data}`)
   }
   return (
-    <div className="container">
+    <div className={styles.container}>
     <main className={styles.main}>
     <div className={styles.cards}>
       <h1 className={styles.title}>
         <Link href="/">
           <a>RunAsh</a>
         </Link>{' '}
-     
       </h1>
-
+      <hr />
       <p className={styles.description}>
         Create your account
       </p>
@@ -60,6 +59,7 @@ export default function PageWithJSbasedForm() {
 
         <button type="sign up">Sign Up</button>
       </form>
+      <hr />
       <p className={styles.description}>
         Have an account? Sign in &rarr;
       </p>
