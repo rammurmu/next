@@ -39,7 +39,7 @@ export default function PageWithJSbasedForm() {
     
       <h1 className={styles.title}>
         <Link href="/">
-          <a>runash.live</a>
+          <a>RunAsh</a>
         </Link>{' '}
       </h1>
       
@@ -47,7 +47,7 @@ export default function PageWithJSbasedForm() {
         👏 Welcome to runash<br />Lets being the live streaming journey<br />
       </p>
       <div className={styles.card1}>
-      <p className={styles.description}>Create your account &rarr;</p>
+      <p className={styles.description}>Create your account ID</p>
       <form onSubmit={handleSubmit}>
         <label htmlFor="email">email</label>
         <input type="text" id="email" name="email" required />
