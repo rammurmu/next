@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
         <main className={styles.main}>
         
-       <div className={styles.cards}><b>🆕 Updates:</b> Introducing the next generation & future of live retail &rarr;</div>
+       <div className={styles.cards}><b>🆕 Updates:</b> Introducing the next generation and future of live retail &rarr;</div>
         
         <h1 className={styles.title}>
          Live retail streaming <br /><a href="https://">platform</a>
@@ -138,7 +138,7 @@ export default function Home() {
         <p className={styles.description}>Begin your live streaming journey✨</p>
        
       
-       <div className={styles.card1}>Give your most valuable feedback to improve runash &rarr;</div>
+       <div className={styles.card1}>Give your valuable feedback to improve runash &rarr;</div>
       
       
       <p className={styles.description}>Sign up weekly updates for real selling & buying</p>
