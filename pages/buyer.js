@@ -50,17 +50,7 @@ export default function Buyer() {
           <Link href='/product4'>
             <a>Furnishing</a>
           </Link>
-       </li>     
-       <li>
-          <Link href='/product 5'>
-            <a>Electronic</a>
-          </Link>
-       </li>     
-       <li>
-          <Link href='/product 6'>
-            <a></a>
-          </Link>
-       </li>     
+       </li>         
       </ul>
   </div>
       <div className={styles.grid}>
@@ -114,13 +104,13 @@ export default function Buyer() {
           </a>    
       </div>
      <br />
-     <p>Real life 🛍️ shopping schedule now </p>
+     <p className={styles.description}>Real life 🛍️ shopping schedule now </p>
      <br />
     <div className={styles.grid}>
     <p className={styles.card}>📅 Date & Time⏱️</p>
     </div>
     <button type="button">Schedule</button>
-    <h2 className={styles.title}>The future of organic retail</h2>
+    <h2 className={styles.title}>Future of organic retail</h2>
      <p className={styles.description}>One stop solution for organic products</p>
      </main> 
      <div>
