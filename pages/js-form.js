@@ -35,6 +35,8 @@ export default function PageWithJSbasedForm() {
   }
   return (
     <div className="container">
+    <main className={styles.main}>
+    <div className={styles.cards}>
       <h1 className={styles.title}>
         <Link href="/">
           <a>RunAsh</a>
@@ -61,7 +63,8 @@ export default function PageWithJSbasedForm() {
       <p className={styles.description}>
         Have an account? Sign in &rarr;
       </p>
-     
+     </div>
+     </main>
     </div>
   )
 }
