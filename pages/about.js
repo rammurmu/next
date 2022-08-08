@@ -60,8 +60,9 @@ export default function About() {
           Learn more &rarr;</p>
          <br />
          <div>
-         <h2 className={styles.title}>Backed by<code className={styles.code}>Open Source</code></h2>
+         <h2 className={styles.title}>Backed by<br /><code className={styles.code}>Open Source</code></h2>
          </div>
+         <br />
         <p className={styles.p}>
           <Link href="/">
             <a><button type="button" className={styles.button}>&larr; Back</button></a>
