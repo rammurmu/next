@@ -84,7 +84,7 @@
   border: 1px solid #eaeaea;
   border-radius: 5px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 280px;
+  max-width: 300px;
   
 }
 
@@ -126,6 +126,6 @@
   }
 
 .main {
-  text-align: left;
+  text-align: centre;
  }
 }
