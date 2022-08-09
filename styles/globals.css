@@ -550,9 +550,7 @@ ul {
   background-color: #FFF;
   position: fixed;
   height: 100%;
-  overflow: auto;
-  border-bottom: 1px solid #eaeaea;
-  border-top: 1px solid #eaeaea;
+  overflow: auto; 
 }
 
 li a {
