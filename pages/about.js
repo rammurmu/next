@@ -27,7 +27,7 @@ export default function About() {
         <div className={styles.card}>
         <h2 className={styles.title}>Journey </h2>
          <p className={styles.description}>Journey from a small village in India to Sillicone Valley Y Combinator startup school community member<br />Learn more &rarr;</p>
-
+         <hr />
         <h2 className={styles.title}>Oneliner</h2>
           <p className={styles.description}>A live streaming hybrid marketplace for retailing<br />Learn more &rarr;</p>
         
