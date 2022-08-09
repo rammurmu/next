@@ -552,6 +552,7 @@ ul {
   height: 100%;
   overflow: auto;
   border-bottom: 1px solid #eaeaea;
+  border-top: 1px solid #eaeaea;
 }
 
 li a {
