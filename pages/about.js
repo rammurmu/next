@@ -25,14 +25,14 @@ export default function About() {
         </p>
         <div className={styles.grid}>
         <div className={styles.card1}>
-        <h3 className={styles.title}>Journey </h3>
+        <h3 className={styles.description}>Journey </h3>
          <p className={styles.description}>Journey from a small village in India to Sillicone Valley Y Combinator startup school community member<br />Learn more &rarr;</p>
          <hr />
-        <h3 className={styles.title}>Oneliner</h3>
+        <h3 className={styles.description}>Oneliner</h3>
           <p className={styles.description}>A live streaming hybrid marketplace for retailing<br />Learn more &rarr;</p>
         
         
-         <h3 className={styles.title}>Discipline</h3>
+         <h3 className={styles.description}>Discipline</h3>
           <p className={styles.description}>Discipline and learning is the bacbone of the development of our startup journy and culture is behavior<br />Learn more &rarr;</p>
         
         <h3 className={styles.description}>What we do</h3>
