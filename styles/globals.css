@@ -174,7 +174,7 @@ label {
 input {
   display: table;
   width: 50%;
-  padding: 0.5rem;
+  padding: 0.6rem;
   border: 1px solid #ccc;
   border-radius: 0.25rem;
   box-sizing: border-box;
@@ -558,5 +558,5 @@ li a {
 
 li a.active {
   background-color: #000;
-  color: black;
+  color: blue;
 }
