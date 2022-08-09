@@ -53,6 +53,10 @@ h6
    font-size: 1.5rem;
 }
 
+hr {
+ border-top: 1px solid #eaeaea;
+}
+
 li {
  list-styles-type: square;
 }
@@ -126,7 +130,7 @@ summary {
  font-weight: none;
  margin: 1rem;
  padding: 1.5em;
- max-width: 900px;
+ width: 100%;
 }
 
 details[open] {
@@ -174,7 +178,7 @@ label {
 input {
   display: table;
   width: 50%;
-  padding: 0.6rem;
+  padding: 0.5rem;
   border: 1px solid #ccc;
   border-radius: 0.25rem;
   box-sizing: border-box;
@@ -547,6 +551,7 @@ ul {
   position: fixed;
   height: 100%;
   overflow: auto;
+  border-bottom: 1px solid #eaeaea;
 }
 
 li a {
@@ -558,5 +563,5 @@ li a {
 
 li a.active {
   background-color: #000;
-  color: blue;
+  color: black;
 }
