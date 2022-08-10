@@ -16,7 +16,7 @@ export default function Store() {
          <p>runash!</p>
        </div>
        </div>
-        <h1 className={styles.description}Dropdown</h1>
+        <h1 className={styles.description}>Dropdown</h1>
        
        <div className="dropdown">
          <button className="dropbtn">Dropdown</button>
