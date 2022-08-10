@@ -11,9 +11,9 @@ export default function Store() {
         </div>
 
         <div className="dropdown">
-          <span>Mouse over me</span>
+          <span>See more</span>
         <div className="dropdown-content">
-         <p>Welcome to runash!</p>
+         <p>runash!</p>
        </div>
        </div>
 
