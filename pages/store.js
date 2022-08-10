@@ -9,14 +9,14 @@ export default function Store() {
         <h1>Live streaming store</h1>
         <p>Create your store</p>
         </div>
-       <h1 className={styles.title}>Drop-down</h1>
+       
         <div className="dropdown">
           <span>See more</span>
         <div className="dropdown-content">
          <p>runash!</p>
        </div>
        </div>
-
+        <h1 className={styles.description}Dropdown</h1>
        
        <div className="dropdown">
          <button className="dropbtn">Dropdown</button>
