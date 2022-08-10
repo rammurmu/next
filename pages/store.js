@@ -10,9 +10,9 @@ export default function Store() {
         <p>Create your store</p>
         </div>
 
-        <div class="dropdown">
+        <div className="dropdown">
           <span>Mouse over me</span>
-        <div class="dropdown-content">
+        <div className="dropdown-content">
          <p>Welcome to runash!</p>
        </div>
        </div>
