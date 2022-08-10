@@ -34,10 +34,10 @@ export default function Store() {
           <li1><a href="#news">About</a></li1>
           <li1 className="dropdown">
              <a href="" className="dropbtn">Dropdown</a>
-       <div className="dropdown-content">
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
+       <div className="dropdownContent">
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
        </div>
        </li1>
        </ul1>
