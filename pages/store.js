@@ -33,7 +33,7 @@ export default function Store() {
           <li1><a href="#home">Home</a></li1>
           <li1><a href="#news">About</a></li1>
           <li1 className="dropdown">
-             <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+             <a href="" className="dropbtn">Dropdown</a>
        <div className="dropdown-content">
             <a href="#">Link 1</a>
             <a href="#">Link 2</a>
