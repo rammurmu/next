@@ -23,10 +23,10 @@ export default function Home() {
           Where the retailers build own made the live streaming store
          </p>
          
-         <buttontype="button" className={styles.button}>
+         <button type="button" className={styles.button}>
            Go live
          </button>
-         <buttontype="button" className={styles.button}>
+         <button type="button" className={styles.button}>
            Learn
          </button>
   
