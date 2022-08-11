@@ -42,7 +42,11 @@ export default function Store() {
        </li1>
        </ul1>
 
-
+      <button
+      type="button" className={styles.button}>
+       Learn
+      </button>
+  
 
 
 
