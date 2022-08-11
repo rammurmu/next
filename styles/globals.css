@@ -225,7 +225,7 @@ buttonss:hover {
 }
 
 button {
-  display: table;
+  display: block;
   width: 50%;
   padding: 0.9rem;
   border: none;
@@ -235,6 +235,7 @@ button {
   background-color: #000;
   color: #fff;
   cursor: pointer;
+  justify-content: space-between;
 }
 
 button:hover {
