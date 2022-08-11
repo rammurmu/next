@@ -12,12 +12,14 @@ a {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
+  color: blue;
 }
 
 .logo {
   margin: 0;
   font-size: 1.45em;
+  space: 20%;
 }
 
 .main-nav {
@@ -41,7 +43,7 @@ a {
 }
 
 .main-nav a:hover {
-  color: #FAFAFA;
+  color: #EAEAEA;
 }
 
 .header {
