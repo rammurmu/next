@@ -1,7 +1,7 @@
-#_nexr {
- diplay: flex;
- flex-direction: column;
- min-height: 100;
+#__next {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 html,
@@ -50,7 +50,11 @@ h6
  {
    color: #black;
    margin: 0 0 1rem 0;
-   font-size: 1.5r';
+   font-size: 1.5rem;
+}
+
+hr {
+ border-top: 1px solid #eaeaea;
 }
 
 li {
@@ -221,7 +225,7 @@ buttonss:hover {
 }
 
 button {
-  display: flex;
+  display: block;
   width: 50%;
   padding: 0.9rem;
   border: none;
@@ -237,6 +241,7 @@ button {
 button:hover {
   background-color: #0060e9;
 }
+
 
 .container {
   min-height: 100vh;
@@ -305,13 +310,17 @@ button:hover {
  position: absolute;
 }
 
+body {
+  margin: 0;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   width: 100%;
   background-color: #FFF;
-  position: stick;
+  position: fixed;
   height: 100%;
   overflow: auto; 
 }
