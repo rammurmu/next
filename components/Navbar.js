@@ -12,102 +12,102 @@ function Navbar() {
           </Link>
         </h1>
        <li>
-         <Link href='/about' scroll={true}>
+         <Link href='/about'>
             <a>Startup</a>
          </Link>
        </li>
        <li>
-         <Link href='/seller' scroll={true}>
+         <Link href='/seller'>
            <a>Seller</a>
          </Link>
        </li>
        <li>
-          <Link href='/buyer' scroll={true}>
+          <Link href='/buyer'>
             <a>Buyer</a>
           </Link>
        </li>     
        <li>
-          <Link href='/live' scroll={true}>
+          <Link href='/live'>
             <a>Live</a>
           </Link>
        </li>     
        <li>
-          <Link href='/watch' scroll={true}>
+          <Link href='/watch'>
             <a>Watch</a>
           </Link>
        </li> 
        <li>
-       <Link href="/influencers" scroll={true}>
+       <Link href="/influencers">
          <a>Influencers</a>
       </Link>
       </li>       
       <li>
-       <Link href="/store" scroll={true}>
+       <Link href="/store">
          <a>Store</a>
       </Link>
       </li>               
        <li>
-          <Link href='/js-form' scroll={true}>
+          <Link href='/js-form'>
             <a>LogIn</a>
           </Link>
        </li> 
        <li>
-       <Link href="/cart" scroll={true}>
+       <Link href="/cart">
          <a>Cart</a>
       </Link>
       </li>            
       <li>
-       <Link href="/setting" scroll={true}>
+       <Link href="/setting">
          <a>Setting</a>
       </Link>
       </li> 
       <li>
-        <Link href='/about'> scroll={true}>
+        <Link href='/about'> 
          <a>About</a>
          </Link>
        </li>
        <li>
-         <Link href='/privacy'> scroll={true}>
+         <Link href='/privacy'> 
            <a>Privacy</a>
          </Link>
        </li>
        <li>
-          <Link href='/help'> scroll={true}>
+          <Link href='/help'> 
             <a>Help</a>
           </Link>
        </li>     
        <li>
-          <Link href='/remote'> scroll={true}>
+          <Link href='/remote'> 
             <a>Remote</a>
           </Link>
        </li>     
        <li>
-          <Link href='/schedule'> scroll={true}>
+          <Link href='/schedule'> 
             <a>Schedule</a>
           </Link>
        </li>     
        <li>
-          <Link href='/feedback'> scroll={true}>
+          <Link href='/feedback'> 
             <a>Feedback</a>
           </Link>
        </li>     
        <li>
-          <Link href='/faq'> scroll={true}>
+          <Link href='/faq'> 
             <a>FAQ</a>
           </Link>
        </li> 
        <li>
-          <Link href='/resource'> scroll={true}>
+          <Link href='/resource'> 
             <a>Resource</a>
           </Link>
        </li>     
        <li>
-          <Link href='/docs'> scroll={true}>
+          <Link href='/docs'> 
             <a>Docs</a>
           </Link>
        </li> 
        <li>
-          <Link href='/blog'> scroll={true}>
+          <Link href='/blog'> 
             <a>Blog</a>
           </Link>
        </li>                 
