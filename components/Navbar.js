@@ -15,10 +15,7 @@ function Navbar() {
          <div className="dropdownContent">
            <Link href='/about' scroll={true}>
             <a>Startup</a>
-              <a href="#">Link</a>
-              <a href="#">Link</a>
-              <a href="#">Link</a>
-         </Link>
+           </Link>
        </li>
        </div>
        <li>
