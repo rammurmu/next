@@ -11,10 +11,10 @@ function Navbar() {
           <a>RunAsh</a>
           </Link>
         </h1>
-       <li>
-          <Link href='/about' scroll={true}>
+        <li>
+         <Link href='/about' scroll={true}>
             <a>Startup</a>
-           </Link>
+         </Link>
        </li>
        <li>
          <Link href='/seller' scroll={true}>
