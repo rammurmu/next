@@ -141,7 +141,7 @@ export default function Home() {
           </a>
         </div>
         <br />
-        <h2 className={styles.title}>Begin live journey✨</h2>
+        <h2 className={styles.title}>Begin live journey</h2>
        <p className={styles.description}>Give your most valuable feedback to improve runash live streaming & experience better &rarr;</p>
       
       <h2 className={styles.title}>Build for worlds</h2> 
