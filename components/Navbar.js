@@ -11,7 +11,7 @@ function Navbar() {
           <a>RunAsh</a>
           </Link>
         </h1>
-       <li className="dropdown">startup</a>
+       <li>
          <Link href='/about' scroll={true}>
             <a>Startup<div className="dropdownContent">
               <a href="#">Link</a>
