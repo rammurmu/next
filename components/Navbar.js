@@ -60,7 +60,57 @@ function Navbar() {
        <Link href="/setting" scroll={true}>
          <a><b>⚙️</b></a>
       </Link>
-      </li>  
+      </li> 
+      <li>
+        <Link href='/about'>
+         <a>About</a>
+         </Link>
+       </li>
+       <li>
+         <Link href='/privacy'>
+           <a>Privacy</a>
+         </Link>
+       </li>
+       <li>
+          <Link href='/help'>
+            <a>Help</a>
+          </Link>
+       </li>     
+       <li>
+          <Link href='/remote'>
+            <a>Remote</a>
+          </Link>
+       </li>     
+       <li>
+          <Link href='/schedule'>
+            <a>Schedule</a>
+          </Link>
+       </li>     
+       <li>
+          <Link href='/feedback'>
+            <a>Feedback</a>
+          </Link>
+       </li>     
+       <li>
+          <Link href='/faq'>
+            <a>FAQ</a>
+          </Link>
+       </li> 
+       <li>
+          <Link href='/resource'>
+            <a>Resource</a>
+          </Link>
+       </li>     
+       <li>
+          <Link href='/docs'>
+            <a>Docs</a>
+          </Link>
+       </li> 
+       <li>
+          <Link href='/blog'>
+            <a>Blog</a>
+          </Link>
+       </li>                 
      </ul>  
    </nav>  
  )
