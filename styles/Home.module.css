@@ -135,7 +135,7 @@
   border-radius: 8px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 1100px;
-  background-color: sado;
+  background-color: #FAFAFA;
 }
 
 .cards:hover,
@@ -155,8 +155,7 @@
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 300px;
-  background-color: #FFF;
-  background: sado;
+  background-color: #FAFAFA;
 }
 
 .card:hover,
