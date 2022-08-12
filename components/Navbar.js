@@ -53,61 +53,61 @@ function Navbar() {
        </li> 
        <li>
        <Link href="/cart" scroll={true}>
-         <a>🛒</a>
+         <a>Cart</a>
       </Link>
       </li>            
       <li>
        <Link href="/setting" scroll={true}>
-         <a><b>⚙️</b></a>
+         <a>Setting</a>
       </Link>
       </li> 
       <li>
-        <Link href='/about'>
+        <Link href='/about'> scroll={true}>
          <a>About</a>
          </Link>
        </li>
        <li>
-         <Link href='/privacy'>
+         <Link href='/privacy'> scroll={true}>
            <a>Privacy</a>
          </Link>
        </li>
        <li>
-          <Link href='/help'>
+          <Link href='/help'> scroll={true}>
             <a>Help</a>
           </Link>
        </li>     
        <li>
-          <Link href='/remote'>
+          <Link href='/remote'> scroll={true}>
             <a>Remote</a>
           </Link>
        </li>     
        <li>
-          <Link href='/schedule'>
+          <Link href='/schedule'> scroll={true}>
             <a>Schedule</a>
           </Link>
        </li>     
        <li>
-          <Link href='/feedback'>
+          <Link href='/feedback'> scroll={true}>
             <a>Feedback</a>
           </Link>
        </li>     
        <li>
-          <Link href='/faq'>
+          <Link href='/faq'> scroll={true}>
             <a>FAQ</a>
           </Link>
        </li> 
        <li>
-          <Link href='/resource'>
+          <Link href='/resource'> scroll={true}>
             <a>Resource</a>
           </Link>
        </li>     
        <li>
-          <Link href='/docs'>
+          <Link href='/docs'> scroll={true}>
             <a>Docs</a>
           </Link>
        </li> 
        <li>
-          <Link href='/blog'>
+          <Link href='/blog'> scroll={true}>
             <a>Blog</a>
           </Link>
        </li>                 
