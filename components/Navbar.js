@@ -12,7 +12,7 @@ function Navbar() {
           </Link>
         </h1>
        <li>
-           <Link href='/about' scroll={true}>
+          <Link href='/about' scroll={true}>
             <a>Startup</a>
            </Link>
        </li>
