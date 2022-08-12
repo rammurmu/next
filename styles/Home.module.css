@@ -22,6 +22,7 @@
   justify-content: center;
   align-items: center;
   background-color: #FAFAFA;
+  width: 100%;
 }
 
 .footer a {
@@ -206,6 +207,7 @@
 .card h2 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
+  background-color: #FAFAFA;
 }
 
 .card p {
