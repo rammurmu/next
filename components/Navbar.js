@@ -13,11 +13,10 @@ function Navbar() {
         </h1>
        <li>
          <Link href='/about' scroll={true}>
-            <a>Startup<div className="dropdownContent">
+            <a>Startup<div className="dropdownContent"></a>
               <a href="#">Link</a>
               <a href="#">Link</a>
               <a href="#">Link</a>
-            </a>
          </Link>
        </li>
        <li>
