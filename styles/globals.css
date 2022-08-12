@@ -1,3 +1,9 @@
+#_nexr {
+ diplay: flex;
+ flex-direction: column;
+ min-height: 100;
+}
+
 html,
 body {
   padding: 0;
@@ -231,7 +237,6 @@ button {
 button:hover {
   background-color: #0060e9;
 }
-
 
 .container {
   min-height: 100vh;
