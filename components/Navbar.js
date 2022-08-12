@@ -4,7 +4,6 @@ import Sidebar from '../components/Sidebar'
 
 function Navbar() {
   return (
-      <nav className={'skip-nav'}>
       <ul className={'main-nav'}>
       <h1 className='logo'>
           <Link href='/dashboard'>
@@ -58,7 +57,7 @@ function Navbar() {
       </li>            
       <li>
        <Link href='/setting' scroll={true}>
-         <a><b>Setting</b></a>
+         <a>Setting</a>
       </Link>
       </li> 
       <li>
