@@ -12,12 +12,10 @@ function Navbar() {
           </Link>
         </h1>
        <li>
-         <div className={dropdownContent}>
            <Link href='/about' scroll={true}>
             <a>Startup</a>
            </Link>
        </li>
-       </div>
        <li>
          <Link href='/seller' scroll={true}>
            <a>Seller</a>
