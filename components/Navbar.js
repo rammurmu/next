@@ -37,12 +37,12 @@ function Navbar() {
           </Link>
        </li> 
        <li>
-       <Link href="/influencers" scroll={true}>
+       <Link href='/influencers' scroll={true}>
          <a>Influencers</a>
       </Link>
       </li>       
       <li>
-       <Link href="/store" scroll={true}>
+       <Link href='/store' scroll={true}>
          <a>Store</a>
       </Link>
       </li>               
@@ -52,12 +52,12 @@ function Navbar() {
           </Link>
        </li> 
        <li>
-       <Link href="/cart" scroll={true}>
+       <Link href='/cart' scroll={true}>
          <a>Cart</a>
       </Link>
       </li>            
       <li>
-       <Link href="/setting" scroll={true}>
+       <Link href='/setting' scroll={true}>
          <a><b>Setting</b></a>
       </Link>
       </li> 
