@@ -140,8 +140,8 @@ export default function Home() {
             </p>
           </a>
         </div>
-        <br />
-        <h2 className={styles.title}>Start live sell</h2>
+       
+        <h2 className={styles.title}>Started live sell</h2>
        <p className={styles.description}>Give feedback to improve live sell experience better &rarr;</p>
       
       <h2 className={styles.title}>Sell for worlds</h2> 
