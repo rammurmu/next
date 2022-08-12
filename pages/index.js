@@ -141,12 +141,10 @@ export default function Home() {
           </a>
         </div>
         <br />
-        <h2 className={styles.title}>Begin your live stream journey✨</h2>
-       
+        <h2 className={styles.title}>Begin your live journey✨</h2>
+       <p className={styles.description}>Give your most valuable feedback to improve runash live streaming & experience better &rarr;</p>
       
-       <div className={styles.card1}>Give your feedback to improve runash live stream &rarr;</div>
-      
-      
+      <h2 className={styles.title}>Build world class business</h2> 
       <p className={styles.description}>Sign up weekly updates for real selling & buying</p>
       
       <input className={styles.input} placeholder="email address..." pattern="https://runash.in" size="50" required />
