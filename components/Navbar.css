@@ -26,7 +26,7 @@ a {
   display: flex;
   margin-top: 15px;
   position: sticky;
-  float: right;
+  float: centre;
 }
 
 .logo a,
