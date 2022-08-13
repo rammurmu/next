@@ -4,16 +4,16 @@ ul {
   list-style: none;
   position: stick;
   overflow: hidden;
-  background-color: #FAFAFA;
+  background-color: #FFF;
 }
 
 li {
-  float: centre;
+  float: right;
 }
 
 li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -21,7 +21,7 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: #111;
+  background-color: #blue;
 }
 
 h2,
