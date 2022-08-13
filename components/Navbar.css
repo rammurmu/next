@@ -7,14 +7,12 @@ ul {
   background-color: #FFF;
 }
 
-h2,
-h3,
 a {
   color: #000;
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .logo {
@@ -40,11 +38,14 @@ a {
   color: #000;
   font-size: 0.99em;
   position: sticky;
-  float: centre;
+  display: block;
+  padding: 8px;
+  background-color: #FAFAFA;
 }
 
 .main-nav a:hover {
   color: #000;
+  float: centre;
 }
 
 .header {
