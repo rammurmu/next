@@ -7,23 +7,6 @@ ul {
   background-color: #FFF;
 }
 
-li {
-  float: right;
-}
-
-li a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: #blue;
-}
-
 h2,
 h3,
 a {
@@ -43,6 +26,7 @@ a {
   display: flex;
   margin-top: 15px;
   position: sticky;
+  float: right;
 }
 
 .logo a,
@@ -80,7 +64,14 @@ a {
   align-items: center;
   flex-grow: 5;
   position: sticky;
+  li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
+
 
 
 
