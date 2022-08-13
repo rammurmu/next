@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
         <main className={styles.main}>
         
-       <div className={styles.cards}><b>Updates:</b>Introducing the next generation & future of live retail streaming &rarr;</div>
+       <div className={styles.cards}><b>Latest updates:</b>Introducing the next generation & future of live retail streaming &rarr;</div>
         <br />
         <h1 className={styles.title}>
          Live retail streaming <br /><a href="https://">platform</a>
@@ -26,11 +26,8 @@ export default function Home() {
          <button type="button" className={styles.button}>
            Go live
          </button>
-         <button type="button" className={styles.button}>
-           Learn
-         </button>
-  
-         <p className={styles.description}>Get started free &rarr;</p>
+         
+         <p className={styles.description}><code className={styles.code}>Get started free &rarr;</code></p>
 
         <div className={styles.grid}>
           <a href="https://runash.live/seller" className={styles.card}>
