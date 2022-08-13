@@ -21,7 +21,7 @@ a {
 }
 
 .main-nav {
-  display: flex;
+  display: inline-block;
   padding: 8px;
   margin-top: 15px;
   position: sticky;
@@ -37,7 +37,7 @@ a {
 
 .main-nav a {
   color: #000;
-  font-size: 0.99em;
+  font-size: .875rem;
 }
 
 .main-nav a:hover {
@@ -46,7 +46,7 @@ a {
 }
 
 .header {
-  display: flex;
+  display: inline-block;
   width: 100%;
   justify-content: space-between;
   padding-top: 0.9em;
