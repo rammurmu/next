@@ -12,7 +12,7 @@ a {
 }
 
 a {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .logo {
@@ -21,7 +21,8 @@ a {
 }
 
 .main-nav {
-  display: flex;
+  display: block;
+  padding: 8px;
   margin-top: 15px;
   position: sticky;
 }
@@ -37,10 +38,6 @@ a {
 .main-nav a {
   color: #000;
   font-size: 0.99em;
-  position: sticky;
-  display: block;
-  padding: 8px;
-  background-color: #FAFAFA;
 }
 
 .main-nav a:hover {
