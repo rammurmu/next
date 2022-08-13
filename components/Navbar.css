@@ -1,12 +1,9 @@
-body {
-  background-color:white;
-}
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #FFF;
+  background-color: #000;
 }
 
 li {
@@ -22,7 +19,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-  background-color: orange;
+  background-color: blue;
 }
 
 li.dropdown {
