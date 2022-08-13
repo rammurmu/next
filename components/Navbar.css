@@ -21,7 +21,7 @@ a {
 }
 
 .main-nav {
-  display: inline-block;
+  display: flex;
   padding: 8px;
   margin-top: 15px;
   position: sticky;
@@ -46,7 +46,7 @@ a {
 }
 
 .header {
-  display: inline-block;
+  display: flex;
   width: 100%;
   justify-content: space-between;
   padding-top: 0.9em;
