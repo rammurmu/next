@@ -4,7 +4,6 @@ import Sidebar from '../components/Sidebar'
 
 function Navbar() {
   return (
-      <main className={styles.main}>
       <nav className={'skip-nav'}>
       <ul className={'main-nav'}>
       <h1 className='logo'>
@@ -53,8 +52,7 @@ function Navbar() {
           </Link>
        </li>        
      </ul>  
-   </nav> 
-</main>
+   </nav>
  )
 }
 
