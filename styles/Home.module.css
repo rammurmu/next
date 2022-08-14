@@ -21,7 +21,6 @@
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
-  background-color: #FAFAFA;
 }
 
 .footer a {
@@ -155,7 +154,7 @@
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 300px;
-  background-color: #FAFAFA;
+  background-color: #FFF;
 }
 
 .card:hover,
