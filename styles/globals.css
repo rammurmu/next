@@ -43,9 +43,33 @@ text {
 }
 
 h2
+ {
+   color: #black;
+   margin: 0 0 1rem 0;
+   font-size: 1.4rem;
+}
+
 h3
+ {
+   color: #black;
+   margin: 0 0 1rem 0;
+   font-size: 1.3rem;
+}
+
 h4
+ {
+   color: #black;
+   margin: 0 0 1rem 0;
+   font-size: 1.2rem;
+}
+
 h5
+ {
+   color: #black;
+   margin: 0 0 1rem 0;
+   font-size: 1.1rem;
+}
+
 h6
  {
    color: #black;
@@ -190,7 +214,7 @@ input:focus {
   border-color: #0070f3;
 }
 
-buttons {
+button1 {
   display: block;
   width: 50%;
   padding: 0.5rem;
@@ -207,7 +231,7 @@ buttons:hover {
   background-color: #0060e9;
 }
 
-buttonss {
+button2 {
   display: table;
   width: 30%;
   padding: 0.9rem;
@@ -224,7 +248,7 @@ buttonss:hover {
   background-color: #0060e9;
 }
 
-button {
+button3 {
   display: block;
   width: 30%;
   padding: 0.9rem;
