@@ -205,7 +205,6 @@
 .card h2 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
-  background-color: #FAFAFA;
 }
 
 .card p {
@@ -215,7 +214,7 @@
 }
 
 .logo {
-  height: 1em;
+  height: 2em;
   margin-left: 0.5rem;
 }
 
