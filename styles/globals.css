@@ -50,7 +50,7 @@ h6
  {
    color: #black;
    margin: 0 0 1rem 0;
-   font-size: 1.5rem;
+   font-size: 1.0rem;
 }
 
 hr {
@@ -226,7 +226,7 @@ buttonss:hover {
 
 button {
   display: block;
-  width: 50%;
+  width: 30%;
   padding: 0.9rem;
   border: none;
   border-radius: 0.25rem;
