@@ -173,18 +173,6 @@ details-menu {
    max-width: 900px;
 }
 
-button,
-   abel[tabindex] {
-   font-family: apple-system;
-   font-size: inherit;
-   display: block;
-   background: none;
-   border: 0;
-   width: 50%;
-   text-align: centre;
-   padding: 0;
-}
-
 form {
   display: table;
   min-width: 350px;
@@ -213,59 +201,6 @@ input:focus {
   outline: none;
   border-color: #0070f3;
 }
-
-button1 {
-  display: block;
-  width: 40%;
-  padding: 0.5rem;
-  border: none;
-  border-radius: 0.25rem;
-  box-sizing: border-box;
-  margin-bottom: 2.5rem;
-  background-color: #DD6B20;
-  color: #fff;
-  cursor: pointer;
-}
-
-buttons:hover {
-  background-color: #0060e9;
-}
-
-button2 {
-  display: table;
-  width: 30%;
-  padding: 0.9rem;
-  border: none;
-  border-radius: 0.25rem;
-  box-sizing: border-box;
-  margin-bottom: 2.5rem;
-  background-color: #fff;
-  color: #DD6B20;
-  cursor: pointer;
-}
-
-buttonss:hover {
-  background-color: #0060e9;
-}
-
-button3 {
-  display: block;
-  width: 20%;
-  padding: 0.9rem;
-  border: none;
-  border-radius: 0.25rem;
-  box-sizing: border-box;
-  margin-bottom: 2.5rem;
-  background-color: #000;
-  color: #fff;
-  cursor: pointer;
-  justify-content: space-between;
-}
-
-button:hover {
-  background-color: #0060e9;
-}
-
 
 .container {
   min-height: 100vh;
