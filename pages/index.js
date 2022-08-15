@@ -148,7 +148,7 @@ export default function Home() {
       <div>
       </div>
       </main>
-      <div className={styles.container}>
+      <div className={styles.div}>
        <ul className={'main-nav'}>
        <li>
          <Link href='/about'>
