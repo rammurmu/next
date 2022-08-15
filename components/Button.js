@@ -5,7 +5,7 @@ export function Button() {
   return (
     <button
       type="button"
-      className={styles.button1}
+      className={styles.button}
     >
       Learn
     </button>
