@@ -4,8 +4,8 @@ import styles from './Button.module.css'
 export function Button() {
   return (
     <button
-      type="button1"
-      className={styles.button}
+      type="button"
+      className={styles.button1}
     >
       Learn
     </button>
