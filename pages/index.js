@@ -15,7 +15,7 @@ export default function Home() {
         <main className={styles.main}>
         
        <div className={styles.cards}><b>Latest updates:</b>Introducing the next generation & future of live retail streaming &rarr;</div>
-        <br />
+        
         <h1 className={styles.title}>
          Live retail streaming <br /><a href="https://">platform</a>
          </h1>
@@ -23,9 +23,9 @@ export default function Home() {
           Where the retailers build own made the live streaming store
          </p>
          
-         <button1 type="button1" className={styles.button1}>
+         <button type="button" className={styles.button}>
            Go live
-         </button1>
+         </button>
          
          <p className={styles.description}><code className={styles.code}>Get started free &rarr;</code></p>
 
