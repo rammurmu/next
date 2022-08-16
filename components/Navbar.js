@@ -12,13 +12,13 @@ function Navbar() {
           </Link>
         </h1>
        <li>
-         <Link href='/live'>
-            <a>Live</a>
+         <Link href='/'>
+            <a></a>
          </Link>
        </li>
        <li>
-         <Link href='/seller'>
-           <a></a>
+         <Link href='/live'>
+           <a>Live</a>
          </Link>
        </li>
        <li>
