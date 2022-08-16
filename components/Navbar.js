@@ -57,14 +57,14 @@ function Navbar() {
             </Link>
        </li>
        <li>
-            <Link href='/cart'>
+          <Link href='/cart'>
               <a>🛒</a>
-            </Link>
+           </Link>
        </li>
        <li>
-            <Link href='/setting'>
+          <Link href='/setting'>
               <a>⚙️</a>
-            </Link>
+           </Link>
        </li>
      </ul>  
    </nav>
