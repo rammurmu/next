@@ -166,13 +166,13 @@ export default function Home() {
           </Link>
        </li>     
        <li>
-          <Link href='/remote'>
-            <a>Remote</a>
+          <Link href='/support'>
+            <a>Support</a>
           </Link>
        </li>     
        <li>
-          <Link href='/schedule'>
-            <a>Schedule</a>
+          <Link href='/blog'>
+            <a>Blog</a>
           </Link>
        </li>     
        <li>
@@ -196,8 +196,8 @@ export default function Home() {
           </Link>
        </li> 
        <li>
-          <Link href='/blog'>
-            <a>Blog</a>
+          <Link href='/'>
+            <a></a>
           </Link>
        </li>                 
       </ul>
