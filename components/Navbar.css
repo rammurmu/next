@@ -38,11 +38,11 @@ a {
 .main-nav a {
   color: #000;
   font-size: .875rem;
+  float: centre;
 }
 
 .main-nav a:hover {
   color: #000;
-  float: centre;
 }
 
 .header {
