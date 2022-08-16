@@ -56,6 +56,16 @@ function Navbar() {
               <a>Signin</a>
             </Link>
        </li>
+       <li>
+            <Link href='/cart'>
+              <a>🛒</a>
+            </Link>
+       </li>
+       <li>
+            <Link href='/setting'>
+              <a>⚙️</a>
+            </Link>
+       </li>
      </ul>  
    </nav>
  )
