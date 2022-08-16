@@ -18,7 +18,7 @@ a {
 
 .logo {
   margin: 0;
-  font-size: 1.45em;
+  font-size: 1.60em;
 }
 
 .main-nav {
@@ -41,6 +41,7 @@ a {
   font-size: .875rem;
   float: centre;
   width: 85%;
+  border-bottom: 1px solid #eaeaea;
 }
 
 .main-nav a:hover {
