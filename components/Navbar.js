@@ -7,15 +7,10 @@ function Navbar() {
       <nav className={'skip-nav'}>
       <ul className={'main-nav'}>
       <h1 className='logo'>
-          <Link href='/dashboard'>
+          <Link href='/index'>
           <a>RunAsh</a>
           </Link>
         </h1>
-       <li>
-         <Link href='/'>
-            <a></a>
-         </Link>
-       </li>
        <li>
          <Link href='/live'>
            <a>Live</a>
