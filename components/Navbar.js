@@ -13,44 +13,54 @@ function Navbar() {
         </h1>
        <li>
          <Link href='/about'>
-            <a>Startup</a>
+            <a></a>
          </Link>
        </li>
        <li>
          <Link href='/seller'>
-           <a>Seller</a>
+           <a></a>
          </Link>
        </li>
+       <li>
+          <Link href='/seller'>
+            <a>Seller</a>
+          </Link>
+       </li>     
        <li>
           <Link href='/buyer'>
             <a>Buyer</a>
           </Link>
        </li>     
        <li>
-          <Link href='/live'>
-            <a>Live</a>
+          <Link href='/schedule'>
+            <a>Schedule</a>
           </Link>
-       </li>     
+       </li> 
+       <li>
+       <Link href="/live">
+         <a>Live</a>
+      </Link>
+      </li>       
+      <li>
+       <Link href="/influencers">
+         <a>Influencers</a>
+      </Link>
+      </li>               
        <li>
           <Link href='/watch'>
             <a>Watch</a>
           </Link>
-       </li> 
+       </li>
        <li>
-       <Link href="/influencers">
-         <a>Influencers</a>
-      </Link>
-      </li>       
-      <li>
-       <Link href="/store">
-         <a>Store</a>
-      </Link>
-      </li>               
+            <Link href='/js-form'>
+            <a>Login</a>
+            </Link>
+       </li>
        <li>
-          <Link href='/js-form'>
-            <a>LogIn</a>
-          </Link>
-       </li>        
+            <Link href='/signin'>
+              <a>Signin</a>
+            </Link>
+       </li>
      </ul>  
    </nav>
  )
