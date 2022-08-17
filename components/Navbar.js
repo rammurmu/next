@@ -4,7 +4,7 @@ import Sidebar from '../components/Sidebar'
 
 function Navbar() {
   return (
-      <div className='header'>
+      <div className={styles.header}>
         <h1>New</h1>
         <p>welcome to runash </p>
       </div>
