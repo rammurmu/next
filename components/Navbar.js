@@ -4,7 +4,9 @@ import Sidebar from '../components/Sidebar'
 
 function Navbar() {
   return (
-      <nav className={'header'}>
+      <div className={'header'}>
+        <p className={styles.description}></p>
+      </div>
       <ul className={'main-nav'}>
       <h1 className='logo'>
           <Link href='/index'>
