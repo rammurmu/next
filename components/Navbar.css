@@ -2,7 +2,6 @@ ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   overflow: hidden;
@@ -17,13 +16,13 @@ li {
 li a {
   color: #000;
   disply: block;
-  text-aligh: centre;
+  text-align: centre;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 li a:hover {
-  background-color: #FAFAFA
+  background-color: #FAFAFA;
   text-decoration: none;
 }
 
