@@ -12,7 +12,7 @@ function Navbar() {
          </a>
          </Link>
        </h2>
-       </nav>
+       
       <ul className={'main-nav'}>
       <li> 
           <Link href='/about'>
@@ -74,7 +74,8 @@ function Navbar() {
               <a>⚙️</a>
            </Link>
        </li>
-     </ul>  
+     </ul> 
+    </nav> 
  )
 }
 
