@@ -6,6 +6,7 @@ function Navbar() {
   return (
       <nav className={'header'}>
        <p>welcome to runash</p>
+        <br />
       <ul className={'main-nav'}>
       <h1 className='logo'>
           <Link href='/index'>
