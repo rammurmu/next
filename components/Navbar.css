@@ -14,7 +14,7 @@ li a {
   color: #000;
   disply: block;
   text-align: centre;
-  padding: 14px 16px;
+  padding: 10px 14px;
   text-decoration: none;
 }
 
@@ -41,7 +41,7 @@ li a:hover {
 
 .logo a,
 .main-nav a {
-  padding: 15px 20px;
+  padding: 5px 15px;
   text-transform: uppercase-lowercase;
   text-align: centre;
   display: flex;
