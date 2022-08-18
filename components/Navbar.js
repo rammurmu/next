@@ -64,7 +64,9 @@ function Navbar() {
               <a>Signin</a>
             </Link>
        </li>
+       <li>
        <input className={styles.input} placeholder="Search..." />
+       </li>
        <li>
           <Link href='/cart'>
               <a>🛒</a>
