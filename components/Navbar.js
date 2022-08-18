@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 
 function Navbar() {
   return (
+      <div className={styles.container}>
       <nav className={'header'}> 
       <ul className={'main-nav'}>
       <li>
@@ -73,6 +74,7 @@ function Navbar() {
        </li>
      </ul> 
     </nav> 
+   </div>
  )
 }
 
