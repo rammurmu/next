@@ -6,7 +6,7 @@ ul {
   position: -webkit-sticky;
   top: 0;
   overflow: hidden;
-  background-color: #FAFAFA;
+  background-color: #FFF;
   width: 100%;
 }
 
@@ -19,12 +19,12 @@ li a {
 }
 
 li a:hover {
-  background-color: #FAFAFA;
+  background-color: #FFF;
   text-decoration: none;
 }
 
 .active {
-  background-color: #FFF;
+  background-color: blue;
 }
 
 .logo {
@@ -34,14 +34,14 @@ li a:hover {
 
 .main-nav {
   display: flex;
-  padding: 8px;
+  padding: 5px;
   margin-top: 15px;
   position: sticky;
 }
 
 .logo a,
 .main-nav a {
-  padding: 15px 20px;
+  padding: 10px 15px;
   text-transform: uppercase-lowercase;
   text-align: centre;
   display: flex;
@@ -51,7 +51,7 @@ li a:hover {
   color: #000;
   font-size: .875rem;
   float: centre;
-  width: 85%;
+  width: 100%;
   
 }
 
