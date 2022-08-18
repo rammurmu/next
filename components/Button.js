@@ -1,13 +1,14 @@
 import Link from 'next/link'
 import styles from './Button.module.css'
 
-export function Button() {
+export default function Button(props) {
   return (
     <button
       type="button"
-      className={styles.button}
+      className={styles.button} {...props} />
     >
       Learn
     </button>
   )
 }
+
