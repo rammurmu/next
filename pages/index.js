@@ -205,20 +205,10 @@ export default function Home() {
           </Link>
        </li>                 
        <li>
-          <Link href='/instagram'>
-            <a>Instagram</a>
+          <Link href='/blog'>
+            <a>Blog</a>
           </Link>
-       </li>                 
-       <li>
-          <Link href='/support'>
-            <a>Support</a>
-          </Link>
-       </li>                 
-       <li>
-          <Link href='/work'>
-            <a>Work</a>
-          </Link>
-       </li>                 
+       </li>                                 
       </ul>
     </div>
 
