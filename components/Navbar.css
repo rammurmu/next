@@ -30,8 +30,6 @@ li a:hover {
 .logo {
   margin: 0;
   font-size: 0.60em;
-  color: #DD6B20;
-  height: 2em;
 }
 
 .main-nav {
@@ -47,6 +45,8 @@ li a:hover {
   text-transform: uppercase-lowercase;
   text-align: centre;
   display: flex;
+  color: #DD6B20;
+  height: 2em;
 }
 
 .main-nav a {
