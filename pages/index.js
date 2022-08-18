@@ -29,7 +29,7 @@ export default function Home() {
          </p>
          
          <button className={styles.button}>Go Live</button>
-         <p><code className={styles.code}>Get started free &rarr;</code></p>
+         <code className={styles.code}>Get started free &rarr;</code>
 
         <div className={styles.grid}>
           <a href="https://runash.live/seller" className={styles.card}>
@@ -140,7 +140,7 @@ export default function Home() {
           </a>
         </div>
        
-        <h2 className={styles.description}>Begin your real life selling experices journey</h2>
+        <h2 className={styles.description}>Begin your real life selling and shopping experices journey</h2>
        <p className={styles.description}>Give feedback to improve live sell experience better &rarr;</p>
       
       <h2 className={styles.description}>Live sell for worlds users</h2> 
