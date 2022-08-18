@@ -4,16 +4,12 @@ import Sidebar from '../components/Sidebar'
 
 function Navbar() {
   return (
-      <nav className={'header'}>
-       <li className='logo'>
-         <Link href='/index'>
-         <a>
-           <b>RunAsh</b>
-         </a>
-         </Link>
-       </li>
-       
+      <nav className={'header'}> 
       <ul className={'main-nav'}>
+      <li>
+       <Link href='/index'>
+       <a><b>RunAsh</b></a>
+     </li>
       <li> 
           <Link href='/about'>
           <a>About</a>
