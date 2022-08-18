@@ -5,7 +5,7 @@ import Sidebar from '../components/Sidebar'
 function Navbar() {
   return (
       <nav className={'header'}>
-       <p className={styles.description}>welcome to runash</p>
+       <p className={styles.p}>welcome to runash</p>
         <br />
       <ul className={'main-nav'}>
       <h1 className='logo'>
