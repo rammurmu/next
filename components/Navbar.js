@@ -7,16 +7,16 @@ function Navbar() {
       <nav className={'header'}>
        <h1 className='logo'>
          <Link href='/index'>
-         <a>RunAsh live</a>
+         <a>RunAsh</a>
          </Link>
        </h1>
        
       <ul className={'main-nav'}>
-      <h1 className='logo'>
+      <li> 
           <Link href='/about'>
           <a>About</a>
           </Link>
-        </h1>
+        </li>
        <li>
          <Link href='/live'>
            <a>Live</a>
