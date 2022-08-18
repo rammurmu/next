@@ -61,10 +61,10 @@ li a:hover {
 
 .header {
   display: flex;
-  width: 100%;
+  width: 85%;
   justify-content: space-between;
-  padding-top: 0em;
-  padding-bottom: 0em;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
   background-color: #FFF;
   border-bottom: 1px solid #eaeaea;
   position: sticky;
@@ -74,8 +74,8 @@ li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 0em;
-  padding-bottom: 0em;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
   flex-grow: 5;
   position: sticky;
 }
