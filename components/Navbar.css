@@ -65,7 +65,7 @@ li a:hover {
 
 .header {
   display: flex;
-  width: 85%;
+  width: 100%;
   justify-content: space-between;
   padding-top: 0.9em;
   padding-bottom: 0.9em;
@@ -82,7 +82,11 @@ li a:hover {
   position: sticky;
 }
 
-
+.header p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
 
 
 
