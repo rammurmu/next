@@ -8,9 +8,7 @@ function Navbar() {
        <h1 className='logo'>
          <Link href='/index'>
          <a>
-          <span>
             <Image src="/vercel.svg" alt=" " width={72} height={16} />
-          </span>
          </a>
          </Link>
        </h1>
