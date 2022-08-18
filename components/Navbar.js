@@ -8,7 +8,7 @@ function Navbar() {
        <logo className='logo'>
          <Link href='/index'>
          <a>
-          <span className={styles.logo}>
+          <span>
             <Image src="/vercel.svg" alt=" " width={72} height={16} />
           </span>
          </a>
