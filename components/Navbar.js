@@ -34,7 +34,7 @@ function Navbar() {
        </li>     
        <li>
           <Link href='/watch'>
-            <a>Watch</a>
+            <a>Watching</a>
           </Link>
        </li> 
        <li>
