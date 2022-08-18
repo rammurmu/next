@@ -5,7 +5,7 @@ import Sidebar from '../components/Sidebar'
 function Navbar() {
   return (
       <nav className={'header'}>
-       <logo className='logo'>
+       <h1 className='logo'>
          <Link href='/index'>
          <a>
           <span>
@@ -13,7 +13,7 @@ function Navbar() {
           </span>
          </a>
          </Link>
-       </logo>
+       </h1>
        
       <ul className={'main-nav'}>
       <li> 
