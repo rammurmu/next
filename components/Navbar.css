@@ -24,7 +24,7 @@ li a:hover {
 }
 
 .active {
-  background-color: blue;
+  background-color: #000;
 }
 
 .logo {
@@ -65,7 +65,7 @@ li a:hover {
   justify-content: space-between;
   padding-top: 0em;
   padding-bottom: 0em;
-  background-color: #FFF;
+  background-color: #eaeaea;
   border-bottom: 1px solid #eaeaea;
   position: sticky;
 }
