@@ -5,6 +5,8 @@ import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import Button from '../components/Button'
 
+const Code = (p) => <code className={styles.inlineCode} {...p} />
+
 export default function Home() {
   return (
     <div className={styles.container}>
