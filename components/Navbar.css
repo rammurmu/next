@@ -73,7 +73,7 @@ li a:hover {
   display: flex;
   justify-content: right;
   align-items: right;
-  flex-grow: 3;
+  flex-grow: 5;
   position: sticky;
 }
 
