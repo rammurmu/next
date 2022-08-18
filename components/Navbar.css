@@ -45,8 +45,6 @@ li a:hover {
   text-transform: uppercase-lowercase;
   text-align: centre;
   display: flex;
-  color: #DD6B20;
-  height: 2em;
 }
 
 .main-nav a {
