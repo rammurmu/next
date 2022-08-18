@@ -218,6 +218,18 @@
   margin-left: 0.5rem;
 }
 
+.inlineCode {
+  color: #be00ff;
+  font-size: 16px;
+  white-space: pre-wrap;
+}
+
+.inlineCode::before,
+.inlineCode::after {
+  content: '`';
+}
+
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
