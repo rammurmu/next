@@ -9,6 +9,7 @@ function Navbar() {
       <li>
        <Link href='/index'>
        <a><b>RunAsh</b></a>
+       </Link>
      </li>
       <li> 
           <Link href='/about'>
