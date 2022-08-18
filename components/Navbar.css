@@ -61,11 +61,11 @@ li a:hover {
 
 .header {
   display: flex;
-  width: 100%;
+  width: 85%;
   justify-content: space-between;
   padding-top: 0em;
   padding-bottom: 0em;
-  background-color: #eaeaea;
+  background-color: #FFF;
   border-bottom: 1px solid #eaeaea;
   position: sticky;
 }
