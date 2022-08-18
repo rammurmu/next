@@ -75,8 +75,8 @@ function Navbar() {
        </li>
      </ul> 
     </nav> 
+   </main>
    </div>
-  </main>
  )
 }
 
