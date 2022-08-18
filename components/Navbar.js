@@ -12,11 +12,6 @@ function Navbar() {
        <a><b>RunAsh</b></a>
        </Link>
      </li>
-      <li> 
-          <Link href='/about'>
-          <a>About</a>
-          </Link>
-        </li>
        <li>
          <Link href='/live'>
            <a>Live</a>
