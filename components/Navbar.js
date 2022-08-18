@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Sidebar from '../components/Sidebar'
-
+import styles from '../styles/Home.module.css'
 
 function Navbar() {
   return (
@@ -58,7 +58,7 @@ function Navbar() {
        </li>
        <li>
             <Link href='/signin'>
-              <a>Signin</a>
+              <a><code className={styles.code}>Signin</code></a>
             </Link>
        </li>
        <li>
