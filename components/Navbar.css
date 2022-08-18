@@ -6,12 +6,8 @@ ul {
   position: -webkit-sticky;
   top: 0;
   overflow: hidden;
-  background-color: #FFF;
-  width: 85%;
-}
-
-li {
-  flot: right;
+  background-color: #FAFAFA;
+  width: 100%;
 }
 
 li a {
@@ -28,7 +24,7 @@ li a:hover {
 }
 
 .active {
-  background-color: #4CAF50;
+  background-color: #FFF;
 }
 
 .logo {
@@ -80,12 +76,6 @@ li a:hover {
   align-items: center;
   flex-grow: 5;
   position: sticky;
-}
-
-.p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
 }
 
 
