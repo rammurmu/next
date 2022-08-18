@@ -41,7 +41,7 @@ li a:hover {
 
 .logo a,
 .main-nav a {
-  padding: 5px 5px;
+  padding: 5px 10px;
   text-transform: uppercase-lowercase;
   text-align: centre;
   display: flex;
@@ -73,7 +73,7 @@ li a:hover {
   display: flex;
   justify-content: right;
   align-items: right;
-  flex-grow: 10;
+  flex-grow: 1;
   position: sticky;
 }
 
