@@ -41,7 +41,7 @@ li a:hover {
 
 .logo a,
 .main-nav a {
-  padding: 15px 15px;
+  padding: 5px 15px;
   text-transform: uppercase-lowercase;
   text-align: centre;
   display: flex;
@@ -61,18 +61,18 @@ li a:hover {
 
 .header {
   display: flex;
-  width: 85%;
+  width: 100%;
   justify-content: space-between;
-  padding-top: 0.01em;
-  padding-bottom: 0.01em;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
   background-color: #FFF;
   position: sticky;
 }
 
 .header a {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: right;
+  align-items: right;
   flex-grow: 5;
   position: sticky;
 }
