@@ -5,11 +5,15 @@ import Sidebar from '../components/Sidebar'
 function Navbar() {
   return (
       <nav className={'header'}>
-       <h1 className='logo'>
+       <logo className='logo'>
          <Link href='/index'>
-         <a>RunAsh</a>
+         <a>
+          <span className={styles.logo}>
+            <Image src="/vercel.svg" alt=" " width={72} height={16} />
+          </span>
+         </a>
          </Link>
-       </h1>
+       </logo>
        
       <ul className={'main-nav'}>
       <li> 
