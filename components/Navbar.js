@@ -43,13 +43,13 @@ function Navbar() {
       </Link>
       </li>       
       <li>
-       <Link href="/store">
-         <a>Store</a>
+       <Link href="/schedules">
+         <a>Schedules</a>
       </Link>
       </li>               
        <li>
-          <Link href='/schedules'>
-            <a>Schedules</a>
+          <Link href='/store'>
+            <a>Stote</a>
           </Link>
        </li>
        <li>
