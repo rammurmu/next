@@ -63,8 +63,8 @@ li a:hover {
   display: flex;
   width: 100%;
   justify-content: space-between;
-  padding-top: 0.9em;
-  padding-bottom: 0.9em;
+  padding-top: 0em;
+  padding-bottom: 0em;
   background-color: #FAFAFA;
   border-bottom: 1px solid #eaeaea;
   position: sticky;
