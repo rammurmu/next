@@ -5,7 +5,11 @@ import Sidebar from '../components/Sidebar'
 function Navbar() {
   return (
       <nav className={'header'}>
-       <p className={styles.p}>welcome to runash</p>
+       <p className={'p'}>
+         <Link href='/#'>
+         <a>Welcome to runash</a>
+         </Link>
+       </p>
         <br />
       <ul className={'main-nav'}>
       <h1 className='logo'>
