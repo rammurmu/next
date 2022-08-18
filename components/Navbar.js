@@ -5,16 +5,16 @@ import Sidebar from '../components/Sidebar'
 function Navbar() {
   return (
       <nav className={'header'}>
-       <p className={'p'}>
-         <Link href='/#'>
-         <a>Welcome to runash</a>
+       <h1 className='logo'>
+         <Link href='/index'>
+         <a>RunAsh live</a>
          </Link>
-       </p>
-        <br />
+       </h1>
+       
       <ul className={'main-nav'}>
       <h1 className='logo'>
-          <Link href='/index'>
-          <a>RunAsh</a>
+          <Link href='/about'>
+          <a>About</a>
           </Link>
         </h1>
        <li>
