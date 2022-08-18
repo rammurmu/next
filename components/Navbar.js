@@ -7,9 +7,9 @@ function Navbar() {
       <nav className={'header'}>
        <h1 className='logo'>
          <Link href='/index'>
-         <span>
-            <Image src="/vercel.svg" alt=" " width={72} height={16} />
-         </span>
+         <a>
+           
+         </a>
          </Link>
        </h1>
        
