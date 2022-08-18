@@ -41,7 +41,7 @@ li a:hover {
 
 .logo a,
 .main-nav a {
-  padding: 15px 20px;
+  padding: 10px 20px;
   text-transform: uppercase-lowercase;
   text-align: centre;
   display: flex;
