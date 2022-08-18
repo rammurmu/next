@@ -5,14 +5,14 @@ import Sidebar from '../components/Sidebar'
 function Navbar() {
   return (
       <nav className={'header'}>
-       <h1 className='logo'>
+       <h2 className='logo'>
          <Link href='/index'>
          <a>
-           
+           RunAsh
          </a>
          </Link>
-       </h1>
-       
+       </h2>
+       </nav>
       <ul className={'main-nav'}>
       <li> 
           <Link href='/about'>
@@ -75,7 +75,6 @@ function Navbar() {
            </Link>
        </li>
      </ul>  
-   </nav>
  )
 }
 
