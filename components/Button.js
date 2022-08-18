@@ -6,9 +6,5 @@ export default function Button(props) {
     <button
       type="button"
       className={styles.button} {...props} />
-    >
-      Learn
-    </button>
-  )
 }
 
