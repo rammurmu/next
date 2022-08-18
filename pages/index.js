@@ -140,10 +140,10 @@ export default function Home() {
           </a>
         </div>
        
-        <h4 className={styles.description}>Real life selling experices</h4>
+        <h2 className={styles.description}>Begin your real life selling experices journey</h2>
        <p className={styles.description}>Give feedback to improve live sell experience better &rarr;</p>
       
-      <h4 className={styles.description}>Sell for worlds users</h4> 
+      <h2 className={styles.description}>Live sell for worlds users</h2> 
       <p className={styles.description}>Sign up weekly updates for real selling & buying</p>
       
       <input className={styles.input} placeholder="email address..." pattern="https://runash.in" size="50" required />
@@ -170,13 +170,8 @@ export default function Home() {
           </Link>
        </li>     
        <li>
-          <Link href='/support'>
-            <a>Support</a>
-          </Link>
-       </li>     
-       <li>
-          <Link href='/blog'>
-            <a>Blog</a>
+          <Link href='/contact'>
+            <a>Contact</a>
           </Link>
        </li>     
        <li>
@@ -188,20 +183,40 @@ export default function Home() {
           <Link href='/faq'>
             <a>FAQ</a>
           </Link>
+       </li>     
+       <li>
+          <Link href='/twitter'>
+            <a>Twitter</a>
+          </Link>
        </li> 
        <li>
-          <Link href='/resource'>
-            <a>Resource</a>
+          <Link href='/facebook'>
+            <a>Facebook</a>
           </Link>
        </li>     
        <li>
-          <Link href='/docs'>
-            <a>Docs</a>
+          <Link href='/linkedin'>
+            <a>LinkedIn</a>
           </Link>
        </li> 
        <li>
-          <Link href='/'>
-            <a></a>
+          <Link href='/git'>
+            <a>GitHub</a>
+          </Link>
+       </li>                 
+       <li>
+          <Link href='/instagram'>
+            <a>Instagram</a>
+          </Link>
+       </li>                 
+       <li>
+          <Link href='/support'>
+            <a>Support</a>
+          </Link>
+       </li>                 
+       <li>
+          <Link href='/work'>
+            <a>Work</a>
           </Link>
        </li>                 
       </ul>
