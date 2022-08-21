@@ -24,13 +24,14 @@ export default function About() {
           We create real-life experiences to enable and access face-to-face
         </p>
         <div className={styles.grid}>
-     
+        <div>
         <h3 className={styles.description}>Journey </h3>
          <p className={styles.description}>Journey from a small village in India to Sillicone Valley Y Combinator startup school community member<br />Learn more &rarr;</p>
-         <hr />
+         </div>
+        <div>
         <h3 className={styles.description}>Oneliner</h3>
           <p className={styles.description}>A live streaming hybrid marketplace for retailing<br />Learn more &rarr;</p>
-        
+        </div>
         
          <h3 className={styles.description}>Discipline</h3>
           <p className={styles.description}>Discipline and learning is the bacbone of the development of our startup journy and culture is behavior<br />Learn more &rarr;</p>
