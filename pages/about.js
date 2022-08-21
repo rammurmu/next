@@ -41,22 +41,22 @@ export default function About() {
          <p className={styles.description}>We created new model of live streaming marketplace and environment where retailers face to face demonstrate and presented their products with buyers<br />Learn more &rarr;</p>
        </div>
        <div className={styles.card}>
-        <h3 className={styles.description}>🎥 What we going to make</h3>
+        <h3 className={styles.description}>What we going to make</h3>
           <p className={styles.description}>We are committed to building a live retail streaming hybrid platform for unorganised retailers and new ways to use physical reality experience<br />Learn more &rarr;</p>
         </div>
         <div className={styles.card}>
-         <h3 className={styles.description}>🎤Founders story </h3>
+         <h3 className={styles.description}>Founders story </h3>
          <p className={styles.description}>🤼 We are both brothers,our business journey started in 2007 from a small offline retail store, the Journey from the school classroom to the board room<br />Learn more &rarr;</p>
        </div>
-       <div>
-         <h3>👨‍💻 Executive profile</h3>
-          <p className={styles.description}>Board of Directors<br />Learn more &rarr;</p>
-        <card1 className={styles.card1}>Ram Murmu </card1>
-        <card1 className={styles.card1}>Vaibhav Murmu</card1>
+       <div className={styles.title}>
+         <h1>Executive profile</h1>
+          <p className={styles.description}>Board of Directors</p>
+        <card1 className={styles.card1}>Ram Murmu <br >Founder and CEO</card1>
+        <card1 className={styles.card1}>Vaibhav Murmu<br />Co-Founder and CFO</card1>
         </div>
 
        <div>
-         <h3 className={styles.description}>Backed by</h3>
+         <h1 className={styles.title}>Backed by</h1>
          <p className={styles.description}><code className={styles.code}>Open Source</code></p>
        </div>
 
