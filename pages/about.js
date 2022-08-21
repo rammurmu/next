@@ -56,33 +56,23 @@ export default function About() {
      <div>
        <ul className={'main-nav'}>
        <li>
-         <Link href='/faq'>
-            <a>FAQ</a>
+         <Link href='/about'>
+            <a>About</a>
          </Link>
        </li>
        <li>
-         <Link href='/blog'>
-            <a>Blog</a>
+         <Link href='/privacy'>
+            <a>Privacy</a>
          </Link>
        </li>
        <li>
-         <Link href='/influencers'>
-           <a>Influencers</a>
+         <Link href='/help'>
+           <a>Help</a>
          </Link>
        </li>
        <li>
-          <Link href='/help'>
-            <a>Help</a>
-          </Link>
-       </li>     
-       <li>
-          <Link href='/remote'>
-            <a>Remote</a>
-          </Link>
-       </li>     
-       <li>
-          <Link href='/schedule'>
-            <a>Schedule</a>
+          <Link href='/contact'>
+            <a>Contact</a>
           </Link>
        </li>     
        <li>
@@ -91,18 +81,28 @@ export default function About() {
           </Link>
        </li>     
        <li>
-          <Link href='/login'>
-            <a>Login</a>
+          <Link href='/faq'>
+            <a>FAQ</a>
+          </Link>
+       </li>     
+       <li>
+          <Link href='/'>
+            <a></a>
+          </Link>
+       </li>     
+       <li>
+          <Link href='/'>
+            <a></a>
           </Link>
        </li>  
        <li>
-         <Link href='/contact'>
-          <a>Contact</a>
+         <Link href='/'>
+          <a></a>
         </Link>
        </li>  
        <li>
-         <Link href='/no-js-form'>
-         <a>Form</a>
+         <Link href='/'>
+         <a></a>
        </Link>
        </li> 
       </ul>
