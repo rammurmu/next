@@ -14,7 +14,7 @@ export default function Buyer() {
       </Head>
         <main className={styles.main}>
         
-        <p className={styles.description}><code className={styles.code}>👏 Welcome to RunAsh</code></p>
+        
         <h1 className={styles.title}>
          NextGen shopping <br /><a href="https://">experience</a>
         </h1>
