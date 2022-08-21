@@ -194,6 +194,7 @@ export default function Blog() {
       </ul>
     </div>
     </div>
+    <div>
     <footer className={styles.footer}>
         <a
           href="https://runash.in"
