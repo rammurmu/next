@@ -20,7 +20,7 @@ export default function Seller() {
           Give your store a real experience on a complete real digitization 
         </p>
         <button type="Go live">Go live</button>
-        <p className={styles.description}>Unique real experiences </p>
+        <p className={styles.description}>Unique real experiences✨ </p>
         <div className={styles.grid}>
           <a href="https://" className={styles.card}>
             <h2>Ubiquity</h2>
@@ -76,7 +76,7 @@ export default function Seller() {
        <p className={styles.card}>🆔 Private data</p>
        </div>
      <br />
-      <h2 className={styles.title}>How it works ?</h2>
+      <h2 className={styles.title}>How it works</h2>
       <p className={styles.description}>Learn more &rarr;</p>
 
       <p className={styles.description}>Get support <b>24 x 7 x 365 </b>days &rarr;</p>
