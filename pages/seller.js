@@ -119,6 +119,11 @@ export default function Seller() {
             <a>Careers</a>
           </Link>
        </li>     
+       <li>
+          <Link href='/blog'>
+            <a>Blog</a>
+          </Link>
+       </li>     
       </ul>
   </div>
       <footer className={styles.footer}>
