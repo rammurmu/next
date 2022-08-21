@@ -95,13 +95,13 @@ export default function Buyer() {
           </a>    
       </div>
      <br />
-     <p className={styles.description}>Real life 🛍️ shopping schedule now </p>
+     <p className={styles.description}>Real🛍️ shopping schedule now </p>
      <br />
     <div className={styles.grid}>
     <p className={styles.card}>📅 Date & Time⏱️</p>
     </div>
     <button type="button">Schedule</button>
-    <h2 className={styles.title}>Future of organic retail</h2>
+    <h2 className={styles.title}>Future of retail</h2>
      <p className={styles.description}>One stop solution for organic products</p>
      </main> 
      <div>
