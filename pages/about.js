@@ -15,7 +15,7 @@ export default function About() {
         <link rel="icon" href="favicon.icon"/>
       </Head>
       <main className={styles.main}> 
-       <div className={styles.card}>👏 Welcome to runash </div> 
+       <h1>Where the retailers build real experince</h1> 
       
       <h1 className={styles.title}>
         <a href="https://">Our mission</a>
@@ -32,24 +32,24 @@ export default function About() {
         <h3 className={styles.description}>Oneliner</h3>
           <p className={styles.description}>A live streaming hybrid marketplace for retailing,where retailers can meet to buyers and demonstrate their products<br />Learn more &rarr;</p>
         </div>
-        <div>
+        <div className={styles.card}>
          <h3 className={styles.description}>Discipline</h3>
           <p className={styles.description}>Discipline and learning is the bacbone of the development of our startup journy and culture is behavior<br />Learn more &rarr;</p>
         </div>
-        <div>
+        <div className={styles.card}>
         <h3 className={styles.description}>What we do</h3>
          <p className={styles.description}>We created new model of live streaming marketplace and environment where retailers face to face demonstrate and presented their products with buyers<br />Learn more &rarr;</p>
        </div>
-       <div>
+       <div className={styles.card}>
         <h3 className={styles.description}>🎥 What we going to make</h3>
           <p className={styles.description}>We are committed to building a live retail streaming hybrid platform for unorganised retailers and new ways to use physical reality experience<br />Learn more &rarr;</p>
         </div>
-        <div>
+        <div className={styles.card}>
          <h3 className={styles.description}>🎤Founders story </h3>
          <p className={styles.description}>🤼 We are both brothers,our business journey started in 2007 from a small offline retail store, the Journey from the school classroom to the board room<br />Learn more &rarr;</p>
        </div>
        <div>
-         <h3 className={styles.description}>👨‍💻 Executive profile</h3>
+         <h3>👨‍💻 Executive profile</h3>
           <p className={styles.description}>Board of Directors<br />Learn more &rarr;</p>
         <card1 className={styles.card1}>Ram Murmu </card1>
         <card1 className={styles.card1}>Vaibhav Murmu</card1>
