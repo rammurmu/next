@@ -185,28 +185,28 @@ export default function Home() {
           </Link>
        </li>     
        <li>
-          <Link href='/twitter'>
-            <a>Twitter</a>
+          <Link href='/careers'>
+            <a>Careers</a>
           </Link>
        </li> 
        <li>
-          <Link href='/facebook'>
-            <a>Facebook</a>
+          <Link href='/bolg'>
+            <a>Blog</a>
           </Link>
        </li>     
        <li>
-          <Link href='/linkedin'>
-            <a>LinkedIn</a>
+          <Link href='/'>
+            <a></a>
           </Link>
        </li> 
        <li>
-          <Link href='/git'>
-            <a>GitHub</a>
+          <Link href='/'>
+            <a></a>
           </Link>
        </li>                 
        <li>
-          <Link href='/blog'>
-            <a>Blog</a>
+          <Link href='/'>
+            <a></a>
           </Link>
        </li>                                 
       </ul>
