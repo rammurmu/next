@@ -137,8 +137,13 @@ export default function Buyer() {
           </Link>
        </li>     
        <li>
-          <Link href='/'>
-            <a></a>
+          <Link href='/careers'>
+            <a>Careers</a>
+          </Link>
+       </li>     
+       <li>
+          <Link href='/blog'>
+            <a>Blog</a>
           </Link>
        </li>     
       </ul>
