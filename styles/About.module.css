@@ -1,15 +1,17 @@
 .container {
   padding: 0 2rem;
+ 
 }
-  
+
 .main {
   min-height: 100vh;
   padding: 4rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: centre;
-  align-items: centre;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFF;
 }
 
 .footer {
@@ -25,11 +27,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-grow: 1;
+  flex-grow: 0;
 }
 
 .title a {
-  color: #0070f3;
+  color: #DD6B20;
   text-decoration: none;
 }
 
@@ -41,8 +43,8 @@
 
 .title {
   margin: 0;
-  line-height: 1.10;
-  font-size: 2rem;
+  line-height: 1.15;
+  font-size: 4rem;
 }
 
 .title,
@@ -51,41 +53,146 @@
 }
 
 .description {
-  margin: 5rem 0;
-  line-height: 1.2;
-  font-size: 1.5rem;
-
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-size: 1.1rem;
 }
 
 .code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 1.5rem;
+  display:flex;
+  justify-content: space-between;
+  background: #FFF;
+  color: green;
+  text-decoration: green;
+  border: 1px solid green;
+  border-radius: 10px;
+  padding: 0.75rem;
   font-size: 1.1rem;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
+.code1 {
+  display:flex;
+  justify-content: space-between;
+  background: #FFF;
+  color: blue;
+  text-decoration: #0761D1;
+  border: 1px solid #0761D1;
+  border-radius: 10px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.codes2 {
+  display:flex;
+  justify-content: space-between;
+  background: #0761D1;
+  color: white;
+  text-decoration: white;
+  border: 1px solid #0761D1;
+  border-radius: 10px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.code3 {
+  display:flex;
+  justify-content: space-between;
+  background: orange;
+  color: white;
+  text-decoration: white;
+  border: 1px solid #orange;
+  border-radius: 10px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+
 .grid {
   display: flex;
-  align-items: centre;
-  justify-content: centre;
+  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   max-width: 800px;
-  border-top: 1px solid #eaeaea;
+}
+
+.cards {
+  margin: 1rem 0;
+  line-height: 1.5;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 1100px;
+  background-color: #FAFAFA;
+}
+
+.cards:hover,
+.cards:focus,
+.cards:active {
+  color: #0070f3;
+  border-color: #0070f3;
 }
 
 .card {
   margin: 1rem;
-  padding: 1.0rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 300px;
+  background-color: #FFF;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+.card1 {
+  margin: 1rem;
+  padding: 1.5rem;
   text-align: centre;
   color: inherit;
   text-decoration: none;
   border: 1px solid #eaeaea;
-  border-radius: 5px;
+  border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 300px;
-  
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+.card2 {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 300px;
 }
 
 .card:hover,
@@ -102,30 +209,30 @@
 
 .card p {
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   line-height: 1.5;
 }
 
-.p {
- font-size: 20px;
-}
-
-.h1 {
- font-size: 30px;
-}
-
 .logo {
-  height: 1em;
+  height: 2em;
   margin-left: 0.5rem;
 }
+
+.inlineCode {
+  color: #be00ff;
+  font-size: 16px;
+  white-space: pre-wrap;
+}
+
+.inlineCode::before,
+.inlineCode::after {
+  content: '`';
+}
+
 
 @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
   }
-
-.main {
-  text-align: centre;
- }
 }
