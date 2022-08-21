@@ -21,8 +21,12 @@ export default function Live() {
         </div>
 
        <div>
-            <p>Category<br />Add your product stream to category<br />select<br />Vegetables<br />Fruits
-              </p>
+         <p>Category<br />Add your product stream to categories</p>
+        <select className={styles.selectWrapper}select id="select" name="select">
+        <option>Category</option>
+        <option>Vegetable</option>
+        <option>Fruit</option>
+        </select>
        </div>
 
       <div>
