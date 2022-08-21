@@ -49,14 +49,14 @@ export default function About() {
          <p className={styles.description}>🤼 We are both brothers,our business journey started in 2007 from a small offline retail store, the Journey from the school classroom to the board room<br />Learn more &rarr;</p>
        </div>
        
-         <h1>Executive profile</h1>
+         <h1 className={styles.title}>Executive profile</h1>
          <p className={styles.description}>Board of Directors</p>
-        <li>Ram Murmu <br />Founder and CEO</li>
+        <li>Ram Murmu <br />Founder and CEO</li><br />
         <li>Vaibhav Murmu<br />Co-Founder and CFO</li>
         
 
        
-         <h1>Backed by</h1>
+         <h1 className={styles.title}>Backed by</h1>
          <p className={styles.description}>Open Source</p>
        
 
