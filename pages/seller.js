@@ -12,7 +12,7 @@ export default function Seller() {
         <link rel="icon" href="/favicon.icon" />  
       </Head>
         <main className={styles.main}>
-        <p className={styles.description}><code className={styles.code}>👏 Welcome to RunAsh</code></p>
+        
         <h1 className={styles.title}>
           Make your own made<br /><a href="https://">business</a>
         </h1>   
