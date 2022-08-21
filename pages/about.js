@@ -55,7 +55,7 @@ export default function About() {
        <div>
          <h3 className={styles.description}>Backed by</h3>
          <p className={styles.description}>Open Source</p>
-       <div>
+       </div>
         </div>
       </main>
      <div>
