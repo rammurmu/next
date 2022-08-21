@@ -32,26 +32,30 @@ export default function About() {
         <h3 className={styles.description}>Oneliner</h3>
           <p className={styles.description}>A live streaming hybrid marketplace for retailing<br />Learn more &rarr;</p>
         </div>
-        
+        <div>
          <h3 className={styles.description}>Discipline</h3>
           <p className={styles.description}>Discipline and learning is the bacbone of the development of our startup journy and culture is behavior<br />Learn more &rarr;</p>
-        
+        </div>
+        <div>
         <h3 className={styles.description}>What we do</h3>
          <p className={styles.description}>We created new model of live streaming marketplace and environment where retailers face to face demonstrate and presented their products with buyers<br />Learn more &rarr;</p>
-       
+       </div>
+       <div>
         <h3 className={styles.description}>🎥 What we going to make</h3>
           <p className={styles.description}>We are committed to building a live retail streaming hybrid platform for unorganised retailers and new ways to use physical reality experience<br />Learn more &rarr;</p>
-         
+        </div>
+        <div>
          <h3 className={styles.description}>🎤Founders story </h3>
          <p className={styles.description}>🤼 We are both brothers,our business journey started in 2007 from a small offline retail store, the Journey from the school classroom to the board room<br />Learn more &rarr;</p>
-
+       </div>
+       <div>
          <h3 className={styles.description}>👨‍💻 Executive profile</h3>
           <p className={styles.description}>Board of Directors<br />Ram Murmu and Vaibhav Murmu<br /> Learn more &rarr;</p>
-         
-         
+        </div>
+       <div>
          <h3 className={styles.description}>Backed by</h3>
          <p className={styles.description}>Open Source</p>
-       
+       <div>
         </div>
       </main>
      <div>
