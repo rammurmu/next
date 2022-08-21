@@ -22,6 +22,65 @@ export default function Contact() {
           </Link>
         </p>
       </main>
+      <div className={styles.grid}>
+       <ul className={'main-nav'}>
+       <li>
+         <Link href='/about'>
+            <a>About</a>
+         </Link>
+       </li>
+       <li>
+         <Link href='/privacy'>
+           <a>Privacy</a>
+         </Link>
+       </li>
+       <li>
+          <Link href='/help'>
+            <a>Help</a>
+          </Link>
+       </li>     
+       <li>
+          <Link href='/contact'>
+            <a>Contact</a>
+          </Link>
+       </li>     
+       <li>
+          <Link href='/feedback'>
+            <a>Feedback</a>
+          </Link>
+       </li>     
+       <li>
+          <Link href='/faq'>
+            <a>FAQ</a>
+          </Link>
+       </li>     
+       <li>
+          <Link href='/careers'>
+            <a>Careers</a>
+          </Link>
+       </li> 
+       <li>
+          <Link href='/bolg'>
+            <a>Blog</a>
+          </Link>
+       </li>     
+       <li>
+          <Link href='/'>
+            <a></a>
+          </Link>
+       </li> 
+       <li>
+          <Link href='/'>
+            <a></a>
+          </Link>
+       </li>                 
+       <li>
+          <Link href='/'>
+            <a></a>
+          </Link>
+       </li>                                 
+      </ul>
+    </div>
     </div>
   )
 }
