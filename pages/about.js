@@ -24,7 +24,7 @@ export default function About() {
           We create real-life experiences to enable and access face-to-face
         </p>
         <div className={styles.grid}>
-        <div className={styles.card}>
+     
         <h3 className={styles.description}>Journey </h3>
          <p className={styles.description}>Journey from a small village in India to Sillicone Valley Y Combinator startup school community member<br />Learn more &rarr;</p>
          <hr />
@@ -50,7 +50,7 @@ export default function About() {
          
          <h3 className={styles.description}>Backed by</h3>
          <p className={styles.description}>Open Source</p>
-         </div>
+       
         </div>
       </main>
      <div>
