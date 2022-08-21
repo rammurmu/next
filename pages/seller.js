@@ -85,13 +85,13 @@ export default function Seller() {
       <div>
        <ul className={'main-nav'}>
        <li>
-         <Link href='/faq'>
-            <a>FAQ</a>
+         <Link href='/about'>
+            <a>About</a>
          </Link>
        </li>
        <li>
-         <Link href='/influencers'>
-           <a>Influencers</a>
+         <Link href='/privacy'>
+           <a>Privacy</a>
          </Link>
        </li>
        <li>
@@ -100,13 +100,8 @@ export default function Seller() {
           </Link>
        </li>     
        <li>
-          <Link href='/remote'>
-            <a>Remote</a>
-          </Link>
-       </li>     
-       <li>
-          <Link href='/schedule'>
-            <a>Schedule</a>
+          <Link href='/contact'>
+            <a>Contact</a>
           </Link>
        </li>     
        <li>
@@ -115,8 +110,13 @@ export default function Seller() {
           </Link>
        </li>     
        <li>
-          <Link href='/signin'>
-            <a>Signin</a>
+          <Link href='/faq'>
+            <a>FAQ</a>
+          </Link>
+       </li>     
+       <li>
+          <Link href='/careers'>
+            <a>Careers</a>
           </Link>
        </li>     
       </ul>
