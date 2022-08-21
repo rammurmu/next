@@ -15,6 +15,26 @@ export default function Live() {
         </select>
         <button type="button-secondary">Go Live</button>
         </div>
+
+        <div>
+          <p>Create stream<br />Personalized details<br />Customization<br />Visibility</p>
+        </div>
+
+       <div>
+            <p>Category<br />Add your product stream to category<br />select<br />Vegetables<br />Fruits
+              </p>
+       </div>
+
+      <div>
+          <p>Thubnail<br />Select or upload a picture that represent your store<br />Upload</p>
+       </div>
+       <div>
+            <p>Stream list<br />Add your stream to one or more stream list,can help viewer discover your content faster<br />
+              Learn more &rarr;<br />Select<br />New<br />previous<br />Create new</p>
+       </div>
+
+
+
          <p className={styles.description}>
           <Link href="/">
             <a>&larr; Go Back</a>
