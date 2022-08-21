@@ -51,7 +51,7 @@ export default function About() {
        <div className={styles.title}>
          <h1>Executive profile</h1>
           <p className={styles.description}>Board of Directors</p>
-        <card1 className={styles.card1}>Ram Murmu <br >Founder and CEO</card1>
+        <card1 className={styles.card1}>Ram Murmu <br />Founder and CEO</card1>
         <card1 className={styles.card1}>Vaibhav Murmu<br />Co-Founder and CFO</card1>
         </div>
 
