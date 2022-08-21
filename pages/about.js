@@ -24,11 +24,11 @@ export default function About() {
           We create real-life experiences to enable and access face-to-face
         </p>
         <div className={styles.grid}>
-        <div>
+        <div className={styles.card}>
         <h3 className={styles.description}>Journey </h3>
          <p className={styles.description}>Journey from a small village in India to Sillicone Valley Y Combinator startup school community member<br />Learn more &rarr;</p>
          </div>
-        <div>
+        <div className={styles.card}>
         <h3 className={styles.description}>Oneliner</h3>
           <p className={styles.description}>A live streaming hybrid marketplace for retailing<br />Learn more &rarr;</p>
         </div>
@@ -52,10 +52,12 @@ export default function About() {
          <h3 className={styles.description}>👨‍💻 Executive profile</h3>
           <p className={styles.description}>Board of Directors<br />Ram Murmu and Vaibhav Murmu<br /> Learn more &rarr;</p>
         </div>
+
        <div>
          <h3 className={styles.description}>Backed by</h3>
          <p className={styles.description}>Open Source</p>
        </div>
+
         </div>
       </main>
      <div>
