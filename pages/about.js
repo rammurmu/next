@@ -30,7 +30,7 @@ export default function About() {
          </div>
         <div className={styles.card}>
         <h3 className={styles.description}>Oneliner</h3>
-          <p className={styles.description}>A live streaming hybrid marketplace for retailing<br />Learn more &rarr;</p>
+          <p className={styles.description}>A live streaming hybrid marketplace for retailing,where retailers can meet to buyers and demonstrate their products<br />Learn more &rarr;</p>
         </div>
         <div>
          <h3 className={styles.description}>Discipline</h3>
@@ -50,12 +50,13 @@ export default function About() {
        </div>
        <div>
          <h3 className={styles.description}>👨‍💻 Executive profile</h3>
-          <p className={styles.description}>Board of Directors<br />Ram Murmu and Vaibhav Murmu<br /> Learn more &rarr;</p>
+          <p className={styles.description}>Board of Directors<br />Learn more &rarr;</p>
+        <card1 className={styles.card1}>Ram Murmu <card1><card1 className={styles.card1}>Vaibhav Murmu</card1>
         </div>
 
        <div>
          <h3 className={styles.description}>Backed by</h3>
-         <p className={styles.description}>Open Source</p>
+         <p className={styles.description}><code className={styles.code}>Open Source</code></p>
        </div>
 
         </div>
