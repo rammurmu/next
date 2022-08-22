@@ -46,8 +46,9 @@ export default function Buyer() {
   </div>
       <div className={styles.grid}>
           <a href="https://productslist" className={styles.card}>
-            <h2>🍎🍋 Fruit</h2>
+            <h2>🍎 Fruit</h2>
             <p>Organic & fresh </p>
+            <button type="Buy live ">Buy live</button>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
             <h2>🍅Vegetable</h2>
@@ -58,19 +59,19 @@ export default function Buyer() {
             <p>Organic </p>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
-            <h2>🌴🌺Flower</h2>
+            <h2>🌴Flower</h2>
             <p>Organic & fresh </p>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
-            <h2>🍗🥩Non veg</h2>
+            <h2>🍗Non veg</h2>
             <p>Organic & fresh</p>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
-            <h2>🍚🥛Dairy</h2>
+            <h2>🍚Dairy</h2>
             <p>Organic & fresh</p>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
-            <h2>🍞🥞Bakeri </h2>
+            <h2>🥞Bakeri </h2>
             <p>Organic & fresh</p>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
@@ -78,15 +79,15 @@ export default function Buyer() {
             <p>Organic </p>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
-            <h2>🐕‍🦺🐅Animal</h2>
+            <h2>🐅Animal</h2>
             <p>Organic animal </p>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
-            <h2>🐓 🦜 Bird</h2>
+            <h2>🐓 Bird</h2>
             <p>Organic bird</p>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
-            <h2>🐟🦐 C food</h2>
+            <h2>🐟 C food</h2>
             <p>Organic fresh</p>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
@@ -95,13 +96,13 @@ export default function Buyer() {
           </a>    
       </div>
      <br />
-     <p className={styles.description}>Real🛍️ shopping schedule now </p>
+     <p className={styles.description}>🛍️Shopping Schedule Now 👎 </p>
      <br />
     <div className={styles.grid}>
     <p className={styles.card}>📅 Date & Time⏱️</p>
     </div>
     <button type="button">Schedule</button>
-    <h2 className={styles.title}>Future of retail</h2>
+    <h2 className={styles.title}>The future of retail</h2>
      <p className={styles.description}>One stop solution for organic products</p>
      </main> 
      <div>
