@@ -33,12 +33,12 @@ export default function Buyer() {
        </li>
        <li>
          <Link href='/product1'>
-           <a>Handicraft</a>
+           <a>Organic</a>
          </Link>
        </li>
        <li>
           <Link href='/product1'>
-            <a>KhadiWear</a>
+            <a>Local</a>
           </Link>
        </li>     
          
@@ -48,62 +48,63 @@ export default function Buyer() {
           <a href="https://productslist" className={styles.card}>
             <h2>🍎 Fruit</h2>
             <p>Organic & fresh </p>
-            <button type="Watch">Watch</button>
+            <button type="Buy">Buy</button>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
             <h2>🍅Vegetable</h2>
             <p>Organic & fresh  </p>
-            <button type="Watch">Watch</button>
+            <button type="Buy">Buy</button>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
             <h2>🥫Grocery</h2>
             <p>Organic </p>
-            <button type="Watch">Watch</button>
+            <button type="Buy">Buy</button>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
             <h2>🌴Flower</h2>
             <p>Organic & fresh </p>
-            <button type="Watch">Watch</button>
+            <button type="Buy">Buy</button>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
             <h2>🍗Non veg</h2>
             <p>Organic & fresh</p>
-            <button type="Watch">Watch</button>
+            <button type="Buy">Buy</button>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
             <h2>🍚Dairy</h2>
             <p>Organic & fresh</p>
-            <button type="Watch">Watch</button>
+            <button type="Buy">Buy</button>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
             <h2>🥞Bakeri </h2>
             <p>Organic & fresh</p>
-           <button type="Watch">Watch</button>
+           <button type="Buy">Buy</button>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
             <h2>🥜Dry food</h2>
             <p>Organic </p>
-            <button type="Watch">Watch</button>
+            <button type="Buy">Buy</button>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
             <h2>🐅Animal</h2>
             <p>Organic animal </p>
-            <button type="Watch">Watch</button>
+            <button type="Buy">Buy</button>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
             <h2>🐓 Bird</h2>
             <p>Organic bird</p>
-            <button type="Watch">Watch</button>
+            <button type="Buy">Buy</button>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
             <h2>🐟 C food</h2>
             <p>Organic fresh</p>
-            <button type="Watch">Watch</button>
+            <button type="Buy">Buy</button>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
             <h2>🥼Fashion</h2>
-            <p>Desi fashion </p>
-            <button type="Watch">Watch</button>
+            <p>By Ram Murmu<br />RunAsh Store<br />Desi fashion </p>
+            <code className={styles.code}>khadi</code>
+            <button type="Buy">Buy</button>
           </a>    
       </div>
      <br />
