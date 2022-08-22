@@ -140,10 +140,10 @@ export default function Home() {
           </a>
         </div>
        
-        <p className={styles.description}>BEGIN YOUR <b><a href="/">LIVE STREAMING</b></a> JOURNEY<br /> ✨</p>
+        <p className={styles.description}>BEGIN YOUR <b><a href="https://">LIVE STREAMING</b></a> JOURNEY<br /> ✨</p>
        <p className={styles.description}>Give feedback to improve live sell experience better &rarr;</p>
       
-      <p className={styles.description}>BUILD YOUR<b><a href="/"> OWN MADE </b></a>SELL EXPERIENCE<br />💚 </p> 
+      <p className={styles.description}>BUILD YOUR<b><a href="https://"> OWN MADE </b></a>SELL EXPERIENCE<br />💚 </p> 
       <p className={styles.description}>Sign up weekly updates for real selling & buying</p>
       
       <input className={styles.input} placeholder="email address..." pattern="https://runash.in" size="50" required />
