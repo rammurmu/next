@@ -140,10 +140,10 @@ export default function Home() {
           </a>
         </div>
        
-        <h2 className={styles.description}>Begin your live <br />sell journey✨</h2>
+        <p className={styles.description}>BEGIN YOUR <b>LIVE STREAMING</b> JOURNEY ✨</p>
        <p className={styles.description}>Give feedback to improve live sell experience better &rarr;</p>
       
-      <h2 className={styles.description}>Build your own 💚<br /> made experience </h2> 
+      <p className={styles.description}>BUILD YOUR<b> OWN MADE </b>SELL EXPERIENCE </p> 
       <p className={styles.description}>Sign up weekly updates for real selling & buying</p>
       
       <input className={styles.input} placeholder="email address..." pattern="https://runash.in" size="50" required />
