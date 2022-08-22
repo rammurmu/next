@@ -48,51 +48,62 @@ export default function Buyer() {
           <a href="https://productslist" className={styles.card}>
             <h2>🍎 Fruit</h2>
             <p>Organic & fresh </p>
-            <button type="Buy live ">Buy live</button>
+            <button type="Watch">Watch</button>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
             <h2>🍅Vegetable</h2>
             <p>Organic & fresh  </p>
+            <button type="Watch">Watch</button>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
             <h2>🥫Grocery</h2>
             <p>Organic </p>
+            <button type="Watch">Watch</button>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
             <h2>🌴Flower</h2>
             <p>Organic & fresh </p>
+            <button type="Watch">Watch</button>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
             <h2>🍗Non veg</h2>
             <p>Organic & fresh</p>
+            <button type="Watch">Watch</button>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
             <h2>🍚Dairy</h2>
             <p>Organic & fresh</p>
+            <button type="Watch">Watch</button>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
             <h2>🥞Bakeri </h2>
             <p>Organic & fresh</p>
+           <button type="Watch">Watch</button>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
             <h2>🥜Dry food</h2>
             <p>Organic </p>
+            <button type="Watch">Watch</button>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
             <h2>🐅Animal</h2>
             <p>Organic animal </p>
+            <button type="Watch">Watch</button>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
             <h2>🐓 Bird</h2>
             <p>Organic bird</p>
+            <button type="Watch">Watch</button>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
             <h2>🐟 C food</h2>
             <p>Organic fresh</p>
+            <button type="Watch">Watch</button>
           </a>
           <a href="https://runash.live/seller" className={styles.card}>
             <h2>🥼Fashion</h2>
             <p>Desi fashion </p>
+            <button type="Watch">Watch</button>
           </a>    
       </div>
      <br />
