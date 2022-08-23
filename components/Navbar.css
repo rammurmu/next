@@ -2,14 +2,14 @@ ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  position: sticky;
+  position: fixed;
   position: fixed;
   top: 0;
   top: 0;
   overflow: hidden;
   background-color: #FFF;
   width: 100%;
-  border: 1px solid #e7e7e7;
+  flot: centre;
 }
 
 li {
@@ -97,7 +97,7 @@ li.dropdown {
 }
 
 .header {
-  display: flex;
+  display: fixed;
   width: 100%;
   justify-content: space-between;
   padding-top: 0.1em;
@@ -107,7 +107,7 @@ li.dropdown {
 }
 
 .header a {
-  display: flex;
+  display: fixed;
   justify-content: right;
   align-items: right;
   flex-grow: 5;
