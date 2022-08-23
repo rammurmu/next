@@ -2,11 +2,14 @@ ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
+  position: sticky;
   position: fixed;
+  top: 0;
   top: 0;
   overflow: hidden;
   background-color: #FFF;
   width: 100%;
+  border: 1px solid #e7e7e7;
 }
 
 li {
@@ -111,6 +114,11 @@ li.dropdown {
   position: sticky;
 }
 
+
+
+
+
+ 
 
 
 
