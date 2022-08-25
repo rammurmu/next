@@ -202,12 +202,12 @@ export default function Home() {
        </li> 
        <li>
           <Link href='/API'>
-            <a></a>
+            <a>API</a>
           </Link>
        </li>                 
        <li>
-          <Link href='/'>
-            <a></a>
+          <Link href='/status'>
+            <a>Status</a>
           </Link>
        </li>                                 
       </ul>
