@@ -152,7 +152,8 @@ export default function Home() {
       <div>
       </div>
       </main>
-      <div className={styles.grid}>
+      <div className={styles.container}>
+      <nav className={'header'}>
        <ul className={'main-nav'}>
        <li>
          <Link href='/about'>
@@ -210,6 +211,7 @@ export default function Home() {
           </Link>
        </li>                                 
       </ul>
+     </nav>
     </div>
 
       <footer className={styles.footer}>
