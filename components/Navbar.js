@@ -19,7 +19,7 @@ function Navbar() {
        </li>
        <li>
           <Link href='/seller'>
-          <a>Sell<a>
+          <a>Sell</a>
           </Link>
        </li>     
        <li>
