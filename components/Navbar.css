@@ -106,7 +106,7 @@ li.dropdown {
 
 .header a {
   display: flex;
-  justify-content: right;
+  justify-content: centre;
   align-items: right;
   flex-grow: 5;
   position: sticky;
