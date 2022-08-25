@@ -2,21 +2,18 @@ ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  position: fixed;
+  position: flex;
   top: 0;
   overflow: hidden;
   background-color: #FFF;
   width: 100%;
   border: 1px solid #e7e7e7;
-}
-
-li {
-  float:right;
+  display: block;
 }
 
 li a {
   color: #000;
-  disply: block;
+  display: block;
   text-align: centre;
   padding: 14px 16px;
   text-decoration: none;
@@ -95,7 +92,7 @@ li.dropdown {
 }
 
 .header {
-  display: flex;
+  display: block;
   width: 100%;
   justify-content: space-between;
   padding-top: 0.1em;
@@ -105,7 +102,7 @@ li.dropdown {
 }
 
 .header a {
-  display: flex;
+  display: block;
   justify-content: centre;
   align-items: right;
   flex-grow: 5;
