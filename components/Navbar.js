@@ -17,26 +17,23 @@ function Navbar() {
            <a>Live</a>
          </Link>
        </li>
-       <li className={'dropdown'}>
-          <Link href='/seller' className={'dropbtn'}>Live</Link>
-          <div className={styles.dropdownContent}>
-            <a href="/">Seller</a>
-            <a href="/">Buyer</a>
-          </div>
+       <li>
+          <Link href='/sell'>
+          <a>Seller<a>
        </li>     
        <li>
           <Link href='/buyer'>
-            <a>Buyer</a>
+            <a>Buy</a>
           </Link>
        </li>     
        <li>
           <Link href='/watch'>
-            <a>Watching</a>
+            <a>Watch</a>
           </Link>
        </li> 
        <li>
        <Link href="/influencers">
-         <a>Influencers</a>
+         <a>Support</a>
       </Link>
       </li>       
       <li>
