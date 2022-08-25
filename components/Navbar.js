@@ -20,6 +20,7 @@ function Navbar() {
        <li>
           <Link href='/seller'>
           <a>Sell<a>
+          </Link>
        </li>     
        <li>
           <Link href='/buyer'>
