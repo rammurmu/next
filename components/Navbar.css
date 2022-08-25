@@ -1,8 +1,11 @@
 ul {
   margin: 0;
-  padding: 0;
+  padding: 0.5rem;
+  flex: auto;
+  text-align: centre;
   list-style-type: none;
   position: sticky;
+  position: -webkit-sticky;
   top: 0;
   overflow: hidden;
   background-color: #FFF;
@@ -25,6 +28,7 @@ li a:hover {
 
 .active {
   background-color: #000;
+  color: #FAFAFA;
 }
 
 .logo {
@@ -40,15 +44,16 @@ li a:hover {
 }
 
 .logo a,
-.main-nav a {
+.main-nav a { 
   padding: 15px 18px;
   text-transform: uppercase-lowercase;
-  text-align: centre;
+  text-align: left;
   display: flex;
 }
 
 .main-nav a {
   color: #000;
+  background: #0761D1;
   font-size: .875rem;
   float: centre;
   width: 100%;
@@ -66,13 +71,14 @@ li a:hover {
   padding-top: 0.1em;
   padding-bottom: 0.1em;
   background-color: #FFF;
+  color: #000;
   position: sticky;
 }
 
 .header a {
   display: flex;
-  justify-content: right;
-  align-items: right;
+  justify-content: centre;
+  align-items: centre;
   flex-grow: 5;
   position: sticky;
 }
