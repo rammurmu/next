@@ -2,19 +2,19 @@ ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  position: flex;
+  position: sticky;
+  position: -webkit-sticky;
   top: 0;
   overflow: hidden;
   background-color: #FFF;
   width: 100%;
-  display: block;
 }
 
 li a {
   color: #000;
-  display: block;
+  disply: block;
   text-align: centre;
-  padding: 14px 16px;
+  padding: 12px 14px;
   text-decoration: none;
 }
 
@@ -60,7 +60,7 @@ li a:hover {
 }
 
 .header {
-  display: block;
+  display: flex;
   width: 100%;
   justify-content: space-between;
   padding-top: 0.1em;
@@ -70,12 +70,17 @@ li a:hover {
 }
 
 .header a {
-  display: block;
-  justify-content: centre;
+  display: flex;
+  justify-content: right;
   align-items: right;
   flex-grow: 5;
   position: sticky;
 }
+
+
+
+
+
 
 
 
