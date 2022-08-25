@@ -196,12 +196,12 @@ export default function Home() {
           </Link>
        </li>     
        <li>
-          <Link href='/'>
-            <a></a>
+          <Link href='/media'>
+            <a>Media</a>
           </Link>
        </li> 
        <li>
-          <Link href='/'>
+          <Link href='/API'>
             <a></a>
           </Link>
        </li>                 
