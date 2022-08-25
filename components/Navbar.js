@@ -18,8 +18,8 @@ function Navbar() {
          </Link>
        </li>
        <li>
-          <Link href='/sell'>
-          <a>Seller<a>
+          <Link href='/seller'>
+          <a>Sell<a>
        </li>     
        <li>
           <Link href='/buyer'>
