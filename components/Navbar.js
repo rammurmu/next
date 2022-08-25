@@ -49,7 +49,7 @@ function Navbar() {
        </li>
        <li>
             <Link href='/signin'>
-              <a><code className={styles.code}>Signin</code></a>
+              <a>Sigin</a>
             </Link>
        </li>
        <li>
