@@ -17,12 +17,13 @@ export default function About() {
       <main className={styles.main}> 
        <h1>Where the retailers build real experince</h1> 
       
-      <h1 className={styles.title}>
+      <p className={styles.description}>
         <a href="https://">Our mission</a>
-      </h1>
-        <p className={styles.description}>
-          We create real-life experiences to enable and access face-to-face
-        </p>
+      </p>
+        <h1 className={styles.title}>
+          We create real-life experiences to enable retailers and access face-to-face
+        </h1>
+        <p className={styles.description}>We build live streaming products for <b>retailer and businesses.</b><br />And those who aspire to become one.</p>
         <div className={styles.grid}>
         <div className={styles.card}>
         <h3 className={styles.description}>Journey </h3>
