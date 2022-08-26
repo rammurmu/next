@@ -21,14 +21,23 @@ export default function About() {
         OUR MISSION 
       </p>
         <h1 className={styles.title}>
-          We create real experiences to enable and access retailers 
+          We create real experiences to enable and<br /> access retailers 
         </h1>
         <p className={styles.description}>We build live streaming platform for <b>retailer and businesses.</b><br />And those who aspire to become one.</p>
         <div className={styles.grid}>
          <div className={styles.card}>
-          <h1>💡Affordable</h1>
+          <h2>🟧Affordable</h2>
            <p>Building run and grow fast their business</p>
-
+          </div>
+          <div className={styles.card}>
+           <h2>🟩Sustainable</h2>
+           <p>Trusted and secure their business </p>
+            </div>
+           <div className={styles.card}>
+           <h2>🟦Efficient</h2>
+           <p>Reduce their operation cost problem  </p>
+            </div>
+        <div className={styles.card}>
         <h3 className={styles.description}>Journey </h3>
          <p className={styles.description}>Journey from a small village in India to Sillicone Valley Y Combinator startup school community member<br />Learn more &rarr;</p>
          </div>
@@ -60,8 +69,8 @@ export default function About() {
 
        
          <h1 className={styles.title}>We are backed by Open source</h1>
-          <p>MIT GITHUB </p>
-         <h1>Join us and Shape the future of retail</h1> 
+          <p className={styles.card}>MIT GITHUB </p>
+         <h1>Join us and shape the future of retail</h1> 
           <button className={styles.button}>View open positions</button>
         </div>
       </main>
