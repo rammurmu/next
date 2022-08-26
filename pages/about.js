@@ -37,7 +37,7 @@ export default function About() {
            <h2>🟦 Efficient</h2>
            <p>Reduce their operation cost problem  </p>
             </div>
-           <h1 class name={styles.title}>We're backed by Open source</h1>
+           <h1 className={styles.title}>We're backed by Open source</h1>
             <p>MIT GITHUB </p>
            
 
