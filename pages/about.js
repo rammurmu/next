@@ -26,15 +26,15 @@ export default function About() {
         <p className={styles.description}>We build live streaming platform for <b>retailer and businesses.</b><br />And those who aspire to become one.</p>
         <div className={styles.grid}>
          <div className={styles.card}>
-          <h2>🟧Affordable</h2>
+          <h2>🟧 Affordable</h2>
            <p>Building run and grow fast their business</p>
           </div>
           <div className={styles.card}>
-           <h2>🟩Sustainable</h2>
+           <h2>🟩 Sustainable</h2>
            <p>Trusted and secure their business </p>
             </div>
            <div className={styles.card}>
-           <h2>🟦Efficient</h2>
+           <h2>🟦 Efficient</h2>
            <p>Reduce their operation cost problem  </p>
             </div>
         <div className={styles.card}>
@@ -63,6 +63,7 @@ export default function About() {
        </div>
        
          <h1 className={styles.title}>Executive profile</h1>
+          <br />
          <p className={styles.description}>Board of Directors</p>
         
         
@@ -70,6 +71,7 @@ export default function About() {
        
          <h1 className={styles.title}>We are backed by Open source</h1>
           <p className={styles.card}>MIT GITHUB </p>
+           <br />
          <h1>Join us and shape the future of retail</h1> 
           <button className={styles.button}>View open positions</button>
         </div>
