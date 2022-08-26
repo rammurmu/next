@@ -15,13 +15,13 @@ export default function About() {
         <link rel="icon" href="favicon.icon"/>
       </Head>
       <main className={styles.main}> 
-       <h1 className={styles.title}>Where the retailers build real experince</h1> 
+    
       
-      <p className={styles.description}>
-        <a href="https://">Our mission</a>
+      <p>
+        OUR MISSION 
       </p>
         <h1 className={styles.title}>
-          We create real life experiences to enable retailers and access face to face
+          We create face to face real experiences to enable and access retailers 
         </h1>
         <p className={styles.description}>We build live streaming products for <b>retailer and businesses.</b><br />And those who aspire to become one.</p>
         <div className={styles.grid}>
@@ -52,15 +52,14 @@ export default function About() {
        
          <h1 className={styles.title}>Executive profile</h1>
          <p className={styles.description}>Board of Directors</p>
-        <li>Ram Murmu <br />Founder and CEO</li><br />
-        <li>Vaibhav Murmu<br />Co-Founder and CFO</li>
+        
         
 
        
-         <h1 className={styles.title}>Backed by</h1>
-         <p className={styles.description}>Open Source</p>
-       
-
+         <h1 className={styles.title}>We are backed by Open source</h1>
+     
+         <h1>Join us and Shape the future of retail</h1> 
+          <Button className={styles.button}>View open positions</button>
         </div>
       </main>
      <div>
@@ -106,15 +105,19 @@ export default function About() {
           </Link>
        </li>  
        <li>
-         <Link href='/'>
-          <a></a>
+         <Link href='/media'>
+          <a>Media</a>
         </Link>
        </li>  
        <li>
-         <Link href='/'>
-         <a></a>
+         <Link href='/api'>
+         <a>API</a>
        </Link>
        </li> 
+       <li>
+        <Link href='/status'>
+        <a>Status</a>
+      </li>
       </ul>
   </div>
       <footer className={styles.footer}>
