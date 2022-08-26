@@ -57,9 +57,9 @@ export default function About() {
 
        
          <h1 className={styles.title}>We are backed by Open source</h1>
-     
+          <p>MIT GITHUB </p>
          <h1>Join us and Shape the future of retail</h1> 
-          <Button className={styles.button}>View open positions</button>
+          <button className={styles.button}>View open positions</button>
         </div>
       </main>
      <div>
