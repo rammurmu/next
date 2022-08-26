@@ -38,7 +38,18 @@ export default function About() {
            <p>Reduce their operation cost problem  </p>
             </div>
            <h1 className={styles.title}>We are backed by Open source</h1>
-            <p>MIT GITHUB </p>
+            <span className={styles.logo}>
+            <Image src="" alt=" " width={72} height={20} />
+          </span>
+          <span className={styles.logo}>
+            <Image src="vercel.svg" alt=" " width={72} height={20} />
+          </span>
+          <span className={styles.logo}>
+            <Image src="vercel.svg" alt=" " width={72} height={20} />
+          </span>
+          <span className={styles.logo}>
+            <Image src="vercel.svg" alt=" " width={72} height={20} />
+          </span>
            
 
         <div className={styles.card}>
@@ -66,8 +77,9 @@ export default function About() {
         </div>
 
         <h1 className={styles.title}>Executive profile</h1>
+
           <span className={styles.image}>
-            <Image src="vercle.svg" alt=" " width={72} height={16} />
+            <Image src="vercel.svg" alt=" " width={72} height={16} />
           </span>
          <span className={styles.image}>
             <Image src="vercel.svg" alt=" " width={72} height={16} />
@@ -87,7 +99,7 @@ export default function About() {
         
            
 
-         <h1 className={styles.title}>Join us and shape the future of retail</h1> 
+         <h1>Join us and shape the future of retail</h1> 
           <button className={styles.button}>View open positions</button>
         </div>
       </main>
