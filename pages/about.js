@@ -37,7 +37,7 @@ export default function About() {
            <h2>🟦 Efficient</h2>
            <p>Reduce their operation cost problem  </p>
             </div>
-           <h1 className={styles.title}>We're backed by Open source</h1>
+           <h1 className={styles.title}>We are backed by Open source</h1>
             <p>MIT GITHUB </p>
            
 
@@ -66,8 +66,12 @@ export default function About() {
         </div>
 
         <h1 className={styles.title}>Executive profile</h1>
-          
-         
+          <span className={styles.image}>
+            <Image src="vercle.svg" alt=" " width={72} height={16} />
+          </span>
+         <span className={styles.image}>
+            <Image src="vercel.svg" alt=" " width={72} height={16} />
+          </span>
         
 
         <div className={styles.card}>
@@ -154,7 +158,7 @@ export default function About() {
         >
          © 2022 RunAsh. {' '}
           <span className={styles.logo}>
-            <Image src="" alt=" " width={72} height={16} />
+            <Image src="vercel.svg" alt=" " width={72} height={16} />
           </span>
         </a>
      </footer>
