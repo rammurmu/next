@@ -37,6 +37,10 @@ export default function About() {
            <h2>🟦 Efficient</h2>
            <p>Reduce their operation cost problem  </p>
             </div>
+           <h1 class name={styles.title}>We're backed by Open source</h1>
+            <p>MIT GITHUB </p>
+           
+
         <div className={styles.card}>
         <h2>Journey </h2>
          <p>Journey from a small village in India to Sillicone Valley Y Combinator startup school community member<br />Learn more &rarr;</p>
@@ -61,9 +65,9 @@ export default function About() {
           <p>We are committed to building a live retail streaming hybrid platform for unorganised retailers and new ways to use physical reality experience<br />Learn more &rarr;</p>
         </div>
 
-        <h1>Executive profile</h1>
+        <h1 className={styles.title}>Executive profile</h1>
           
-         <p>Board of Directors</p>
+         
         
 
         <div className={styles.card}>
@@ -76,11 +80,10 @@ export default function About() {
         
 
        
-         <h1>We are backed by Open source</h1>
-          <p>MIT GITHUB </p>
+        
            
 
-         <h1>Join us and shape the future of retail</h1> 
+         <h1 className={styles.title}>Join us and shape the future of retail</h1> 
           <button className={styles.button}>View open positions</button>
         </div>
       </main>
