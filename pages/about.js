@@ -21,7 +21,7 @@ export default function About() {
         OUR MISSION 
       </p>
         <h1 className={styles.title}>
-          We create real experiences to enable and<br /> access retailers 
+          We enable and access retailers to build real<br />life experience 
         </h1>
         <p className={styles.description}>We build live streaming platform for <b>retailer and businesses.</b><br />And those who aspire to become one.</p>
         <div className={styles.grid}>
@@ -38,8 +38,8 @@ export default function About() {
            <p>Reduce their operation cost problem  </p>
             </div>
         <div className={styles.card}>
-        <h3 className={styles.description}>Journey </h3>
-         <p className={styles.description}>Journey from a small village in India to Sillicone Valley Y Combinator startup school community member<br />Learn more &rarr;</p>
+        <h2>Journey </h2>
+         <p>Journey from a small village in India to Sillicone Valley Y Combinator startup school community member<br />Learn more &rarr;</p>
          </div>
         <div className={styles.card}>
         <h3 className={styles.description}>Oneliner</h3>
@@ -53,6 +53,11 @@ export default function About() {
         <h3 className={styles.description}>What we do</h3>
          <p className={styles.description}>We created new model of live streaming marketplace and environment where retailers face to face demonstrate and presented their products with buyers<br />Learn more &rarr;</p>
        </div>
+
+        <h1 className={styles.title}>Executive profile</h1>
+          
+         <p className={styles.description}>Board of Directors</p>
+        
        <div className={styles.card}>
         <h3 className={styles.description}>What we going to make</h3>
           <p className={styles.description}>We are committed to building a live retail streaming hybrid platform for unorganised retailers and new ways to use physical reality experience<br />Learn more &rarr;</p>
@@ -62,16 +67,14 @@ export default function About() {
          <p className={styles.description}>🤼 We are both brothers,our business journey started in 2007 from a small offline retail store, the Journey from the school classroom to the board room<br />Learn more &rarr;</p>
        </div>
        
-         <h1 className={styles.title}>Executive profile</h1>
-          <br />
-         <p className={styles.description}>Board of Directors</p>
+    
         
         
 
        
          <h1 className={styles.title}>We are backed by Open source</h1>
           <p className={styles.card}>MIT GITHUB </p>
-           <br />
+           <hr />
          <h1>Join us and shape the future of retail</h1> 
           <button className={styles.button}>View open positions</button>
         </div>
