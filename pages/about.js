@@ -21,11 +21,14 @@ export default function About() {
         OUR MISSION 
       </p>
         <h1 className={styles.title}>
-          We create face to face real experiences to enable and access retailers 
+          We create real experiences to enable and access retailers 
         </h1>
-        <p className={styles.description}>We build live streaming products for <b>retailer and businesses.</b><br />And those who aspire to become one.</p>
+        <p className={styles.description}>We build live streaming platform for <b>retailer and businesses.</b><br />And those who aspire to become one.</p>
         <div className={styles.grid}>
-        <div className={styles.card}>
+         <div className={styles.card}>
+          <h1>💡Affordable</h1>
+           <p>Building run and grow fast their business</p>
+
         <h3 className={styles.description}>Journey </h3>
          <p className={styles.description}>Journey from a small village in India to Sillicone Valley Y Combinator startup school community member<br />Learn more &rarr;</p>
          </div>
