@@ -21,7 +21,7 @@ export default function About() {
         OUR MISSION 
       </p>
         <h1 className={styles.title}>
-          We enable and access retailers to build real<br />life experience 
+          We enable and access retailers to<br /> build real life experience 
         </h1>
         <p className={styles.description}>We build live streaming platform for <b>retailer and businesses.</b><br />And those who aspire to become one.</p>
         <div className={styles.grid}>
@@ -42,39 +42,44 @@ export default function About() {
          <p>Journey from a small village in India to Sillicone Valley Y Combinator startup school community member<br />Learn more &rarr;</p>
          </div>
         <div className={styles.card}>
-        <h3 className={styles.description}>Oneliner</h3>
-          <p className={styles.description}>A live streaming hybrid marketplace for retailing,where retailers can meet to buyers and demonstrate their products<br />Learn more &rarr;</p>
+        <h2>Oneliner</h2>
+          <p>A live streaming hybrid marketplace for retailing,where retailers can meet to buyers and demonstrate their products<br />Learn more &rarr;</p>
         </div>
         <div className={styles.card}>
-         <h3 className={styles.description}>Discipline</h3>
-          <p className={styles.description}>Discipline and learning is the bacbone of the development of our startup journy and culture is behavior<br />Learn more &rarr;</p>
+         <h2>Discipline,Culture & Value</h2>
+          <p>Discipline and learning is the bacbone of the development of our startup journy and culture is behavior<br />Learn more &rarr;</p>
         </div>
         <div className={styles.card}>
-        <h3 className={styles.description}>What we do</h3>
-         <p className={styles.description}>We created new model of live streaming marketplace and environment where retailers face to face demonstrate and presented their products with buyers<br />Learn more &rarr;</p>
+        <h2>What we do</h2>
+         <p>We created new model of live streaming marketplace and environment where retailers face to face demonstrate and presented their products with buyers<br />Learn more &rarr;</p>
        </div>
 
-        <h1 className={styles.title}>Executive profile</h1>
-          
-         <p className={styles.description}>Board of Directors</p>
+        
         
        <div className={styles.card}>
-        <h3 className={styles.description}>What we going to make</h3>
-          <p className={styles.description}>We are committed to building a live retail streaming hybrid platform for unorganised retailers and new ways to use physical reality experience<br />Learn more &rarr;</p>
+        <h2>What we going to make</h2>
+          <p>We are committed to building a live retail streaming hybrid platform for unorganised retailers and new ways to use physical reality experience<br />Learn more &rarr;</p>
         </div>
+
+        <h1>Executive profile</h1>
+          
+         <p>Board of Directors</p>
+        
+
         <div className={styles.card}>
-         <h3 className={styles.description}>Founders story </h3>
-         <p className={styles.description}>🤼 We are both brothers,our business journey started in 2007 from a small offline retail store, the Journey from the school classroom to the board room<br />Learn more &rarr;</p>
-       </div>
+         <h2>Founders story</h2> 
+          <p>🤼 We are both brothers,our business journey started in 2007 from a small offline retail store, the Journey from the school classroom to the board room<br />Learn more &rarr;</p>
+        </div>
        
     
         
         
 
        
-         <h1 className={styles.title}>We are backed by Open source</h1>
-          <p className={styles.card}>MIT GITHUB </p>
-           <hr />
+         <h1>We are backed by Open source</h1>
+          <p>MIT GITHUB </p>
+           
+
          <h1>Join us and shape the future of retail</h1> 
           <button className={styles.button}>View open positions</button>
         </div>
