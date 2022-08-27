@@ -39,18 +39,7 @@ export default function About() {
             </div>
            <p className={styles.description}>We are backed by Open source supporters</p>
            
-            <span className={styles.logo}>
-            <Image src="vercel.svg" alt=" " width={80} height={40} />
-          </span>
-          <span className={styles.logo}>
-            <Image src="" alt=" " width={80} height={40} />
-          </span>
-          <span className={styles.logo}>
-            <Image src="" alt=" " width={80} height={40} />
-          </span>
-          <span className={styles.logo}>
-            <Image src="" alt=" " width={80} height={40} />
-          </span>
+        
            
 
         <div className={styles.card}>
@@ -76,20 +65,18 @@ export default function About() {
         <h2>What we going to make</h2>
           <p>We are committed to building a live retail streaming hybrid platform for unorganised retailers and new ways to use physical reality experience<br />Learn more &rarr;</p>
         </div>
-
-       
-         
-          <span className={styles.image}>
-            <Image src="" alt=" " width={72} height={16} />
-          </span>
-         <span className={styles.image}>
-            <Image src="" alt=" " width={72} height={16} />
-          </span>
         
 
         <div className={styles.card}>
          <h2>Executive profile and founders story</h2> 
-          <p>Board of directors<br />🎓Ram Murmu<br />Founder and CEO<br />🎓Vaibhav Murmu<br />Co-Founder and CFO<br /> 🤼 We are both brothers,our business journey started in 2007 from a small offline retail store, the Journey from the school classroom to the board room<br />Learn more &rarr;</p>
+          <p>Board of directors
+          <ul className={'main-nav'}>
+             <li>🎓Ram Murmu</li>
+             <p>Founder and CEO</p>
+             <li>🎓Vaibhav Murmu</li>
+             <p>Co-Founder and CFO</p> 
+           </ul>
+            <p>🤼 We are both brothers,our business journey started in 2007 from a small offline retail store, the Journey from the school classroom to the board room<br />Learn more &rarr;</p>
         </div>
        
     
