@@ -21,9 +21,9 @@ export default function About() {
         OUR MISSION 
       </p>
         <h1 className={styles.title}>
-          We enable and access retailers to<br /> build real life experience 
+          We enable retailers to build real life experience 
         </h1>
-        <p className={styles.description}>We build live streaming platform for <b>retailer and businesses.</b><br />And those who aspire to become one.</p>
+        <p className={styles.description}>We build live streaming platform for <b>retailer and businesses.</b><br />And those who aspire to startup become one.</p>
         <div className={styles.grid}>
          <div className={styles.card}>
           <h2>🟧 Affordable</h2>
@@ -37,32 +37,32 @@ export default function About() {
            <h2>🟦 Efficient</h2>
            <p>Reduce their operation cost problem  </p>
             </div>
-           <p className={styles.description}><b>BACKED BY</b> OPEN SOURCE SUPPORTER<br /><b>MIT  GITHU Y COMBINATOR STARTUP SCHOOL</b></p>
+           <p className={styles.description}><b>Backed by</b> Open source <br />MIT  GitHub Y Combinator Startup school</p>
            
         
            
 
-        <div className={styles.card}>
+        
         <h2>Journey </h2>
          <p>Journey from a small village in India to Sillicone Valley Y Combinator startup school community member<br />Learn more &rarr;</p>
-         </div>
+         
         <div className={styles.card}>
         <h2>Oneliner</h2>
-          <p>A live streaming hybrid marketplace for retailing,where retailers can meet to buyers and demonstrate their products<br />Learn more &rarr;</p>
+          <p>A live streaming hybrid marketplace for retailing<br />Learn more &rarr;</p>
         </div>
         <div className={styles.card}>
          <h2>🎓Discipline</h2>
-          <p>Discipline and learning is the bacbone of the development of our startup journy <br />Learn more &rarr;</p>
+          <p>Discipline and learning is the bacbone of the development of our journy <br />Learn more &rarr;</p>
           <br />
           <h2>🙏Culture</h2>
            <p>Culture of helpfulness has been an important part of runash behavior</p>
            <br />
           <h2>💗Value</h2>
-           <p>Reality trust and easiness experience</p>
+           <p>Trusted reality and easiness experience</p>
         </div>
         <div className={styles.card}>
         <h2>What we do</h2>
-         <p>We created new model of live streaming marketplace and environment where retailers face to face demonstrate and presented their products with buyers<br />Learn more &rarr;</p>
+         <p>We created new model of live streaming marketplace and environment where retailers can meet to buyers and face to face demonstrate and presentation their products<br />Learn more &rarr;</p>
        </div>
 
         
@@ -74,7 +74,7 @@ export default function About() {
         
 
         <div className={styles.card}>
-         <h2>Executive profile</h2> 
+         <h2 className={styles.title}>Executive profile</h2> 
           <p className={styles.description}>Board of directors</p>
           <ul className={'main-nav'}>
              <li>🎓Ram Murmu<br />Founder and CEO</li>
@@ -82,13 +82,16 @@ export default function About() {
            </ul>
             <h1>Founder story</h1>
             <p>🤼 We are both brothers,our business journey started in 2007 from a small offline retail store, the Journey from the school classroom to the board room<br />Learn more &rarr;</p>
+             <h2>Journey </h2>
+             <p>Journey from a small village in India to Sillicone Valley Y Combinator startup school community member<br />Learn more &rarr;</p>
+         
         </div>
        
     
-        
+        <div>
          <h1 className={styles.title}>Join us and shape the future of retail</h1> 
           <button className={styles.button}>View open positions</button>
-          
+         </div>
         </div>
       </main>
      <div>
@@ -158,7 +161,7 @@ export default function About() {
         >
          © 2022 RunAsh. {' '}
           <span className={styles.logo}>
-            <Image src="vercel.svg" alt=" " width={72} height={16} />
+            <Image src="" alt=" " width={72} height={16} />
           </span>
         </a>
      </footer>
