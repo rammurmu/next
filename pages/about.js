@@ -37,7 +37,7 @@ export default function About() {
            <h2>🟦 Efficient</h2>
            <p>Reduce their operation cost problem  </p>
             </div>
-           <h1 className={styles.title}>We are backed by Open source</h1>
+           <p className={styles.description}>We are backed by Open source</p>
            
             <span className={styles.logo}>
             <Image src="vercel.svg" alt=" " width={80} height={40} />
@@ -77,7 +77,7 @@ export default function About() {
           <p>We are committed to building a live retail streaming hybrid platform for unorganised retailers and new ways to use physical reality experience<br />Learn more &rarr;</p>
         </div>
 
-        <h1 className={styles.title}>Executive profile</h1>
+        <p className={styles.description}>Executive profile</p>
          
           <span className={styles.image}>
             <Image src="vercel.svg" alt=" " width={72} height={16} />
