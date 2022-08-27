@@ -17,13 +17,12 @@ export default function About() {
       <main className={styles.main}> 
     
       
-      <p>
-        MISSION 
-      </p>
+      <div className={styles.card}>OUR MISSION </div>
+     
         <h1 className={styles.title}>
           We enable retailers to build real experience 
         </h1>
-        <p className={styles.description}>We build live streaming platform for retailer and businesses.</p>
+        <p className={styles.description}>We build live streaming platform for retail businesses</p>
         <div className={styles.grid}>
          <div className={styles.card}>
           <h2>🟧 Affordable</h2>
@@ -53,25 +52,24 @@ export default function About() {
         </div>
         
 
-        <div className={styles.card}>
-         <h2 className={styles.title}>Executive profile</h2> 
-          <p className={styles.description}>Board of directors</p>
+      
+          <p className={styles.description}>Executive profile Board of directors</p>
           <ul className={'main-nav'}>
              <li>🎓Ram Murmu<br />Founder and CEO</li>
              <li>🎓Vaibhav Murmu<br />Co-Founder and CFO</li> 
            </ul>
-          </div>
-           <div className={styles.card}>
-            <h1>Founder story</h1>
-            <p>🤼 We are both brothers,our business journey started in 2007 from a small offline retail store, the Journey from the school classroom to the board room</p>
-             <h2>Journey </h2>
-             <p>Journey from a small village in India to Sillicone Valley Y Combinator startup school community member</p>
+     
          
-        </div>
+           
+            <p className={styles.description}><b>Founder story</b> 🤼 We are both brothers,our business journey started in 2007 from a small offline retail store, the Journey from the school classroom to the board room
+            <br /><b>Journey</b> Journey from a small village in India to Sillicone Valley Y Combinator startup school community member</p>
+          
        
     
         
-         <h2>Join us & shape the future of retail</h2> 
+         <h2 className={styles.title}>Join us & shape the future of retail</h2> 
+
+
           <button className={styles.button}>View open positions</button>
         
         </div>
