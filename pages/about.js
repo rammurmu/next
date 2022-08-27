@@ -23,7 +23,7 @@ export default function About() {
         <h1 className={styles.title}>
           We enable retailers to build real life experience 
         </h1>
-        <p className={styles.description}>We build live streaming platform for <b>retailer and businesses.</p>
+        <p className={styles.description}>We build live streaming platform for retailer and businesses.</p>
         <div className={styles.grid}>
          <div className={styles.card}>
           <h2>🟧 Affordable</h2>
@@ -45,10 +45,9 @@ export default function About() {
         
         
          
-        <div className={styles.card}>
-        <h2>Oneliner</h2>
-          <p>A live streaming hybrid marketplace for retailing<br />Learn more &rarr;</p>
-        </div>
+       
+        <h1 className={styles.title}>Oneliner A live streaming hybrid marketplace for retailing</h1>
+        
         <div className={styles.card}>
          <h2>🎓Discipline</h2>
           <p>Discipline and learning is the bacbone of the development of our journy <br />Learn more &rarr;</p>
