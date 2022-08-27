@@ -37,7 +37,7 @@ export default function About() {
            <h2>🟦 Efficient</h2>
            <p>Reduce their operation cost problem  </p>
             </div>
-           <p className={styles.description}>We are backed by Open source supporters</p>
+           <p className={styles.description}><b>BACKED BY</b> OPEN SOURCE SUPPORTER<br /><b>MIT  GITHU Y COMBINATOR STARTUP SCHOOL</b></p>
            
         
            
@@ -51,8 +51,12 @@ export default function About() {
           <p>A live streaming hybrid marketplace for retailing,where retailers can meet to buyers and demonstrate their products<br />Learn more &rarr;</p>
         </div>
         <div className={styles.card}>
-         <h2>Discipline,Culture & Value</h2>
-          <p>Discipline and learning is the bacbone of the development of our startup journy and culture is behavior<br />Learn more &rarr;</p>
+         <h2>🎓Discipline</h2>
+          <p>Discipline and learning is the bacbone of the development of our startup journy <br />Learn more &rarr;</p>
+          <h2>🙏Culture</h2>
+           <p>Culture of helpfulness has been an important part of runash behavior</p>
+          <h2>💗Value</h2>
+           <p>Reality trust and easiness experience</p>
         </div>
         <div className={styles.card}>
         <h2>What we do</h2>
@@ -68,14 +72,13 @@ export default function About() {
         
 
         <div className={styles.card}>
-         <h2>Executive profile and founders story</h2> 
+         <h2>Executive profile</h2> 
           <p>Board of directors</p>
           <ul className={'main-nav'}>
-             <li>🎓Ram Murmu</li>
-             <p>Founder and CEO</p>
-             <li>🎓Vaibhav Murmu</li>
-             <li>Co-Founder and CFO</li> 
+             <li>🎓Ram Murmu<br />Founder and CEO</li>
+             <li>🎓Vaibhav Murmu<br />Co-Founder and CFO</li> 
            </ul>
+            <h1>Founder story</h1>
             <p>🤼 We are both brothers,our business journey started in 2007 from a small offline retail store, the Journey from the school classroom to the board room<br />Learn more &rarr;</p>
         </div>
        
