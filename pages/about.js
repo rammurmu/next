@@ -46,7 +46,7 @@ export default function About() {
         
          
        
-        <h2 className={styles.description}>A live streaming hybrid exchange for retailing</h1>
+        <h2 className={styles.description}>A live streaming hybrid exchange for retailing</h2>
         
         <div className={styles.card}>
          <h2>🎓Discipline</h2>
