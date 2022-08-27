@@ -53,8 +53,10 @@ export default function About() {
         <div className={styles.card}>
          <h2>🎓Discipline</h2>
           <p>Discipline and learning is the bacbone of the development of our startup journy <br />Learn more &rarr;</p>
+          <br />
           <h2>🙏Culture</h2>
            <p>Culture of helpfulness has been an important part of runash behavior</p>
+           <br />
           <h2>💗Value</h2>
            <p>Reality trust and easiness experience</p>
         </div>
@@ -73,7 +75,7 @@ export default function About() {
 
         <div className={styles.card}>
          <h2>Executive profile</h2> 
-          <p>Board of directors</p>
+          <p className={styles.description}>Board of directors</p>
           <ul className={'main-nav'}>
              <li>🎓Ram Murmu<br />Founder and CEO</li>
              <li>🎓Vaibhav Murmu<br />Co-Founder and CFO</li> 
@@ -84,7 +86,7 @@ export default function About() {
        
     
         
-         <h1>Join us and shape the future of retail</h1> 
+         <h1 className={styles.title}>Join us and shape the future of retail</h1> 
           <button className={styles.button}>View open positions</button>
           
         </div>
