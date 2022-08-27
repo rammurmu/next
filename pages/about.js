@@ -18,10 +18,10 @@ export default function About() {
     
       
       <p>
-        OUR MISSION 
+        MISSION 
       </p>
         <h1 className={styles.title}>
-          We enable retailers to build real life experience 
+          We enable retailers to build real experience 
         </h1>
         <p className={styles.description}>We build live streaming platform for retailer and businesses.</p>
         <div className={styles.grid}>
@@ -46,11 +46,11 @@ export default function About() {
         
          
        
-        <h1 className={styles.title}>A live streaming hybrid marketplace for retailing</h1>
+        <h2 className={styles.description}>A live streaming hybrid exchange for retailing</h1>
         
         <div className={styles.card}>
          <h2>🎓Discipline</h2>
-          <p>Discipline and learning is the bacbone of the development of our journy <br />Learn more &rarr;</p>
+          <p>Discipline and learning is the bacbone of the development of our journy</p>
           <br />
           <h2>🙏Culture</h2>
            <p>Culture of helpfulness has been an important part of runash behavior</p>
@@ -60,14 +60,14 @@ export default function About() {
         </div>
         <div className={styles.card}>
         <h2>What we do</h2>
-         <p>We created new model of live streaming marketplace and environment where retailers can meet to buyers and face to face demonstrate and presentation their products<br />Learn more &rarr;</p>
+         <p>We created new model of live streaming marketplace and environment where retailers can meet to buyers and face to face demonstrate and presentation their products</p>
        </div>
 
         
         
        <div className={styles.card}>
         <h2>What we going to make</h2>
-          <p>We are committed to building a live retail streaming hybrid platform for unorganised retailers and new ways to use physical reality experience<br />Learn more &rarr;</p>
+          <p>We are committed to building a live retail streaming hybrid platform for unorganised retailers and new ways to use physical reality experience</p>
         </div>
         
 
@@ -79,15 +79,15 @@ export default function About() {
              <li>🎓Vaibhav Murmu<br />Co-Founder and CFO</li> 
            </ul>
             <h1>Founder story</h1>
-            <p>🤼 We are both brothers,our business journey started in 2007 from a small offline retail store, the Journey from the school classroom to the board room<br />Learn more &rarr;</p>
+            <p>🤼 We are both brothers,our business journey started in 2007 from a small offline retail store, the Journey from the school classroom to the board room</p>
              <h2>Journey </h2>
-             <p>Journey from a small village in India to Sillicone Valley Y Combinator startup school community member<br />Learn more &rarr;</p>
+             <p>Journey from a small village in India to Sillicone Valley Y Combinator startup school community member</p>
          
         </div>
        
     
         <div className={styles.card}>
-         <h1 className={styles.title}>Join us & shape the future of retail</h1> 
+         <h2 className={styles.description}>Join us & shape the future of retail</h2> 
           <button className={styles.button}>View open positions</button>
          </div>
         </div>
