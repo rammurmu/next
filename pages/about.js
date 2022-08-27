@@ -20,7 +20,7 @@ export default function About() {
       <div className={styles.card}>OUR MISSION </div>
      
         <h1 className={styles.title}>
-          We enable retailers to<br /> build real experience 
+          We enable retailers to build <br />real experience 
         </h1>
         <p className={styles.description}>We build live streaming platform for retail businesses</p>
         <div className={styles.grid}>
