@@ -39,25 +39,7 @@ export default function About() {
             </div>
            <p className={styles.description}><b>Backed by</b> Open source</p>
            
-        
-           
-
-        
-        
-         
-       
-        <h2 className={styles.description}>A live streaming hybrid exchange for retailing</h2>
-        
-        <div className={styles.card}>
-         <h2>🎓Discipline</h2>
-          <p>Discipline and learning is the bacbone of the development of our journy</p>
-          <br />
-          <h2>🙏Culture</h2>
-           <p>Culture of helpfulness has been an important part of runash behavior</p>
-           <br />
-          <h2>💗Value</h2>
-           <p>Trusted reality and easiness experience</p>
-        </div>
+ 
         <div className={styles.card}>
         <h2>What we do</h2>
          <p>We created new model of live streaming marketplace and environment where retailers can meet to buyers and face to face demonstrate and presentation their products</p>
@@ -78,6 +60,8 @@ export default function About() {
              <li>🎓Ram Murmu<br />Founder and CEO</li>
              <li>🎓Vaibhav Murmu<br />Co-Founder and CFO</li> 
            </ul>
+          </div>
+           <div className={styles.card}>
             <h1>Founder story</h1>
             <p>🤼 We are both brothers,our business journey started in 2007 from a small offline retail store, the Journey from the school classroom to the board room</p>
              <h2>Journey </h2>
@@ -86,10 +70,10 @@ export default function About() {
         </div>
        
     
-        <div className={styles.card}>
-         <h2 className={styles.description}>Join us & shape the future of retail</h2> 
+        
+         <h2>Join us & shape the future of retail</h2> 
           <button className={styles.button}>View open positions</button>
-         </div>
+        
         </div>
       </main>
      <div>
