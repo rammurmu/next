@@ -40,16 +40,16 @@ export default function About() {
            <h1 className={styles.title}>We are backed by Open source</h1>
            
             <span className={styles.logo}>
-            <Image src="vercel.svg" alt=" " width={100} height={40} />
+            <Image src="vercel.svg" alt=" " width={80} height={40} />
           </span>
           <span className={styles.logo}>
-            <Image src="vercel.svg" alt=" " width={100} height={40} />
+            <Image src="vercel.svg" alt=" " width={80} height={40} />
           </span>
           <span className={styles.logo}>
-            <Image src="vercel.svg" alt=" " width={100} height={40} />
+            <Image src="vercel.svg" alt=" " width={80} height={40} />
           </span>
           <span className={styles.logo}>
-            <Image src="vercel.svg" alt=" " width={100} height={40} />
+            <Image src="vercel.svg" alt=" " width={80} height={40} />
           </span>
            
 
@@ -94,14 +94,7 @@ export default function About() {
        
     
         
-        
-
-       
-        
-           
-
          <h1>Join us and shape the future of retail</h1> 
-          
           <button className={styles.button}>View open positions</button>
           
         </div>
