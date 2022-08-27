@@ -69,12 +69,12 @@ export default function About() {
 
         <div className={styles.card}>
          <h2>Executive profile and founders story</h2> 
-          <p>Board of directors
+          <p>Board of directors</p>
           <ul className={'main-nav'}>
              <li>🎓Ram Murmu</li>
              <p>Founder and CEO</p>
              <li>🎓Vaibhav Murmu</li>
-             <p>Co-Founder and CFO</p> 
+             <li>Co-Founder and CFO</li> 
            </ul>
             <p>🤼 We are both brothers,our business journey started in 2007 from a small offline retail store, the Journey from the school classroom to the board room<br />Learn more &rarr;</p>
         </div>
