@@ -37,19 +37,19 @@ export default function About() {
            <h2>🟦 Efficient</h2>
            <p>Reduce their operation cost problem  </p>
             </div>
-           <p className={styles.description}>We are backed by Open source</p>
+           <p className={styles.description}>We are backed by Open source supporters</p>
            
             <span className={styles.logo}>
             <Image src="vercel.svg" alt=" " width={80} height={40} />
           </span>
           <span className={styles.logo}>
-            <Image src="vercel.svg" alt=" " width={80} height={40} />
+            <Image src="" alt=" " width={80} height={40} />
           </span>
           <span className={styles.logo}>
-            <Image src="vercel.svg" alt=" " width={80} height={40} />
+            <Image src="" alt=" " width={80} height={40} />
           </span>
           <span className={styles.logo}>
-            <Image src="vercel.svg" alt=" " width={80} height={40} />
+            <Image src="" alt=" " width={80} height={40} />
           </span>
            
 
@@ -77,19 +77,19 @@ export default function About() {
           <p>We are committed to building a live retail streaming hybrid platform for unorganised retailers and new ways to use physical reality experience<br />Learn more &rarr;</p>
         </div>
 
-        <p className={styles.description}>Executive profile</p>
+       
          
           <span className={styles.image}>
-            <Image src="vercel.svg" alt=" " width={72} height={16} />
+            <Image src="" alt=" " width={72} height={16} />
           </span>
          <span className={styles.image}>
-            <Image src="vercel.svg" alt=" " width={72} height={16} />
+            <Image src="" alt=" " width={72} height={16} />
           </span>
         
 
         <div className={styles.card}>
-         <h2>Founders story</h2> 
-          <p>🤼 We are both brothers,our business journey started in 2007 from a small offline retail store, the Journey from the school classroom to the board room<br />Learn more &rarr;</p>
+         <h2>Executive profile and founders story</h2> 
+          <p>Board of directors<br />🎓Ram Murmu<br />Founder and CEO<br />🎓Vaibhav Murmu<br />Co-Founder and CFO<br /> 🤼 We are both brothers,our business journey started in 2007 from a small offline retail store, the Journey from the school classroom to the board room<br />Learn more &rarr;</p>
         </div>
        
     
