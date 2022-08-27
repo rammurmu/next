@@ -46,7 +46,7 @@ export default function About() {
         
          
        
-        <h1 className={styles.title}>Oneliner A live streaming hybrid marketplace for retailing</h1>
+        <h1 className={styles.title}>A live streaming hybrid marketplace for retailing</h1>
         
         <div className={styles.card}>
          <h2>🎓Discipline</h2>
@@ -87,7 +87,7 @@ export default function About() {
        
     
         <div className={styles.card}>
-         <h2>Join us & shape the future of retail</h2> 
+         <h1 className={styles.title}>Join us & shape the future of retail</h1> 
           <button className={styles.button}>View open positions</button>
          </div>
         </div>
