@@ -64,7 +64,7 @@ export default function About() {
         
        
     
-         <div className={styles.card}>
+        
          <h2>
           Join us and shape the future of retail
           <h2>
