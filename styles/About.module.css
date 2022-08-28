@@ -154,12 +154,12 @@
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 600px;
-  background-color: #FAFAFA;
+  background-color: #FFF;
 }
 
 .card:hover,
 .card:focus,
-.card:active {
+.card:none {
   color: #0070f3;
   border-color: #0070f3;
 }
