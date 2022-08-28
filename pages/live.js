@@ -45,6 +45,7 @@ export default function Live() {
           </Link>
         </p>
       </main>
+      </div>
       <div>
        <ul className={'main-nav'}>
        <li>
