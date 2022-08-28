@@ -41,7 +41,7 @@ export default function About() {
            <p>Reduce their operation cost problem  </p>
             </div>
 
-           <p className={styles.description}>Backed by Open source contributors</p>
+           <p className={styles.description}>Backed by Open Source Contributors</p>
            
  
         <div className={styles.card}>
@@ -64,7 +64,7 @@ export default function About() {
         </div>
         <div className={styles.div}>
           <h2>
-           Build and shap the future of retail 
+           Build and shape the future of retail
           </h2>
           
         </div>
