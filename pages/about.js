@@ -15,7 +15,7 @@ export default function About() {
         <link rel="icon" href="favicon.icon"/>
       </Head>
       <main className={styles.main}>
-      <div className={styles.cards}>MISSION </div>
+      <div className={styles.card}>MISSION </div>
      
         <h1 className={styles.title}>
           We enable retailers to build real experience 
@@ -54,20 +54,24 @@ export default function About() {
         <p className={styles.description}>
           Board of directors
         </p>
-         
-        <ul className={'main-nav'}>
+        <div className={styles.card}>
+           <ul>
              <li>
                Ram Murmu<br />Founder and CEO
              </li>
+            </ul>
+         </div>
+         <div className={styles.card}>
+           <ul>
              <li>
                Vaibhav Murmu<br />Co-Founder and CFO
              </li> 
            </ul>
-     
+          </div>
          
          
             <p className={styles.description}>
-              <b>Founder story</b> 🤼 We are both brothers,our business journey started in 2007 from a small offline retail store, the Journey from the school classroom to the board room <b>Learn more&rarr;</b>
+              <b>Founder story</b> 🤼 We are both brothers,our business journey started in 2007 from a small offline retail store, the Journey from the school classroom to the board room <br /><b>Learn more&rarr;</b>
                <br />
               <b>Journey</b> from a small village in India to Sillicone Valley Y Combinator startup school community member <b>Learn more &rarr;</b>
             </p>
