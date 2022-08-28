@@ -22,7 +22,7 @@ export default function About() {
         <h1 className={styles.title}>
           We enable retailers to build <br />real experience 
         </h1>
-        <p className={styles.description}>We build live streaming platform for retail businesses</p>
+        <p className={styles.description}>We build live streaming platform for <b>retail businesses</b></p>
         <div className={styles.grid}>
          <div className={styles.card}>
           <h2>🟧 Affordable</h2>
@@ -53,7 +53,7 @@ export default function About() {
         
 
       
-          <p className={styles.description}><b>Executive profile </b><br />Board of directors</p>
+          <p className={styles.description}>Board of directors</p>
           <ul className={'main-nav'}>
              <li>🎓Ram Murmu<br />Founder and CEO</li>
              <li>🎓Vaibhav Murmu<br />Co-Founder and CFO</li> 
@@ -61,13 +61,14 @@ export default function About() {
      
          
            
-            <p className={styles.description}><b>Founder story</b> 🤼 We are both brothers,our business journey started in 2007 from a small offline retail store, the Journey from the school classroom to the board room<br />Learn more &rarr;
-            <br /><b>Journey</b>from a small village in India to Sillicone Valley Y Combinator startup school community member<br />Learn more &rarr;</p>
+            <p className={styles.description}><b>Founder story</b> 🤼 We are both brothers,our business journey started in 2007 from a small offline retail store, the Journey from the school classroom to the board room &rarr;
+            <br />
+            <b>Journey</b> from a small village in India to Sillicone Valley Y Combinator startup school community member &rarr;</p>
           
        
     
         
-         <h2>Shape the future of retail</h2> 
+         <h1>Shape the future of retail</h1> 
 
           <button className={styles.button}>Join us</button>
         
