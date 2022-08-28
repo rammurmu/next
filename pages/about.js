@@ -54,19 +54,20 @@ export default function About() {
           <p>We are committed to building a live retail streaming hybrid platform for unorganised retailers and new ways to use physical reality experience</p>
         </div>
       
-        <p className={styles.description}>
-          <b>Founder story</b> 🤼 We are both brothers,our business journey started in 2007 from a small offline retail store, the Journey from the school classroom to the board room <br /><b>Learn more&rarr;</b>
-            <br />
-          <b>Journey</b> from a small village in India to Sillicone Valley Y Combinator startup school community member <b>Learn more &rarr;</b>
-        </p>
+        <div className={styles.card}>
+          <h1>Founder story</h1>
+          <p> 🤼 We are both brothers,our business journey started in 2007 from a small offline retail store, the Journey from the school classroom to the board room <br /><b>Learn more&rarr;</b></p>
+         <br />
+          <h1>Journey</h1> 
+          <p>from a small village in India to Sillicone Valley Y Combinator startup school community member <b>Learn more &rarr;</b></p>
+        </div>
         
        
     
          <div className={styles.card}>
          <h2>
           Join us and shape the future of retail
-         </h2> 
-       
+          <h2>
           <button className={styles.button}>Join us</button>
          </div>
         </div>
