@@ -15,14 +15,18 @@ export default function About() {
         <link rel="icon" href="favicon.icon"/>
       </Head>
       <main className={styles.main}>
-      <div className={styles.card}>MISSION </div>
+      <div className={styles.card}>
+        OUR MISSION 
+      </div>
      
         <h1 className={styles.title}>
           We enable retailers to build real experience 
         </h1>
         <p className={styles.description}>
-         We build live stream platform for <b>retailers</b>
+         We build live stream platform for retailers
         </p>
+         <button className={styles.button}>Join us</button>
+
         <div className={styles.grid}>
          <div className={styles.card}>
           <h2>🟧 Affordable</h2>
@@ -36,6 +40,7 @@ export default function About() {
            <h2>🟦 Efficient</h2>
            <p>Reduce their operation cost problem  </p>
             </div>
+
            <p className={styles.description}><b>Backed by</b> Open source</p>
            
  
@@ -43,17 +48,15 @@ export default function About() {
         <h2>What we do</h2>
          <p>We created new model of live streaming marketplace and environment where retailers can meet to buyers and face to face demonstrate and presentation their products</p>
        </div>
-
-        
-        
+ 
        <div className={styles.card}>
         <h2>What we going to make</h2>
           <p>We are committed to building a live retail streaming hybrid platform for unorganised retailers and new ways to use physical reality experience</p>
         </div>
        
-        <p className={styles.description}>
+        <h2 className={styles.description}>
           Board of directors
-        </p>
+        </h2>
         <div className={styles.card}>
            <ul>
              <li>
@@ -79,9 +82,9 @@ export default function About() {
        
     
         
-         <p className={styles.description}>
+         <h2 className={styles.description}>
           Join us and shape the future of retail
-         </p> 
+         </h2> 
        
           <button className={styles.button}>Join us</button>
         
