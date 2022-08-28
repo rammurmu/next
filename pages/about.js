@@ -53,35 +53,16 @@ export default function About() {
         <h2>What we going to make</h2>
           <p>We are committed to building a live retail streaming hybrid platform for unorganised retailers and new ways to use physical reality experience</p>
         </div>
-       
-        <h2 className={styles.description}>
-          Board of directors
-        </h2>
-        <div className={styles.card}>
-           <ul>
-             <li>
-               Ram Murmu<br />Founder and CEO
-             </li>
-            </ul>
-         </div>
-         <div className={styles.card}>
-           <ul>
-             <li>
-               Vaibhav Murmu<br />Co-Founder and CFO
-             </li> 
-           </ul>
-          </div>
-         
-         
-            <p className={styles.description}>
-              <b>Founder story</b> 🤼 We are both brothers,our business journey started in 2007 from a small offline retail store, the Journey from the school classroom to the board room <br /><b>Learn more&rarr;</b>
-               <br />
-              <b>Journey</b> from a small village in India to Sillicone Valley Y Combinator startup school community member <b>Learn more &rarr;</b>
-            </p>
+      
+        <p className={styles.description}>
+          <b>Founder story</b> 🤼 We are both brothers,our business journey started in 2007 from a small offline retail store, the Journey from the school classroom to the board room <br /><b>Learn more&rarr;</b>
+            <br />
+          <b>Journey</b> from a small village in India to Sillicone Valley Y Combinator startup school community member <b>Learn more &rarr;</b>
+        </p>
         
        
     
-        
+         <div className={styles.card1}>
          <h2 className={styles.description}>
           Join us and shape the future of retail
          </h2> 
