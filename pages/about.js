@@ -17,12 +17,12 @@ export default function About() {
       <main className={styles.main}> 
     
       
-      <div className={styles.card}>OUR MISSION </div>
+      <div className={styles.card}>MISSION </div>
      
         <h1 className={styles.title}>
           We enable retailers to build real experience 
         </h1>
-        <p className={styles.description}>We build live streaming platform for <b>retail businesses</b></p>
+        <p className={styles.description}>We build live stream platform for <b>retailers</b></p>
         <div className={styles.grid}>
          <div className={styles.card}>
           <h2>🟧 Affordable</h2>
@@ -50,27 +50,25 @@ export default function About() {
         <h2>What we going to make</h2>
           <p>We are committed to building a live retail streaming hybrid platform for unorganised retailers and new ways to use physical reality experience</p>
         </div>
-        
-
-          <div>
-          <p className={styles.description}>Board of directors</p>
-          </div>
-          <ul className={'main-nav'}>
+       
+        <p className={styles.description}>Board of directors</p>
+         
+        <ul className={'main-nav'}>
              <li>Ram Murmu<br />Founder and CEO</li>
              <li>Vaibhav Murmu<br />Co-Founder and CFO</li> 
            </ul>
      
          
-           <script>
-            <p><b>Founder story</b> 🤼 We are both brothers,our business journey started in 2007 from a small offline retail store, the Journey from the school classroom to the board room <b>Learn more&rarr;</b>
+         
+            <p className={styles.description}><b>Founder story</b> 🤼 We are both brothers,our business journey started in 2007 from a small offline retail store, the Journey from the school classroom to the board room <b>Learn more&rarr;</b>
             <br />
             <b>Journey</b> from a small village in India to Sillicone Valley Y Combinator startup school community member <b>Learn more &rarr;</b></p>
-           </script>
+        
        
     
-        <div>
-         <h1>Shape the future of retail</h1> 
-        </div>
+        
+         <p>Join us and shape the future of retail</p> 
+       
           <button className={styles.button}>Join us</button>
         
         </div>
