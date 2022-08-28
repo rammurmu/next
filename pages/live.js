@@ -45,7 +45,7 @@ export default function Live() {
           </Link>
         </p>
       </main>
-      <div className={styles.grid}>
+      <div>
        <ul className={'main-nav'}>
        <li>
          <Link href='/about'>
@@ -54,14 +54,14 @@ export default function Live() {
        </li>
        <li>
          <Link href='/privacy'>
-           <a>Privacy</a>
+            <a>Privacy</a>
          </Link>
        </li>
        <li>
-          <Link href='/help'>
-            <a>Help</a>
-          </Link>
-       </li>     
+         <Link href='/help'>
+           <a>Help</a>
+         </Link>
+       </li>
        <li>
           <Link href='/contact'>
             <a>Contact</a>
@@ -81,29 +81,41 @@ export default function Live() {
           <Link href='/careers'>
             <a>Careers</a>
           </Link>
-       </li> 
-       <li>
-          <Link href='/bolg'>
-            <a>Blog</a>
-          </Link>
        </li>     
        <li>
-          <Link href='/'>
-            <a></a>
+          <Link href='/blog'>
+            <a>Blog</a>
           </Link>
+       </li>  
+       <li>
+         <Link href='/media'>
+          <a>Media</a>
+        </Link>
+       </li>  
+       <li>
+         <Link href='/api'>
+         <a>API</a>
+       </Link>
        </li> 
        <li>
-          <Link href='/'>
-            <a></a>
-          </Link>
-       </li>                 
-       <li>
-          <Link href='/'>
-            <a></a>
-          </Link>
-       </li>                                 
+        <Link href='/status'>
+        <a>Status</a>
+        </Link>
+      </li>
       </ul>
-    </div>
-   </div>
+  </div>
+      <footer className={styles.footer}>
+        <a
+          href="https://runash.in"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+         © 2022 RunAsh. {' '}
+          <span className={styles.logo}>
+            <Image src="" alt=" " width={72} height={16} />
+          </span>
+        </a>
+     </footer>
+      </div>
   )
 }
