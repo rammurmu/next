@@ -14,15 +14,15 @@ export default function About() {
         <meta name="description" content="A live retail streaming platform"/>
         <link rel="icon" href="favicon.icon"/>
       </Head>
-      <main className={styles.main}> 
-    
-      
-      <div className={styles.card}>MISSION </div>
+      <main className={styles.main}>
+      <div className={styles.cards}>MISSION </div>
      
         <h1 className={styles.title}>
           We enable retailers to build real experience 
         </h1>
-        <p className={styles.description}>We build live stream platform for <b>retailers</b></p>
+        <p className={styles.description}>
+         We build live stream platform for <b>retailers</b>
+        </p>
         <div className={styles.grid}>
          <div className={styles.card}>
           <h2>🟧 Affordable</h2>
@@ -51,23 +51,33 @@ export default function About() {
           <p>We are committed to building a live retail streaming hybrid platform for unorganised retailers and new ways to use physical reality experience</p>
         </div>
        
-        <p className={styles.description}>Board of directors</p>
+        <p className={styles.description}>
+          Board of directors
+        </p>
          
         <ul className={'main-nav'}>
-             <li>Ram Murmu<br />Founder and CEO</li>
-             <li>Vaibhav Murmu<br />Co-Founder and CFO</li> 
+             <li>
+               Ram Murmu<br />Founder and CEO
+             </li>
+             <li>
+               Vaibhav Murmu<br />Co-Founder and CFO
+             </li> 
            </ul>
      
          
          
-            <p className={styles.description}><b>Founder story</b> 🤼 We are both brothers,our business journey started in 2007 from a small offline retail store, the Journey from the school classroom to the board room <b>Learn more&rarr;</b>
-            <br />
-            <b>Journey</b> from a small village in India to Sillicone Valley Y Combinator startup school community member <b>Learn more &rarr;</b></p>
+            <p className={styles.description}>
+              <b>Founder story</b> 🤼 We are both brothers,our business journey started in 2007 from a small offline retail store, the Journey from the school classroom to the board room <b>Learn more&rarr;</b>
+               <br />
+              <b>Journey</b> from a small village in India to Sillicone Valley Y Combinator startup school community member <b>Learn more &rarr;</b>
+            </p>
         
        
     
         
-         <p>Join us and shape the future of retail</p> 
+         <p className={styles.description}>
+          Join us and shape the future of retail
+         </p> 
        
           <button className={styles.button}>Join us</button>
         
