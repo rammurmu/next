@@ -57,7 +57,7 @@ export default function About() {
         <div className={styles.card}>
           <h1>Founder story</h1>
           <p> 🤼 We are both brothers,our business journey started in 2007 from a small offline retail store, the Journey from the school classroom to the board room <br /><b>Learn more&rarr;</b></p>
-         <br />
+         
           <h1>Journey</h1> 
           <p>from a small village in India to Sillicone Valley Y Combinator startup school community member <b>Learn more &rarr;</b></p>
         </div>
@@ -69,7 +69,7 @@ export default function About() {
           Join us and shape the future of retail
           <h2>
           <button className={styles.button}>Join us</button>
-         </div>
+         
         </div>
       </main>
      <div>
