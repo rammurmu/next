@@ -70,7 +70,7 @@ export default function About() {
           <h2>
           <button className={styles.button}>Join us</button>
          
-        </div>
+        
       </main>
      <div>
        <ul className={'main-nav'}>
