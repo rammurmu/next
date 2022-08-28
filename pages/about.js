@@ -20,7 +20,7 @@ export default function About() {
       </div>
      
         <h1 className={styles.title}>
-          We enable retailers to build real sell experience 
+          We enable retailers to<br /> build real sell experience 
         </h1>
         <p className={styles.description}>
          We build live streaming platform for retailers
@@ -60,9 +60,14 @@ export default function About() {
          </div>
          <div>
           <h2>Journey</h2> 
-          <p>from a small village in India to Sillicone Valley Y Combinator startup school community member <b>Learn more &rarr;</b></p>
+          <p>Journey from a small village in India to Sillicone Valley Y Combinator startup school community member <b>Learn more &rarr;</b></p>
         </div>
-   
+        <div className={styles.card}>
+          <h2>
+           Build today and tomorrow 
+          </h2>
+          <button className={styles.button}>Give your contribution</button>
+        </div>
       </div>
       </main>
      <div>
