@@ -38,7 +38,7 @@ export default function Live() {
        </div>
       </main>
       </div>
-       <div>
+       </div>
        <ul className={'main-nav'}>
        <li>
          <Link href='/about'>
