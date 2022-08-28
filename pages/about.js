@@ -58,11 +58,11 @@ export default function About() {
           <h2>Founder story</h2>
           <p> 🤼 We are both brothers,our business journey started in 2007 from a small offline retail store, the Journey from the school classroom to the board room <b>Learn more&rarr;</b></p>
          </div>
-         <div>
+         <div className={styles.card}>
           <h2>Journey</h2> 
           <p>Journey from a small village in India to Sillicone Valley Y Combinator startup school community member <b>Learn more &rarr;</b></p>
         </div>
-        <div className={styles.card}>
+        <div className={styles.div}>
           <h2>
            Build today and tomorrow 
           </h2>
