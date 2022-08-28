@@ -23,7 +23,7 @@ export default function About() {
           We enable retailers to build real experience 
         </h1>
         <p className={styles.description}>
-         We build live stream platform for retailers
+         We build live streaming platform for retailers
         </p>
          <button className={styles.button}>Join us</button>
 
@@ -56,7 +56,7 @@ export default function About() {
       
         <div className={styles.card}>
           <h2>Founder story</h2>
-          <p> 🤼 We are both brothers,our business journey started in 2007 from a small offline retail store, the Journey from the school classroom to the board room <br /><b>Learn more&rarr;</b></p>
+          <p> 🤼 We are both brothers,our business journey started in 2007 from a small offline retail store, the Journey from the school classroom to the board room <b>Learn more&rarr;</b></p>
          
           <h2>Journey</h2> 
           <p>from a small village in India to Sillicone Valley Y Combinator startup school community member <b>Learn more &rarr;</b></p>
@@ -68,7 +68,7 @@ export default function About() {
          <h2>
           Join us and shape the future of retail
           </h2>
-          <button className={styles.button}>Join us</button>
+          <p><button className={styles.button}>Join us</button></p>
          </div>  
       </div>
       </main>
