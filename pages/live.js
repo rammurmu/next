@@ -20,7 +20,7 @@ export default function Live() {
           <p>Create stream<br />Personalized details<br />Customization<br />Visibility</p>
         </div>
 
-       <div>
+       <div className={styles.card}>
          <p>Category<br />Add your product stream to categories</p>
         <select className={styles.selectWrapper}select id="select" name="select">
         <option>Category</option>
@@ -29,22 +29,15 @@ export default function Live() {
         </select>
        </div>
 
-      <div>
+      <div className={styles.card}>
           <p>Thubnail<br />Select or upload a picture that represent your store<br />Upload</p>
        </div>
-       <div>
+       <div className={styles.card}>
             <p>Stream list<br />Add your stream to one or more stream list,can help viewer discover your content faster<br />
               Learn more &rarr;<br />Select<br />New<br />previous<br />Create new</p>
        </div>
-
-
-
-         <p className={styles.description}>
-          <Link href="/">
-            <a>&larr; Go Back</a>
-          </Link>
-        </p>
       </main>
+      </div>
       </div>
       <div>
        <ul className={'main-nav'}>
@@ -104,7 +97,7 @@ export default function Live() {
         </Link>
       </li>
       </ul>
-  </div>
+    </div>
       <footer className={styles.footer}>
         <a
           href="https://runash.in"
