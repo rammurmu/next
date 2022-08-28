@@ -63,12 +63,12 @@ export default function About() {
        
     
          <div className={styles.card}>
-         <h2 className={styles.description}>
+         <h2>
           Join us and shape the future of retail
          </h2> 
        
           <button className={styles.button}>Join us</button>
-        
+         </div>
         </div>
       </main>
      <div>
