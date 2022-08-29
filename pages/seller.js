@@ -124,6 +124,21 @@ export default function Seller() {
             <a>Blog</a>
           </Link>
        </li>     
+       <li>
+          <Link href='/media'>
+            <a>Media</a>
+          </Link>
+       </li>     
+       <li>
+          <Link href='/api'>
+            <a>API</a>
+          </Link>
+       </li>     
+       <li>
+          <Link href='/status'>
+            <a>Status</a>
+          </Link>
+       </li>     
       </ul>
   </div>
       <footer className={styles.footer}>
