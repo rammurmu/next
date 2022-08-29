@@ -6,21 +6,13 @@ export default function Contact() {
     <div className={styles.container}>
       <main className={styles.main}>
        <div className={styles.title}>
-        <h1>Contact Us</h1>
-        <p>Reach anytime and connect with us </p>
+        <h1>Reach to a RunAsh team</h1>
+        <p>Fill free to contact and connect  with us for  </p>
         </div>
-       <div className={styles.code}>New</div>
-       <div className={styles.codes}>New</div>
-       <div className={styles.codess}>New</div>
-
-       <div className={styles.codesss}>New</div>
+       
 
 
-         <p className={styles.description}>
-          <Link href="/">
-            <a>&larr; Back to home</a>
-          </Link>
-        </p>
+         
       </main>
       <div className={styles.grid}>
        <ul className={'main-nav'}>
@@ -65,22 +57,34 @@ export default function Contact() {
           </Link>
        </li>     
        <li>
-          <Link href='/'>
-            <a></a>
+          <Link href='/media'>
+            <a>Media</a>
           </Link>
        </li> 
        <li>
-          <Link href='/'>
-            <a></a>
+          <Link href='/api'>
+            <a>API</a>
           </Link>
        </li>                 
        <li>
-          <Link href='/'>
-            <a></a>
+          <Link href='/status'>
+            <a>Status</a>
           </Link>
        </li>                                 
       </ul>
     </div>
+    <footer className={styles.footer}>
+        <a
+          href="https://runash.in"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+         © 2022 RunAsh. {' '}
+          <span className={styles.logo}>
+            <Image src="" alt=" " width={72} height={16} />
+          </span>
+        </a>
+     </footer>
     </div>
   )
 }
