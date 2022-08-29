@@ -9,6 +9,7 @@ export default function Setting() {
       <main className={styles.main}>
        <div className={styles.title}>
        <h1>Personal Account Setting</h1>
+       </div>
        <div className={styles.card}>
         <p>General </p>
         </div>
