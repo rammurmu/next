@@ -1,21 +1,30 @@
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
+import Head from 'next/head'
+import Image from 'next/age'
 
 export default function Watch() {
   return (
     <div className={styles.container}>
-      <main className={styles.main}>
-       <div className={styles.card}>
-        <h1>Live watch</h1>
-        <p>watched live on demand </p>
-        </div>
-         <p className={styles.description}>
-          <Link href="/">
-            <a>&larr; Back to home</a>
-          </Link>
-        </p>
+     <Head>
+       <title>Watch</title>
+       <meta name="description" content="Watching live on demand" />
+       <link rel="icon" href="/favicon.icon" />
+     </Head>
+     <main className={styles.main}>
+        <h1>Live on Demand</h1>
+        <p>Watched previous live streaming selling and find an seller</p>
+       <div className={styles.grid}>
+       <a href="https://sellerId"  className={styles.card}>
+       <h2>Vegetable</h2>
+        <p>Bokaro,Jh India<br /><code className={styles.code}>Seller</code><button className={styles.button}>Watch<button></p>
+       </a>
+       </div>
+
+
+      
       </main>
-     <div className={styles.grid}>
+     <div>
        <ul className={'main-nav'}>
        <li>
          <Link href='/about'>
@@ -58,18 +67,18 @@ export default function Watch() {
           </Link>
        </li>     
        <li>
-          <Link href='/'>
-            <a></a>
+          <Link href='/media'>
+            <a>Media</a>
           </Link>
        </li> 
        <li>
-          <Link href='/'>
-            <a></a>
+          <Link href='/api'>
+            <a>API</a>
           </Link>
        </li>                 
        <li>
-          <Link href='/'>
-            <a></a>
+          <Link href='/status'>
+            <a>Status</a>
           </Link>
        </li>                                 
       </ul>
