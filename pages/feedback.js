@@ -1,5 +1,7 @@
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
+import Image from 'next/image'
+import Head from 'next/head'
 
 export default function PageWithJSbasedFormFeedback() {
   // Handle the submit event on form submit.
@@ -35,6 +37,11 @@ export default function PageWithJSbasedFormFeedback() {
   }
   return (
     <div className={styles.container}>
+    <Head> 
+        <title>Feedback</title>
+        <meta name="description" content="Have feedback "/>
+        <link rel="icon" href="favicon.icon"/>
+      </Head>
     <main className={styles.main}>
   
       <h1 className={styles.title}>
