@@ -44,8 +44,9 @@ export default function Live() {
             <a>&larr; Go Back</a>
           </Link>
         </p>
+       </div>
       </main>
-      <div className={styles.grid}>
+      <div className={styles.container}>
        <ul className={'main-nav'}>
        <li>
          <Link href='/about'>
