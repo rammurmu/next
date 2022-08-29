@@ -22,6 +22,29 @@ export default function Watch() {
          <code>Seller</code>
          <button>Watch</button>
        </a>
+       
+       <a href="https://"  className={styles.card}>
+       <h2>Vegetable</h2>
+        <p>By Gupta store<br />Bokaro Jh India</p>
+         <code>Seller</code>
+         <button>Watch</button>
+       </a>
+
+       <a href="https://"  className={styles.card}>
+       <h2>Vegetable</h2>
+        <p>By Gupta store<br />Bokaro Jh India</p>
+         <code>Seller</code>
+         <button>Watch</button>
+       </a>
+
+       <a href="https://"  className={styles.card}>
+       <h2>Vegetable</h2>
+        <p>By Gupta store<br />Bokaro Jh India</p>
+         <code>Seller</code>
+         <button>Watch</button>
+       </a>
+
+       
        </div>
 
 
