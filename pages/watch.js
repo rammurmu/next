@@ -16,9 +16,9 @@ export default function Watch() {
         <p>Watched previous live streaming selling and find an seller</p>
 
        <div className={styles.grid}>
-       <a href="https://sellerid"  className={styles.card}>
+       <a href="https://"  className={styles.card}>
        <h2>Vegetable</h2>
-        <p>Bokaro,Jh India</p>
+        <p>Bokaro Jh India</p>
          <code>Seller</code>
          <button>Watch</button>
        </a>
