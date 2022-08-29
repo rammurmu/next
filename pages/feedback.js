@@ -85,7 +85,7 @@ export default function PageWithJSbasedFormFeedback() {
       </p>
      </div>
      </main>
-    <div className={styles.grid}>
+    <div className={styles.container}>
        <ul className={'main-nav'}>
        <li>
          <Link href='/about'>
@@ -128,22 +128,34 @@ export default function PageWithJSbasedFormFeedback() {
           </Link>
        </li>     
        <li>
-          <Link href='/'>
-            <a></a>
+          <Link href='/media'>
+            <a>Media</a>
           </Link>
        </li> 
        <li>
-          <Link href='/'>
-            <a></a>
+          <Link href='/api'>
+            <a>API</a>
           </Link>
        </li>                 
        <li>
-          <Link href='/'>
-            <a></a>
+          <Link href='/status'>
+            <a>Status</a>
           </Link>
        </li>                                 
       </ul>
     </div>
+    <footer className={styles.footer}>
+        <a
+          href="https://runash.in"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+         © 2022 RunAsh. {' '}
+          <span className={styles.logo}>
+            <Image src="" alt=" " width={72} height={16} />
+          </span>
+        </a>
+     </footer>
     </div>
   )
 }
