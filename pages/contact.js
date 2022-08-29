@@ -1,9 +1,16 @@
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
+import Head from 'next/head'
+import Image from 'next/image'
 
 export default function Contact() {
   return (
     <div className={styles.container}>
+      <Head>
+       <title>Contact</title>
+       <meta name="description" content="Contact with us" />
+       <link rel="icon" href="/favicon.icon" />
+      </Head>
       <main className={styles.main}>
        <div className={styles.title}>
         <h1>Reach to a RunAsh team</h1>
