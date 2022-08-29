@@ -96,6 +96,7 @@ export default function Live() {
       </li>
       </ul>
       </div>
+      <div>
       <footer className={styles.footer}>
         <a
           href="https://runash.in"
