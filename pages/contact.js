@@ -62,11 +62,11 @@ export default function PageWithJSbasedFormContact() {
         <button type="submit">Submit</button>
       </form>
         
-
+      </div>
 
          
       </main>
-      <div className={styles.grid}>
+      <div className={styles.container}>
        <ul className={'main-nav'}>
        <li>
          <Link href='/about'>
