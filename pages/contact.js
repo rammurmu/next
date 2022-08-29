@@ -45,7 +45,7 @@ export default function PageWithJSbasedFormContact() {
       <main className={styles.main}>
        <div className={styles.title}>
         <h1 className={styles.title}>Reach to a RunAsh team</h1>
-        <p>We personaly meet  to your business and pricing needs,so please contact and connect  with us   </p>
+        <p className={styles.description}>We personaly meet  to your business and pricing needs,so please contact and connect  with us   </p>
         </div>
 
       <div className={styles.card}>
@@ -68,7 +68,7 @@ export default function PageWithJSbasedFormContact() {
       </form>
         
       </div>
-
+      <p className={styles.description}>We reach you shortly</p>
          
       </main>
       <div className={styles.container}>
