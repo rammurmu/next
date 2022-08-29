@@ -19,7 +19,7 @@ export default function Watch() {
        <h2>Vegetable</h2>
         <p>Bokaro,Jh India</p>
          <code className={styles.code}>Seller</code>
-         <button className={styles.button}>Watch<button>
+         <button className={styles.button}>Watch</button>
        </a>
        </div>
 
