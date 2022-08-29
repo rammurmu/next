@@ -111,7 +111,7 @@ export default function Live() {
         >
          © 2022 RunAsh. {' '}
           <span className={styles.logo}>
-            <Image src="" alt=" " width={72} height={16} />
+            <Image src="vercel.svg" alt=" " width={72} height={16} />
           </span>
         </a>
      </footer>
