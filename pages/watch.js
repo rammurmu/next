@@ -18,7 +18,7 @@ export default function Watch() {
        <div className={styles.grid}>
        <a href="https://"  className={styles.card}>
        <h2>Vegetable</h2>
-        <p>Bokaro Jh India</p>
+        <p>By Gupta store<br />Bokaro Jh India</p>
          <code>Seller</code>
          <button>Watch</button>
        </a>
@@ -86,6 +86,18 @@ export default function Watch() {
        </li>                                 
       </ul>
     </div>
+    <footer className={styles.footer}>
+        <a
+          href="https://runash.in"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+         © 2022 RunAsh. {' '}
+          <span className={styles.logo}>
+            <Image src="" alt=" " width={72} height={16} />
+          </span>
+        </a>
+     </footer>
     </div>
   )
 }
