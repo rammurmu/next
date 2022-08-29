@@ -8,7 +8,7 @@ export default function Live() {
       <Head>
          <title>Live</title>
          <meta name="description" content="A live streaming platform" />
-         <link rel="icon" href="favicon.icon" />
+         <link rel="icon" href="/favicon.icon" />
       </Head>
       <main className={styles.main}>
        <div className={styles.card}>
