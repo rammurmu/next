@@ -158,7 +158,22 @@ export default function Buyer() {
           <Link href='/blog'>
             <a>Blog</a>
           </Link>
+       </li> 
+       <li>
+          <Link href='/media'>
+            <a>Media</a>
+          </Link>
+       </li>      
+       <li>
+          <Link href='/api'>
+            <a>API</a>
+          </Link>
        </li>     
+       <li>
+          <Link href='/blog'>
+            <a>Status</a>
+          </Link>
+       </li>        
       </ul>
   </div>
       <footer className={styles.footer}>
