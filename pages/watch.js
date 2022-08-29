@@ -15,9 +15,11 @@ export default function Watch() {
         <h1>Live on Demand</h1>
         <p>Watched previous live streaming selling and find an seller</p>
        <div className={styles.grid}>
-       <a href="https://sellerId"  className={styles.card}>
+       <a href="https://sellerid"  className={styles.card}>
        <h2>Vegetable</h2>
-        <p>Bokaro,Jh India<br /><code className={styles.code}>Seller</code><button className={styles.button}>Watch<button></p>
+        <p>Bokaro,Jh India</p>
+         <code className={styles.code}>Seller</code>
+         <button className={styles.button}>Watch<button>
        </a>
        </div>
 
