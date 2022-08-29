@@ -27,7 +27,7 @@ export default function Live() {
           <p className={styles.description}>Create stream<br />Personalized details<br />Customization<br />Visibility</p>
         
 
-       <div>
+       <div className={styles.card}>
         <p>Category<br />Add your product stream to categories</p>
         <select className={styles.selectWrapper}select id="select" name="select">
         <option>Category</option>
@@ -40,8 +40,8 @@ export default function Live() {
           <p className={styles.description}>Thubnail<br />Select or upload a picture that represent your store<br />Upload</p>
       
       
-          <h2>Stream list<br />Add your stream to one or more stream list,can help viewer discover your content faster<br />
-              Learn more &rarr;<br />Select<br />New<br />previous<br />Create new</h2>
+          <p>Stream list<br />Add your stream to one or more stream list,can help viewer discover your content faster<br />
+              Learn more &rarr;<br />Select<br />New<br />previous<br />Create new</p>
 
       </main>
       <div className={styles.container}>
