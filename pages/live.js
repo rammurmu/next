@@ -4,6 +4,11 @@ import Link from 'next/link'
 export default function Live() {
   return (
     <div className={styles.container}>
+      <Head>
+         <title>Live</title>
+         <meta name="description" content="A live streaming platform" />
+         <link rel="icon" href="favicon.icon" />
+      </Head>
       <main className={styles.main}>
        <div className={styles.card}>
         <h1>Live streaming</h1>
@@ -16,35 +21,26 @@ export default function Live() {
         <button type="button-secondary">Go Live</button>
         </div>
 
-        <div>
-          <p>Create stream<br />Personalized details<br />Customization<br />Visibility</p>
-        </div>
+        
+          <p className={styles.description}>Create stream<br />Personalized details<br />Customization<br />Visibility</p>
+        
 
        <div>
-         <p>Category<br />Add your product stream to categories</p>
+        <p>Category<br />Add your product stream to categories</p>
         <select className={styles.selectWrapper}select id="select" name="select">
         <option>Category</option>
         <option>Vegetable</option>
         <option>Fruit</option>
         </select>
-       </div>
+        </div>
 
-      <div>
-          <p>Thubnail<br />Select or upload a picture that represent your store<br />Upload</p>
-       </div>
-       <div>
-            <p>Stream list<br />Add your stream to one or more stream list,can help viewer discover your content faster<br />
-              Learn more &rarr;<br />Select<br />New<br />previous<br />Create new</p>
-       </div>
+      
+          <p className={styles.description}>Thubnail<br />Select or upload a picture that represent your store<br />Upload</p>
+      
+      
+          <h2>Stream list<br />Add your stream to one or more stream list,can help viewer discover your content faster<br />
+              Learn more &rarr;<br />Select<br />New<br />previous<br />Create new</h2>
 
-
-
-         <p className={styles.description}>
-          <Link href="/">
-            <a>&larr; Go Back</a>
-          </Link>
-        </p>
-       </div>
       </main>
       <div className={styles.container}>
        <ul className={'main-nav'}>
