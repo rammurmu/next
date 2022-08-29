@@ -20,7 +20,7 @@ export default function Live() {
           <p>Create stream<br />Personalized details<br />Customization<br />Visibility</p>
         </div>
 
-       <div className={styles.card}>
+       <div>
          <p>Category<br />Add your product stream to categories</p>
         <select className={styles.selectWrapper}select id="select" name="select">
         <option>Category</option>
@@ -29,15 +29,23 @@ export default function Live() {
         </select>
        </div>
 
-      <div className={styles.card}>
+      <div>
           <p>Thubnail<br />Select or upload a picture that represent your store<br />Upload</p>
        </div>
-       <div className={styles.card}>
+       <div>
             <p>Stream list<br />Add your stream to one or more stream list,can help viewer discover your content faster<br />
               Learn more &rarr;<br />Select<br />New<br />previous<br />Create new</p>
        </div>
+
+
+
+         <p className={styles.description}>
+          <Link href="/">
+            <a>&larr; Go Back</a>
+          </Link>
+        </p>
       </main>
-      <div>
+      <div className={styles.grid}>
        <ul className={'main-nav'}>
        <li>
          <Link href='/about'>
@@ -46,14 +54,14 @@ export default function Live() {
        </li>
        <li>
          <Link href='/privacy'>
-            <a>Privacy</a>
+           <a>Privacy</a>
          </Link>
        </li>
        <li>
-         <Link href='/help'>
-           <a>Help</a>
-         </Link>
-       </li>
+          <Link href='/help'>
+            <a>Help</a>
+          </Link>
+       </li>     
        <li>
           <Link href='/contact'>
             <a>Contact</a>
@@ -73,41 +81,29 @@ export default function Live() {
           <Link href='/careers'>
             <a>Careers</a>
           </Link>
-       </li>     
-       <li>
-          <Link href='/blog'>
-            <a>Blog</a>
-          </Link>
-       </li>  
-       <li>
-         <Link href='/media'>
-          <a>Media</a>
-        </Link>
-       </li>  
-       <li>
-         <Link href='/api'>
-         <a>API</a>
-       </Link>
        </li> 
        <li>
-        <Link href='/status'>
-        <a>Status</a>
-        </Link>
-      </li>
+          <Link href='/bolg'>
+            <a>Blog</a>
+          </Link>
+       </li>     
+       <li>
+          <Link href='/media'>
+            <a>Media</a>
+          </Link>
+       </li> 
+       <li>
+          <Link href='/api'>
+            <a>API</a>
+          </Link>
+       </li>                 
+       <li>
+          <Link href='/status'>
+            <a>Status</a>
+          </Link>
+       </li>                                 
       </ul>
-      </div>
-      
-      <footer className={styles.footer}>
-        <a
-          href="https://runash.in"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-         © 2022 RunAsh. {' '}
-          <span className={styles.logo}>
-            <Image src="" alt=" " width={72} height={16} />
-          </span>
-        </a>
-     </footer>
+    </div>
+   </div>
   )
 }
