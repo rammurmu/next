@@ -45,7 +45,7 @@ export default function PageWithJSbasedFormContact() {
       <main className={styles.main}>
        <div className={styles.title}>
         <h1 className={styles.title}>Reach to a RunAsh team</h1>
-        <p className={styles.description}>We personaly meet  to your business and pricing needs,so please contact and connect  with us   </p>
+        <p>We personaly meet  to your business and pricing needs,so please contact and connect  with us   </p>
         </div>
 
       <div className={styles.card}>
@@ -56,8 +56,13 @@ export default function PageWithJSbasedFormContact() {
         <input type="text" id="last" name="last" required />
         <label htmlFor="Phone number">Phone number</label>
         <input type="text" id="Phone number" name="Optional" required />
-        <label htmlFor="password">Password</label>
-        <input type="text" id="password" name="password" required />
+        <label htmlFor="Your Email">Your Email</label>
+        <input type="text" id="Your Email" name="Your Email" required />
+
+        <label htmlFor="business">Business</label>
+        <input type="text" id="business" name="Business" required />
+        <label htmlFor="How can we help you">How can we help you</label>
+        <input type="text" id="How can we help you" name="How can we help you" required />
 
         <button type="submit">Submit</button>
       </form>
