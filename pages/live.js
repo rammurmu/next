@@ -1,5 +1,6 @@
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
+import Image from '../styles/Home.module.css'
 
 export default function Live() {
   return (
