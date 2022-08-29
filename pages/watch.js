@@ -14,12 +14,13 @@ export default function Watch() {
      <main className={styles.main}>
         <h1>Live on Demand</h1>
         <p>Watched previous live streaming selling and find an seller</p>
+
        <div className={styles.grid}>
        <a href="https://sellerid"  className={styles.card}>
        <h2>Vegetable</h2>
         <p>Bokaro,Jh India</p>
          <code>Seller</code>
-         <button type="Watch">Watch</button>
+         <button>Watch</button>
        </a>
        </div>
 
