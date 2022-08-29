@@ -13,7 +13,7 @@ export default function Watch() {
      </Head>
      <main className={styles.main}>
         <h1>Live on Demand</h1>
-        <p>Watched previous live streaming selling and find an seller</p>
+        <p>Watched previous live streaming  and find an your nearest seller</p>
 
        <div className={styles.grid}>
        <a href="https://"  className={styles.card}>
@@ -44,7 +44,201 @@ export default function Watch() {
          <button>Watch</button>
        </a>
 
+       <a href="https://"  className={styles.card}>
+       <h2>Vegetable</h2>
+        <p>By Gupta store<br />Bokaro Jh India</p>
+         <code>Seller</code>
+         <button>Watch</button>
+       </a>
+
+       <a href="https://"  className={styles.card}>
+       <h2>Vegetable</h2>
+        <p>By Gupta store<br />Bokaro Jh India</p>
+         <code>Seller</code>
+         <button>Watch</button>
+       </a>
+
+       <a href="https://"  className={styles.card}>
+       <h2>Vegetable</h2>
+        <p>By Gupta store<br />Bokaro Jh India</p>
+         <code>Seller</code>
+         <button>Watch</button>
+       </a>
+
+       <a href="https://"  className={styles.card}>
+       <h2>Vegetable</h2>
+        <p>By Gupta store<br />Bokaro Jh India</p>
+         <code>Seller</code>
+         <button>Watch</button>
+       </a>
        
+       <a href="https://"  className={styles.card}>
+       <h2>Vegetable</h2>
+        <p>By Gupta store<br />Bokaro Jh India</p>
+         <code>Seller</code>
+         <button>Watch</button>
+       </a>
+
+        <a href="https://"  className={styles.card}>
+       <h2>Vegetable</h2>
+        <p>By Gupta store<br />Bokaro Jh India</p>
+         <code>Seller</code>
+         <button>Watch</button>
+       </a>
+
+       <a href="https://"  className={styles.card}>
+       <h2>Vegetable</h2>
+        <p>By Gupta store<br />Bokaro Jh India</p>
+         <code>Seller</code>
+         <button>Watch</button>
+       </a>
+
+       <a href="https://"  className={styles.card}>
+       <h2>Vegetable</h2>
+        <p>By Gupta store<br />Bokaro Jh India</p>
+         <code>Seller</code>
+         <button>Watch</button>
+       </a>
+
+       <a href="https://"  className={styles.card}>
+       <h2>Vegetable</h2>
+        <p>By Gupta store<br />Bokaro Jh India</p>
+         <code>Seller</code>
+         <button>Watch</button>
+       </a>
+
+       <a href="https://"  className={styles.card}>
+       <h2>Vegetable</h2>
+        <p>By Gupta store<br />Bokaro Jh India</p>
+         <code>Seller</code>
+         <button>Watch</button>
+       </a>
+
+       <a href="https://"  className={styles.card}>
+       <h2>Vegetable</h2>
+        <p>By Gupta store<br />Bokaro Jh India</p>
+         <code>Seller</code>
+         <button>Watch</button>
+       </a>
+
+       <a href="https://"  className={styles.card}>
+       <h2>Vegetable</h2>
+        <p>By Gupta store<br />Bokaro Jh India</p>
+         <code>Seller</code>
+         <button>Watch</button>
+       </a>
+
+       <a href="https://"  className={styles.card}>
+       <h2>Vegetable</h2>
+        <p>By Gupta store<br />Bokaro Jh India</p>
+         <code>Seller</code>
+         <button>Watch</button>
+       </a>
+       
+       <a href="https://"  className={styles.card}>
+       <h2>Vegetable</h2>
+        <p>By Gupta store<br />Bokaro Jh India</p>
+         <code>Seller</code>
+         <button>Watch</button>
+       </a>
+
+       <a href="https://"  className={styles.card}>
+       <h2>Vegetable</h2>
+        <p>By Gupta store<br />Bokaro Jh India</p>
+         <code>Seller</code>
+         <button>Watch</button>
+       </a>
+       
+       <a href="https://"  className={styles.card}>
+       <h2>Vegetable</h2>
+        <p>By Gupta store<br />Bokaro Jh India</p>
+         <code>Seller</code>
+         <button>Watch</button>
+       </a>
+
+       <a href="https://"  className={styles.card}>
+       <h2>Vegetable</h2>
+        <p>By Gupta store<br />Bokaro Jh India</p>
+         <code>Seller</code>
+         <button>Watch</button>
+       </a>
+
+       <a href="https://"  className={styles.card}>
+       <h2>Vegetable</h2>
+        <p>By Gupta store<br />Bokaro Jh India</p>
+         <code>Seller</code>
+         <button>Watch</button>
+       </a>
+
+       <a href="https://"  className={styles.card}>
+       <h2>Vegetable</h2>
+        <p>By Gupta store<br />Bokaro Jh India</p>
+         <code>Seller</code>
+         <button>Watch</button>
+       </a>
+
+       <a href="https://"  className={styles.card}>
+       <h2>Vegetable</h2>
+        <p>By Gupta store<br />Bokaro Jh India</p>
+         <code>Seller</code>
+         <button>Watch</button>
+       </a>
+
+       <a href="https://"  className={styles.card}>
+       <h2>Vegetable</h2>
+        <p>By Gupta store<br />Bokaro Jh India</p>
+         <code>Seller</code>
+         <button>Watch</button>
+       </a>
+
+       <a href="https://"  className={styles.card}>
+       <h2>Vegetable</h2>
+        <p>By Gupta store<br />Bokaro Jh India</p>
+         <code>Seller</code>
+         <button>Watch</button>
+       </a>
+
+       <a href="https://"  className={styles.card}>
+       <h2>Vegetable</h2>
+        <p>By Gupta store<br />Bokaro Jh India</p>
+         <code>Seller</code>
+         <button>Watch</button>
+       </a>
+
+       <a href="https://"  className={styles.card}>
+       <h2>Vegetable</h2>
+        <p>By Gupta store<br />Bokaro Jh India</p>
+         <code>Seller</code>
+         <button>Watch</button>
+       </a>
+
+       <a href="https://"  className={styles.card}>
+       <h2>Vegetable</h2>
+        <p>By Gupta store<br />Bokaro Jh India</p>
+         <code>Seller</code>
+         <button>Watch</button>
+       </a>
+
+       <a href="https://"  className={styles.card}>
+       <h2>Vegetable</h2>
+        <p>By Gupta store<br />Bokaro Jh India</p>
+         <code>Seller</code>
+         <button>Watch</button>
+       </a>
+
+       <a href="https://"  className={styles.card}>
+       <h2>Vegetable</h2>
+        <p>By Gupta store<br />Bokaro Jh India</p>
+         <code>Seller</code>
+         <button>Watch</button>
+       </a>
+
+       <a href="https://"  className={styles.card}>
+       <h2>Vegetable</h2>
+        <p>By Gupta store<br />Bokaro Jh India</p>
+         <code>Seller</code>
+         <button>Watch</button>
+       </a>
        </div>
 
 
