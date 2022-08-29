@@ -23,9 +23,9 @@ export default function Live() {
         <button type="button-secondary">Go Live</button>
         </div>
 
-        
+          <div className={styles.card}>
           <p className={styles.description}>Create stream<br />Personalized details<br />Customization<br />Visibility</p>
-        
+          </div>
 
        <div className={styles.card}>
         <p>Category<br />Add your product stream to categories</p>
