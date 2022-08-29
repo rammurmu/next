@@ -22,7 +22,7 @@ export default function Influencers() {
 
 
       </main>
-       <div>
+       <div className={styles.container}>
        <ul className={'main-nav'}>
        <li>
          <Link href='/about'>
