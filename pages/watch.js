@@ -18,8 +18,8 @@ export default function Watch() {
        <a href="https://sellerid"  className={styles.card}>
        <h2>Vegetable</h2>
         <p>Bokaro,Jh India</p>
-         <code className={styles.code}>Seller</code>
-         <button className={styles.button}>Watch</button>
+         <code>Seller</code>
+         <button type="Watch">Watch</button>
        </a>
        </div>
 
