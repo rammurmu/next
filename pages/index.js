@@ -143,7 +143,7 @@ export default function Home() {
         <p className={styles.description}>BEGIN YOUR <b><a href="https://">LIVE STREAMING</a></b> JOURNEY<br /> ✨</p>
        <p className={styles.description}>Give feedback to improve live sell experience better &rarr;</p>
       
-      <p className={styles.description}>BUILD YOUR<b><a href="https://"> OWN MADE </a></b>SELL EXPERIENCE<br />💚 </p> 
+      <h2 className={styles.description}>BUILD YOUR<b><a href="https://"> OWN MADE </a></b>SELL EXPERIENCE<br />💚 </h2> 
       <p className={styles.description}>Sign up weekly updates for real selling & buying</p>
       
       <input className={styles.input} placeholder="email address..." pattern="https://runash.in" size="50" required />
