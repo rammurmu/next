@@ -29,7 +29,7 @@ export default function Home() {
          </p>
          
          <button className={styles.button}>Go Live</button>
-         <code className={styles.code}>Get started free &rarr;</code>
+         <p className={styles.description}>Get started free &rarr;</p>
 
         <div className={styles.grid}>
           <a href="https://runash.live/seller" className={styles.card}>
