@@ -7,7 +7,7 @@ export default function Store() {
       <main className={styles.main}>
        <div className={styles.title}>
         <h1>Live streaming store</h1>
-        <p>Create your store</p>
+        <p>Create your own made real store</p>
         </div>
        
         <div className="dropdown">
@@ -56,7 +56,7 @@ export default function Store() {
           </Link>
         </p>
       </main>
-     <div className={styles.grid}>
+     <div className={styles.container}>
        <ul className={'main-nav'}>
        <li>
          <Link href='/about'>
@@ -99,22 +99,34 @@ export default function Store() {
           </Link>
        </li>     
        <li>
-          <Link href='/'>
-            <a></a>
+          <Link href='/media'>
+            <a>Media</a>
           </Link>
        </li> 
        <li>
-          <Link href='/'>
-            <a></a>
+          <Link href='/api'>
+            <a>API</a>
           </Link>
        </li>                 
        <li>
-          <Link href='/'>
-            <a></a>
+          <Link href='/status'>
+            <a>Status</a>
           </Link>
        </li>                                 
       </ul>
     </div>
+      <footer className={styles.footer}>
+        <a
+          href="https://runash.in"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+         © 2022 RunAsh. {' '}
+          <span className={styles.logo}>
+            <Image src="" alt=" " width={72} height={16} />
+          </span>
+        </a>
+     </footer>
     </div>
   )
 }
