@@ -1,5 +1,6 @@
-import styles from '../styles/Blog.module.css'
+import styles from '../styles/Home.module.css'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Privacy() {
   return (
