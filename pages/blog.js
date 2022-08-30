@@ -1,5 +1,6 @@
 import styles from '../styles/Blog.module.css'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Blog() {
   return (
@@ -9,7 +10,7 @@ export default function Blog() {
         <h1>Live Blog</h1>
         <p className={styles.description}>The latest guides and announcement</p>
         </div>
-        <br />
+        <p>All posts</p>
         <h2>Welcome to first live blog</h2>
          <p>The new live-commerce streaming for real selling and real shopping</p>
         <Link href="/posts/first-post">
@@ -134,7 +135,7 @@ export default function Blog() {
           </Link>
         </p>
       </main>
-     <div className={styles.grid}>
+     <div className={styles.container}>
        <ul className={'main-nav'}>
        <li>
          <Link href='/about'>
@@ -177,22 +178,34 @@ export default function Blog() {
           </Link>
        </li>     
        <li>
-          <Link href='/'>
-            <a></a>
+          <Link href='/media'>
+            <a>Media</a>
           </Link>
        </li> 
        <li>
-          <Link href='/'>
-            <a></a>
+          <Link href='/api'>
+            <a>API</a>
           </Link>
        </li>                 
        <li>
-          <Link href='/'>
-            <a></a>
+          <Link href='/status'>
+            <a>Status</a>
           </Link>
        </li>                                 
       </ul>
     </div>
+     <footer className={styles.footer}>
+        <a
+          href="https://runash.in"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+         © 2022 RunAsh. {' '}
+          <span className={styles.logo}>
+            <Image src="" alt=" " width={72} height={16} />
+          </span>
+        </a>
+     </footer>
     </div>
   )
 }
