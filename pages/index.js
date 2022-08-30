@@ -144,7 +144,7 @@ export default function Home() {
        <div className={styles.cards}>Give your feedback to improve live sell experience better<Link href="/" ><a>&rarr;</a></Link></div>
       
       
-      <p>Sign up weekly updates for real sell and buy streaming</p>
+      <label htmlFor="Sign up for latest updates">Sign up for latest updates </label>
       
       <input className={styles.input} placeholder="email address..." pattern="https://runash.in" size="50" required />
       
