@@ -141,7 +141,7 @@ export default function Home() {
         </div>
        
         <h2 className={styles.description}>BEGIN YOUR <b><a href="https://">LIVE STREAMING</a></b> JOURNEY<br /> ✨</h2>
-       <div className={styles.cards}>Give your valueable feedback to improve live sell experience better for tomorrow <Link href="/" ><a>&rarr;</a></Link></div>
+       <div className={styles.cards}>Give your valueable feedback to improve live sell experience better <br /><Link href="/" ><a><b>&rarr;</b></a></Link></div>
       
       <h2 className={styles.description}>BUILD YOUR OWN MADE SELL EXPERIENCE<br />💚 </h2> 
       <p className={styles.description}>Sign up for weekly updates</p>
