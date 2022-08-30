@@ -144,11 +144,11 @@ export default function Home() {
        <div className={styles.cards}>Give your feedback to improve live sell experience better<Link href="/" ><a>&rarr;</a></Link></div>
       
       
-      <label htmlFor="Sign up for latest updates">Sign up for latest updates </label>
+      <label htmlFor="Sign up for updates">Sign up for updates</label>
       
       <input className={styles.input} placeholder="email address..." pattern="https://runash.in" size="50" required />
       
-      <button type="button">Subscribe</button>
+      <button type="button">SUBSCRIBE</button>
       <div>
       </div>
       </main>
