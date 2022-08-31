@@ -10,6 +10,7 @@ export default function Blog() {
         <h1>Live Blog</h1>
         <p className={styles.description}>The latest articles</p>
        </div>
+       <div className={styles.grid}>
        <div className={styles.card}>
        <h2>
          Welcome to live retail streaming hybrid platform 
@@ -32,6 +33,7 @@ export default function Blog() {
        <a>Read More &rarr;</a>
        </Link>
        </div>
+      </div>
       </main>
      <div className={styles.container}>
        <ul className={'main-nav'}>
