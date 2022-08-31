@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import Button from '../components/Button'
 
-const Code = (p) => <code className={styles.inlineCode} {...p} />
+
 
 export default function Home() {
   return (
@@ -191,7 +191,7 @@ export default function Home() {
           </Link>
        </li> 
        <li>
-          <Link href='/bolg'>
+          <Link href='blog'>
             <a>Blog</a>
           </Link>
        </li>     
