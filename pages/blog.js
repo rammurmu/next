@@ -10,6 +10,28 @@ export default function Blog() {
         <h1>Live Blog</h1>
         <p className={styles.description}>The latest articles</p>
        </div>
+       <div className={styles.card}>
+       <h2>
+         Welcome to live streaming
+       </h2>
+        <p>
+         The new live-commerce streaming for real selling and real shopping
+        </p>
+        <Link href="/posts/first-post">
+       <a>Read More &rarr;</a>
+       </Link>
+       </div>
+      <div className={styles.card}>
+       <h2>
+        Introducing next generation and future of retail
+       </h2>
+       <p>
+        Runash is a live retail streaming hybrid marketplace platform for real sell and buy
+       </p>
+        <Link href="/posts/second-post">
+       <a>Read More &rarr;</a>
+       </Link>
+       </div>
       </main>
      <div className={styles.container}>
        <ul className={'main-nav'}>
