@@ -12,7 +12,7 @@ export default function Blog() {
        </div>
        <div className={styles.card}>
        <h2>
-         Welcome to live streaming
+         Welcome to live retail streaming hybrid platform 
        </h2>
         <p>
          The new live-commerce streaming for real selling and real shopping
