@@ -28,7 +28,7 @@ export default function Home() {
           Where the retailers build own made the live streaming store
          </p>
          
-         <button className={styles.button}>Go Live</butto> <button className={styles.button}>Learn more</button>
+         <button className={styles.button}>Go Live</butto> 
          
          <p>Get started free &rarr;</p>
 
@@ -147,7 +147,7 @@ export default function Home() {
       
       <label htmlFor="Sign up for updates">Sign up for updates</label>
       
-      <inputs className={styles.inputs} placeholder="email address..." pattern="https://runash.in" size="50" required />
+      <input className={styles.input} placeholder="email address..." pattern="https://runash.in" size="50" required />
       
       <button type="button">SUBSCRIBE</button>
       <div>
