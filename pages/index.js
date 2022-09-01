@@ -28,7 +28,7 @@ export default function Home() {
           Where the retailers build own made the live streaming store
          </p>
          
-         <button className={styles.button}>Go Live</butto> 
+         <button className={styles.button}>Go Live</button> 
          
          <p>Get started free &rarr;</p>
 
