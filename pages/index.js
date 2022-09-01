@@ -31,8 +31,8 @@ export default function Home() {
          <nav className={'main-nav}>
          <button className={styles.button}>Go Live</button>
          <button className={styles.button}>Learn more</button>
-          </div>
           </nav>
+          </div>
          <p>Get started free &rarr;</p>
 
         <div className={styles.grid}>
