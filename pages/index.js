@@ -27,8 +27,12 @@ export default function Home() {
          <p className={styles.description}>
           Where the retailers build own made the live streaming store
          </p>
-         
+         <div className={styles.container}>
+         <nav className={'main-nav}>
          <button className={styles.button}>Go Live</button>
+         <button className={styles.button}>Learn more</button>
+          </div>
+          </nav>
          <p>Get started free &rarr;</p>
 
         <div className={styles.grid}>
@@ -146,7 +150,7 @@ export default function Home() {
       
       <label htmlFor="Sign up for updates">Sign up for updates</label>
       
-      <input className={styles.input} placeholder="email address..." pattern="https://runash.in" size="50" required />
+      <inputs className={styles.inputs} placeholder="email address..." pattern="https://runash.in" size="50" required />
       
       <button type="button">SUBSCRIBE</button>
       <div>
