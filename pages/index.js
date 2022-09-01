@@ -27,12 +27,10 @@ export default function Home() {
          <p className={styles.description}>
           Where the retailers build own made the live streaming store
          </p>
-         <div className={styles.container}>
-         <nav className={'main-nav}>
+         
          <button className={styles.button}>Go Live</button>
          <button className={styles.button}>Learn more</button>
-          </nav>
-          </div>
+         
          <p>Get started free &rarr;</p>
 
         <div className={styles.grid}>
