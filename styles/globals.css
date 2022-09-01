@@ -31,8 +31,23 @@ label {
 
 input {
   display: table;
-  width: 50%;
-  padding: 1.3rem;
+  width: 100%;
+  padding: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+  margin-bottom: 2.5rem;
+}
+
+input:focus {
+  outline: none;
+  border-color: #0070f3;
+}
+
+inputs {
+  display: table;
+  width: 25%;
+  padding: 1.2rem;
   border: 1px solid #ccc;
   border-radius: 0.25rem;
   box-sizing: border-box;
@@ -45,9 +60,9 @@ input:focus {
 }
 
 button {
-  display: table;
-  width: 50%;
-  padding: 1.3rem;
+  display: block;
+  width: 25%;
+  padding: 1.2rem;
   border: none;
   border-radius: 0.25rem;
   box-sizing: border-box;
