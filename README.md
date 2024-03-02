@@ -1,1 +1,2 @@
-## A live retail streaming platform
+## Welcome to Nirali Organic
+Nirali Organic is the organic products farming and processing industries,use modern techniques and Technology.We will give back in every way we can,to our people our community and to our planet.We undertake to confirm to the values of Zero Defect and Zero Effect in our enterprises and ensure that our processes shall be environmentally sound and socially responsible with safe and hight quality products.All your organic needs in one platform 
